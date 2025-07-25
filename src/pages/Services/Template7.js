@@ -44,13 +44,13 @@ export const Template7 = ({ serviceResponse, slug }) => {
               )}
                <div class={styles.dfdsf52d2}>
                   <div class={`${styles.box} ${styles.leftright}`}>
-                    <img src="./images/affortseo (2).png"/>
+                    <img src="./images/affortseo (2).png" alt=""/>
                   </div>
                 </div>
 
                 <div class={styles.dfdsf52d}>
                   <div class={`${styles.box} ${styles.updown}`}>
-                    <img src="./images/affortseo (1).png"/>
+                    <img src="./images/affortseo (1).png" alt=""/>
                   </div>
                 </div>
             </div>
