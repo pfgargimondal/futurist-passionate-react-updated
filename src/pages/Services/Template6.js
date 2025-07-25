@@ -193,31 +193,31 @@ export const Template6 = ({ serviceResponse, slug }) => {
                 
                     <div class={styles.dfdsf52d2a}>
                         <div class={`${styles.box} ${styles.leftright}`}>
-                            <img src="./images/digiicon2 (5).png"/>
+                            <img src="./images/digiicon2 (5).png" alt=""/>
                         </div>
                     </div>
 
                     <div class={styles.dfdsf52daa}>
                         <div class={`${styles.box} ${styles.updown}`}>
-                            <img src="./images/digiicon2 (1).png"/>
+                            <img src="./images/digiicon2 (1).png" alt=""/>
                         </div>
                     </div>
 
                     <div class={styles.dfdsf52daaa}>
                         <div class={`${styles.box} ${styles.updown}`}>
-                            <img src="./images/digiicon2 (4).png"/>
+                            <img src="./images/digiicon2 (4).png" alt=""/>
                         </div>
                     </div>
 
                     <div class={styles.dfdsf52daaaa}>
                         <div class={`${styles.box} ${styles.updown}`}>
-                            <img src="./images/digiicon2 (3).png"/>
+                            <img src="./images/digiicon2 (3).png" alt=""/>
                         </div>
                     </div>
 
                     <div class={styles.dfdsf52daaaaa}>
                         <div class={`${styles.box} ${styles.updown}`}>
-                            <img src="./images/digiicon2 (2).png"/>
+                            <img src="./images/digiicon2 (2).png" alt=""/>
                         </div>
                     </div>
                 </div>

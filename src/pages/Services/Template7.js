@@ -171,19 +171,19 @@ export const Template7 = ({ serviceResponse, slug }) => {
 
           <div class={styles.dfdsf52db}>
             <div class={`${styles.box} ${styles.leftright}`}>
-                <img src="./images/affordcloud (2).png"/>
+                <img src="./images/affordcloud (2).png" alt=""/>
             </div>
             </div>
 
             <div class={styles.dfdsf52dbb}>
             <div class={`${styles.box} ${styles.leftright}`}>
-                <img src="./images/affordcloud (2).png"/>
+                <img src="./images/affordcloud (2).png" alt=""/>
             </div>
             </div>
 
             <div class={styles.dfdsf52dbbb}>
             <div class={`${styles.box} ${styles.leftright}`}>
-                <img src="./images/affordcloud (3).png"/>
+                <img src="./images/affordcloud (3).png" alt=""/>
             </div>
          </div>
 
