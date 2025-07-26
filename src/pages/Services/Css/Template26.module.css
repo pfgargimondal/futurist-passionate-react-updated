@@ -399,7 +399,50 @@
     {
         padding:10px;
     }
-}
+
+    .sdfsdfsdf
+    {
+      margin-top: 93%;
+    }
+    .uiiieer
+    {
+        margin-top: 35%;
+        margin-left: 0px !important;
+    }
+
+
+    .uiiieer2
+    {   margin-top: -33%;
+        margin-left: 0px !important;
+
+    }
+
+    /* Text colors */
+    .whiteText {
+        color: #000;
+        /* padding-top: 50px; */
+        font-size: 14px;
+        }
+
+    .greenText {
+        color: #00b1aa;
+        font-size: 14px;
+
+        }
+
+     /* Checkmark icon */
+        .icon {
+        width: 30px !important;
+        height: auto !important;
+        margin-right: 0px;
+        animation: fadeIn 1s ease forwards;
+        }   
+
+        .vfdfnhfdbf55d
+        {
+
+        }
+    }
 
 
 
@@ -454,3 +497,109 @@
         padding:14px 10px;
     }
 }
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: -50%;
+}
+
+/* Checkmark icon */
+.icon {
+  width: 50px !important;
+  height: auto !important;
+  margin-right: 0px;
+  animation: fadeIn 1s ease forwards;
+}
+
+/* Typewriter effect */
+.typewriter {
+  font-size: 1.5rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  border-right: 2px solid #00b1aa;
+  width: 0;
+  animation: typing 4s steps(18) 1s infinite, blink-caret 0.7s step-end infinite;
+  position: relative;
+}
+
+/* Text colors */
+.whiteText {
+  color: #000;
+  /* padding-top: 50px; */
+}
+
+.greenText {
+  color: #00b1aa;
+}
+
+/* Animations */
+@keyframes typing {
+  0% {
+    width: 0;
+    border-right: none;
+  }
+  40% {
+    width: 18ch;
+    border-right: none;
+  }
+  60% {
+    width: 18ch;
+    border-right: none;
+  }
+  100% {
+    width: 0;
+    border-right: none;
+  }
+}
+
+/* Optional blinking during typing */
+@keyframes blink-caret {
+  0%, 100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #00b1aa;
+  }
+}
+.uiiieer
+{
+    margin-top: 35%;
+    margin-left: -5%;
+}
+
+
+.uiiieer2
+{   margin-top: -33%;
+    margin-left: -2%;
+
+}
+
+.vfdfnhfdbf55d h2{
+   font-size: 32px;
+}
+
+
+.texttt1
+{
+    color: #EB4406;
+    font-size: 45px;
+}
+
+.texttt2
+{
+    color: #01B2DB;
+     font-size: 40px;
+    
+}
+
+.texttt3
+{
+    color: #EB4406;
+     font-size: 40px;
+}
+

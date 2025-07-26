@@ -11,7 +11,6 @@ import { PageWrapper } from "../../SEOComponent/PageWrapper";
 
 export const Template46 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
-
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -53,24 +52,27 @@ export const Template46 = ({ serviceResponse, slug }) => {
                 />
               )}
 
-                <div class={styles.dfdsf52d1}>
-                 <div class={`${styles.box} ${styles.updown}`}>
-                   <img src="./images/contentimg (2).png" alt=""/>
-                 </div>
-               </div>
+              {slug === 'content-writing-services' && (
+                <>
+                  <div className={styles.dfdsf52d1}>
+                    <div className={`${styles.box} ${styles.updown}`}>
+                      <img src="./images/contentimg (2).png" alt="" />
+                    </div>
+                  </div>
 
-                <div class={styles.dfdsf52d2}>
-                 <div class={`${styles.box} ${styles.leftright}`}>
-                   <img src="./images/contentimg (3).png" alt=""/>
-                 </div>
-               </div>
+                  <div className={styles.dfdsf52d2}>
+                    <div className={`${styles.box} ${styles.leftright}`}>
+                      <img src="./images/contentimg (3).png" alt="" />
+                    </div>
+                  </div>
 
-              <div class={styles.dfdsf52d}>
-                 <div class={`${styles.box} ${styles.updown}`}>
-                   <img src="./images/contentimg (1).png" alt=""/>
-                 </div>
-              </div>
-
+                  <div className={styles.dfdsf52d}>
+                    <div className={`${styles.box} ${styles.updown}`}>
+                      <img src="./images/contentimg (1).png" alt="" />
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
           </div>
         </div>

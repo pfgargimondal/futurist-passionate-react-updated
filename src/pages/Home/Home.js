@@ -487,8 +487,6 @@ export const Home = ({ state }) => {
                     className="img-fluid okclkdsnfoidsnfjdsiuhf"
                     width="95%"
                     alt=""
-                    data-aos="zoom-in"
-                    data-aos-duration={1500}
                   />
                 )}
 
@@ -728,8 +726,6 @@ export const Home = ({ state }) => {
               <div className="ihnewhgtyrwer_inner sticky-top">
                 <div
                   className="ikniher position-relative"
-                  data-aos="fade-left"
-                  data-aos-duration={1500}
                 >
                   {HomeAllDetails.fifthSection_details?.fifth_section_image && (
                     <img
