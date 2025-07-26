@@ -132,7 +132,7 @@ export const Template30 = ({ serviceResponse, slug }) => {
                                             <div className="col-lg-12">
                                                 <div className={styles.bffdd5522}>
                                                     {serviceResponse.data?.fourth_section_image_one && (
-                                                        <img
+                                                        <img data-aos="flip-right"
                                                             src={`${serviceResponse.image_url}/Template_30/${serviceResponse.data.fourth_section_image_one}`}
                                                             alt=""
                                                         />
@@ -158,7 +158,7 @@ export const Template30 = ({ serviceResponse, slug }) => {
                                             <div className="col-lg-12">
                                                 <div className={styles.bffdd5522}>
                                                     {serviceResponse.data?.fourth_section_image_two && (
-                                                        <img
+                                                        <img data-aos="flip-left"
                                                             src={`${serviceResponse.image_url}/Template_30/${serviceResponse.data.fourth_section_image_two}`}
                                                             alt=""
                                                         />
