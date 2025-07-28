@@ -45,20 +45,19 @@ export const Template26 = ({ serviceResponse, slug }) => {
               </div>
               {slug === "professional-logo-design-services" && (
                 <>
-                  <div className={styles.uiiieer2}>
+                 <div className={styles.uiiieer2}>
                     <div className={styles.wrapper}>
                       <img
                         src="./images/chekmark.png"
                         alt="Checkmark"
                         className={styles.icon}
                       />
-                      <div className={styles.typewriter}>
-                        <span className={styles.whiteText}>Custom </span>
-                        <span className={styles.greenText}>Logo Design</span>
+                      <div className={`${styles.typewriter} ${styles.delay1}`}>
+                        <span className={styles.whiteText}>Designed by </span>
+                        <span className={styles.greenText}>Experts</span>
                       </div>
                     </div>
                   </div>
-
                   <div className={styles.uiiieer}>
                     <div className={styles.wrapper}>
                       <img
@@ -66,9 +65,9 @@ export const Template26 = ({ serviceResponse, slug }) => {
                         alt="Checkmark"
                         className={styles.icon}
                       />
-                      <div className={styles.typewriter}>
-                        <span className={styles.whiteText}>Designed by </span>
-                        <span className={styles.greenText}>Experts</span>
+                      <div className={`${styles.typewriter} ${styles.delay0}`}>
+                        <span className={styles.whiteText}>Custom </span>
+                        <span className={styles.greenText}>Logo Design</span>
                       </div>
                     </div>
                   </div>

@@ -527,6 +527,14 @@
   position: relative;
 }
 
+.delay0 {
+  animation-delay: 1s, 1s;
+}
+
+.delay1 {
+  animation-delay: 2.5s, 5.5s; /* adjust based on typing duration */
+}
+
 /* Text colors */
 .whiteText {
   color: #000;
@@ -575,8 +583,7 @@
 
 .uiiieer2
 {   margin-top: -33%;
-    margin-left: -2%;
-
+    margin-left: -5%;
 }
 
 .vfdfnhfdbf55d h2{
