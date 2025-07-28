@@ -1,14 +1,25 @@
 import styles from "./Css/Template36.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 
 export const Template36 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false, // Animations only happen once
+    });
+  }, []);
+
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -73,11 +84,23 @@ export const Template36 = ({ serviceResponse, slug }) => {
             <div className={styles.vgbfdf}>
               <div className="row">
                 <div className="col-lg-5">
-                  <div className={styles.dgndfgdfgdf}>
+                  {slug === "local-seo-service" && (
+                    <>
+                      <div className={styles.animationContainer}>
+                        <div className={styles.staticText}>
+                          <span className={styles.highlightRed}>What</span>
+                        </div>
+                        <div className={styles.revealContainer}>
+                          <span className={styles.animatedText}>Sets Our <br /><span className={styles.highlightBlue}>Agency Apart</span></span>
+                        </div>
+                      </div>
+                    </>
+                   )}
+                  <div className={styles.dgndfgdfgdf} style={{marginTop: '10px'}}>
                     {serviceResponse.data?.third_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Template_36/${serviceResponse.data.third_section_image}`}
-                        alt=""
+                        alt="" style={{width: '422px'}}
                       />
                     )}
                   </div>
@@ -216,11 +239,11 @@ export const Template36 = ({ serviceResponse, slug }) => {
             <div className={styles.hdbchbd55}>
               <div className="row">
                 <div className="col-lg-6">
-                  <div className={styles.gbgfhgf}>
+                  <div className={styles.gbgfhgf} style={{marginTop: '84px'}}>
                     {serviceResponse.data?.sixth_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Template_36/${serviceResponse.data.sixth_section_image}`}
-                        alt=""
+                        alt="" data-aos="flip-up"
                       />
                     )}
                   </div>
@@ -249,5 +272,5 @@ export const Template36 = ({ serviceResponse, slug }) => {
       </main>
       </PageWrapper>
     </div>
-  );
+  ); 
 };

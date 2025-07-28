@@ -1,14 +1,62 @@
 import styles from "./Css/Template26.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 
 export const Template26 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false, // Animations only happen once
+    });
+  }, []);
+
+
+  const { ref, inView } = useInView({ triggerOnce: false });
+
+  const AnimatedLetters = (text, className = "") => {
+  return (
+    <span
+      className={className}
+      style={{
+        display: "inline-flex",    // ✅ Prevent word break
+        marginRight: "0.5rem",
+        flexWrap: "nowrap",
+        whiteSpace: "nowrap",      // ✅ Ensure space behaves like a word
+      }}
+    >
+      {text.split("").map((char, index) => (
+        <motion.span
+          key={index}
+          initial={{
+            opacity: 0,
+            y: Math.random() < 0.5 ? "-100%" : "100%",
+          }}
+          animate={inView ? { opacity: 1, y: "0%" } : {}}
+          transition={{ delay: index * 0.04, duration: 0.8 }}
+          style={{
+            display: "inline-block",
+            whiteSpace: "pre",
+          }}
+        >
+          {char}
+        </motion.span>
+      ))}
+    </span>
+  );
+};
+
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -122,10 +170,17 @@ export const Template26 = ({ serviceResponse, slug }) => {
                         <img
                           src={`${serviceResponse.image_url}/Templete_26/${serviceResponse.data.third_section_image}`}
                           alt=""
-                          style={{ marginTop: "20%" }}
+                          style={{ marginTop: "20%", width: '108%' }}
                         />
                       )}
                     </div>
+                    {slug === "professional-logo-design-services" && (
+                    <>
+                      <div className={styles.texttt555}>
+                          <img data-aos="fade-right" src="./images/Get professional custom logo design services from best logo designers in India. (1).png" alt="" style={{width: '88%'}}/>
+                      </div>
+                    </>
+                    )}
                   </div>
                 </div>
               </div>
@@ -158,8 +213,22 @@ export const Template26 = ({ serviceResponse, slug }) => {
                   <div className="col-lg-6">
                     {slug === "professional-logo-design-services" && (
                     <>
-                      <div className={styles.vfdfnhfdbf55d}>
+                      {/* <div className={styles.vfdfnhfdbf55d}>
                         <h2> <span  className={styles.texttt1}><b>Why</b> </span>  Our Custom <span  className={styles.texttt2}>Logo Design</span>  is the <span  className={styles.texttt3}>Smart Choice</span> ?</h2>
+                      </div> */}
+                      <div ref={ref} className={styles.vfdfnhfdbf55d}>
+                        <h2>
+                          {AnimatedLetters("Why", styles.texttt1)}
+                          {AnimatedLetters("Our")}
+                          {AnimatedLetters("Custom")}
+                          {AnimatedLetters("Logo", styles.texttt2)}
+                          {AnimatedLetters("Design", styles.texttt2)}
+                          {AnimatedLetters("is")}
+                          {AnimatedLetters("the")}
+                          {AnimatedLetters("Smart", styles.texttt3)}
+                          {AnimatedLetters("Choice", styles.texttt3)}
+                          {AnimatedLetters("?", "")}
+                        </h2>
                       </div>
                     </>
                    )}

@@ -28,7 +28,7 @@ export const Template30 = ({ serviceResponse, slug }) => {
             {loading && <Loader />}
             <main>
                 <div className={styles.dfgjhfgd}>
-                    <div className={`${styles.sdfghdfgdf} col-lg-6`}>
+                    <div className={`${styles.sdfghdfgdf} col-lg-5`}>
                         <h1 className="mt-0 mb-0">{serviceResponse.data?.banner_title &&
                             serviceResponse.data.banner_title}</h1>
 
@@ -43,13 +43,50 @@ export const Template30 = ({ serviceResponse, slug }) => {
                         </div>
                     </div>
 
-                    <div className={`${styles.dbfghsdf} col-lg-6`}>
+                    <div className={`${styles.dbfghsdf} col-lg-7`}>
                         {serviceResponse.data?.banner_image && (
                             <img
                                 src={`${serviceResponse.image_url}/Template_30/${serviceResponse.data.banner_image}`}
                                 alt=""
                             />
                         )}
+                         <div className={styles.dfjhff5}>
+                            <div className={styles.uiiieer5}>
+                              <div className="row">
+                                <div className="col-lg-2">
+                                    <div className={styles.fjhfdbd}>
+                                        <img src="./images/Banner (2) (1).png" alt=""/>
+                                    </div>
+                                </div>
+                                <div className="col-lg-10">
+                                      <div className={styles.fjhfdb55d}>  
+                                        <div className={styles.heading} style={{marginBottom: '21px'}}> <span className={styles.heading58s}>Escape</span> </div>
+                                           <div className={styles.subheading}>
+                                           <span>into amazing  <br/>experiences</span>
+                                        </div>
+                                      </div>
+                                </div>
+                              </div>
+                             </div>
+   
+                            <div className={styles.uiiieer5}>
+                                <div className="row">
+                                    <div className="col-lg-2">
+                                        <div className={styles.fjhfdbd}>
+                                            <img src="./images/Banner (2) (1).png" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-10">
+                                        <div className={styles.fjhfdb55d}>  
+                                            <div className={styles.heading}>Engage</div>
+                                            <div className={styles.subheading}>
+                                            <span>Target Audience</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -134,7 +171,7 @@ export const Template30 = ({ serviceResponse, slug }) => {
                                                     {serviceResponse.data?.fourth_section_image_one && (
                                                         <img data-aos="flip-right"
                                                             src={`${serviceResponse.image_url}/Template_30/${serviceResponse.data.fourth_section_image_one}`}
-                                                            alt=""
+                                                            alt="" 
                                                         />
                                                     )}
                                                 </div>

@@ -132,6 +132,71 @@
 }
 
 
+.animationContainer {
+  text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    padding-top: 10vh;
+    /* height: 32vh; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.staticText {
+  animation: showup 7s infinite;
+}
+
+.revealContainer {
+  width: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: reveal 7s infinite;
+}
+
+.animatedText {
+  display: inline-block;
+  margin-left: -500px; /* adjust based on full text width */
+  animation: slidein 7s infinite;
+}
+
+/* Style your text spans */
+.highlightRed {
+  color: #EB4A4A;
+  font-size: 50px;;
+  font-weight: 500;
+}
+
+.highlightBlue {
+  color: #2B2C6E;
+  font-weight: 500;
+}
+
+/* Animations */
+@keyframes showup {
+  0%   { opacity: 0; }
+  20%  { opacity: 1; }
+  80%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes slidein {
+  0%, 20%   { margin-left: -800px; }
+  35%, 100% { margin-left: 0px; }
+}
+
+@keyframes reveal {
+  0%   { opacity: 0; width: 0px; }
+  20%  { opacity: 1; width: 0px; }
+  30%  { width: 400px; }  /* Adjust based on your text length */
+  80%  { opacity: 1; }
+  100% { opacity: 0; width: 400px; }
+}
+
 
 @media only screen and (max-width:991px)
 {
