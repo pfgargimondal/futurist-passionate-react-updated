@@ -1,15 +1,24 @@
 import styles from "./Css/Template38.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 
 export const Template38 = ({ serviceResponse, slug }) => {
     const [loading, setLoading] = useState(false);
+      useEffect(() => {
+        AOS.init({
+        duration: 1000,
+        once: false, // Animations only happen once
+        });
+    }, []);
+
     const navigate = useNavigate();
     return (
         <div>
@@ -138,7 +147,7 @@ export const Template38 = ({ serviceResponse, slug }) => {
                                         {serviceResponse.data?.fifth_section_image && (
                                             <img
                                                 src={`${serviceResponse.image_url}/Templete_38/${serviceResponse.data.fifth_section_image}`}
-                                                alt=""
+                                                alt="" data-aos="fade-up-left"
                                             />
                                         )}
                                     </div>
