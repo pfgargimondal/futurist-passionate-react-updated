@@ -50,6 +50,8 @@ export const Template30 = ({ serviceResponse, slug }) => {
                                 alt=""
                             />
                         )}
+                        {slug === "social-media-promotion-services" && (
+                        <>
                          <div className={styles.dfjhff5}>
                             <div className={styles.uiiieer5}>
                               <div className="row">
@@ -87,6 +89,8 @@ export const Template30 = ({ serviceResponse, slug }) => {
                                 </div>
                             </div>
                         </div>
+                        </>
+                        )}
                     </div>
                 </div>
 

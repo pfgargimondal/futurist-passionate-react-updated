@@ -1,14 +1,24 @@
 import styles from "./Css/Template6.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 
 export const Template6 = ({ serviceResponse, slug }) => {
     const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+    AOS.init({
+        duration: 1000,
+        once: false, // Animations only happen once
+    });
+    }, []);
+
     return (
         <div>
             <PageWrapper slug={slug} type="Template">
@@ -42,6 +52,8 @@ export const Template6 = ({ serviceResponse, slug }) => {
                                 alt=""
                             />
                         )}
+                        {slug === "digital-marketing-services" && (
+                        <>
                         <div class={styles.dfdsf52d}>
                             <div class={`${styles.box} ${styles.updown}`}>
                                 <img src="./images/digiphoto (1).png" alt=""/>
@@ -53,6 +65,8 @@ export const Template6 = ({ serviceResponse, slug }) => {
                                 <img src="./images/digiphoto (2).png" alt=""/>
                             </div>
                         </div>
+                        </>
+                        )}
                     </div>
                 </div>
 
@@ -136,7 +150,7 @@ export const Template6 = ({ serviceResponse, slug }) => {
                                         {serviceResponse.data?.fourth_section_image && (
                                             <img
                                                 src={`${serviceResponse.image_url}/Templete_6/${serviceResponse.data.fourth_section_image}`}
-                                                alt=""
+                                                alt="" data-aos="zoom-in-right"
                                             />
                                         )}
                                     </div>
@@ -189,7 +203,8 @@ export const Template6 = ({ serviceResponse, slug }) => {
                             alt=""
                         />
                     )}
-
+                    {slug === "digital-marketing-services" && (
+                    <>
                 
                     <div class={styles.dfdsf52d2a}>
                         <div class={`${styles.box} ${styles.leftright}`}>
@@ -220,6 +235,8 @@ export const Template6 = ({ serviceResponse, slug }) => {
                             <img src="./images/digiicon2 (2).png" alt=""/>
                         </div>
                     </div>
+                    </>
+                    )}
                 </div>
 
                 <LastSectionComponent />

@@ -60,12 +60,14 @@
   font-size: 17px;
 }
 
-.cfbgjhcfdf {
-    height: 450px;
-    width: 100%;
+.cfbgjhcfdfsdevgzdfbg {
+    margin-top: 47px;
+    height: 467px;
+    width: 95%;
+
 }
 
-.cfbgjhcfdf img {
+.cfbgjhcfdfsdevgzdfbg img {
     border-radius: 8px;
     height: 100%;
     width: 100%;
@@ -446,4 +448,96 @@
     {
         padding:14px 10px;
     }
+}
+
+
+
+.cfbgjhcfdfsdevgzdfbg {
+  position: relative;
+  display: inline-block;
+  padding: 30px;
+  /* background: #171618; */
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.cfbgjhcfdfsdevgzdfbg img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.cfbgjhcfdfsdevgzdfbg span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #171618, #e4315e);
+  animation: animate1 2s linear infinite;
+}
+
+.cfbgjhcfdfsdevgzdfbg span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 3px;
+  background: linear-gradient(to bottom, #171618, #e4315e);
+  animation: animate2 2s linear infinite;
+  animation-delay: 1s;
+}
+
+.cfbgjhcfdfsdevgzdfbg span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to left, #171618, #e4315e);
+  animation: animate3 2s linear infinite;
+}
+
+.cfbgjhcfdfsdevgzdfbg span:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background: linear-gradient(to top, #171618, #e4315e);
+  animation: animate4 2s linear infinite;
+  animation-delay: 1s;
+}
+
+/* Floating animation */
+@keyframes floating {
+  0% { transform: translate(0, 0px); }
+  65% { transform: translate(0, 15px); }
+  100% { transform: translate(0, 0px); }
+}
+
+/* Border animations */
+@keyframes animate1 {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes animate2 {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+@keyframes animate3 {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes animate4 {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(-100%); }
 }

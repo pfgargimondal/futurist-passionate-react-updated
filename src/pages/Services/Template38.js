@@ -38,7 +38,7 @@ export const Template38 = ({ serviceResponse, slug }) => {
                             {serviceResponse.data?.banner_image && (
                                 <img
                                     src={`${serviceResponse.image_url}/Templete_38/${serviceResponse.data.banner_image}`}
-                                    alt=""
+                                    alt="" style={{marginTop: '19px'}}
                                 />
                             )}
                         </div>
@@ -71,8 +71,12 @@ export const Template38 = ({ serviceResponse, slug }) => {
                     <div className="custom-container">
                         <div className={styles.dfghdfgdf}>
                             <div className="row">
-                                <div className="col-lg-6">
-                                    <div className={styles.cfbgjhcfdf}>
+                                <div className="col-lg-5">
+                                    <div className={styles.cfbgjhcfdfsdevgzdfbg}>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
                                         {serviceResponse.data?.third_section_image && (
                                             <img
                                                 src={`${serviceResponse.image_url}/Templete_38/${serviceResponse.data.third_section_image}`}
@@ -81,7 +85,7 @@ export const Template38 = ({ serviceResponse, slug }) => {
                                         )}
                                     </div>
                                 </div>
-                                <div className="col-lg-6">
+                                <div className="col-lg-7">
                                     <div className={styles.fgydfgdfg}>
                                         <h2>{serviceResponse.data?.third_section_title &&
                                             serviceResponse.data.third_section_title}</h2>
@@ -130,6 +134,7 @@ export const Template38 = ({ serviceResponse, slug }) => {
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className={styles.cfbgjhcfdf}>
+                                 
                                         {serviceResponse.data?.fifth_section_image && (
                                             <img
                                                 src={`${serviceResponse.image_url}/Templete_38/${serviceResponse.data.fifth_section_image}`}
