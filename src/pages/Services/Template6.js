@@ -127,7 +127,7 @@ export const Template6 = ({ serviceResponse, slug }) => {
                                     </div>
                                 </div>
                                 <div className="col-lg-5">
-                                    <div className={styles.dgndfgdfgdf}>
+                                    <div className={styles.dgndfgdfgdf} style={{ height: '60%', marginTop: '35%'}}>
                                         {serviceResponse.data?.third_section_image && (
                                             <img
                                                 src={`${serviceResponse.image_url}/Templete_6/${serviceResponse.data.third_section_image}`}
