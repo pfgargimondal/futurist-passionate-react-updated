@@ -11,6 +11,17 @@ import 'aos/dist/aos.css';
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 
 export const Template38 = ({ serviceResponse, slug }) => {
+
+    const [toggle, setToggle] = useState(true);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+        setToggle((prev) => !prev);
+        }, 3000);
+        return () => clearInterval(interval);
+    }, []);
+
+
     const [loading, setLoading] = useState(false);
       useEffect(() => {
         AOS.init({
@@ -50,6 +61,26 @@ export const Template38 = ({ serviceResponse, slug }) => {
                                     alt="" style={{marginTop: '19px'}}
                                 />
                             )}
+                            {slug === "video-sharing-services" && (
+                            <>
+                            <div className={styles.imageContainer}>
+                                <div className={styles.imageBox}>
+                                    <img
+                                    src={toggle ? "/images/Rank Higher in Local Searches (1).png" : "/images/Rank Higher in Local Searches.png"}
+                                    alt="Location 1"
+                                    className={styles.fadeImage}
+                                    />
+                                </div>
+                                <div className={styles.imageBoxhbnxfgnj}>
+                                    <img
+                                    src={toggle ? "/images/Rank Higher in Local Searches.png" : "/images/Rank Higher in Local Searches (1).png"}
+                                    alt="Location 2"
+                                    className={styles.fadeImage}
+                                    />
+                                </div>
+                            </div>
+                            </>
+                            )}
                         </div>
                     </div>
 
@@ -82,10 +113,14 @@ export const Template38 = ({ serviceResponse, slug }) => {
                             <div className="row">
                                 <div className="col-lg-5">
                                     <div className={styles.cfbgjhcfdfsdevgzdfbg}>
+                                        {slug === "video-sharing-services" && (
+                                        <>
                                         <span></span>
                                         <span></span>
                                         <span></span>
                                         <span></span>
+                                        </>
+                                        )}
                                         {serviceResponse.data?.third_section_image && (
                                             <img
                                                 src={`${serviceResponse.image_url}/Templete_38/${serviceResponse.data.third_section_image}`}

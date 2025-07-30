@@ -768,7 +768,238 @@
   margin-bottom: 80px;
 }
 
+.home_page_banner .iuhduiewrewr_left .ihndkjewurewr span .animate--shrink,
+.home_page_banner .iuhduiewrewr_left .ihndkjewurewr span .hero__title .slick-current>span {
+    animation-duration: 1s;
+    animation-name: shrink;
+    animation-timing-function: "linear"
+}
 
+.home_page_banner .iuhduiewrewr_left .ihndkjewurewr span .animate--grow,
+.home_page_banner .iuhduiewrewr_left .ihndkjewurewr span .hero__title .slick-current+.slick-slide>span,
+.home_page_banner .iuhduiewrewr_left .ihndkjewurewr span .no-js .hero__title .slick-dupe:nth-child(2)>span {
+    animation-duration: 1s;
+    animation-timing-function: "linear";
+    animation-name: grow
+}
+
+.home_page_banner .iuhduiewrewr_left .ihndkjewurewr span .hero__title .slick-slide {
+    overflow: hidden;
+    padding: 20px 0
+}
+
+.home_page_banner .iuhduiewrewr_left .ihndkjewurewr span .hero__title [aria-hidden] {
+    transition: 1s
+}
+
+.home_page_banner .iuhduiewrewr_left .ihndkjewurewr span .hero__title .slick-current>span {
+    box-sizing: border-box;
+    display: block
+}
+
+.home_page_banner .iuhduiewrewr_left .ihndkjewurewr span .no-js .hero__title .slick-dupe:nth-child(2)>span {
+    padding: 1em
+}
+
+.home_page_banner .iuhduiewrewr_left .ihndkjewurewr span .hero__title-misc {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    color: grey
+}
+
+.thsbxdfgnxcvgn{
+    margin-top: -350px;
+    margin-left: 25px;
+    line-height: 42px;
+    font-size: 26px;
+}
+
+.hero__title{
+  color: var(--main-blue-common-color);
+}
+
+
+
+
+/* Shared icon styles */
+.icon {
+  position: absolute;
+  width: 50px;
+  z-index: 10;
+}
+
+/* Position & animation for each icon */
+.cartIcon {
+  /* top: 38%; */
+  width: 13%;
+  left: 7%;
+  animation: float 4s ease-in-out infinite;
+  /* margin-bottom: -30%; */
+  margin-top:-26%;
+}
+
+.gearIcon {
+  /* top: 45%; */
+  width: 8%;
+  left: 23%;
+  animation: rotate 6s linear infinite;
+  margin-top:-23%;
+
+}
+
+.truckIcon {
+  /* top: 30%; */
+  width: 9%;
+  left: 85%;
+  animation: bounce 3s ease-in-out infinite;
+  margin-top:-31%;
+
+}
+
+.coinIcon {
+  /* top: 40%; */
+  width: 9%;
+  left: 80%;
+  animation: pulse 2.5s ease-in-out infinite;
+  margin-top:-21%;
+
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+
+.envelopeIcon {
+  animation: floatWiggle 4s ease-in-out infinite;
+  transform-origin: center;
+  width: 9%;
+  left: 67%;
+  margin-top: -39%;
+}
+
+@keyframes floatWiggle {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-8px) rotate(-5deg);
+  }
+  50% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-8px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+
+.saleIcon {
+  width: 8%;
+  left: 14%;
+  margin-top: -36%;
+  animation: bouncePulse 2s ease-in-out infinite;
+}
+
+@keyframes bouncePulse {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  25% {
+    transform: translateY(-8px) scale(1.05);
+  }
+  50% {
+    transform: translateY(0) scale(1);
+  }
+  75% {
+    transform: translateY(-4px) scale(1.03);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+
+.ephoto1 img
+{
+  width: 210px;
+  height: 70px;
+  margin-top: -680px;
+  margin-left: 220px;
+}
+
+
+.ephoto2 img
+{
+  width: 210px;
+  height: 70px;
+  margin-top: -490px;
+  margin-left: 220px;
+}
+
+
+
+.ephoto3 img
+{
+  width: 210px;
+ height: 70px;
+  margin-top: -290px;
+  margin-left: 200px;
+}
+
+
+
+.ephoto4 img
+{
+  width: 210px;
+ height: 70px;
+ margin-top: -650px;
+  margin-left: -45px;
+}
+
+
+
+.ephoto5 img
+{
+  width: 210px;
+ height: 70px;
+
+ margin-top: -470px;
+  margin-left: -45px;
+}
+
+/* .sticky-top
+{
+  margin-top: 100px !important;
+} */
+
+
+.sdfghdfgdf655  .sticky-top
+{
+  top: 120px;
+}
 
 
 

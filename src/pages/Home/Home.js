@@ -175,7 +175,7 @@ export const Home = ({ state }) => {
                 <h1 class="mt-2 position-relative">
                   {HomeAllDetails.banner_details?.banner_title_one &&
                     HomeAllDetails.banner_details.banner_title_one}
-                  <span>
+                  <span> 
                     <div
                       class="hero__title overflow-hidden"
                       id="animatedHeading"

@@ -164,17 +164,7 @@
 }
 
 .asedifoje_inner{
-    border-radius: 1rem;
-    background: linear-gradient(to right, #ED8155, #DE403E);
-}
-
-.odijweirwerr_right{
-    padding: 3rem 5rem 3rem 10rem;
-    border-radius: 20px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0 0 29px 0px;
-    margin-top: -29rem;
-    position: relative;
-    z-index: -9;
+    border-radius: 1rem;    
 }
 
 .odijweirwerr_right h2{
@@ -190,13 +180,20 @@
     margin-top: -30rem;
 }
 
+.blb_list{
+    right: 12%;
+    top: 22px;
+}
+
+.blb_list li{
+    list-style: none;
+}
+
 /*end new creative digital markeing strategy design page  css*/
 
 
-@media only screen and (max-width:991px)
-{
-    .dfgjhfgd
-    {
+@media only screen and (max-width:991px){
+    .dfgjhfgd    {
         display:inline !important;
     }
 

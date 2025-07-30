@@ -1,14 +1,25 @@
 import styles from "./Css/Template8.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template8 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    AOS.init({      
+      duration: 2000,
+      once: false,
+    });
+  }, []);
+
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -86,19 +97,32 @@ export const Template8 = ({ serviceResponse, slug }) => {
 
         <div className={`${styles.doieflmeoiwjrowe} pt-5`}>
           <div className="container-fluid px-5">
-            <div className={`${styles.idewhrwer_inner_wrapper} mt-5`}>
+            <div className={`${styles.idewhrwer_inner_wrapper} row`}>
               <div className="col-lg-4">
-                <div className={`${styles.asedifoje_inner} p-5`}>
+                <div className={`${styles.asedifoje_inner} p-2 position-relative`}>
                   {serviceResponse.data?.fourth_section_image && (
-                    <img
-                      src={`${serviceResponse.image_url}/Template_8/${serviceResponse.data.fourth_section_image}`}
-                      className="img-fluid" alt=""
-                    />
+                    <img src={`${serviceResponse.image_url}/Template_8/${serviceResponse.data.fourth_section_image}`} className="img-fluid" alt="" />
+                  )}
+
+                  {slug === 'creative-digital-marketing-strategy' && (
+                  <>
+                    <ul className={`${styles.blb_list} mb-0 position-absolute ps-0`}>
+                      <li><img src="./images/lr.png" alt="" data-aos="fade-right" /></li>
+
+                      <li><img src="./images/mi.png" alt="" data-aos="fade-left" /></li>
+
+                      <li><img src="./images/csertfertwert.png" alt="" data-aos="fade-right" /></li>
+
+                      <li><img src="./images/cd.png" alt="" data-aos="fade-left" /></li>
+
+                      <li><img src="./images/fghdfc.png" alt="" data-aos="fade-right" /></li>
+                    </ul>
+                  </>
                   )}
                 </div>
               </div>
 
-              <div className="offset-lg-3 col-lg-9">
+              <div className="col-lg-8">
                 <div className={`${styles.odijweirwerr_right} bg-white`}>
                   <h2 className="mb-4">
                     {serviceResponse.data?.fourth_section_title &&
