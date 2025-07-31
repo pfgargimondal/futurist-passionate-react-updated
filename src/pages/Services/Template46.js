@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 
 export const Template46 = ({ serviceResponse, slug }) => {
+
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     AOS.init({
@@ -17,6 +18,9 @@ export const Template46 = ({ serviceResponse, slug }) => {
       once: false, // Animations only happen once
     });
   }, []);
+
+  const line1 = "Professional Academic";
+  const line2 = "Writing Services";
 
   return (
     <div>
@@ -44,14 +48,14 @@ export const Template46 = ({ serviceResponse, slug }) => {
               </div>
             </div>
 
-            <div className={`${styles.dbfghsdf} col-lg-6`}>
+            <div className={`${styles.dbfghsdf} position-relative col-lg-6`}>
               {serviceResponse.data?.banner_image && (
                 <img
                   src={`${serviceResponse.image_url}/Templete_46/${serviceResponse.data.banner_image}`}
                   alt=""
                 />
               )}
-
+       
               {slug === 'content-writing-services' && (
                 <>
                   <div className={styles.dfdsf52d1}>
@@ -69,6 +73,48 @@ export const Template46 = ({ serviceResponse, slug }) => {
                   <div className={styles.dfdsf52d}>
                     <div className={`${styles.box} ${styles.updown}`}>
                       <img src="./images/contentimg (1).png" alt="" />
+                    </div>
+                  </div>
+                </>
+              )}
+
+              {slug === 'professional-academic-writing-services' && (
+                <>
+                  <ul className={`${styles.idewjknrwer} ps-0 mb-0`}>
+                    <li><img src="./images/z4.png" className="position-absolute" data-aos="fade-top" alt="" /></li>
+
+                    <li><img src="./images/c5.png" className="position-absolute" data-aos="fade-top" alt="" /></li>
+                  </ul>
+
+                  <div className={styles.wrapperfrsdbgdf}>
+                    <div className={styles.rhsbdsxngSbghfxfcg}>
+                      {line1.split("").map((char, index) => (
+                        <div
+                          key={`line1-${index}`}
+                          className={`${styles.char} ${styles[`w${index + 1}`]}`}
+                        >
+                          {char === " " ? "\u00A0" : char}
+                        </div>
+                      ))}
+                    </div>
+
+                    <div className={styles.rhsbdsxngSbghfxfcg}>
+                      {line2.split("").map((char, index) => (
+                        <div
+                          key={`line2-${index}`}
+                          className={`${styles.char} ${styles[`w${index + line1.length + 1}`]}`}
+                        >
+                          {char === " " ? "\u00A0" : char}
+                        </div>
+                      ))}
+                    </div>
+
+                    <div className={styles.lineContainer}>
+                      <div className={styles.dot} style={{ color: '#1dd1a1' }}></div>
+                      <div className={styles.dot} style={{ color: '#54a0ff' }}></div>
+                      <div className={styles.dot} style={{ color: '#a29bfe' }}></div>
+                      <div className={styles.dot} style={{ color: '#f368e0' }}></div>
+                      <div className={styles.dot} style={{ color: '#ff9f43' }}></div>
                     </div>
                   </div>
                 </>

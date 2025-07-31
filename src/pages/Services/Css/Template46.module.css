@@ -644,3 +644,163 @@
    width: 160px;
    height: 130px;
 }
+
+
+.wrapperfrsdbgdf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -369px;
+  font-size: 24px;
+}
+
+.rhsbdsxngSbghfxfcg {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-top: -28px;
+  line-height: 56px;
+}
+
+.char {
+  opacity: 0;
+  animation: drop 0.5s ease-out forwards;
+}
+
+@keyframes drop {
+  0%   { transform: translateY(-200px) scaleY(0.9); opacity: 0; }
+  5%   { opacity: 0.7; }
+  50%  { transform: translateY(0px) scaleY(1); opacity: 1; }
+  65%  { transform: translateY(-17px) scaleY(0.9); opacity: 1; }
+  75%  { transform: translateY(-22px) scaleY(0.9); opacity: 1; }
+  100% { transform: translateY(0px) scaleY(1); opacity: 1; }
+}
+
+/* Delay for each character up to 50 */
+.w1  { animation-delay: 0s; }
+.w2  { animation-delay: 0.05s; }
+.w3  { animation-delay: 0.1s; }
+.w4  { animation-delay: 0.15s; }
+.w5  { animation-delay: 0.2s; }
+.w6  { animation-delay: 0.25s; }
+.w7  { animation-delay: 0.3s; }
+.w8  { animation-delay: 0.35s; }
+.w9  { animation-delay: 0.4s; }
+.w10 { animation-delay: 0.45s; }
+.w11 { animation-delay: 0.5s; }
+.w12 { animation-delay: 0.55s; }
+.w13 { animation-delay: 0.6s; }
+.w14 { animation-delay: 0.65s; }
+.w15 { animation-delay: 0.7s; }
+.w16 { animation-delay: 0.75s; }
+.w17 { animation-delay: 0.8s; }
+.w18 { animation-delay: 0.85s; }
+.w19 { animation-delay: 0.9s; }
+.w20 { animation-delay: 0.95s; }
+.w21 { animation-delay: 1s; }
+.w22 { animation-delay: 1.05s; }
+.w23 { animation-delay: 1.1s; }
+.w24 { animation-delay: 1.15s; }
+.w25 { animation-delay: 1.2s; }
+.w26 { animation-delay: 1.25s; }
+.w27 { animation-delay: 1.3s; }
+.w28 { animation-delay: 1.35s; }
+.w29 { animation-delay: 1.4s; }
+.w30 { animation-delay: 1.45s; }
+.w31 { animation-delay: 1.5s; }
+.w32 { animation-delay: 1.55s; }
+.w33 { animation-delay: 1.6s; }
+.w34 { animation-delay: 1.65s; }
+.w35 { animation-delay: 1.7s; }
+.w36 { animation-delay: 1.75s; }
+.w37 { animation-delay: 1.8s; }
+.w38 { animation-delay: 1.85s; }
+.w39 { animation-delay: 1.9s; }
+.w40 { animation-delay: 1.95s; }
+.w41 { animation-delay: 2s; }
+.w42 { animation-delay: 2.05s; }
+.w43 { animation-delay: 2.1s; }
+.w44 { animation-delay: 2.15s; }
+.w45 { animation-delay: 2.2s; }
+.w46 { animation-delay: 2.25s; }
+.w47 { animation-delay: 2.3s; }
+.w48 { animation-delay: 2.35s; }
+.w49 { animation-delay: 2.4s; }
+.w50 { animation-delay: 2.45s; }
+
+
+/* Line and dots animation */
+.lineContainer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: -4px;
+}
+
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: currentColor;
+  animation: bounceDot 1.5s infinite ease-in-out;
+}
+
+.dot:nth-of-type(2) { animation-delay: 0.2s; }
+.dot:nth-of-type(3) { animation-delay: 0.4s; }
+.dot:nth-of-type(4) { animation-delay: 0.6s; }
+.dot:nth-of-type(5) { animation-delay: 0.8s; }
+.dot:nth-of-type(6) { animation-delay: 1s; }
+
+@keyframes pulseLine {
+  0%, 100% { transform: scaleX(1); opacity: 1; }
+  50% { transform: scaleX(1.05); opacity: 0.8; }
+}
+
+@keyframes bounceDot {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+
+.idewjknrwer li{
+  list-style: none;
+}
+
+.idewjknrwer li:first-child img{
+  width: 20vw;  
+  top: 28%;
+  left: 27%;
+  animation: stat 3s ease-in-out;
+}
+
+@keyframes stat {
+  0%{
+    opacity: 0.5;
+    top: 35%;
+  }
+
+  100%{
+    opacity: 1;
+    top: 28%;
+  }
+}
+
+.idewjknrwer li:last-child img{
+  width: 20vw;
+  top: 52%;
+  left: 28%;
+  animation: book 3s ease-in-out;
+}
+
+@keyframes book {
+  0%{
+    top: 62%;
+  }
+
+  100%{
+    top: 52%;
+  }
+}

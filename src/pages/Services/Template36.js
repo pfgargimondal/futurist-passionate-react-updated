@@ -60,7 +60,7 @@ export const Template36 = ({ serviceResponse, slug }) => {
                   <div className={styles.bgjhdf5f5}>
                     <div className={styles.image558c}>
                       <img
-                        src="./images/Rank Higher in Local Searches.png"
+                        src="./images/Rank Higher in Local Searches pointer.png"
                         alt="Blinking Imagess"
                         className={styles.blinkimage}
                       />
@@ -70,7 +70,7 @@ export const Template36 = ({ serviceResponse, slug }) => {
                   <div className={styles.bgjhdf5f5545}>
                     <div className={styles.image558c}>
                       <img
-                        src="./images/Rank Higher in Local Searches.png"
+                        src="./images/Rank Higher in Local Searches pointer.png"
                         alt="Blinking Images"
                         className={styles.blinkimage}
                       />
@@ -141,7 +141,7 @@ export const Template36 = ({ serviceResponse, slug }) => {
                         <img
                           src={`${serviceResponse.image_url}/Template_36/${serviceResponse.data.third_section_image}`}
                           alt=""
-                          style={{ width: "422px" }}
+                          style={{ width: '100%' }}
                         />
                       )}
                     </div>

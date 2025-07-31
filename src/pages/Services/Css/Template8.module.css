@@ -189,6 +189,60 @@
     list-style: none;
 }
 
+.ikdjewkrwer li{
+    list-style: none;
+}
+
+.ikdjewkrwer li:nth-of-type(4n - 3) img{
+    width: 11rem;
+    top: 0;
+    left: 7%;
+}
+
+.ikdjewkrwer li:nth-of-type(4n - 2) img{
+    width: 5rem;
+    top: 5%;
+    left: 50%;
+}
+
+.ikdjewkrwer li:nth-of-type(4n - 1) img{
+    width: 8rem;
+    top: 15%;
+    right: 17%;
+}
+
+.ikdjewkrwer li:nth-of-type(4n) img{
+    width: 15rem;
+    bottom: 10%;
+    right: 18%;
+}
+
+.akmdlkcsjhke{
+    animation: flash 2s infinite ease-in-out alternate;
+    will-change: opacity;
+}
+
+@keyframes flash {
+    0%{
+        opacity: 1;
+    }
+
+    35%{
+        opacity: 0.3;
+    }
+
+    65%{
+        opacity: 0.6;
+    }
+
+    85%{
+        opacity: 0.4;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
 /*end new creative digital markeing strategy design page  css*/
 
 
@@ -563,3 +617,21 @@
         padding:14px 10px;
     }
 }
+
+
+.uhfju55d88 img 
+{
+    width: 350px;
+    height: 55px;
+    margin-left: 280px;
+    margin-bottom: 10px;
+    /* margin-top: -200px; */
+}
+
+.dsfsdfsdf654df
+{
+    margin-top: -325px;
+}
+
+
+

@@ -40,7 +40,7 @@ export const Template6 = ({ serviceResponse, slug }) => {
     adaptiveHeight: true,
   };
 
-  const slides = "E-Commerce expert for secure, custom online stores"
+  const slides = "E-Commerce expert for secure, Custom online stores"
   .split(",")
   .map(item => item.trim());
 

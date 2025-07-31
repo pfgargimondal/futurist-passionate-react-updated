@@ -8,6 +8,9 @@ import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { gsap } from "gsap";    
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 export const Template8 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
@@ -17,6 +20,35 @@ export const Template8 = ({ serviceResponse, slug }) => {
       duration: 2000,
       once: false,
     });
+  }, []);
+
+  gsap.to(".dmweijwer", {
+    duration: 3,
+    rotation: 360,
+    x: 300,
+    scrollTrigger: {
+        trigger: ".dmweijwer",
+        markers: false,
+        scrub: true,        
+        end: "top 230px"
+    }
+  });
+
+  const imagePaths = [
+    "./images/creative(1).png",
+    "./images/creative(2).png",
+    "./images/creative(3).png",
+    "./images/creative(4).png",
+  ];
+
+  const [images, setImages] = useState(imagePaths);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setImages(prev => [...prev.slice(1), prev[0]]);
+    }, 2000); // rotate every 2 seconds
+
+    return () => clearInterval(interval);
   }, []);
 
 
@@ -52,6 +84,26 @@ export const Template8 = ({ serviceResponse, slug }) => {
                 alt=""
               />
             )}
+
+            {slug === 'creative-digital-marketing-strategy' && (
+              <>
+              <div className={styles.dsfsdfsdf654df}>
+                  <div className={styles.uhfju55d88}>
+                    <img src={images[0]} alt=""/>
+                  </div>
+                  <div className={styles.uhfju55d88}>
+                    <img src={images[1]} alt=""/>
+                  </div>
+                  <div className={styles.uhfju55d88}>
+                    <img src={images[2]} alt=""/>
+                  </div>
+                  <div className={styles.uhfju55d88}>
+                    <img src={images[3]} alt=""/>
+                  </div>
+              </div>
+              </>
+              )}
+
           </div>
         </div>
 
@@ -164,9 +216,9 @@ export const Template8 = ({ serviceResponse, slug }) => {
               <div className="offset-lg-8 col-lg-4">
                 <div className={`${styles.asedifoje_inner} p-5`}>
                   {serviceResponse.data?.fifth_section_image && (
-                    <img
+                    <img data-aos="zoom-in-up"
                       src={`${serviceResponse.image_url}/Template_8/${serviceResponse.data.fifth_section_image}`}
-                      className="img-fluid" alt=""
+                      className="img-fluid" alt="" 
                     />
                   )}
                 </div>
@@ -175,11 +227,32 @@ export const Template8 = ({ serviceResponse, slug }) => {
           </div>
         </div>
 
-        <div className={styles.xnjhxffgdf}>
+        <div className={`${styles.xnjhxffgdf} position-relative`}>
           {serviceResponse.data?.sixth_section_image && (
             <img
               src={`${serviceResponse.image_url}/Template_8/${serviceResponse.data.sixth_section_image}`} alt=""
             />
+          )}
+          {slug === 'creative-digital-marketing-strategy' && (
+              <>
+              <ul className={styles.ikdjewkrwer}>
+                <li>
+                  <img src="/images/3z.png" className="dmweijwer position-absolute" alt="" />
+                </li>
+
+                <li>
+                  <img src="/images/4z.png" className={`${styles.akmdlkcsjhke} position-absolute`} alt="" />
+                </li>
+
+                <li>
+                  <img src="/images/2z.png" className="oidmewroekwrwe position-absolute" data-aos="fade-top" alt="" />
+                </li>
+
+                <li>
+                  <img src="/images/1z.png" className="position-absolute" data-aos="fade-left" alt="" />
+                </li>
+              </ul>
+              </>
           )}
         </div>
         <LastSectionComponent />
