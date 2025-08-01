@@ -9,6 +9,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 
+import { gsap } from "gsap";    
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 export const Template46 = ({ serviceResponse, slug }) => {
 
   const [loading, setLoading] = useState(false);
@@ -19,9 +23,45 @@ export const Template46 = ({ serviceResponse, slug }) => {
     });
   }, []);
 
+  gsap.to(".sdvfdvvv", {
+    duration: 4,
+    x: 350,
+    opacity: 1,
+    scrollTrigger: {
+      trigger: ".sdvfdvvv",
+      markers: false,
+      scrub: true,
+      end: "top 250px"
+    }
+  });
+
+  gsap.to(".cdfscs", {
+    duration: 4,
+    opacity: 1,
+    scale: 1,
+    scrollTrigger: {
+      trigger: ".cdfscs",
+      markers: false,
+      scrub: true,      
+      end: "top 200px"
+    }
+  });
+
+  gsap.to(".sdvsfrsfer", {
+    duration: 4,
+    x: -350,
+    opacity: 1,
+    scrollTrigger: {
+      trigger: ".sdvsfrsfer",
+      markers: false,
+      scrub: true,
+      end: "top 250px"
+    }
+  });
+
   const line1 = "Professional Academic";
   const line2 = "Writing Services";
-
+ 
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -163,13 +203,46 @@ export const Template46 = ({ serviceResponse, slug }) => {
                     />
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <div className={styles.dfbghdfd}>
+                <div className="col-lg-6 pt-5">
+                  <div className={`${styles.dfbghdfd} position-relative mt-4`}>
                     {serviceResponse.data?.third_section_image && (
                       <img data-aos="fade-left"
                         src={`${serviceResponse.image_url}/Templete_46/${serviceResponse.data.third_section_image}`}
                         alt=""
                       />
+                    )}
+                    {slug === 'professional-academic-writing-services' && (
+                    <>
+                    <ul className={`${styles.doasnifwer} mb-0 ps-0`}>
+                      <li>
+                        <img src="./images/Professional Academic Writing Services (1).png" className="xvxfvfdscds sdvfdvvv position-absolute" alt="" />
+                      </li>
+
+                      <li>
+                        <img src="./images/Professional Academic Writing Services (2).png" className="xvxfvfdscds cdfscs position-absolute" alt="" />
+                      </li>
+
+                      <li>
+                        <img src="./images/Professional Academic Writing Services (3).png" className="xvxfvfdscds sdvsfrsfer position-absolute" alt="" />
+                      </li>
+
+                      <li>
+                        <img src="./images/Professional Academic Writing Services (4).png" className="xvxfvfdscds scewerwer position-absolute" data-aos="fade-right" alt="" />
+                      </li>
+
+                      <li>
+                        <img src="./images/Professional Academic Writing Services (5).png" className="xvxfvfdscds sdcsferwer position-absolute" data-aos="fade-top" alt="" />
+                      </li>
+
+                      <li>
+                        <img src="./images/Professional Academic Writing Services (6).png" className="xvxfvfdscds sdfrfdvre position-absolute" data-aos="fade-left" alt="" />
+                      </li>
+
+                      <li>
+                        <img src="./images/Professional Academic Writing Services (7).png" className="xvxfvfdscds sdfvweewrt position-absolute" data-aos="zoom-in" alt="" />
+                      </li>
+                    </ul>
+                    </>
                     )}
                   </div>
                 </div>

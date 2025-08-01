@@ -137,6 +137,53 @@
   font-weight: 600;
 }
 
+.doasnifwer li{
+  list-style: none;
+}
+
+.doasnifwer li img{
+  width: 6.5rem;
+  height: auto;
+}
+
+.doasnifwer li:nth-of-type(7n - 6) img{
+  top: 0;
+  left: -68%;
+  opacity: 0.5;
+}
+
+.doasnifwer li:nth-of-type(7n - 5) img{
+  top: 26%;
+  left: 40%;
+  scale: 0.2;
+  transform: translate(-50%, -50%);  
+}
+
+.doasnifwer li:nth-of-type(7n - 4) img{
+  top: 0;
+  right: -48%;
+  opacity: 0.5;
+}
+
+.doasnifwer li:nth-of-type(7n - 3) img{
+  bottom: 15%;
+  left: 12%;
+}
+
+.doasnifwer li:nth-of-type(7n - 2) img{
+  bottom: 31%;
+  right: 25%;
+}
+
+.doasnifwer li:nth-of-type(7n - 1) img{
+  bottom: 35%;
+  right: 5%;
+}
+
+.doasnifwer li:nth-of-type(7n) img{
+  bottom: 6%;
+  right: 5%;
+}
 
 
 @media only screen and (max-width:991px)
@@ -804,3 +851,4 @@
     top: 52%;
   }
 }
+

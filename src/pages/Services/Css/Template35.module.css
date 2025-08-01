@@ -112,6 +112,40 @@
   text-align:center;    
 }
 
+.duiandjhe{
+    top: 38%;
+    transform: translateY(-50%);
+}
+
+.duiandjhe li{
+    display: inline;
+}
+
+.duiandjhe li img{
+    width: 20%;
+}
+
+.dlsjfikwerwer img{
+    width: 35%;
+    height: auto !important;
+    position: absolute;
+    top: 6%;
+    left: 29%;
+}
+
+.doijelkwjrjwerwer img{
+    width: 23%;
+    height: auto !important;
+    position: absolute;
+    top: 19%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.oimdoijarer{
+    bottom: 5%;
+}
+
 
 
 @media only screen and (max-width:991px)
@@ -487,3 +521,6 @@
         padding:14px 10px;
     }
 }
+
+
+

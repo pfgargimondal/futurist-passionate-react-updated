@@ -1,14 +1,25 @@
 import styles from "./Css/Template35.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template35 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      once: false
+    });
+  }, []);
+
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -34,12 +45,38 @@ export const Template35 = ({ serviceResponse, slug }) => {
             </div>
           </div>
 
-          <div class={`${styles.dbfghsdf} col-lg-6`}>
+          <div class={`${styles.dbfghsdf} position-relative col-lg-6 mt-3`}>
             {serviceResponse.data?.banner_image && (
               <img
                 src={`${serviceResponse.image_url}/Templete_35/${serviceResponse.data.banner_image}`}
                 alt=""
               />
+            )}
+
+            {slug === 'search-engine-optimization-company' && (
+              <>
+              <ul className={`${styles.duiandjhe} mb-0 ps-0 position-absolute`}>
+                <li>
+                  <img src="./images/Rank Higher in Local Searches (1) (1).png" data-aos="fade-right" data-aos-duration="1000" alt="" />
+                </li> 
+
+                <li>
+                  <img src="./images/Rank Higher in Local Searches (1) (2).png" data-aos="fade-right" data-aos-duration="1500" alt="" />
+                </li>
+
+                <li>
+                  <img src="./images/Rank Higher in Local Searches (1) (3).png" data-aos="fade-right" data-aos-duration="2000" alt="" />
+                </li>
+
+                <li>
+                  <img src="./images/Rank Higher in Local Searches (1) (4).png" data-aos="fade-right" data-aos-duration="2500" alt="" />
+                </li>
+
+                <li>
+                  <img src="./images/Rank Higher in Local Searches (1) (5).png" data-aos="fade-right" data-aos-duration="3000" alt="" />
+                </li>
+              </ul>
+              </>
             )}
           </div>
         </div>
@@ -67,12 +104,50 @@ export const Template35 = ({ serviceResponse, slug }) => {
             <div class={styles.hbdhdcsdsds}>
               <div class="row">
                 <div class="col-lg-6">
-                  <div class={styles.cjdjcdc}>
+                  <div class={`${styles.cjdjcdc} position-relative mt-5`}>
                     {serviceResponse.data?.third_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_35/${serviceResponse.data.third_section_image}`}
                         alt=""
                       />
+                    )}
+
+                    {slug === 'search-engine-optimization-company' && (
+                    <>
+                      <div className={styles.dlsjfikwerwer}>
+                        <img src="./images/mo.png" data-aos="flip-left" alt="" />
+                      </div>
+
+                      <div className={styles.doijelkwjrjwerwer}>
+                        <img src="./images/vr.png" data-aos="fade-left" alt="" />
+                      </div>
+
+                      <div className={`${styles.oimdoijarer} row position-absolute`}>
+                        <div className="col-lg-3">
+                          <div className={styles.dijkmifjrwet}>
+                            <img src="./images/Video Sharing Services (1).png" data-aos="fade-right" alt="" />
+                          </div>
+                        </div>
+
+                        <div className="col-lg-3 mt-5">
+                          <div className={styles.dijkmifjrwet}>
+                            <img src="./images/Video Sharing Services (2).png" data-aos="fade-up-right" alt="" />
+                          </div>
+                        </div>
+
+                        <div className="col-lg-3 mt-5">
+                          <div className={styles.dijkmifjrwet}>
+                            <img src="./images/Video Sharing Services (3).png" data-aos="fade-up-left" alt="" />
+                          </div>
+                        </div>
+
+                        <div className="col-lg-3">
+                          <div className={styles.dijkmifjrwet}>
+                            <img src="./images/Video Sharing Services (4).png" data-aos="fade-up-left" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </>
                     )}
                   </div>
                 </div>
@@ -204,7 +279,7 @@ export const Template35 = ({ serviceResponse, slug }) => {
         </div>
         <LastSectionComponent />
       </main>
-      </PageWrapper>
+      </PageWrapper> 
     </div>
   );
 };
