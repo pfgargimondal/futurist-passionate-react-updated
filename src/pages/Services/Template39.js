@@ -58,7 +58,8 @@ export const Template39 = ({ serviceResponse, slug }) => {
                 alt=""
               />
             )}
-
+            {slug === "visiting-card-design-company" && (
+            <>
             <div className={styles.dfdsf52dffsdfds1} data-aos="fade-right">
                   <img src="./images/visitingcard (1).png" alt=""/>
             </div>
@@ -74,6 +75,8 @@ export const Template39 = ({ serviceResponse, slug }) => {
             <div className={styles.dfdsf52dffsdfds4} data-aos="fade-left">
                 <img src="./images/visitingcard (2).png" alt=""/>
             </div>
+            </>
+            )}
           </div>
         </div>
 
