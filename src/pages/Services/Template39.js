@@ -1,5 +1,5 @@
 import styles from "./Css/Template39.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
@@ -7,10 +7,21 @@ import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template39 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      once: false, // Animations only happen once
+    });
+  }, []);
+
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -47,6 +58,22 @@ export const Template39 = ({ serviceResponse, slug }) => {
                 alt=""
               />
             )}
+
+            <div className={styles.dfdsf52dffsdfds1} data-aos="fade-right">
+                  <img src="./images/visitingcard (1).png" alt=""/>
+            </div>
+
+            <div className={styles.dfdsf52dffsdfds2} data-aos="fade-right">
+                  <img src="./images/visitingcard (4).png" alt=""/>
+            </div>
+
+            <div className={styles.dfdsf52dffsdfds3} data-aos="fade-left" >
+                  <img src="./images/visitingcard (3).png" alt=""/>
+            </div>
+
+            <div className={styles.dfdsf52dffsdfds4} data-aos="fade-left">
+                <img src="./images/visitingcard (2).png" alt=""/>
+            </div>
           </div>
         </div>
 
