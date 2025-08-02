@@ -102,10 +102,10 @@ export const Template39 = ({ serviceResponse, slug }) => {
           <div className="custom-container">
             <div className={styles.bjvbffbgf}>
               <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-6 mt-5 pt-3">
                   <div className={styles.fdnvhjfdv}>
                     {serviceResponse.data?.third_section_image && (
-                      <img
+                      <img data-aos="zoom-in-right"
                         src={`${serviceResponse.image_url}/Template_39/${serviceResponse.data.third_section_image}`}
                         alt=""
                       />
