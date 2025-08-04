@@ -214,14 +214,29 @@ export const Template8 = ({ serviceResponse, slug }) => {
               </div>
 
               <div className="offset-lg-8 col-lg-4">
-                <div className={`${styles.asedifoje_inner} p-5`}>
+                {slug === 'wordpress-web-design-services' ? (
+                <>
+                <div className={`${styles.asedifoje_inner}`}>
                   {serviceResponse.data?.fifth_section_image && (
                     <img data-aos="zoom-in-up"
                       src={`${serviceResponse.image_url}/Template_8/${serviceResponse.data.fifth_section_image}`}
-                      className="img-fluid" alt="" 
+                      className="img-fluid" alt="" style={{marginTop: '-16rem', marginBottom: '11rem'}}
                     />
                   )}
-                </div>
+                </div> 
+                </>
+                ) : (
+                  <>
+                  <div className={`${styles.asedifoje_inner} p-5`}>
+                    {serviceResponse.data?.fifth_section_image && (
+                      <img data-aos="zoom-in-up"
+                        src={`${serviceResponse.image_url}/Template_8/${serviceResponse.data.fifth_section_image}`}
+                        className="img-fluid" alt="" 
+                      />
+                    )}
+                  </div> 
+                  </>
+                )}
               </div>
             </div>
           </div>
