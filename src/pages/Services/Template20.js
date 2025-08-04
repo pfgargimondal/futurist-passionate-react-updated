@@ -1,14 +1,24 @@
 import styles from "./Css/Template20.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template20 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        once: false, // Animations only happen once
+      });
+    }, []);
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -106,10 +116,10 @@ export const Template20 = ({ serviceResponse, slug }) => {
                     <button>Get started</button>
                   </div>
                 </div>
-                <div className="col-lg-5">
+                <div className="col-lg-5 mt-5 pt-5">
                   <div className={styles.dgndfgdfgdf}>
                     {serviceResponse.data?.fourth_section_image && (
-                      <img
+                      <img data-aos="flip-down"
                         src={`${serviceResponse.image_url}/Templete_20/${serviceResponse.data.fourth_section_image}`}
                         alt=""
                       />
