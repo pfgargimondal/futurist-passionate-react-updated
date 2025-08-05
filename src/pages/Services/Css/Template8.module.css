@@ -243,6 +243,59 @@
         opacity: 1;
     }
 }
+
+
+.doenrjewrwer img:first-child{
+    left: 0;
+    width: 35%;
+    top: 40%;
+    animation: textTitle 2s infinite ease-in-out;
+}
+
+@keyframes textTitle {
+    0%{
+        transform: translateY(-40%);
+    }
+
+    50%{
+        transform: translateY(-55%);
+    }
+
+    100%{
+        transform: translateY(-40%);
+    }
+}
+
+.doenrjewrwer img:last-child{
+    right: 3%;
+    width: 4rem;
+    bottom: 20%;
+    animation: mouseAnimate 3s infinite linear;
+}
+
+@keyframes mouseAnimate {
+    0%{
+        transform: translateY(0);
+    }
+
+    33%{
+        transform: translateY(-1rem);
+    }
+
+    66%{
+        transform: translateX(1rem);
+    }
+
+    90%{
+        transform: translateY(1rem);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
 /*end new creative digital markeing strategy design page  css*/
 
 

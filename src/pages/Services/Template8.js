@@ -77,12 +77,21 @@ export const Template8 = ({ serviceResponse, slug }) => {
             </div>
           </div>
 
-          <div className={`${styles.dbfghsdf} col-lg-6`}>
+          <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
             {serviceResponse.data?.banner_image && (
               <img
                 src={`${serviceResponse.image_url}/Template_8/${serviceResponse.data.banner_image}`}
                 alt=""
               />
+            )}
+            {slug === 'wordpress-web-design-services' && (
+              <>
+              <div className={styles.doenrjewrwer}>
+                <img src="./images/gy.png" className="position-absolute" data-aos="fade-down" alt="" />
+
+                <img src="./images/mi (1).png" className="position-absolute" data-aos="fade-down" alt="" />
+              </div>
+              </>
             )}
 
             {slug === 'creative-digital-marketing-strategy' && (

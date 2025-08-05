@@ -8,6 +8,8 @@ import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export const Template20 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
@@ -18,6 +20,41 @@ export const Template20 = ({ serviceResponse, slug }) => {
         once: false, // Animations only happen once
       });
     }, []);
+
+    const { ref, inView } = useInView({ triggerOnce: false });
+
+  const AnimatedLetters = (text, className = "") => {
+  return (
+    <span
+      className={className}
+      style={{
+        display: "inline-flex",    // ✅ Prevent word break
+        marginRight: "0.5rem",
+        flexWrap: "nowrap",
+        whiteSpace: "nowrap",      // ✅ Ensure space behaves like a word
+      }}
+    >
+      {text.split("").map((char, index) => (
+        <motion.span
+          key={index}
+          initial={{
+            opacity: 0,
+            y: Math.random() < 0.5 ? "-100%" : "100%",
+          }}
+          animate={inView ? { opacity: 1, y: "0%" } : {}}
+          transition={{ delay: index * 0.04, duration: 0.8 }}
+          style={{
+            display: "inline-block",
+            whiteSpace: "pre",
+          }}
+        >
+          {char}
+        </motion.span>
+      ))}
+    </span>
+  );
+};
+
 
   return (
     <div>
@@ -43,15 +80,70 @@ export const Template20 = ({ serviceResponse, slug }) => {
               <button className="btn126">Get In Touch With Us</button>
             </div>
           </div>
+          <div className="col-lg-6">
+            <div className={styles.dbfghsdf}>
+              {serviceResponse.data?.banner_image && (
+                <img
+                  src={`${serviceResponse.image_url}/Templete_20/${serviceResponse.data.banner_image}`}
+                  alt=""
+                />
+              )}
+            </div>
+            {slug === "ui-ux-design-services" && (
+              <>
+                <div className={styles.uiiieer2}>
+                  <div className={styles.wrapper}>
+                    <img
+                      src="./images/icon (1).png"
+                      alt="Checkmark"
+                      className={styles.icon}
+                    />
+                    <div
+                      className={`${styles.typewriterStart} ${styles.delay1}`}
+                    >
+                      <span className={styles.whiteText}>
+                        Wireframing & Prototyping
+                      </span>
+                    </div>
+                  </div>
+                </div>
 
-          <div className={`${styles.dbfghsdf} col-lg-6`}>
-            {serviceResponse.data?.banner_image && (
-              <img
-                src={`${serviceResponse.image_url}/Templete_20/${serviceResponse.data.banner_image}`}
-                alt=""
-              />
+                <div className={styles.uiiieer}>
+                  <div className={styles.wrapper}>
+                    <img
+                      src="./images/icon (1).png"
+                      alt="Checkmark"
+                      className={styles.icon}
+                    />
+                    <div className={`${styles.typewriterEnd} ${styles.delay0}`}>
+                      <span className={styles.whiteText}>
+                        Responsive Web Design
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className={styles.uiiieer3}>
+                  <div className={styles.wrapper}>
+                    <img
+                      src="./images/icon (1).png"
+                      alt="Checkmark"
+                      className={styles.icon}
+                    />
+                    <div
+                      className={`${styles.typewriterStart} ${styles.delay1}`}
+                    >
+                      <span className={styles.whiteText}>
+                        User Journey Mapping
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </>
             )}
           </div>
+
+          
         </div>
 
         <div className={styles.fjhfdfgdfg}>
@@ -136,13 +228,41 @@ export const Template20 = ({ serviceResponse, slug }) => {
             <div className={styles.vgbfdf}>
               <div className="row">
                 <div className="col-lg-5">
-                  <div className={styles.dgndfgdfgdf}>
-                    {serviceResponse.data?.fifth_section_image && (
-                      <img
-                        src={`${serviceResponse.image_url}/Templete_20/${serviceResponse.data.fifth_section_image}`}
-                        alt=""
-                      />
+                  <div className={styles.gdfg5454d}>
+                    {slug === "ui-ux-design-services" && (
+                    <>
+                    <div ref={ref} className={styles.dgnghbg5df}>
+                      <h2>
+                        {AnimatedLetters("Build", styles.bgjhdf5fa)}
+                        {AnimatedLetters("High")}
+                        {AnimatedLetters("Quality")}
+                        {AnimatedLetters("Interfaces", styles.bgjhdf5faa)}
+                        {AnimatedLetters("With")}
+                        {AnimatedLetters("Us", styles.bgjhdf5fa)}
+                      </h2>
+                    </div>
+                    </>
                     )}
+                    
+                    <div className={`${styles.dgndfgdfgdf} mt-5 pt-5`}>
+                      {serviceResponse.data?.fifth_section_image && (
+                        <img
+                          src={`${serviceResponse.image_url}/Templete_20/${serviceResponse.data.fifth_section_image}`}
+                          alt=""
+                        />
+                      )}
+                    </div>
+                    {slug === "ui-ux-design-services" && (
+                      <>
+                      <div className={styles.dfdsf52dsasas} >
+                        <img src="./images/vr (1).png" alt=""/>
+                      </div>
+                      <div className={styles.dfdsf52dsasas1} >
+                        <img src="./images/hand (3).png" alt=""/>
+                      </div>
+                      </>
+                    )}
+
                   </div>
                 </div>
                 <div className="col-lg-7">

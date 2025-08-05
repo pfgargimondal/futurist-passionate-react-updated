@@ -79,6 +79,12 @@ export const Template10 = ({ serviceResponse, slug }) => {
                 </div>
               </div>
 
+              {/* <img
+                src="./images/Publishing marketing videos on YouTube.png"
+                alt=""
+                className="img-fluid"
+              /> */}
+
               <div className={`${styles.vbddds} col-lg-8 mb-4`}>
                 <div className={`${styles.dienwm_iuemrer} position-relative`}>
                   <h2 className="my-4">

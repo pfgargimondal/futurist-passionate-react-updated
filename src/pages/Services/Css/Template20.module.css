@@ -497,3 +497,223 @@
         padding:14px 10px;
     }
 }
+
+.fhdfjhsdf555 h2
+{
+    font-size: 40px;
+    /* font-weight: 700; */
+}
+
+.bgjhdf5fa 
+{
+    color: #eb4406;
+    font-weight: 700;
+}
+
+.bgjhdf5faa
+{
+    color: #01B2DB;
+     font-weight: 700;
+}
+
+.dgnghbg5df
+{
+    margin-bottom: 20px;
+}
+
+
+.dfdsf52dsasas img
+{
+  width: 30px;
+  height: 30px;
+  margin-top: -420px;
+  margin-left: 80px;
+}
+
+
+.dfdsf52dsasas1 img
+{
+  width: 70px;
+  height: 90px;
+  margin-top: -315px;
+  margin-left: 40px;
+}
+
+.dfdsf52dsasas1 {
+  display: inline-block;
+  animation: upDown 2s ease-in-out infinite;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.serfd58748 img
+{
+   width: 35px;
+   height: 30px;
+}
+
+.fgbf548444 h4 
+{
+    font-size: 17px;
+    font-weight: 700;
+    /* margin-left: -25px; */
+    padding-top: 5px;
+}
+
+.tfytf5rf
+{
+    margin-top: -40%;
+    margin-left:350px;
+}
+
+.yutytefgdfg
+{
+    margin-bottom: 15px;
+}
+
+.fgbf548444 h4 span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideChar 04s forwards;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes slideChar {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+}
+
+
+.dfdsf52dsasas img {
+  animation: waveMotion 2s ease-in-out infinite;
+  display: inline-block;
+  transform-origin: center;
+}
+
+@keyframes waveMotion {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(6deg);
+  }
+  50% {
+    transform: rotate(-6deg);
+  }
+  75% {
+    transform: rotate(6deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+.dfdsf52dsasas img {
+  animation: floatWave 2.5s ease-in-out infinite, waveMotion 2s ease-in-out infinite;
+  display: inline-block;
+  transform-origin: center;
+}
+
+.uiiieer2{
+  margin-top: -41%;
+}
+
+.uiiieer{
+  margin-right: 30px;;
+}
+
+.uiiieer3{
+  margin-right: 37px;;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 0%;
+  justify-content: flex-end;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.icon {
+  height: 1rem;
+}
+
+.typewriterStart span,
+.typewriterEnd span {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  /* border-right: 2px solid; */
+}
+
+.typewriterStart span {
+  animation: typingStart 2s steps(30, end), blink 0.75s step-end infinite;
+}
+
+.typewriterEnd span {
+  direction: rtl;
+  unicode-bidi: plaintext;
+  animation: typingEnd 2s steps(30, end), blink 0.75s step-end infinite;
+}
+
+@keyframes typingStart {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typingEnd {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.delay0 {
+  animation-delay: 1s, 1s;
+}
+
+.delay1 {
+  animation-delay: 2.5s, 5.5s; /* adjust based on typing duration */
+}
+
