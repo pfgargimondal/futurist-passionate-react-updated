@@ -21,6 +21,7 @@
   width: 50%;
   float: left;
   padding: 70px;
+  padding-top: 40px;
 }
 .sdfghdfgdf h1 { 
   color: var(--main-blue-color);
@@ -641,18 +642,20 @@
   transform-origin: center;
 }
 
-.uiiieer2{
+.uiiieer2 {
   margin-top: -41%;
+  margin-right: 3px;
 }
 
-.uiiieer{
-  margin-right: 30px;;
+.uiiieer {
+  margin-right: 22px;
 }
 
-.uiiieer3{
-  margin-right: 37px;;
+.uiiieer3 {
+  margin-right: 0px;
 }
 
+/* Wrapper Styling */
 .wrapper {
   display: flex;
   align-items: center;
@@ -660,29 +663,33 @@
   margin-bottom: 0%;
   justify-content: flex-end;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 21px;
+  line-height: 33px;
 }
 
 .icon {
   height: 1rem;
 }
 
-.typewriterStart span,
-.typewriterEnd span {
+/* Typewriter Container */
+.typewriterStart,
+.typewriterEnd {
   display: inline-block;
-  white-space: nowrap;
   overflow: hidden;
-  /* border-right: 2px solid; */
+  white-space: nowrap;
+  width: 0;
+  border-right: 2px solid white; /* Optional blinking effect */
 }
 
-.typewriterStart span {
-  animation: typingStart 2s steps(30, end), blink 0.75s step-end infinite;
+/* Animations */
+.typewriterStart {
+  animation: typingStart 2s steps(40, end) forwards, blink 0.75s step-end infinite;
+  direction: ltr;
 }
 
-.typewriterEnd span {
-  direction: rtl;
-  unicode-bidi: plaintext;
-  animation: typingEnd 2s steps(30, end), blink 0.75s step-end infinite;
+.typewriterEnd {
+  animation: typingEnd 2s steps(30, end) forwards, blink 0.75s step-end infinite;
+  /* direction: rtl; */
 }
 
 @keyframes typingStart {
@@ -690,7 +697,7 @@
     width: 0;
   }
   to {
-    width: 100%;
+    width: 42%;
   }
 }
 
@@ -699,7 +706,7 @@
     width: 0;
   }
   to {
-    width: 100%;
+    width: 40%;
   }
 }
 
@@ -709,11 +716,15 @@
   }
 }
 
+/* Delay timings for sequential animation */
 .delay0 {
-  animation-delay: 1s, 1s;
+  animation-delay: 0s, 0s;
 }
 
 .delay1 {
-  animation-delay: 2.5s, 5.5s; /* adjust based on typing duration */
+  animation-delay: 2.2s, 2.2s; /* delay after first line */
 }
 
+.delay2 {
+  animation-delay: 4.4s, 4.4s; /* delay after second line */
+}

@@ -41,6 +41,7 @@ export const Template10 = ({ serviceResponse, slug }) => {
                 alt=""
               />
             )}
+            
           </div>
         </div>
 
@@ -63,6 +64,7 @@ export const Template10 = ({ serviceResponse, slug }) => {
             </div>
           </div>
         </div>
+
         <ServiceEnquiryForm loading={setLoading} slug={slug} />
         <div className="duiewmjroiweorrr my-5">
           <div className="custom-container">
@@ -78,12 +80,6 @@ export const Template10 = ({ serviceResponse, slug }) => {
                   )}
                 </div>
               </div>
-
-              {/* <img
-                src="./images/Publishing marketing videos on YouTube.png"
-                alt=""
-                className="img-fluid"
-              /> */}
 
               <div className={`${styles.vbddds} col-lg-8 mb-4`}>
                 <div className={`${styles.dienwm_iuemrer} position-relative`}>

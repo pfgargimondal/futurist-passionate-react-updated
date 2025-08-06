@@ -1,14 +1,23 @@
 import styles from "./Css/Template11.module.css";
-import { useState} from "react";
+import { useEffect, useState} from "react";
 import ServiceForm from "./FormComponent/ServiceForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Template11 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+    useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        once: false, // Animations only happen once
+      });
+    }, []);
+
   return ( 
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -92,7 +101,7 @@ export const Template11 = ({ serviceResponse, slug }) => {
               <div className="col-lg-5">
                 <div className={`${styles.dsrt_inner} sticky-top`}>
                   {serviceResponse.data?.third_section_image && (
-                    <img
+                    <img data-aos="zoom-in-up"
                       src={`${serviceResponse.image_url}/Templete_11/${serviceResponse.data.third_section_image}`}
                       alt=""
                       className="img-fluid"

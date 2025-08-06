@@ -35,6 +35,23 @@ export const Template47 = ({ serviceResponse, slug }) => {
                 alt=""
               />
             )}
+            {slug === "social-media-marketing-company" && (
+              <>
+              <div className={styles.fmdjksdfsdf}>
+                <div className={styles.hdfgffdfsd1}>
+                  <img src="./images/socialmedia (1).png" alt=""/>
+                </div>
+
+                <div className={styles.hdfgffdfsd2}>
+                  <img src="./images/socialmedia (2).png" alt=""/>
+                </div>
+
+                <div className={styles.hdfgffdfsd3}>
+                  <img src="./images/socialmedia (3).png" alt=""/>
+                </div>
+              </div>
+              </>
+            )}
           </div>
         </div>
 
