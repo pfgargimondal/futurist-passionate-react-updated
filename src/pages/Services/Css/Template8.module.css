@@ -159,6 +159,10 @@
   width: 100%;
 }
 
+.asedifoje_inner:global(.sticky-top){
+    top: 15% !important;
+}
+
 .sfmlkdfdff h2{
     color: var(--main-blue-color);
 }
@@ -174,10 +178,6 @@
 .cdfbikerfsdfsfeeqwe .odijweirwerr_right{
     margin-top: 0;
     padding: 3rem 10rem 3rem 5rem;
-}
-
-.cdfbikerfsdfsfeeqwe .asedifoje_inner{
-    margin-top: -30rem;
 }
 
 .blb_list{
@@ -220,6 +220,46 @@
 .akmdlkcsjhke{
     animation: flash 2s infinite ease-in-out alternate;
     will-change: opacity;
+}
+
+.doenrjewrwer img:first-child{
+    left: 0;
+    width: 35%;
+    top: 40%;
+    animation: textTitle 2s infinite ease-in-out;
+}
+
+.askdjnerwer{
+    top: 3%;
+}
+
+.diheuiwhrewrwer img{
+    width: 85%;
+}
+
+.doijewkjwer img{
+    width: 12rem;
+}
+
+.dolewjorwrwer .doijewkjwer:nth-of-type(4n - 3){
+    top: 5%;
+}
+
+.dolewjorwrwer .doijewkjwer:nth-of-type(4n - 2){
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12%;
+}
+
+.dolewjorwrwer .doijewkjwer:nth-of-type(4n - 1){
+    top: 5%;    
+    right: 12%;
+}
+
+.dolewjorwrwer .doijewkjwer:nth-of-type(4n){
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
 }
 
 @keyframes flash {

@@ -160,7 +160,7 @@ export const Template8 = ({ serviceResponse, slug }) => {
           <div className="container-fluid px-5">
             <div className={`${styles.idewhrwer_inner_wrapper} row`}>
               <div className="col-lg-4">
-                <div className={`${styles.asedifoje_inner} p-2 position-relative`}>
+                <div className={`${styles.asedifoje_inner} p-2 sticky-top`}>
                   {serviceResponse.data?.fourth_section_image && (
                     <img src={`${serviceResponse.image_url}/Template_8/${serviceResponse.data.fourth_section_image}`} className="img-fluid" alt="" />
                   )}
@@ -180,6 +180,43 @@ export const Template8 = ({ serviceResponse, slug }) => {
                     </ul>
                   </>
                   )}
+
+                  {slug === 'wordpress-web-design-services' && (
+                    <>
+                      <div className={`${styles.askdjnerwer} position-absolute`}>
+                        <div className="col-lg-6">
+                          <div className={styles.diheuiwhrewrwer}>
+                            <img src="./images/Our Services Include (1).png" data-aos="fade-right" alt="" />
+                          </div>
+                        </div>
+
+                        <div className="col-lg-6 offset-lg-6">
+                          <div className={styles.diheuiwhrewrwer}>
+                            <img src="./images/Our Services Include (2).png" data-aos="fade-left" alt="" />
+                          </div>
+                        </div>
+
+                        <div className="col-lg-6">
+                          <div className={styles.diheuiwhrewrwer}>
+                            <img src="./images/Our Services Include (3).png" data-aos="fade-right" alt="" />
+                          </div>
+                        </div>
+
+                        <div className="col-lg-6 offset-lg-6">
+                          <div className={styles.diheuiwhrewrwer}>
+                            <img src="./images/Our Services Include (4).png" data-aos="fade-left" alt="" />
+                          </div>
+                        </div>
+
+                        <div className="col-lg-6">
+                          <div className={styles.diheuiwhrewrwer}>
+                            <img src="./images/Our Services Include (5).png" data-aos="fade-right" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </>
+                  )}
+
                 </div>
               </div>
 
@@ -202,10 +239,10 @@ export const Template8 = ({ serviceResponse, slug }) => {
             </div>
 
             <div
-              className={`${styles.idewhrwer_inner_wrapper} ${styles.cdfbikerfsdfsfeeqwe} mt-5`}
+              className={`idewhrwer_inner_wrapper row ${styles.cdfbikerfsdfsfeeqwe} mt-5`}
             >
-              <div className="col-lg-9">
-                <div className={`${styles.odijweirwerr_right} bg-white`}>
+              <div className="col-lg-8">
+                <div className={`${styles.odijweirwerr_right} bg-white pe-0`}>
                   <h2 className="mb-4">
                     {serviceResponse.data?.fifth_section_title &&
                       serviceResponse.data.fifth_section_title}
@@ -222,14 +259,14 @@ export const Template8 = ({ serviceResponse, slug }) => {
                 </div>
               </div>
 
-              <div className="offset-lg-8 col-lg-4">
+              <div className="col-lg-4">
                 {slug === 'wordpress-web-design-services' ? (
                 <>
-                <div className={`${styles.asedifoje_inner}`}>
+                <div className={`${styles.asedifoje_inner} p-5 sticky-top`}>
                   {serviceResponse.data?.fifth_section_image && (
                     <img data-aos="zoom-in-up"
                       src={`${serviceResponse.image_url}/Template_8/${serviceResponse.data.fifth_section_image}`}
-                      className="img-fluid" alt="" style={{marginTop: '-16rem', marginBottom: '11rem'}}
+                      className="img-fluid" alt=""
                     />
                   )}
                 </div> 
@@ -278,6 +315,29 @@ export const Template8 = ({ serviceResponse, slug }) => {
               </ul>
               </>
           )}
+
+          {slug === 'wordpress-web-design-services' && (
+          <>
+            <div className={styles.dolewjorwrwer}>
+              <div className={`${styles.doijewkjwer} position-absolute`}>
+                <img src="images/Digital Marketing Agency FAQs (4) (1).png" data-aos="fade-down-right" alt="" />
+              </div>
+
+              <div className={`${styles.doijewkjwer} position-absolute`}>
+                <img src="images/Digital Marketing Agency FAQs (4) (2).png" data-aos="fade-up-right" alt="" />
+              </div>
+
+              <div className={`${styles.doijewkjwer} position-absolute`}>
+                <img src="images/Digital Marketing Agency FAQs (4) (3).png" data-aos="fade-down-left" alt="" />
+              </div>
+
+              <div className={`${styles.doijewkjwer} position-absolute`}>
+                <img src="images/Digital Marketing Agency FAQs (4) (4).png" data-aos="fade-up-left" alt="" />
+              </div>
+            </div>
+          </>
+          )}
+
         </div>
         <LastSectionComponent />
       </main>

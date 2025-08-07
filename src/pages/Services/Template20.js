@@ -55,6 +55,42 @@ export const Template20 = ({ serviceResponse, slug }) => {
     );
   };
 
+
+  const [percent67, setPercent67] = useState(0);
+
+  useEffect(() => {
+    const interval67 = setInterval(() => {
+      setPercent67((prev) => {
+        if (prev < 67) return prev + 1;
+        clearInterval(interval67);
+        return prev;
+      });
+    }, 20);
+    return () => clearInterval(interval67);
+  }, []);
+
+  const radius67 = 30;
+  const circumference67 = 2 * Math.PI * radius67;
+  const dashOffset67 = circumference67 - (percent67 / 100) * circumference67;
+
+   const [percent85, setPercent85] = useState(0);
+
+  useEffect(() => {
+    const interval85 = setInterval(() => {
+      setPercent85((prev) => {
+        if (prev < 85) return prev + 1;
+        clearInterval(interval85);
+        return prev;
+      });
+    }, 20);
+    return () => clearInterval(interval85);
+  }, []);
+
+  const radius85 = 30;
+  const circumference85 = 2 * Math.PI * radius85;
+  const dashOffset85 = circumference85 - (percent85 / 100) * circumference85;
+
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -140,6 +176,60 @@ export const Template20 = ({ serviceResponse, slug }) => {
                       </div>
                     </div>
                   </div>
+
+                  {/* percentage icon */}
+
+                  <div className={styles.bnjhvdd54}>
+                    <div className={styles.circleCard85}>
+                      <div className={styles.circleWrapper85}>
+                        <svg className={styles.svgCircleIcon85}>
+                          <circle cx="35" cy="35" r="30" />
+                          <circle
+                            cx="35"
+                            cy="35"
+                            r="30"
+                            style={{
+                              strokeDasharray: `${circumference85}px`,
+                              strokeDashoffset: `${dashOffset85}px`,
+                            }}
+                          />
+                        </svg>
+                        <div className={styles.circleNumber85}>
+                          <h3>
+                            {percent85}
+                            <span>%</span>
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.bnjhvdd54aaa}>
+                    <div className={styles.circleCard67}>
+                      <div className={styles.circleWrapper67}>
+                        <svg className={styles.svgCircleIcon67}>
+                          <circle cx="35" cy="35" r="30" />
+                          <circle
+                            cx="35"
+                            cy="35"
+                            r="30"
+                            style={{
+                              strokeDasharray: `${circumference67}px`,
+                              strokeDashoffset: `${dashOffset67}px`,
+                            }}
+                          />
+                        </svg>
+                        <div className={styles.circleNumber67}>
+                          <h3>
+                            {percent67}
+                            <span>%</span>
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* percentage icon */}
                 </>
               )}
             </div>
@@ -207,7 +297,13 @@ export const Template20 = ({ serviceResponse, slug }) => {
                       <button>Get started</button>
                     </div>
                   </div>
-                  <div className={slug === "mobile-app-development-services" ? "col-lg-5" : "col-lg-5 mt-5 pt-5"}>
+                  <div
+                    className={
+                      slug === "mobile-app-development-services"
+                        ? "col-lg-5"
+                        : "col-lg-5 mt-5 pt-5"
+                    }
+                  >
                     <div className={styles.dgndfgdfgdf}>
                       {serviceResponse.data?.fourth_section_image && (
                         <img
