@@ -51,6 +51,23 @@ export const Template11 = ({ serviceResponse, slug }) => {
                   alt=""
                 />
               )}
+
+              {slug === 'website-domain-registration-services' && (
+
+                  <div className={styles.fjhfdfgdfgss}>
+                    <div className={styles.fjhfdfgdfg55aa} >
+                        <img data-aos="fade-left" src="./images/vvve (2).png" alt=""/>
+                    </div>
+
+                    <div className={styles.fjhfdfgdfg55}>
+                        <img data-aos="flip-up" src="./images/vvve (3).png" alt=""/>
+                    </div>
+
+                    <div className={styles.fjhfdfgdfg55aaa}>
+                        <img data-aos="fade-right" src="./images/vvve (1).png" alt=""/>
+                    </div>
+                  </div>
+              )}
             </div>
           </div>
         </div>
@@ -125,7 +142,7 @@ export const Template11 = ({ serviceResponse, slug }) => {
               <div className="col-lg-4 mb-4">
                 <div className={`${styles.djniwer_inner} text-center p-4`}>
                   {serviceResponse.data?.fourth_section_image_one && (
-                    <img
+                    <img data-aos="flip-left"
                       src={`${serviceResponse.image_url}/Templete_11/${serviceResponse.data.fourth_section_image_one}`}
                       alt=""
                       className="img-fluid"
@@ -150,7 +167,7 @@ export const Template11 = ({ serviceResponse, slug }) => {
               <div className="col-lg-4 mb-4">
                 <div className={`${styles.djniwer_inner} text-center p-4`}>
                   {serviceResponse.data?.fourth_section_image_two && (
-                    <img
+                    <img data-aos="flip-up"
                       src={`${serviceResponse.image_url}/Templete_11/${serviceResponse.data.fourth_section_image_two}`}
                       alt=""
                       className="img-fluid"
@@ -175,7 +192,7 @@ export const Template11 = ({ serviceResponse, slug }) => {
               <div className="col-lg-4 mb-4">
                 <div className={`${styles.djniwer_inner} text-center p-4`}>
                   {serviceResponse.data?.fourth_section_image_three && (
-                    <img
+                    <img data-aos="flip-right"
                       src={`${serviceResponse.image_url}/Templete_11/${serviceResponse.data.fourth_section_image_three}`}
                       alt=""
                       className="img-fluid"
