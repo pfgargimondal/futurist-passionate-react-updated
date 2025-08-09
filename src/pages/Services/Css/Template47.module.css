@@ -662,3 +662,63 @@
     opacity: 1;
   }
 }
+
+
+.sddfsdfdd54a img
+{
+  width: 160px;
+  height: 130px;
+  margin-top: -650px;
+}
+
+.sddfsdfdd54aa img
+{
+   width: 160px;
+  height: 130px;
+  margin-top: -580px;
+  margin-left: 240px;
+
+}
+
+.sddfsdfdd54aaa img
+{
+  width: 160px;
+  height: 130px;
+  margin-top: -390px;
+
+}
+
+
+.sddfsdfdd54aaaa img
+{
+  width: 160px;
+  height: 120px;
+  margin-left: 240px;
+  margin-top: -330px;
+
+
+}
+
+/* Initial hidden state */
+.left-slide, .right-slide {
+    opacity: 0;
+    transform: translateX(0);
+    transition: all 0.8s ease-out;
+}
+
+.left-slide {
+    transform: translateX(-100px);
+}
+
+.right-slide {
+    transform: translateX(100px);
+}
+
+/* Active state when in view */
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+

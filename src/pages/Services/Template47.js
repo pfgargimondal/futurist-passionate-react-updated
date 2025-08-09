@@ -1,14 +1,23 @@
 import styles from "./Css/Template47.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 
 export const Template47 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+    useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        once: false,
+      });
+    }, []);
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -119,6 +128,28 @@ export const Template47 = ({ serviceResponse, slug }) => {
                       className="img-fluid"
                     />
                   )}
+
+                  {slug === "social-media-marketing-company" && (
+                  <>
+                    <div className={`${styles.sddfsdfdd54a} left-slide`}>
+                        <img data-aos="fade-left" src="./images/socia (3).png" alt="" />
+                    </div>
+
+                    <div className={`${styles.sddfsdfdd54aa} right-slide`}>
+                        <img data-aos="fade-right" src="./images/socia (2).png" alt="" />
+                    </div>
+
+                    <div className={`${styles.sddfsdfdd54aaa} left-slide`}>
+                        <img data-aos="fade-left" src="./images/socia (1).png" alt="" />
+                    </div>
+
+                    <div className={`${styles.sddfsdfdd54aaaa} right-slide`}>
+                        <img data-aos="fade-right" src="./images/socia (4).png" alt="" />
+                    </div>
+                  </>
+                  )}
+
+
                 </div>
               </div>
 
