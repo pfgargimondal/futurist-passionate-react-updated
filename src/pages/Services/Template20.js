@@ -402,12 +402,25 @@ export const Template20 = ({ serviceResponse, slug }) => {
             </div>
           </div>
 
-          <div className={styles.xnjhxffgdf}>
+          <div className={`${styles.xnjhxffgdf} position-relative`}>
             {serviceResponse.data?.featured_image && (
               <img
                 src={`${serviceResponse.image_url}/Templete_20/${serviceResponse.data.featured_image}`}
                 alt=""
               />
+            )}
+            {slug === "ui-ux-design-services" && (
+              <>
+                <div className={`${styles.doieworwer}`}>
+                  <img src="/images/dmad4.png" className="position-absolute" data-aos="fade-right" alt="" />
+
+                  <img src="/images/boy.png" className="position-absolute" data-aos="fade-left" alt="" />
+
+                  <img src="/images/dmad.png" className="position-absolute" data-aos="fade-down-left" alt="" />
+
+                  <img src="/images/dmad2.png" className="position-absolute" data-aos="fade-up-left" alt="" />
+                </div>
+              </>
             )}
           </div>
 

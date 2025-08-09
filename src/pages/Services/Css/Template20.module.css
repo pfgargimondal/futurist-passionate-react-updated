@@ -858,4 +858,28 @@ svg circle {
 
 /* percentage icon */
 
+.doieworwer img:nth-of-type(4n - 3){
+    width: 12rem;
+    left: 5%;
+    top: 25%;
+}
+
+.doieworwer img:nth-of-type(4n - 2){
+    width: 15rem;
+    right: 30%;
+    top: 7%;   
+}
+
+.doieworwer img:nth-of-type(4n - 1){
+    width: 12rem;
+    right: 12%;
+    top: 18%;
+}
+
+.doieworwer img:nth-of-type(4n){
+    width: 12rem;
+    right: 5%;
+    bottom: 5%;
+}
+
 
