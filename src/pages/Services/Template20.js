@@ -232,6 +232,29 @@ export const Template20 = ({ serviceResponse, slug }) => {
                   {/* percentage icon */}
                 </>
               )}
+
+              {slug === 'mobile-app-development-services' && (
+                <>
+                <div className={styles.irtuier54da} >
+                    <img src="./images/mobileapp (3).png" alt="" data-aos="zoom-in-down" data-aos-duration="3000"/>
+                </div>
+                <div className={styles.irtuier54daa} >
+                    <img src="./images/mobileapp (1).png" alt="" data-aos="fade-right" data-aos-duration="3000"/>
+                </div>
+                <div className={styles.irtuier54daaa} >
+                    <img src="./images/mobileapp (4).png" alt="" data-aos="fade-up-right" data-aos-duration="3000"/>
+                </div>
+                <div className={styles.irtuier54daaaa}  >
+                    <img src="./images/mobileapp (6).png" alt="" data-aos="fade-up-left" data-aos-duration="3000"/>
+                </div>
+                <div className={styles.irtuier54daaaaa}>
+                    <img src="./images/mobileapp (5).png" alt="" data-aos="fade-down-left" data-aos-duration="3000" />
+                </div>
+                <div className={styles.irtuier54daaaaaa}>
+                    <img src="./images/mobileapp (2).png" alt="" data-aos="fade-left" data-aos-duration="3000"/>
+                </div>
+                </>
+              )}
             </div>
           </div>
 
