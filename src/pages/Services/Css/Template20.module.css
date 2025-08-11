@@ -12,6 +12,92 @@
   height: 100%;
 }
 
+.doieworwer img:nth-of-type(4n - 3){
+    width: 12rem;
+    left: 5%;
+    top: 25%;
+}
+
+.doieworwer img:nth-of-type(4n - 2){
+    width: 15rem;
+    right: 30%;
+    top: 7%;   
+}
+
+.doieworwer img:nth-of-type(4n - 1){
+    width: 12rem;
+    right: 12%;
+    top: 18%;
+}
+
+.doieworwer img:nth-of-type(4n){
+    width: 12rem;
+    right: 5%;
+    bottom: 5%;
+}
+
+.doijerer img{
+    width: 6rem !important;
+}
+
+.doijerer img:nth-of-type(5n - 4){
+    top: 12%;
+    left: 17%;    
+}
+
+.doijerer img:nth-of-type(5n - 3){
+    top: 12%;
+    right: 20%;    
+}
+
+.doijerer img:nth-of-type(5n - 2){
+    bottom: 12%;
+    left: 22%;  
+    width: 5rem !important;  
+}
+
+.doijerer img:nth-of-type(5n - 1){
+    bottom: 12%;
+    right: 24%;  
+    width: 5rem !important;  
+}
+
+.doijerer img:nth-of-type(5n){
+    top: 50%;
+    left: 43%;
+    width: 3rem !important;  
+}
+
+.dinweihrwerew img{
+    width: 17rem !important;
+}
+
+.dinweihrwerew img:nth-of-type(5n - 4){
+    top: 5%;
+    left: 5%;
+}
+
+.dinweihrwerew img:nth-of-type(5n - 3){
+    bottom: 10%;
+    left: 5%;
+}
+
+.dinweihrwerew img:nth-of-type(5n - 2){
+    width: 12rem !important;
+    top: 15%;
+    left: 27%;
+}
+
+.dinweihrwerew img:nth-of-type(5n - 1){
+    top: 35%;
+    right: 5%;
+}
+
+.dinweihrwerew img:nth-of-type(5n){
+    width: 12rem !important;
+    bottom: 5%;
+    right: 35%;
+}
 
 .dbfghsdf img{
     width: 100%;

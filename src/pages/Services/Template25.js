@@ -146,7 +146,7 @@ export const Template25 = ({ serviceResponse, slug }) => {
                           />
                         )}
                       </div>
-                      <div className={styles.dfbhvhfdvgvfd2}>
+                      <div className={`${styles.dfbhvhfdvgvfd2} mt-4`}>
                         <h4>
                           {serviceResponse.data?.fifth_section_sub_title_one &&
                             serviceResponse.data.fifth_section_sub_title_one}
@@ -176,7 +176,7 @@ export const Template25 = ({ serviceResponse, slug }) => {
                           />
                         )}
                       </div>
-                      <div className={styles.dfbhvhfdvgvfd2}>
+                      <div className={`${styles.dfbhvhfdvgvfd2} mt-4`}>
                         <h4>
                           {serviceResponse.data?.fifth_section_sub_title_two &&
                             serviceResponse.data.fifth_section_sub_title_two}

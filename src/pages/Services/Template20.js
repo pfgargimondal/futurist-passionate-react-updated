@@ -363,13 +363,28 @@ export const Template20 = ({ serviceResponse, slug }) => {
                         </>
                       )}
 
-                      <div className={`${styles.dgndfgdfgdf} mt-5 pt-5`}>
+                      <div className={`${styles.dgndfgdfgdf} mt-5 pt-5 position-relative`}>
                         {serviceResponse.data?.fifth_section_image && (
                           <img
                             src={`${serviceResponse.image_url}/Templete_20/${serviceResponse.data.fifth_section_image}`}
                             alt=""
                           />
                         )}
+
+                        {slug === 'mobile-app-development-services' && (
+                          <div className={styles.doijerer}>
+                            <img src="./images/sd (1).png" className="position-absolute" data-aos="fade-right" alt="" />
+
+                            <img src="./images/vg (1).png" className="position-absolute" data-aos="fade-left" alt="" />
+
+                            <img src="./images/as.png" className="position-absolute" data-aos="fade-right" alt="" />
+
+                            <img src="./images/cf (1).png" className="position-absolute" data-aos="fade-left" alt="" />
+
+                            <img src="./images/lji.png" className="position-absolute" data-aos="zoom-in" alt="" />
+                          </div>
+                        )}
+                        
                       </div>
                       {slug === "ui-ux-design-services" && (
                         <>
@@ -444,6 +459,20 @@ export const Template20 = ({ serviceResponse, slug }) => {
                   <img src="/images/dmad2.png" className="position-absolute" data-aos="fade-up-left" alt="" />
                 </div>
               </>
+            )}
+
+            {slug === 'mobile-app-development-services' && (
+              <div className={styles.dinweihrwerew}>
+                <img src="./images/Digital Marketing Agency FAQs (4) (1) (2).png" className="position-absolute" data-aos="fade-down-right" alt="" />
+
+                <img src="./images/Digital Marketing Agency FAQs (4) (2) (2).png" className="position-absolute" data-aos="fade-up-right" alt="" />
+
+                <img src="./images/Digital Marketing Agency FAQs (4) (5).png" className="position-absolute" data-aos="zoom-in" alt="" />
+
+                <img src="./images/Digital Marketing Agency FAQs (4) (3) (2).png" className="position-absolute" data-aos="fade-left" alt="" />
+
+                <img src="./images/Digital Marketing Agency FAQs (4) (4) (1).png" className="position-absolute" data-aos="fade-up-left" alt="" />
+              </div>
             )}
           </div>
 
