@@ -1,14 +1,25 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import styles from "./Css/Template2.module.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 
 export const Template2 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false, // Animations only happen once
+    });
+  }, []);
+
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -115,9 +126,9 @@ export const Template2 = ({ serviceResponse, slug }) => {
             <div className={styles.vgbfdf}>
               <div className="row">
                 <div className="col-lg-5">
-                  <div className={styles.dgndfgdfgdf}>
+                  <div className={`${styles.dgndfgdfgdf} mt-4`}>
                     {serviceResponse.data?.fifth_section_image && (
-                    <img
+                    <img data-aos="zoom-in-right"
                         src={`${serviceResponse.image_url}/Template_2/${serviceResponse.data.fifth_section_image}`}
                         alt=""
                         />

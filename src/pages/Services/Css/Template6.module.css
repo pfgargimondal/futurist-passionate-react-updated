@@ -143,6 +143,118 @@
   width: 100%;
 }
 
+.duiwenihrwer img{
+  width: 5rem;
+}
+
+.duiwenihrwer img:nth-of-type(3n - 2){
+  top: 6%;
+  left: 40%;
+}
+
+.duiwenihrwer img:nth-of-type(3n - 1){
+  bottom: 30%;
+  left: 10%;
+  animation: posichange 3s infinite linear;
+}
+
+@keyframes posichange{
+  0%{
+    transform: translate(0, 0) rotate(0);
+  }
+
+  20%{
+    transform: translate(0, -0.8rem) rotate(-45deg);
+  }
+
+  40%{
+    transform: translate(1rem, -0.8rem) rotate(45deg);
+  }
+
+  60%{
+    transform: translate(1rem, 0.8rem) rotate(-45deg);
+  }
+
+  80%{
+    transform: translate(-1rem, 0.8rem)  rotate(45deg);
+  }
+
+  100%{
+    transform: translate(0, 0) rotate(0);
+  }
+}
+
+.duiwenihrwer img:nth-of-type(3n){
+  width: 9rem !important;
+  bottom: 3%;
+  right: 4%;
+  animation: mousemove 3s infinite linear;
+}
+
+@keyframes mousemove{
+  0%{
+    transform: translate(0, 0);
+  }
+
+  33%{
+    transform: translate(-0.4rem, -0.4rem);
+  }
+
+  66%{
+    transform: translate(0.4rem, -0.4rem);
+  }
+
+  100%{
+    transform: translate(0, 0);
+  }
+}
+
+.doikewikrhwer:before{
+  position: absolute;
+  content: "";
+  width: 37vw;
+  height: 37vw;
+  border: 3px dashed #3ACCCC;
+  top: 50%;
+  right: 16%;
+  border-radius: 50%;
+  animation: rotateCircle 15s infinite linear;
+}
+
+@keyframes rotateCircle{
+  from{
+    transform: translateY(-50%) rotate(0);
+  }
+
+  to{
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+.dowejijwemrwer{
+  width: 10rem !important;
+  top: 15%;
+  left: 35%;
+}
+
+.dsfsdvsesff{
+  width: 10rem !important;
+  top: 10%;
+  right: 12%;
+}
+
+.asdasdaswwe{
+  width: 10rem !important;
+  bottom: 10%;
+  left: 38%;
+}
+
+.dsfdgtsrr{
+  width: 10rem !important;
+  bottom: 10%;
+  right: 13%;
+}
+
 /*end new digital markeing design page  css*/
 
 

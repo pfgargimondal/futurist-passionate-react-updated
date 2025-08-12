@@ -18,7 +18,7 @@ export const Template15 = ({ serviceResponse, slug }) => {
           <div
             className={styles.dfgjhfgd}
             style={{
-              backgroundImage: "url(./images/afros.png)",
+              // backgroundImage: "url(./images/afros.png)",
             }}
           >
             <div className={`${styles.sdfghdfgdf} col-lg-6`}>

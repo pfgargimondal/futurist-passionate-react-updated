@@ -71,7 +71,7 @@ export const Template6 = ({ serviceResponse, slug }) => {
                         </div>
                     </div>
 
-                    <div className={`${styles.dbfghsdf} col-lg-6`}>
+                    <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
                         {serviceResponse.data?.banner_image && (
                             <img
                                 src={`${serviceResponse.image_url}/Templete_6/${serviceResponse.data.banner_image}`}
@@ -115,6 +115,15 @@ export const Template6 = ({ serviceResponse, slug }) => {
                                 </span>
                                 </h1>
                             </>
+                        )}
+                        {slug === 'ecommerce-website-design-company' && (
+                            <div className={styles.duiwenihrwer}>
+                                <img src="./images/fsrgtw.png" className="position-absolute" data-aos="fade-down" alt="" />
+
+                                <img src="./images/fsrgtw2.png" className="position-absolute" alt="" />
+
+                                <img src="./images/fsrgtw3.png" className="position-absolute" alt="" />
+                            </div>
                         )}
                     </div>
                 </div>
@@ -283,7 +292,7 @@ export const Template6 = ({ serviceResponse, slug }) => {
                     </div>
                 </div>
 
-                <div className={styles.xnjhxffgdf}>
+                <div className={`${styles.xnjhxffgdf} position-relative`}>
                     {serviceResponse.data?.featured_image && (
                         <img
                             src={`${serviceResponse.image_url}/Templete_6/${serviceResponse.data.featured_image}`}
@@ -349,6 +358,20 @@ export const Template6 = ({ serviceResponse, slug }) => {
                             <img src="/images/Artboard 1b.png" alt="Sale" />
                         </div>
                     </>
+                    )}
+
+                    {slug === "ecommerce-website-design-company" && (
+                        <div className={styles.diwehrihwerw}>
+                            <div className={styles.doikewikrhwer}></div>
+
+                            <img src="./images/Digital Marketing Agency FAQs (5) (2).png" className={`${styles.dowejijwemrwer} position-absolute`} data-aos="fade-down-right" alt="" />
+
+                            <img src="./images/Digital Marketing Agency FAQs (5) (3).png" className={`${styles.dsfsdvsesff} position-absolute`} data-aos="fade-down-left" alt="" />
+
+                            <img src="./images/Digital Marketing Agency FAQs (5) (4).png" className={`${styles.asdasdaswwe} position-absolute`} data-aos="fade-up-right" alt="" />
+
+                            <img src="./images/Digital Marketing Agency FAQs (5) (5).png" className={`${styles.dsfdgtsrr} position-absolute`} data-aos="fade-left" alt="" />
+                        </div>
                     )}
                 </div>
                 <LastSectionComponent />
