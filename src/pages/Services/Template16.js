@@ -16,7 +16,7 @@ export const Template16 = ({ serviceResponse, slug }) => {
       <main>
         <div className={styles.gdfbdfdfgdf554}>
           <div className={styles.dfgjhfgd} style={{
-              backgroundImage: "url(./images/afros.png)",
+              // backgroundImage: "url(./images/afros.png)",
             }}>
             <div className={`${styles.sdfghdfgdf} col-lg-6`}>
               <h1 className="mt-0 mb-0">

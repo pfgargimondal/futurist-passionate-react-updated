@@ -159,6 +159,44 @@ export const Template46 = ({ serviceResponse, slug }) => {
                   </div>
                 </>
               )}
+
+              {slug === 'professional-website-development-services' && (
+                <div className={styles.qwqe7ccxd}>
+                  <div className={styles.dfdsf52d1hh8}>
+                    <div className={styles.ghh52d1hh8}>
+                      <div className="row">
+                        <div className="col-lg-1">
+                          <div className={styles.trewrr88}>
+                            <img src="./images/appdevo.png" alt=""/>
+                          </div>
+                        </div>
+                        <div className="col-lg-11">
+                          <div className={styles.wwrexd5854}>
+                            <h4>Responsive Web Design</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className={styles.dfdsf52d1hh8}>
+                    <div className={styles.ghh52d1hh8}>
+                      <div className="row">
+                        <div className="col-lg-1">
+                          <div className={styles.trewrr88}>
+                            <img src="./images/appdevo.png" alt=""/>
+                          </div>
+                        </div>
+                        <div className="col-lg-11">
+                          <div className={styles.wwrexd5854}>
+                            <h4>E-commerce Design</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -211,6 +249,27 @@ export const Template46 = ({ serviceResponse, slug }) => {
                         alt=""
                       />
                     )}
+
+                    {slug === 'professional-website-development-services' && (
+                      <>
+                      <div className={styles.dfbghdfdqq1}>
+                          <img src="./images/appdevelop1 (1).png" alt="" />
+                      </div>
+
+                      <div className={styles.dfbghdfdqq2}>
+                        <img src="./images/appdevelop1 (2).png" alt="" />
+                      </div>
+
+                      <div className={styles.dfbghdfdqq3}>
+                        <img src="./images/appdevelop1 (3).png" alt="" />
+                      </div>
+
+                      <div className={styles.dfbghdfdqq4}>
+                        <img src="./images/appdevelop1 (4).png" alt="" />
+                      </div>
+                      </>
+                    )}
+
                     {slug === 'professional-academic-writing-services' && (
                     <>
                     <ul className={`${styles.doasnifwer} mb-0 ps-0`}>
