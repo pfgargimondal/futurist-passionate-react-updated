@@ -109,6 +109,74 @@
   width: 100%;
 }
 
+.img1{
+    position: absolute;
+    width: 9rem !important;
+    bottom: 18%;
+    right: 30%;
+}
+
+.img2{
+    position: absolute;
+    width: 7rem !important;
+    bottom: 31%;
+    left: 0%;
+}
+
+.img3{
+    position: absolute;
+    width: 9rem !important;
+    bottom: 42%;
+    right: 13%;
+}
+
+.img4{
+    position: absolute;
+    width: 9rem !important;
+    top: 18%;
+    left: 15%;
+}
+
+.img5{
+    position: absolute;
+    width: 10rem !important;
+    top: 3%;
+    right: 15%;
+}
+
+
+.dgndfgdfgdf{
+    position: relative;
+}
+
+
+/* Karina css start */
+.picture_karina1 .pic1{
+    position: absolute;
+    width:15rem !important;
+    bottom: 19%;
+    right: 15.5%;
+}
+.pic2{
+    position: absolute;
+    width:16rem !important;
+    top: 14%;
+    right: 14.5%;
+}
+.pic3{
+    position: absolute;
+    width:15rem !important;
+    bottom: 19%;
+    right: 32%;
+}
+.pic4{
+    position: absolute;
+    width:18rem !important;
+    top: 20.5%;
+    right: 31.5%;
+}
+/* Karina css end */
+
 
 /*end  new on page seo  css*/
 /*end  new on page seo  css*/

@@ -1,14 +1,22 @@
 import styles from "./Css/Template1.module.css";
-import { useState} from "react";
+import { useEffect, useState} from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 
 export const Template1 =({serviceResponse, slug}) =>{
     const [loading, setLoading] = useState(false);
+      useEffect(() => {
+        AOS.init({      
+          duration: 2000,
+          once: false,
+        });
+      }, []);
   return (
     <div> 
       <PageWrapper slug={slug} type="Template">
@@ -36,6 +44,23 @@ export const Template1 =({serviceResponse, slug}) =>{
                   src={`${serviceResponse.image_url}/Templete_1/${serviceResponse.data.banner_image}`}
                   alt=""
                 />
+              )}
+
+              {slug === 'on-page-seo-services' && (
+                <> 
+                  <div className={styles.picture_karina1}>
+                    <img src="./images/onPageBanner_3.png" className={styles.pic1}  data-aos="fade-left" alt=""/>
+                  </div>
+                  <div className={styles.picture_karina2}>
+                    <img src="./images/onPageBanner_2.png"  className={styles.pic2}  data-aos="fade-left" alt=""/>
+                  </div>
+                  <div className={styles.picture_karina3}>
+                    <img src="./images/onPageBanner_1.png"  className={styles.pic3}  data-aos="fade-right" alt=""/>
+                  </div>
+                  <div className={styles.picture_karina4}>
+                    <img src="./images/onPageBanner_4.png"  className={styles.pic4}  data-aos="fade-right" alt=""/>
+                  </div>
+                </>
               )}
           </div>
         </div>
@@ -187,6 +212,22 @@ export const Template1 =({serviceResponse, slug}) =>{
                         src={`${serviceResponse.image_url}/Templete_1/${serviceResponse.data.fifth_section_image}`}
                         alt=""
                         />
+                    )}
+
+                    {slug === 'on-page-seo-services' && (
+                    <> 
+                    <div className={styles.onpgeseoimage}>
+                      <img src="./images/onpseo.png" className={styles.img1} data-aos="fade-left" alt="" />
+
+                      <img src="./images/ofgf.png" className={styles.img2} data-aos="fade-right" alt="" />
+
+                      <img src="./images/ontm.png" className={styles.img3} data-aos="fade-left" alt="" />
+
+                      <img src="./images/onauto.png" className={styles.img4} data-aos="fade-right" alt="" />
+
+                      <img src="./images/oncust.png" className={styles.img5} data-aos="fade-left" alt="" />
+                    </div>
+                    </>
                     )}
                   </div>
                 </div>

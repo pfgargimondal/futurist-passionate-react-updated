@@ -558,3 +558,71 @@
         padding:14px 10px;
     }
 }
+
+
+
+/* rohit design start */
+
+.rohitp01 .rohitimg01{
+  position: absolute;
+  width: 15rem !important;
+    bottom: 255px;
+    left: 86px;
+    /* animation: wiggle 2s infinite linear; */
+}
+@keyframes wiggle {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(0.3rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+  
+}
+
+@keyframes wiggle2 {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-0.3rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+  
+}
+
+.rohitp02 .rohitimg02{
+  position: absolute;
+  width: 17rem !important;
+    bottom: 372px;
+    left: 53px;
+    /* animation: wiggle2 2s infinite linear; */
+}
+
+.rohitp03 .rohitimg03{
+  position: absolute;
+      width: 16rem !important;
+    bottom: 193px;
+    left: 376px;
+    /* animation: wiggle 2s infinite linear; */
+}
+
+.rohitp04 .rohitimg04{
+  position: absolute;
+      width: 16rem !important;
+    bottom: 359px;
+    left: 25rem;
+    /* animation: wiggle2 2s infinite linear; */
+    
+}
+
+.dbfghsdf{
+  position: relative;
+}
+
+/* rohit design end */

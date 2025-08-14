@@ -48,6 +48,22 @@ export const Template2 = ({ serviceResponse, slug }) => {
                   alt=""
                 />
             )}
+            {slug === 'search-engine-marketing-services' && (
+            <> 
+                <div className={styles.rohitp01}>
+                  <img src="./images/search-engine-image-2.png" className={styles.rohitimg01} data-aos="fade-right" alt=""/>
+                </div>
+                <div className={styles.rohitp02}>
+                  <img src="./images/search-engine-image-1.png" className={styles.rohitimg02} data-aos="fade-right" alt=""/>
+                </div>
+                <div className={styles.rohitp03}>
+                  <img src="./images/search-engine-image-4.png" className={styles.rohitimg03} data-aos="fade-left" alt=""/>
+                </div>
+                <div className={styles.rohitp04}>
+                  <img src="./images/search-engine-image-3.png" className={styles.rohitimg04} data-aos="fade-left" alt=""/>
+                </div>
+              </>
+              )}
           </div>
         </div>
 
