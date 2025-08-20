@@ -151,29 +151,29 @@
 
 
 /* Karina css start */
-.picture_karina1 .pic1{
+.dkneiewmrreryty .pic1{
     position: absolute;
     width:15rem !important;
-    bottom: 19%;
-    right: 15.5%;
+    bottom: 12%;
+    right: 28%;
 }
-.pic2{
+.dkneiewmrreryty .pic2{
     position: absolute;
-    width:16rem !important;
-    top: 14%;
-    right: 14.5%;
+    width:14rem !important;
+    top: -4%;
+    right: 29%;
 }
-.pic3{
+.dkneiewmrreryty .pic3{
     position: absolute;
     width:15rem !important;
-    bottom: 19%;
-    right: 32%;
+    bottom: 13%;
+    left: 1%;
 }
-.pic4{
+.dkneiewmrreryty .pic4{
     position: absolute;
     width:18rem !important;
-    top: 20.5%;
-    right: 31.5%;
+    top: 0;
+    left: -5%;
 }
 /* Karina css end */
 
@@ -562,3 +562,59 @@
         padding:14px 10px;
     }
 }
+
+/* prerana css start */
+
+.temppre .pic1{
+    position:absolute;
+    width: 26rem;
+    bottom: 71%;
+    left: 12%
+}
+.temppre .pic2{
+    position:absolute;
+    width: 26rem;
+    bottom: 50%;
+    left: 8%
+}
+.temppre .pic3{
+    position:absolute;
+    width: 26rem;
+    bottom: 30%;
+    left: 10%
+}
+.temppre .pic4{
+    position:absolute;
+    width: 22rem;
+    bottom: 9%;
+    left:7.7%
+}
+.temppre .pic5{
+    position:absolute;
+    width: 26rem;
+    bottom: 75%;
+    right:11%
+}
+.temppre .pic6{
+    position:absolute;
+    width: 26rem;
+    bottom: 54%;
+    right:6.1%
+}
+.temppre .pic7{
+    position:absolute;
+    width: 26rem;
+    bottom: 30%;
+    right:9%
+}
+.temppre .pic8{
+    position:absolute;
+    width: 26rem;
+    bottom: 8%;
+    right:2.5%
+}
+
+/* Prerana css end */
+
+
+

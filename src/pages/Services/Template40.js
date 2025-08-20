@@ -1,13 +1,23 @@
 import styles from "./Css/Template40.module.css";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template40 = ({ serviceResponse, slug }) => {
+
+useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        once: false, // Animations only happen once
+      });
+    }, []);
+
   const [loading, setLoading] = useState(false);
   return (
     <div>
@@ -30,10 +40,22 @@ export const Template40 = ({ serviceResponse, slug }) => {
             </div>
           </div>
 
-          <div className={`${styles.dbfghsdf} col-lg-6`}>
+          <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
             {serviceResponse.data?.banner_image && (
               <img src={`${serviceResponse.image_url}/Templete_40/${serviceResponse.data.banner_image}`} alt="" />
             )}
+
+            {slug === 'video-editing-services' && (
+              <>
+              <div className={styles.RDI1}>
+                <img src="./images/vedio-editing-banner-img1.png" className={styles.RDimg1} data-aos="fade-right" alt="" />
+              </div>
+              <div className={styles.RDI2}>
+                <img src="./images/vedio-editing-banner-img2.png" className={styles.RDimg2} data-aos="fade-left" alt="" />
+              </div>
+              </>
+            )}
+
           </div>
         </div>
 
@@ -72,6 +94,16 @@ export const Template40 = ({ serviceResponse, slug }) => {
                         alt=""
                       />
                     )}
+
+                  {slug === 'video-editing-services' && (
+                      
+                    <div className={styles.videoeditimg}>
+                      <img src="./images/veglass.png" className={styles.veditimg1} alt=""/>
+                      <img src="./images/vecircle.png" className={styles.veditimg2} alt=""/>
+                    </div>
+
+                  )}
+
                   </div>
                 </div>
               </div>

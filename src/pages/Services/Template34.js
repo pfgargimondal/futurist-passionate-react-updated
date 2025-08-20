@@ -1,14 +1,23 @@
 import styles from "./Css/Template34.module.css";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import ServiceForm from "./FormComponent/ServiceForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template34 = ({ serviceResponse, slug }) => {
     const [loading, setLoading] = useState(false);
+    useEffect(() => {
+          AOS.init({
+            duration: 1000,
+            once: false, // Animations only happen once
+          });
+        }, []);
+
     return (
         <div>
             <PageWrapper slug={slug} type="Template">
@@ -37,6 +46,15 @@ export const Template34 = ({ serviceResponse, slug }) => {
                                     src={`${serviceResponse.image_url}/Templete_34/${serviceResponse.data.banner_image}`}
                                     alt=""
                                 />
+                            )}
+
+                            {slug === 'motion-graphic-design-services' && (
+                                <div className={styles.music}>
+                                    <img src="./images/k1.png" className={styles.s1} alt="" />
+                                    <img src="./images/k2.png" className={styles.s2} alt="" />
+                                    <img src="./images/k3.png" className={styles.s3} data-aos="fade-up-left"alt="" />
+                                    <img src="./images/k4.png" className={styles.s4} data-aos="fade-down-right" alt="" />
+                                </div>
                             )}
                         </div>
                     </div>
@@ -146,6 +164,19 @@ export const Template34 = ({ serviceResponse, slug }) => {
                             alt=""
                         />
                     )}
+
+                    {slug === 'motion-graphic-design-services' && (
+
+                    <div className={styles.motion}>
+                        <img src="./images/motion_img1.png" className={styles.motion1} data-aos="fade-down-right" alt=""/>
+                        <img src="./images/motion_img2.png" className={styles.motion2} data-aos="fade-down-right" alt=""/>
+                        <img src="./images/motion-img3.png" className={styles.motion3} data-aos="fade-down-left" alt=""/>
+                        <img src="./images/motion-img4.png" className={styles.motion4} data-aos="fade-down-left" alt=""/>
+                    </div>
+
+                    )}
+
+
                 </div>
                 <LastSectionComponent />
             </main>

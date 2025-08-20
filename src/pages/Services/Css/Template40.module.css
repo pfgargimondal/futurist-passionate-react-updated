@@ -650,3 +650,60 @@
         padding:14px 10px;
     }
 }
+
+
+
+.dgndfgdfgdf {
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+
+.dgndfgdfgdf img {
+  width: 100%;
+  height: 100%;
+}
+
+.veditimg1{
+  position: absolute;
+  width: 12rem !important;
+  height: 4.5rem !important;
+  top: 10%;
+  left: 18%;
+  animation: veditanni 4.5s infinite linear;
+}
+
+.veditimg2{
+  position: absolute;
+  width: 6.5rem !important;
+  height: 7rem !important;
+  bottom: 2%;
+  right: 30%;
+  animation: veditanni 5s infinite linear;
+}
+
+@keyframes veditanni {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(-1rem);
+  }
+  100%{
+    transform: translateX(0);
+  }
+  
+}
+
+.RDI1 .RDimg1{
+  position: absolute;
+    width: 152px;
+    top: 140px;
+    left: 9px;
+}
+.RDI2 .RDimg2{
+  position: absolute;
+    width: 16rem;
+    left: 400px;
+    top: 225px;
+}

@@ -64,6 +64,10 @@ export const Template2 = ({ serviceResponse, slug }) => {
                 </div>
               </>
               )}
+
+
+
+
           </div>
         </div>
 
@@ -113,6 +117,24 @@ export const Template2 = ({ serviceResponse, slug }) => {
                         src={`${serviceResponse.image_url}/Template_2/${serviceResponse.data.third_section_image}`}
                         alt=""
                         />
+                    )}
+
+                    {slug === 'search-engine-marketing-services' && (
+                  
+
+
+                  <div className={styles.gfgfgfgfgfg}>
+                      <img src="./images/i1.png" className={styles.t1} data-aos="flip-up" alt="" />
+
+                      <img src="./images/i2.png" className={styles.t2} data-aos="fade-right" alt="" />
+
+                      <img src="./images/i3.png" className={styles.t3} data-aos="fade-right" alt="" />
+
+                      <img src="./images/i4.png" className={styles.t4} data-aos="fade-left" alt="" />
+
+                      <img src="./images/i5.png" className={styles.t5} data-aos="fade-left" alt="" />
+                  </div>
+                                   
                     )}
                   </div>
                 </div>

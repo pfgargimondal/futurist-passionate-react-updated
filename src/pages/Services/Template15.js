@@ -1,14 +1,26 @@
 import styles from "./Css/Template15.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceForm from "./FormComponent/ServiceForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export const Template15 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
   const [activeTab, setActiveTab] = useState("tab-1");
+
+  useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        once: false, // Animations only happen once
+      });
+    }, []);
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -40,12 +52,41 @@ export const Template15 = ({ serviceResponse, slug }) => {
               </div>
             </div>
 
-            <div className={`${styles.dbfghsdf} col-lg-6`}>
+            <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
               {serviceResponse.data?.banner_image && (
                 <img
                   src={`${serviceResponse.image_url}/Template_15/${serviceResponse.data.banner_image}`}
                   alt=""
                 />
+              )}
+
+              {slug === 'facebook-advertising-services' && (
+                <>
+                <div className={styles.titli1}>
+                <img src="./images/sp1.png" className={styles.pikachu1} data-aos="fade-down" alt="" />
+              </div>
+              <div className={styles.titli2}>
+                <img src="./images/sp2.png" className={styles.pikachu2}data-aos="zoom-in-up" alt="" />
+              </div>
+              <div className={styles.titli3}>
+                <img src="./images/sp3.png" className={styles.pikachu3}data-aos="fade-right" alt="" />
+              </div>
+               <div className={styles.titli9}>
+                <img src="./images/sp3.png" className={styles.pikachu9}data-aos="fade-right" alt="" />
+              </div>
+               <div className={styles.titli8}>
+                <img src="./images/sp3.png" className={styles.pikachu8} data-aos="fade-right"alt="" />
+              </div>
+              <div className={styles.titli4}>
+                <img src="./images/sp4.png" className={styles.pikachu4} data-aos="fade-right"alt="" />
+              </div>
+              <div className={styles.titli5}>
+                <img src="./images/sp5.png" className={styles.pikachu5}data-aos="fade-right" alt="" />
+              </div>
+              <div className={styles.titli6}>
+                <img src="./images/sp6.png" className={styles.pikachu6}data-aos="fade-right" alt="" />
+              </div>
+              </>
               )}
             </div>
           </div>

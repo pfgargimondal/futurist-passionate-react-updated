@@ -272,6 +272,46 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
+
+.offimg1{
+  position: absolute;
+  width: 6.5rem !important;
+  top: 8%;
+  right: 38%;
+  animation: offseoimg 4s infinite linear;
+}
+.offimg2{
+  position: absolute;
+  width: 3.5rem !important;
+  left: 37%;
+  bottom: 40%;
+  animation: offseoimg 3s infinite linear;
+}
+.offimg3{
+  position: absolute;
+  width: 3.2rem !important;
+  bottom: 43%;
+  right: 3%;
+  animation: offseoimg 3.5s infinite linear;
+}
+
+@keyframes offseoimg {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-1rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+  
+}
+
+
+
+
+
 /*end  new off page seo  css*/
 /*end  new off page seo  css*/
 
@@ -656,3 +696,47 @@
         padding:14px 10px;
     }
 }
+
+
+
+/* sayantika css start  */
+
+
+.titli1 .sayan01{
+  position: absolute;
+  width: 9rem;
+  top: -1rem;
+  right: 15%;
+}
+.titli2 .sayan02{
+  position: absolute;
+  width: 8rem;
+  top: 10rem;
+  left: 28rem;
+}
+.titli3 .sayan03{
+  position: absolute;
+    top: 16rem;
+    left: 8rem;
+    width: 8rem;
+}
+.titli4 .sayan04{
+  position: absolute;
+  width: 10rem;
+  top: 8rem;
+  left: 4rem;
+}
+.titli5 .sayan05{
+    position: absolute;
+    width: 8rem;
+    top: 0;
+    left: 7rem;
+}
+.titli6 .sayan06{
+  position: absolute;
+  width: 8rem;
+  top: 17rem;
+  left: 24rem;
+}
+
+/* syantika css end */

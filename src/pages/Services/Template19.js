@@ -1,5 +1,5 @@
 import styles from "./Css/Template19.module.css";
-import { useState } from "react";
+import { useEffect,useState } from "react";
 import ServiceForm from "./FormComponent/ServiceForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
@@ -7,8 +7,20 @@ import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export const Template19 =({ serviceResponse, slug }) =>{
-    const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        once: false, // Animations only happen once
+      });
+    }, []);
+
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -32,12 +44,34 @@ export const Template19 =({ serviceResponse, slug }) =>{
             </div>
           </div>
 
-          <div class={`${styles.dbfghsdf} col-lg-6`}>
+          <div class={`${styles.dbfghsdf} col-lg-6 position-relative`}>
             {serviceResponse.data?.banner_image && (
             <img
                 src={`${serviceResponse.image_url}/Templete_19/${serviceResponse.data.banner_image}`}
                 alt=""
             />
+            )}
+            {slug === "off-page-seo-services" && (
+              <>
+              <div className={styles.titli1}>
+                <img src="./images/off-page-banner-img_6.png" className={styles.sayan01}data-aos="fade-left" alt="" />
+              </div>
+              <div className={styles.titli2}>
+                <img src="./images/off-page-banner-img_5.png" className={styles.sayan02}data-aos="fade-left"alt="" />
+              </div>
+              <div className={styles.titli3}>
+                <img src="./images/off-page-banner-img_1.png" className={styles.sayan03}data-aos="fade-right" alt="" />
+              </div>
+               <div className={styles.titli4}>
+                <img src="./images/off-page-banner-img_2.png" className={styles.sayan04}data-aos="fade-right" alt="" />
+              </div>
+              <div className={styles.titli5}>
+                <img src="./images/off-page-banner-img_3.png" className={styles.sayan05}data-aos="fade-right"alt="" />
+              </div>
+               <div className={styles.titli6}>
+                <img src="./images/off-page-banner-img_4.png" className={styles.sayan06}data-aos="fade-left"alt="" />
+              </div>
+              </>
             )}
           </div>
         </div>
@@ -68,12 +102,22 @@ export const Template19 =({ serviceResponse, slug }) =>{
             <div class={styles.vgbfdf}>
               <div class="row">
                 <div class="col-lg-5">
-                  <div class={styles.dgndfgdfgdf}>
+                  <div class={`${styles.dgndfgdfgdf} position-relative`}>
                     {serviceResponse.data?.third_section_image && (
                     <img
                         src={`${serviceResponse.image_url}/Templete_19/${serviceResponse.data.third_section_image}`}
                         alt=""
                     />
+                    )}
+
+                    {slug === 'off-page-seo-services' && (
+                    <div className={styles.offpgseoimgn}>
+                      <img src="./images/offdouin.png" className={styles.offimg1} data-aos="fade-down" alt=""/>
+
+                      <img src="./images/offshare.png" className={styles.offimg2} data-aos="fade-right" alt=""/>
+
+                      <img src="./images/offbrand.png" className={styles.offimg3} data-aos="fade-left" alt=""/>
+                    </div>
                     )}
                   </div>
                 </div>

@@ -38,7 +38,7 @@ export const Template1 =({serviceResponse, slug}) =>{
             </div>
           </div>
 
-          <div className={`${styles.dbfghsdf} col-lg-6`}>
+          <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
             {serviceResponse.data?.banner_image && (
                 <img
                   src={`${serviceResponse.image_url}/Templete_1/${serviceResponse.data.banner_image}`}
@@ -47,20 +47,15 @@ export const Template1 =({serviceResponse, slug}) =>{
               )}
 
               {slug === 'on-page-seo-services' && (
-                <> 
-                  <div className={styles.picture_karina1}>
-                    <img src="./images/onPageBanner_3.png" className={styles.pic1}  data-aos="fade-left" alt=""/>
-                  </div>
-                  <div className={styles.picture_karina2}>
-                    <img src="./images/onPageBanner_2.png"  className={styles.pic2}  data-aos="fade-left" alt=""/>
-                  </div>
-                  <div className={styles.picture_karina3}>
-                    <img src="./images/onPageBanner_1.png"  className={styles.pic3}  data-aos="fade-right" alt=""/>
-                  </div>
-                  <div className={styles.picture_karina4}>
-                    <img src="./images/onPageBanner_4.png"  className={styles.pic4}  data-aos="fade-right" alt=""/>
-                  </div>
-                </>
+                <div className={styles.dkneiewmrreryty}>
+                  <img src="./images/onPageBanner_3.png" className={styles.pic1} data-aos="fade-left" alt=""/>
+
+                  <img src="./images/onPageBanner_2.png"  className={styles.pic2}  data-aos="fade-left" alt=""/>
+
+                  <img src="./images/onPageBanner_1.png"  className={styles.pic3}  data-aos="fade-right" alt=""/>
+
+                  <img src="./images/onPageBanner_4.png"  className={styles.pic4}  data-aos="fade-right" alt=""/>
+                </div>
               )}
           </div>
         </div>
@@ -262,12 +257,32 @@ export const Template1 =({serviceResponse, slug}) =>{
           </div>
         </div>
 
-        <div className={styles.xnjhxffgdf}>
+        <div className={`${styles.xnjhxffgdf} position-relative`}>
             {serviceResponse.data?.featured_image && (
                 <img
                 src={`${serviceResponse.image_url}/Templete_1/${serviceResponse.data.featured_image}`}
                 alt=""
                 />
+            )}
+            {slug === 'on-page-seo-services' && (
+              <div className={styles.temppre}>
+                <img src="./images/on-page-last-img_1.png" className={styles.pic1} data-aos="fade-up-right" alt="" />
+
+                <img src="./images/on-page-last-img_8.png" className={styles.pic2} data-aos="fade-up-right" alt="" />
+
+                <img src="./images/on-page-last-img_7.png" className={styles.pic3} data-aos="fade-up-right" alt="" />
+                
+                <img src="./images/on-page-last-img_6.png" className={styles.pic4} data-aos="fade-up-right" alt="" />
+
+                <img src="./images/on-page-last-img_5.png" className={styles.pic5} data-aos="fade-down-left" alt="" />
+                
+                <img src="./images/on-page-last-img_4.png" className={styles.pic6} data-aos="fade-down-left" alt="" />
+
+                <img src="./images/on-page-last-img_3.png" className={styles.pic7} data-aos="fade-down-left" alt="" />
+
+                <img src="./images/on-page-last-img_2.png" className={styles.pic8} data-aos="fade-down-left" alt="" />
+                              
+              </div>
             )}
         </div>
         <LastSectionComponent />

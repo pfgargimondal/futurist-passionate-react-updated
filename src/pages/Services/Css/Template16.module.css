@@ -203,6 +203,85 @@
   width: 100%;
 }
 
+.insta1{
+  position: absolute;
+  width:5rem !important;
+  top:28%;
+  left:60%;
+  animation: insta-img 2s infinite linear;
+}  
+.insta3{
+  position: absolute;
+  width:8rem !important;
+  bottom:30%;
+  right:9.8%;
+  animation: insta-tran 2s infinite linear;
+
+}  
+@keyframes insta-img {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-1rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+  
+}
+@keyframes insta-tran {
+  0%{
+    transform: translateY(0);
+  }
+  30%{
+    transform: translateY(-1rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+
+.dgndfgdfgdf{
+    position:relative;
+}
+.img .t1{
+    position:absolute;
+    height:8rem !important;
+    width:8rem !important;
+    top:35%;
+    right:31%;
+}
+.img .t2{
+    position:absolute;
+    height:5rem !important;
+    width:5rem !important;
+    bottom:68%;
+    right:70.5%;
+}
+.img .t3{
+    position:absolute;
+    height:3.5rem !important;
+    width:3.5rem !important;
+    top:73.5%;
+    right:70%;
+}
+.img .t5{
+    position:absolute;
+    height:4rem !important;
+    width:4rem !important;
+    top:72%;
+    left:69%;
+}
+.img .t4{
+    position:absolute;
+    height:3.5rem !important;
+    width:3.5rem !important;
+    bottom:70.5%;
+    left:74.5%;
+}
+
 /*end new digital markeing design page  css*/
 
 

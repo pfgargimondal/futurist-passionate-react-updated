@@ -48,6 +48,14 @@ export const Template16 = ({ serviceResponse, slug }) => {
                   alt=""
                 />
               )}
+
+              {slug === 'instagram-advertising-services' && (
+                <div className={styles.insta_service}>
+                  <img src="/images/insta-img1.png" className={styles.insta1} alt=""/>
+
+                  <img src="/images/insta-img3.png" className={styles.insta3} alt=""/>
+                </div>
+              )}              
             </div>
           </div>
         </div> 
