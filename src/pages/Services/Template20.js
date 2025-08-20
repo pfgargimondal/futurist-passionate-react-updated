@@ -123,6 +123,16 @@ export const Template20 = ({ serviceResponse, slug }) => {
                     alt=""
                   />
                 )}
+
+                {slug === "blog-marketing-services" && (
+                  <div className={styles.blogmservepic}>
+                    <img src="./images/bmsseo.png" className={styles.bmspic1} data-aos="zoom-in-left" alt=""/>
+
+                    <img src="./images/bmsper.png" className={styles.bmspic2} data-aos="zoom-in-left" alt=""/>
+                    
+                    <img src="./images/bmsgraph.png" className={styles.bmspic3} data-aos="zoom-in-right" alt=""/>
+                  </div>
+                )}
               </div>
               {slug === "ui-ux-design-services" && (
                 <>
@@ -335,6 +345,16 @@ export const Template20 = ({ serviceResponse, slug }) => {
                           alt=""
                         />
                       )}
+
+                      {slug === "blog-marketing-services" && (
+                        <div className={styles.blog_marketing_img}>
+                          <img src="./images/blog-2nd-section_img_1.png" className={styles.img1} data-aos="fade-right" alt=""/>
+
+                          <img src="./images/blog-2nd-section_img_2.png" className={styles.img2} data-aos="fade-left" alt=""/>
+
+                          <img src="./images/blog-2nd-section_img_3.png" className={styles.img3} data-aos="fade-up" alt=""/>
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -369,6 +389,15 @@ export const Template20 = ({ serviceResponse, slug }) => {
                             src={`${serviceResponse.image_url}/Templete_20/${serviceResponse.data.fifth_section_image}`}
                             alt=""
                           />
+                        )}
+
+                        {slug === "blog-marketing-services" && (
+                          <div className={styles.blog}> 
+                            <img src="./images/blog-marketing-section3_img_4.png" className={styles.b1} data-aos="fade-down-right" alt="" />
+                            <img src="./images/blog-marketing-section3_img_3.png" className={styles.b2} data-aos="fade-down-left" alt="" />
+                            <img src="./images/blog-marketing-section3_img_2.png" className={styles.b3} data-aos="fade-up-right" alt="" />
+                            <img src="./images/blog-marketing-section3_img_1.png" className={styles.b4} data-aos="fade-up-left" alt="" />
+                          </div>
                         )}
 
                         {slug === 'mobile-app-development-services' && (
@@ -474,6 +503,22 @@ export const Template20 = ({ serviceResponse, slug }) => {
                 <img src="./images/Digital Marketing Agency FAQs (4) (4) (1).png" className="position-absolute" data-aos="fade-up-left" alt="" />
               </div>
             )}
+
+            {slug === "blog-marketing-services" && (
+              <>
+              <div className={styles.RRD1}>
+                <img src="./images/blog-last-img_1.png" className={styles.RRDimg1} data-aos="fade-left" alt="" />
+              </div>
+              <div className={styles.RRD2}>
+                <img src="./images/blog-last-img_2.png" className={styles.RRDimg2} data-aos="fade-right" alt="" />
+              </div>
+              <div className={styles.RRD3}>
+                <img src="./images/blog-last-img_3.png" className={styles.RRDimg3} data-aos="fade-left" alt="" />
+              </div>
+            </>
+            )}
+
+
           </div>
 
           <LastSectionComponent />

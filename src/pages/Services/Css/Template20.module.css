@@ -1029,4 +1029,115 @@ svg circle {
   
 }
 
+/* prerana css start */
+
+.blog .b1{
+    position: absolute;
+    width:11.3rem;
+    bottom: 50%;
+    left:1.6%;
+}
+.blog .b2{
+  position: absolute;
+  width:9rem;
+  bottom: 45.5%;
+  left:62%;
+}
+.blog .b3{
+  position: absolute;
+    width:9.5rem;
+    bottom: 2%;
+    right:60%;
+    
+}
+.blog .b4{
+  position: absolute;
+  width:11.5rem;
+  bottom: 4%;
+  left:58%;
+}
+
+/* prerana css end */
+
+
+
+/* Nisha css start */
+
+.bmspic1{
+  position: absolute;
+  width: 16rem !important;
+  right: 5.5%;
+  top: 36%;
+}
+
+.bmspic2{
+  position: absolute;
+  width: 19rem !important;
+  right: 4.5%;
+  bottom: 19.6%;
+}
+
+.bmspic3{
+  position: absolute;
+  width: 6.5rem !important;
+  right: 38.8%;
+  bottom: 25.5%;
+}
+
+/* Nisha css end */
+
+
+
+/* karina css start */
+.dgndfgdfgdf {
+  /* width: 100%; */
+  position: relative;
+}
+/* .dgndfgdfgdf img {
+  width: 100%;
+  height: auto;
+} */
+.img1{
+  position: absolute;
+  width: 4rem !important;
+  top: 5%;
+  right: 5%;
+}
+.img2{
+  position: absolute;
+  width: 12rem !important;
+  bottom: 1%;
+  left: 4%;
+}
+.img3{
+  position: absolute;
+  width: 6rem !important;
+  top: 5%;
+  left: 3%;
+}
+/* karina css end */
+
+
+
+/* Rohit css start */
+.RRD1 .RRDimg1{
+  position: absolute;
+  width: 12rem;
+  right: 22%;
+  top: 8%;
+}
+
+.RRD2 .RRDimg2{
+  position: absolute;
+  width: 12rem;
+  left: 20%;
+  bottom: 3%;
+}
+.RRD3 .RRDimg3{
+  position: absolute;
+  width: 14rem;
+  right: 20%;
+  bottom: 3%;
+}
+/* Rohit css end */
 

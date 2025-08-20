@@ -40,12 +40,35 @@ export const Template17 = ({ serviceResponse, slug }) => {
               </div>
             </div>
 
-            <div className={`${styles.dbfghsdf} col-lg-6`}>
+            <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
               {serviceResponse.data?.banner_image && (
                 <img
                   src={`${serviceResponse.image_url}/Templete_17/${serviceResponse.data.banner_image}`}
                   alt=""
                 />
+              )}
+
+              {slug === 'twitter-marketing-services' && (
+                <>
+                <div className={styles.RR1}>
+                  <img src="./images/twitterr-banner-img_1.png" className={styles.RRimg1} alt="" />
+                </div>
+                <div className={styles.RR2}>
+                  <img src="./images/twitterr-banner-img_2.png" className={styles.RRimg2} alt="" />
+                </div>
+                <div className={styles.RR3}>
+                  <img src="./images/twitterr-banner-img_3.png" className={styles.RRimg3} alt="" />
+                </div>
+                <div className={styles.RR4}>
+                  <img src="./images/twitterr-banner-img_4.png" className={styles.RRimg4} alt="" />
+                </div>
+                <div className={styles.RR5}>
+                  <img src="./images/twitterr-banner-img_5.png" className={styles.RRimg5} alt="" />
+                </div>
+                <div className={styles.RR6}>
+                  <img src="./images/twitterr-banner-img_6.png" className={styles.RRimg6} alt="" />
+                </div>
+              </>
               )}
             </div>
           </div>
