@@ -36,13 +36,24 @@ export const Template5 = ({ serviceResponse, slug }) => {
                             </div>
                         </div>
 
-                        <div className={`${styles.dbfghsdf} col-lg-6`}>
+                        <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
                             {serviceResponse.data?.banner_image && (
                                 <img
                                     src={`${serviceResponse.image_url}/Template_5/${serviceResponse.data.banner_image}`}
                                     alt=""
                                 />
                             )}
+                        {slug === "social-media-optimization-services" && (
+                            <div className={styles.optimization_img}>
+                                <img src="./images/Social-Media-Optimization-Services-banner_img_4.png" className={styles.opti1} alt=""/>
+
+                                <img src="./images/Social-Media-Optimization-Services-banner_img_2.png" className={styles.opti2} alt=""/>
+
+                                <img src="./images/Social-Media-Optimization-Services-banner_img_1.png" className={styles.opti3} alt=""/>
+
+                                <img src="./images/Social-Media-Optimization-Services-banner_img_3.png" className={styles.opti4} alt=""/>
+                            </div>
+                        )}
                         </div>
                     </div>
                 </div>
@@ -98,6 +109,16 @@ export const Template5 = ({ serviceResponse, slug }) => {
                                                 className="img-fluid"
                                                 alt=""
                                             />
+                                        )}
+
+                                        {slug === "social-media-optimization-services" && (
+                                            <div className={styles.social}>
+                                                <img src="./images/social-media-third_img_1.png" className={styles.s1} alt="" />
+
+                                                <img src="./images/social-media-third_img_2.png" className={styles.s2} alt="" />
+                                                
+                                                <img src="./images/social-media-third_img_3.png" className={styles.s3} alt="" />
+                                            </div>
                                         )}
                                     </div>
                                 </div>
@@ -178,6 +199,17 @@ export const Template5 = ({ serviceResponse, slug }) => {
                             alt=""
                         />
                     )}
+                    {slug === "social-media-optimization-services" && (
+                        <div className={styles.smospics}>
+                            <img src="./images/smoslike.png" className={styles.smospic1} alt=""/>
+
+                            <img src="./images/smosshare.png" className={styles.smospic2} alt=""/>
+
+                            <img src="./images/smosgraph.png" className={styles.smospic3} alt=""/>
+                    
+                            <img src="./images/smoscont.png" className={styles.smospic4} alt=""/>
+                        </div>
+                    )} 
                 </div>
                 <LastSectionComponent />
             </main>

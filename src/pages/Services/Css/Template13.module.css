@@ -822,3 +822,66 @@ p a{
     width: 5.7rem;
     left: 534px;
 }
+ 
+
+/* Sayantika css start */
+/* 
+.SSBG{
+  width: 100%;
+} */
+
+.SS1 .SSimg1{
+    position: absolute;
+    width: 7.5rem;
+    left: 18px;
+    bottom: 6px;
+    animation: slide-right 8s infinite ease-in-out;
+}
+
+.SS2 .SSimg2{
+    position: absolute;
+    width: 7.5rem;
+    right: 16px;
+    top: 26px;
+    animation: slide-left 8s infinite ease-in-out;
+}
+
+@keyframes slide-right{
+  0%{
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  45%{
+    transform: translate(0, -20px);
+    opacity: 1;
+  }
+  75%{
+    transform: translate(-20px, -20px);
+    opacity: 1;
+  }
+  100%{
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-left{
+  0%{
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  45%{
+    transform: translate(0, 12px);
+    opacity: 1;
+  }
+  75%{
+    transform: translate(12px, 12px);
+    opacity: 1;
+  }
+  100%{
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+/* Sayantika css end */

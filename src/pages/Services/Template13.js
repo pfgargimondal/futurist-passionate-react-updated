@@ -197,7 +197,7 @@ export const Template13 = ({ serviceResponse, slug }) => {
           <div className="custom-container pt-5">
             <div className="row">
               <div className="col-lg-5 mb-4">
-                <div className={styles.doksjoijfrerr_right}>
+                <div className={` ${styles.doksjoijfrerr_right} position-relative`}>
                   {serviceResponse.data?.fifth_section_image && (
                     <img
                       src={`${serviceResponse.image_url}/Template_13/${serviceResponse.data.fifth_section_image}`}
@@ -205,6 +205,18 @@ export const Template13 = ({ serviceResponse, slug }) => {
                       className="img-fluid"
                     />
                   )}
+
+                  {slug === 'keyword-research-services' && (
+                    <>
+                      <div className={styles.SS1}>
+                        <img src="./images/Key_Features_of_our_SEO_Keyword_Tools_img_2.png" className={styles.SSimg1} alt="" />
+                      </div>
+                      <div className={styles.SS2}>
+                        <img src="./images/Key_Features_of_our_SEO_Keyword_Tools_img_1.png" className={styles.SSimg2} alt="" />
+                      </div>
+                    </>
+                  )}
+
                 </div>
               </div>
 

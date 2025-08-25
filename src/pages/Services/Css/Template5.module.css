@@ -310,7 +310,7 @@ p a{
 }
 
 .sdmsdjhsds{
-    margin-top: -7rem;
+    margin-top: -6rem;
     position: relative;
     z-index: -9;
 }
@@ -756,3 +756,155 @@ p a{
         padding:14px 10px;
     }
 }
+
+/* Karina css start */
+.opti1{
+  position: absolute;
+  width:12rem !important;
+  top: 7%;
+  left: 6%;
+  animation: optimize2 2s infinite linear;
+}
+.opti2{
+  position: absolute;
+  width:14rem !important;
+  top: 3%;
+  right: 0%;
+  animation: optimize2 2s infinite linear;
+}
+.opti3{
+  position: absolute;
+  width:13rem !important;
+  bottom: 30%;
+  right: 2%;
+  animation: optimize1 2s infinite linear;
+}
+.opti4{
+  position: absolute;
+  width:8rem !important;
+  bottom: 16%;
+  left: 9%;
+  animation: optimize1 2s infinite linear;
+}
+@keyframes optimize1 {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-1rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+  
+}
+@keyframes optimize2 {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(-1rem);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+/* Karina css end */
+
+
+/* Perana css start */
+
+.social .s1{
+    position: absolute;
+    width:8rem;
+    bottom: 33%;
+    left:85%;
+    animation:w2 2s infinite linear;
+}
+.social .s2{
+  position: absolute;
+  width:8rem;
+  bottom: 59%;
+  left:83.5%;
+  animation:w2 2s infinite linear;
+}
+.social .s3{
+  position: absolute;
+    width:7rem;
+    bottom: 68%;
+    left:70%; 
+    animation:w2 2s infinite linear;   
+}
+@keyframes w2 {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(-0.3rem);
+  }
+  100%{
+    transform: translateX(0);
+  }
+  
+}
+
+/* Perana css end */
+
+
+/* Nisha css start */
+.smospic1{
+  position: absolute;
+  width: 9rem !important;
+  bottom: 36%;
+  left: 8%;
+  animation: smosanniy 4s infinite linear;
+}
+
+.smospic2{
+  position: absolute;
+  width: 8.5rem !important;
+  top: 12%;
+  left: 24%;
+  animation: smosanniy 5s infinite linear;
+}
+
+.smospic3{
+  position: absolute;
+  width: 10rem !important;
+  right: 23.5%;
+  bottom: 45%;
+  animation: smosannix 5s infinite linear;
+}
+
+.smospic4{
+  position: absolute;
+  width: 8.5rem !important;
+  top: 15%;
+  right: 5%;
+  animation: smosanniy 4.5s infinite linear;
+}
+
+@keyframes smosannix {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(-2rem);
+  }
+  100%{
+    transform: translateX(0);
+  }  
+}
+
+@keyframes smosanniy {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-2.5rem);
+  }
+  100%{
+    transform: translateY(0);
+  }  
+}
+/* Nisha css end */
