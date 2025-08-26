@@ -596,3 +596,72 @@
         padding:14px 10px;
     }
 }
+
+
+/* prerana css start */
+.bookm .m1{
+    position: absolute;
+    width: 9rem;
+    bottom: 60%;
+    left: 23px;
+    animation:w2 2s infinite linear;
+}
+.bookm .m2{
+    position: absolute;
+    width:15rem;
+    bottom: 10%;
+    right: -16px;
+    animation:w2 2s infinite linear;
+}
+.bookm .m3{
+    position: absolute;
+    width:11rem;
+    bottom: 54%;
+    right:-2px; 
+    animation:w2 2s infinite linear;
+}
+.bookm .m4{
+    position: absolute;
+    width:13rem;
+    bottom: 12%;
+    right: 64%;
+    animation:w2 3s infinite linear;
+}
+@keyframes w2 {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(0.3rem);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+/* prerana css end */
+
+
+/* Sayantika css start */
+.sp02 {
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    left: 44px;
+    top: 97px;
+
+}
+.sp03 {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    left: 398px;
+    top: 106px;
+}
+.sp04 {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    left: 210px;
+    top: 375px;
+}
+/* Sayantika css end */

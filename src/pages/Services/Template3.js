@@ -6,9 +6,37 @@ import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
-
+import { gsap } from "gsap";    
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 export const Template3 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+    gsap.to(".llspic1", {
+      x: "-80%",
+      duration: 3,
+      opacity: 1,
+      scrollTrigger:{
+        trigger: ".llspic1",
+        scrub: true,
+        end: "top 230px"
+      }
+    });
+
+    gsap.to(".llspic3", {
+      x: 55,
+      duration: 3,
+      opacity: 1,
+      scrollTrigger:{
+        trigger: ".llspic3",
+        scrub: true,
+        start: "top 700px",
+        end: "top 230px"
+      }
+    });
+
+
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -109,6 +137,36 @@ export const Template3 = ({ serviceResponse, slug }) => {
                       className="img-fluid"
                       alt=""
                     />
+                  )}
+                  {slug === 'local-listing-services' && (
+                    <div className={styles.llspics}>
+                      <img 
+                          src="./images/llshouse.png" 
+                          className="llspic1" 
+                          style={{ 
+                            position: "absolute",
+                            width: "7.5rem",
+                            top: "3%",
+                            right: "-35%",
+                            opacity: "0"
+                          }} 
+                          alt=""
+                        />
+
+                      <img src="./images/llslocation.png" className={styles.llspic2} alt=""/>
+
+                      <img
+                          src="./images/llsrmcus.png"
+                          className="llspic3"
+                          style={{
+                            position: "absolute",
+                            width: "12rem", 
+                            left: "-15%",
+                            bottom: "5.5%"
+                          }}
+                          alt=""
+                        />
+                    </div>
                   )}
                 </div>
               </div>

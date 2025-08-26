@@ -723,3 +723,230 @@ p a{
         padding:14px 10px;
     }
 }
+
+
+/* Rohit css start */
+
+
+.RRDD1 .RRDG1{
+    position: absolute;
+    width: 6rem;
+    margin-left: 157px;
+    top: 157px;
+    animation: fade-right-wiggle 1.5s ease-out ;
+}
+
+@keyframes fade-right-wiggle{
+  0%{
+    transform: translate(-100px,-50px);
+    opacity: 0;
+    scale: 0;
+  }
+  25%{
+    transform: translate(-75px,40px);
+    opacity: 0.25;
+    scale: 0.25;
+  }
+  50%{
+    transform: translate(-50px,-30px);
+    opacity: 0.5;
+    scale: 0.5;
+  }
+  75%{
+    transform: translate(-25px,20px);
+    opacity: 0.75;
+    scale: 0.75;
+  }
+  100%{
+    transform: translate(0px,0px);
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes fade-left-wiggle{
+  0%{
+    transform: translate(100px,-50px);
+    opacity: 0;
+    scale: 0;
+  }
+  25%{
+    transform: translate(75px,40px);
+    opacity: 0.25;
+    scale: 0.25;
+  }
+  50%{
+    transform: translate(50px,-30px);
+    opacity: 0.5;
+    scale: 0.5;
+  }
+  75%{
+    transform: translate(25px,20px);
+    opacity: 0.75;
+    scale: 0.75;
+  }
+  100%{
+    transform: translate(0px,0px);
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes fade-up-wiggle{
+  0%{
+    transform: translate(-50px,-100px);
+    opacity: 0;
+    scale: 0;
+  }
+  25%{
+    transform: translate(40px,-75px);
+    opacity: 0.25;
+    scale: 0.25;
+  }
+  50%{
+    transform: translate(-30px,-50px);
+    opacity: 0.5;
+    scale: 0.5;
+  }
+  75%{
+    transform: translate(20px,-25px);
+    opacity: 0.75;
+    scale: 0.75;
+  }
+  100%{
+    transform: translate(0px,0px);
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes fade-down-wiggle{
+  0%{
+    transform: translate(-50px,100px);
+    opacity: 0;
+    scale: 0;
+  }
+  25%{
+    transform: translate(40px,75px);
+    opacity: 0.25;
+    scale: 0.25;
+  }
+  50%{
+    transform: translate(-30px,50px);
+    opacity: 0.5;
+    scale: 0.5;
+  }
+  75%{
+    transform: translate(20px,25px);
+    opacity: 0.75;
+    scale: 0.75;
+  }
+  100%{
+    transform: translate(0px,0px);
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.RRDD2 .RRDG2{
+  position: absolute;
+  width: 56px;
+  left: 297px;
+  bottom: 13px;
+  animation: fade-down-wiggle 1.5s ease-out ;
+}
+
+
+.RRDD3 .RRDG3{
+    position: absolute;
+    width: 59px;
+    left: 284px;
+    top: 12px;
+    animation: fade-up-wiggle 1.5s ease-out ;
+}
+
+.RRDD4 .RRDG4{
+  position: absolute;
+    width: 5rem;
+    right: 173px;
+    top: 131px;
+    animation: fade-left-wiggle 1.5s ease-out ;
+}
+
+.RRDD5 .RRDG5{
+  position: absolute;
+    width: 13.5rem;
+    right: 235px;
+    top: 80px;  
+    animation: zoom-in 0.7s ease-out;
+}
+
+@keyframes zoom-in{
+  0%{
+    scale: 0;
+  }
+  50%{
+    scale: 1.2;
+  }
+  100%{
+    scale: 1;
+  }
+}
+
+/* Rohit css end */
+
+/* karina css start */
+
+.g1{
+  position:absolute;
+  width:20rem !important;
+  top:45%;
+  left: 13%;
+  animation: arti1 2s infinite linear;
+
+}
+.g2{
+  position:absolute;
+  width:20rem !important;
+  top:42%;
+  right:10%;
+  animation: arti2 2s infinite linear;
+}
+.g3{
+  position:absolute;
+  width:20rem !important;
+  bottom:12%;
+  right:11%;
+  animation: arti1 2s infinite linear;
+}
+.g4{
+  position:absolute;
+  width:22rem !important;
+  bottom:14%;
+  left:11%;
+  animation: arti2 2s infinite linear;
+}
+@keyframes arti1{
+  0%{
+    transform: translateY(0);
+  }
+  30%{
+    transform: translateX(-1rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+@keyframes arti2 {
+  0%{
+    transform: translateY(0);
+  }
+  30%{
+    transform: translateX(1rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+/* Karina css end */

@@ -738,3 +738,36 @@ p a{
         padding:14px 10px;
     }
 }
+
+/* Nisha css start */
+.llspic1{
+  position: absolute;
+  width: 7.5rem !important;
+  top: 3%;
+  right: 7%;
+}
+
+.llspic2{
+  position: absolute;
+  width: 9.2rem !important;
+  top: 35%;
+  right: 29%;
+  animation: pulse 2s infinite ease-in-out; 
+  transform-origin: bottom center; 
+}
+
+.llspic3{
+  position: absolute;
+  width: 12rem !important;
+  left: -15%;
+  bottom: 5.5%; 
+}
+
+@keyframes pulse{
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+
+
+/* Nisha css end */

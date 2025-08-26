@@ -40,11 +40,30 @@ export const Template4 = ({ serviceResponse, slug }) => {
               </div>
             </div>
 
-            <div className={`${styles.dbfghsdf} col-lg-6`}>
+            <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
               {serviceResponse.data?.banner_image && (
                 <img
                   src={`${serviceResponse.image_url}/Template_4/${serviceResponse.data.banner_image}`} alt=""
                 />
+              )}
+              {slug === 'article-submission-seo-service-company' && (
+                <>
+                  <div className={styles.RRDD1}>
+                    <img src="./images/yoiyu8.png" className={styles.RRDG1} alt="" />
+                  </div>
+                  <div className={styles.RRDD2}>
+                    <img src="./images/yuyg.png" className={styles.RRDG2} alt="" />
+                  </div>
+                  <div className={styles.RRDD3}>
+                    <img src="./images/iu.png" className={styles.RRDG3} alt="" />
+                  </div>
+                  <div className={styles.RRDD4}>
+                    <img src="./images/utu.png" className={styles.RRDG4} alt="" />
+                  </div>
+                  <div className={styles.RRDD5}>
+                    <img src="./images/RRD6.png" className={styles.RRDG5} alt="" />
+                  </div>
+                </>
               )}
             </div>
           </div>
@@ -141,8 +160,8 @@ export const Template4 = ({ serviceResponse, slug }) => {
         </div>
 
         <div className={styles.sdfsdcdrerrrr}>
-          <div className="container-fluid px-5">
-            <div className={`${styles.diksijfejor_wrapper} text-center bg-white p-5`}>
+          <div className="container-fluid">
+            <div className={`${styles.diksijfejor_wrapper} text-center position-relative bg-white`}>
               <h2 className="position-relative mb-3">
                 {serviceResponse.data?.fifth_section_title &&
                   serviceResponse.data.fifth_section_title}
@@ -160,6 +179,17 @@ export const Template4 = ({ serviceResponse, slug }) => {
                   src={`${serviceResponse.image_url}/Template_4/${serviceResponse.data.fifth_section_image}`}
                   className="img-fluid" alt=""
                 />
+              )}
+              {slug === 'article-submission-seo-service-company' && (
+                <div className={styles.article_sub}>
+                    <img src="./images/artical_sub_last_img1.png" className={styles.g1} alt="" />
+
+                    <img src="./images/artical_sub_last_img2.png" className={styles.g2} alt="" />
+
+                    <img src="./images/artical_sub_last_img4.png" className={styles.g3} alt="" />
+
+                    <img src="./images/artical_sub_last_img3.png" className={styles.g4} alt="" />
+                </div>
               )}
             </div>
           </div>
