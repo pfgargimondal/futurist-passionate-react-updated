@@ -1,14 +1,25 @@
 import styles from "./Css/Template4.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceForm from "./FormComponent/ServiceForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template4 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+      AOS.init({      
+        duration: 2000,
+        once: false,
+      });
+    }, []);
+
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -144,13 +155,30 @@ export const Template4 = ({ serviceResponse, slug }) => {
                   </div>
 
                   <div className="col-lg-5 mb-4">
-                    <div className={styles.aoidjniehrrrr_left}>
+                    <div className={`${styles.aoidjniehrrrr_left} position-relative`}>
                       {serviceResponse.data?.fourth_section_image && (
                         <img
                           src={`${serviceResponse.image_url}/Template_4/${serviceResponse.data.fourth_section_image}`}
                           className="img-fluid" alt=""
                         />
                       )}
+                      {slug === 'article-submission-seo-service-company' && (
+                        <>
+                          <div className={styles.RRRD1} >
+                            <img src="./images/best_articel_img1.png" className={styles.RRRDD1} data-aos="fade-up-left" alt="" />
+                          </div>
+                          <div className={styles.RRRD2} >
+                            <img src="./images/best_articel_img2.png" className={styles.RRRDD2} data-aos="fade-down-right" alt="" />
+                          </div>
+                          <div className={styles.RRRD3} >
+                            <img src="./images/best_articel_img3.png" className={styles.RRRDD3} data-aos="fade-down-left" alt="" />
+                          </div>
+                          <div className={styles.RRRD4} >
+                            <img src="./images/best_articel_img4.png" className={styles.RRRDD4} data-aos="zoom-out-down" alt="" />
+                          </div>
+                        </>
+                      )}
+      
                     </div>
                   </div>
                 </div>
