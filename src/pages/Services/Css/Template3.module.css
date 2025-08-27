@@ -795,3 +795,27 @@ p a{
     top: 10px;
 }
 /* Rohit css End */
+
+/* Prerana css start */
+.listing .l1{
+  position:absolute;
+  width:9rem;
+  left: 2%;
+  bottom:4%;
+  animation:m 2s infinite linear;  
+}
+.listing .l2{
+  position: absolute;
+  width:8rem;
+  bottom: 64%;
+  right:6%;
+   
+}
+
+@keyframes m{
+  0%{transform:translateY(0);}
+  30%{transform:translateX(-1rem)}
+  60%{transform:translateY(-1rem)}
+  100%{transform:translateY(0)}
+}
+/* Prerana css end */

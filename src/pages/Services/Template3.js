@@ -191,6 +191,12 @@ export const Template3 = ({ serviceResponse, slug }) => {
                       alt=""
                     />
                   )}
+                  {slug === 'local-listing-services' && (
+                    <div className={styles.listing}>
+                      <img src="./images/local_list_fourth_1.png" className={styles.l1} alt="" />
+                      <img src="./images/local_list_fourth_2.png" className={styles.l2} data-aos="fade-down-left" alt="" />
+                    </div>
+                  )}
                 </div>
               </div>
 
