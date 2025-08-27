@@ -1,16 +1,25 @@
 import styles from "./Css/Template3.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceForm from "./FormComponent/ServiceForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { gsap } from "gsap";    
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 export const Template3 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        once: false, // Animations only happen once
+      });
+    }, []);
 
     gsap.to(".llspic1", {
       x: "-80%",
@@ -241,6 +250,20 @@ export const Template3 = ({ serviceResponse, slug }) => {
                       className="img-fluid"
                       alt=""
                     />
+                  )}
+
+                  {slug === 'local-listing-services' && (
+                    <>
+                      <div className={styles.RIMG1} >
+                        <img src="./images/RIMG1.png" className={styles.RIMGG1} data-aos="zoom-out-right" alt="" />
+                      </div>
+                      <div className={styles.RIMG2} >
+                        <img src="./images/RIMG2.png" className={styles.RIMGG2} data-aos="zoom-out-left" alt="" />
+                      </div>
+                      <div className={styles.RIMG3} >
+                        <img src="./images/RIMG3.png" className={styles.RIMGG3} data-aos="zoom-out-down" alt="" />
+                      </div>
+                    </>
                   )}
                 </div>
               </div>

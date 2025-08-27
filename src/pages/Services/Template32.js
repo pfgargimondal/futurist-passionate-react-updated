@@ -34,12 +34,21 @@ export const Template32 = ({ serviceResponse, slug }) => {
             </div>
           </div>
 
-          <div className={`${styles.dbfghsdf} col-lg-6`}>
+          <div className={`${styles.dbfghsdf} position-relative col-lg-6`}>
             {serviceResponse.data?.banner_image && (
               <img
                 src={`${serviceResponse.image_url}/Template_32/${serviceResponse.data.banner_image}`}
                 alt=""
               />
+            )}
+
+            {slug === 'sales-copywriting-services' && (
+              <div className={styles.ones}>
+                <img src="./images/Sales_Copywriting_Service_banner_4.png" className={styles.on1} alt="" />
+                <img src="./images/Sales_Copywriting_Service_banner_2.png" className={styles.on2} alt="" />
+                <img src="./images/Sales_Copywriting_Service_banner_3.png" className={styles.on3} alt="" />
+                <img src="./images/Sales_Copywriting_Service_banner_1.png" className={styles.on4} alt="" />
+              </div>
             )}
           </div>
         </div>
@@ -67,12 +76,28 @@ export const Template32 = ({ serviceResponse, slug }) => {
             <div className={styles.vgbfdf}>
               <div className="row">
                 <div className="col-lg-5">
-                  <div className={styles.dgndfgdfgdf}>
+                  <div className={` ${styles.dgndfgdfgdf} position-relative`}>
                     {serviceResponse.data?.third_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Template_32/${serviceResponse.data.third_section_image}`}
-                        alt=""
+                        alt="" style={{width: "100%"}}
                       />
+                    )}
+
+                    {slug === 'sales-copywriting-services' && (
+                      <div className={styles.sales_page}>
+                        <img src="./images/sales_copy_thirdImg_1.png" className={styles.picture1} alt=""/>
+
+                        <img src="./images/sales_copy_thirdImg_2.png" className={styles.picture2} alt=""/>
+
+                        <img src="./images/sales_copy_thirdImg_3.png" className={styles.picture3} alt=""/>
+
+                        <img src="./images/sales_copy_thirdImg_4.png" className={styles.picture4} alt=""/>
+
+                        <img src="./images/sales_copy_thirdImg_5.png" className={styles.picture5} alt=""/>
+
+                        <img src="./images/sales_copy_thirdImg_6.png" className={styles.picture6} alt=""/>
+                      </div>
                     )}
                   </div>
                 </div>

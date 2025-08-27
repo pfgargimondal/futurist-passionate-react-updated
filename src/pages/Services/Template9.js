@@ -139,15 +139,18 @@ export const Template9 = ({ serviceResponse, slug }) => {
                   )}
                   {slug === 'social-bookmarking-services' && (
                     <>
-                    <div className={styles.sp2}>
-                      <img src="./images/social_book2.png" className={styles.sp02} data-aos="zoom-in-up" alt=""/>
-                    </div>
-                    <div className={styles.sp3}>
-                      <img src="./images/social_book3.png" className={styles.sp03}data-aos="zoom-in-up" alt=""/>
-                    </div>
-                    <div className={styles.sp4}>
-                      <img src="./images/social_book4.png" className={styles.sp04}data-aos="zoom-in-up" alt=""/>
-                    </div>
+  
+                      <div className={styles.sp2}>
+                        <img src="./images/social_book2.png" className={styles.sp02}  alt=""/>
+                      </div>
+                      <div className={styles.sp3}>
+                        <img src="./images/social_book3.png" className={styles.sp03}alt=""/>
+                      </div>
+                      <div className={styles.sp4}>
+                        <img src="./images/social_book4.png" className={styles.sp04} alt=""/>
+                      </div>
+
+
                     </>
                   )}
                 </div>

@@ -771,3 +771,27 @@ p a{
 
 
 /* Nisha css end */
+
+/* Rohit css start */
+
+.RIMG1 .RIMGG1{
+  position: absolute;
+    width: 7rem;
+    left: 4px;
+    bottom: 83px;
+}
+
+.RIMG2 .RIMGG2{
+  position: absolute;
+    width: 5.2rem;
+    right: 7px;
+    bottom: 95px;
+}
+
+.RIMG3 .RIMGG3{
+  position: absolute;
+    width: 6.8rem;
+    left: 108px;
+    top: 10px;
+}
+/* Rohit css End */
