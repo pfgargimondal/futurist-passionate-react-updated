@@ -243,6 +243,24 @@ export const Template3 = ({ serviceResponse, slug }) => {
                       alt=""
                     />
                   )}
+
+                  {slug === 'local-listing-services' && (
+                    <>
+                      <div className={styles.ss1}>
+                        <img src="/images/local_listing_fifth_1.png" className={styles.ss01} data-aos="fade-down-left"alt=""/>
+                      </div>
+                      <div className={styles.ss2}>
+                        <img src="/images/local_listing_fifth_2.png" className={styles.ss02} data-aos="fade-up-right"alt=""/>
+                      </div>
+                      <div className={styles.ss3}>
+                        <img src="/images/local_listing_fifth_3.png" className={styles.ss03}data-aos="fade-up-left" alt=""/>
+                      </div>
+                      <div className={styles.ss4}>
+                        <img src="/images/local_listing_fifth_4.png" className={styles.ss04}data-aos="fade-down-right" alt=""/>
+                      </div>
+                    </>
+                  )}
+
                 </div>
               </div>
             </div>

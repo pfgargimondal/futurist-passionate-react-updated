@@ -819,3 +819,38 @@ p a{
   100%{transform:translateY(0)}
 }
 /* Prerana css end */
+
+
+/* Sayantika css Start */
+
+.ss01 {
+  position: absolute;
+  width: 127px;
+  top: 35px;
+  left: 164px;
+}
+
+
+.ss02 {
+  position: absolute;
+  width: 143px;
+  top: 200px;
+  left: 16px;
+
+}
+
+.ss03 {
+  position: absolute;
+  width: 130px;
+  top: 204px;
+  left: 169px;
+}
+
+.ss04 {
+  position: absolute;
+  width: 126px;
+  top: 40px;
+  left: 25px;
+}
+
+/* Sayantika css end */

@@ -1,14 +1,24 @@
 import styles from "./Css/Template22.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Template22 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        once: false, // Animations only happen once
+      });
+    }, []);
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -43,6 +53,22 @@ export const Template22 = ({ serviceResponse, slug }) => {
                   src={`${serviceResponse.image_url}/Templete_22/${serviceResponse.data.banner_image}`}
                   alt=""
                 />
+              )}
+
+              {slug === 'graphics-t-shirt-designing-services' && (
+                <div className={styles.graphics}>
+                  <img src="./images/graphics1.png" className={styles.png1} data-aos= "fade-down-left" alt=""/>
+
+                  <img src="./images/graphics2.png" className={styles.png2} data-aos= "fade-down-right" alt=""/>
+
+                  <img src="./images/graphics3.png" className={styles.png3} alt=""/>
+
+                  <img src="./images/graphics4.png" className={styles.png4} alt=""/>
+
+                  <img src="./images/graphics5.png" className={styles.png5} alt=""/>
+
+                  <img src="./images/graphics6.png" className={styles.png6} alt=""/>
+                </div>
               )}
             </div>
           </div>
@@ -124,7 +150,7 @@ export const Template22 = ({ serviceResponse, slug }) => {
                 </div>
 
                 <div className="col-lg-4 mb-5">
-                  <div className={styles.oidenjwiuhrr_inner}>
+                  <div className={`${styles.oidenjwiuhrr_inner} position-relative`}>
                     {serviceResponse.data?.fourth_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_22/${serviceResponse.data.fourth_section_image}`}
@@ -132,17 +158,38 @@ export const Template22 = ({ serviceResponse, slug }) => {
                         className="img-fluid"
                       />
                     )}
+
+                    {slug === 'graphics-t-shirt-designing-services' && (
+                      <div className={styles.shirt}>
+                        <img src="./images/graphic_fourth_img1.png" className={styles.d1} data-aos="zoom-in-up" alt="" />
+                        <img src="./images/graphic_fourth_img2.png" className={styles.d2} data-aos="flip-right" alt="" />
+                        <img src="./images/graphic_fourth_img3.png" className={styles.d3} alt="" />
+                        <img src="./images/graphic_fourth_img4.png" className={styles.d4} alt="" />
+                      </div>
+                    )}
                   </div>
                 </div>
 
                 <div className="col-lg-4 mb-5">
-                  <div className={styles.oidenjwiuhrr_inner}>
+                  <div className={`${styles.oidenjwiuhrr_inner} position-relative`}>
                     {serviceResponse.data?.fifth_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_22/${serviceResponse.data.fifth_section_image}`}
                         alt=""
                         className="img-fluid"
                       />
+                    )}
+
+                    {slug === 'graphics-t-shirt-designing-services' && (
+                      <div className={styles.gtdspics}>
+                        <img src="/images/gtdscost.png" className={styles.gtdspic1} data-aos="fade-down-right" alt=""/>
+
+                        <img src="/images/gtdsconcept.png" className={styles.gtdspic2} data-aos="fade-up-right" alt=""/>
+
+                        <img src="/images/gtdsdemand.png" className={styles.gtdspic3} data-aos="fade-down-left" alt=""/>
+
+                        <img src="/images/gtdsrevision.png" className={styles.gtdspic4} data-aos="fade-up-left" alt=""/>
+                      </div>
                     )}
                   </div>
                 </div>
