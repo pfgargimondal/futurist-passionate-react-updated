@@ -174,13 +174,14 @@ export const Template32 = ({ serviceResponse, slug }) => {
                       </div>
 
                       <div className="col-lg-6">
-                        <div className={styles.mnbfd55}>
+                        <div className={` ${styles.mnbfd55} position-relative`} style={{width: "100%"}}>
                           {serviceResponse.data?.fifth_section_image && (
                             <img
                               src={`${serviceResponse.image_url}/Template_32/${serviceResponse.data.fifth_section_image}`}
                               alt=""
                             />
                           )}
+
                         </div>
                       </div>
                     </div>

@@ -10,6 +10,11 @@ import { PageWrapper } from "../../SEOComponent/PageWrapper";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import { gsap } from "gsap";    
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
+
 export const Template13 = ({ serviceResponse, slug }) => {
 
   useEffect(() => {
@@ -18,6 +23,125 @@ export const Template13 = ({ serviceResponse, slug }) => {
         once: false, // Animations only happen once
       });
     }, []);
+
+    gsap.to(".RRIMGGR1", {
+      duration: 3,
+      y: -350,
+      // repeat:-1,
+      // yoyo:true,
+      scrollTrigger: {
+          trigger: ".RRIMGGR2",
+          // markers: true,
+          scrub: true,
+          end: "top 160px",
+          start: "top 440px"
+      }
+    });
+
+    gsap.to(".RRIMGGR2", {
+      duration: 3,
+      x: 1045,
+      // delay:1,
+      // repeat:-1,
+      // yoyo:true,
+      scrollTrigger: {
+          trigger: ".RRIMGGR2",
+          // markers: true,
+          scrub: true,        
+          end: "top 160px",
+          start: "top 440px"
+      }
+    });
+    gsap.to(".RRIMGGR3", {
+      duration: 3,
+      x: -250,
+      // repeat:-1,
+      // yoyo:true,
+      // delay:2,
+      scrollTrigger: {
+          trigger: ".RRIMGGR2",
+          // markers: true,
+          scrub: true,        
+          end: "top 160px",
+          start: "top 440px"
+      }
+    });
+    gsap.to(".RRIMGGR4", {
+      duration: 3,
+      y: 200,
+      opacity:1,
+      // repeat:-1,
+      // delay:2.5,
+      // yoyo:true,
+      scrollTrigger: {
+          trigger: ".RRIMGGR2",
+          // markers: true,
+          scrub: true,        
+          end: "top 160px",
+          start: "top 440px"
+      }
+    });
+
+    gsap.to(".RRIMGGR5", {
+      duration: 3,
+      x: -250,
+      opacity:1,
+      // delay:3,
+      // yoyo:true,
+      scrollTrigger: {
+          trigger: ".RRIMGGR2",
+          // markers: true,
+          scrub: true,        
+          end: "top 160px",
+          start: "top 440px"
+      }
+    });
+
+    gsap.to(".RRIMGGR6", {
+      duration: 3,
+      x: -250,
+      opacity:1,
+      // delay:3.3,
+      // yoyo:true,
+      scrollTrigger: {
+          trigger: ".RRIMGGR2",
+          // markers: true,
+          scrub: true,        
+          end: "top 160px",
+          start: "top 440px"
+      }
+    });
+
+    gsap.to(".RRIMGGR7", {
+      duration: 3,
+      x: -250,
+      opacity:1,
+      // delay:3.6,
+      // yoyo:true,
+      scrollTrigger: {
+          trigger: ".RRIMGGR2",
+          // markers: true,
+          scrub: true,        
+          end: "top 160px",
+          start: "top 440px"
+      }
+    });
+
+    gsap.to(".RRIMGGR8", {
+      duration: 3,
+      x: -250,
+      opacity:1,
+      // delay:3.9,
+      // yoyo:true,
+      scrollTrigger: {
+          trigger: ".RRIMGGR2",
+          // markers: true,
+          scrub: true,        
+          end: "top 160px",
+          start: "top 440px"
+      }
+    });
+
   const [loading, setLoading] = useState(false);
   return (
     <div>
@@ -240,13 +364,43 @@ export const Template13 = ({ serviceResponse, slug }) => {
           </div>
         </div>
 
-        <div className={styles.sdmsdjhsds}>
+        <div className={` ${styles.sdmsdjhsds} position-relative`}>
           {serviceResponse.data?.sixth_section_image && (
             <img
               src={`${serviceResponse.image_url}/Template_13/${serviceResponse.data.sixth_section_image}`}
               alt=""
             />
           )}
+
+          {slug === 'keyword-research-services' && (
+            <>
+              <div className={styles.RRIMGG1} >
+                <img src="./images/RRIMGG2.png" className="RRIMGGR1" style={{position: 'absolute', width: '29rem', left: '844px',  bottom: '-350px'}} alt="" />
+              </div>
+              <div className={styles.RRIMGG2} >
+                <img src="./images/RRIMGG3.png" className="RRIMGGR2" style={{ position: 'absolute', width: '42.5rem', bottom: '-1px', left: '-1000px' }} alt="" />
+              </div>
+              <div className={styles.RRIMGG3} >
+                <img src="./images/RRIMGG4.png" className="RRIMGGR3"style={{ position: 'absolute', width: '11.5rem', top: '323px', right: '-251px' }} alt="" />
+              </div>
+              <div className={styles.RRIMGG4} >
+                <img src="./images/RRIMGG5.png" className="RRIMGGR4" style={{ position: 'absolute', width: '19.5rem', left: '309px', bottom: '217px', opacity:0 }} alt="" />
+              </div>
+              <div className={styles.RRIMGG5} >
+                <img src="./images/RRIMGG6.png" className="RRIMGGR5" style={{ position: 'absolute', width: '22rem', left: '947px', top: '134px', opacity:0 }} alt="" />
+              </div>
+              <div className={styles.RRIMGG6} >
+                <img src="./images/RRIMGG7.png" className="RRIMGGR6" style={{ position: 'absolute', width: '21.5rem', left: '897px', bottom: '-7px', transform: 'rotateZ(-11deg)', opacity:0 }} alt="" />
+              </div>
+              <div className={styles.RRIMGG7} >
+                <img src="./images/RRIMGG8.png" className="RRIMGGR7" style={{ position: 'absolute', width: '22rem', right: '50px', bottom: '134px', transform: 'rotateZ(-11deg)', opacity:0 }}  alt="" />
+              </div>
+              <div className={styles.RRIMGG8} >
+                <img src="./images/RRIMGG9.png" className="RRIMGGR8" style={{ position: 'absolute', width: '22rem', right: '109px', top: '7px', transform: 'rotateZ(4deg)', opacity:0 }} alt="" />
+              </div>
+            </>
+          )}
+
         </div>
         <LastSectionComponent />
       </main>
