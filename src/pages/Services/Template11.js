@@ -44,7 +44,7 @@ export const Template11 = ({ serviceResponse, slug }) => {
               </div>
             </div>
 
-            <div className={`${styles.dbfghsdf} col-lg-6`}>
+            <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
               {serviceResponse.data?.banner_image && (
                 <img
                   src={`${serviceResponse.image_url}/Templete_11/${serviceResponse.data.banner_image}`}
@@ -67,6 +67,23 @@ export const Template11 = ({ serviceResponse, slug }) => {
                         <img data-aos="fade-right" src="./images/vvve (1).png" alt=""/>
                     </div>
                   </div>
+              )}
+
+              {slug === 'professional-seo-report-services' && (
+                <>
+                <div className={styles.ssp1}>
+                  <img src="./images/Professional_SEO_Report_Services_Company_1.png" className={styles.ssp01} alt=""/>
+                </div>
+                <div className={styles.ssp2}>
+                  <img src="./images/Professional_SEO_Report_Services_Company_4.png" className={styles.ssp02} alt=""/>
+                </div>
+                <div className={styles.ssp3}>
+                  <img src="./images/Professional_SEO_Report_Services_Company_3.png" className={styles.ssp03} alt=""/>
+                </div>
+                <div className={styles.ssp4}>
+                  <img src="./images/Professional_SEO_Report_Services_Company_2.png" className={styles.ssp04} alt=""/>
+                </div>
+                </>
               )}
             </div>
           </div>
@@ -116,13 +133,30 @@ export const Template11 = ({ serviceResponse, slug }) => {
               </div>
 
               <div className="col-lg-5">
-                <div className={`${styles.dsrt_inner} sticky-top`}>
+                <div className={`${styles.dsrt_inner} position-relative sticky-top`}>
                   {serviceResponse.data?.third_section_image && (
                     <img data-aos="zoom-in-up"
                       src={`${serviceResponse.image_url}/Templete_11/${serviceResponse.data.third_section_image}`}
                       alt=""
                       className="img-fluid"
                     />
+                  )}
+
+                  {slug === 'professional-seo-report-services' && (
+                    <>
+                    <div className={styles.RRIMGG1}>
+                      <img src="./images/Seo_Report_RRIIMMG1.png" className={styles.RRIIMMGG1} data-aos="fade-up-right" data-aos-delay="400" alt="" />
+                    </div>
+                    <div className={styles.RRIMGG2}>
+                      <img src="./images/Seo_Report_RRIIMMG2.png" className={styles.RRIIMMGG2} data-aos="fade-down-left" data-aos-delay="300" alt="" />
+                    </div>
+                    <div className={styles.RRIMGG3}>
+                      <img src="./images/Seo_Report_RRIIMMG3.png" className={styles.RRIIMMGG3} data-aos="fade-up-left" data-aos-delay="500" alt="" />
+                    </div>
+                    <div className={styles.RRIMGG4}>
+                      <img src="./images/Seo_Report_RRIIMMG4.png" className={styles.RRIIMMGG4} data-aos="fade-down-right" data-aos-delay="100" alt="" />
+                    </div>
+                    </>
                   )}
                 </div>
               </div>

@@ -845,4 +845,131 @@ p a{
     margin-left: 104px;
 }
 
+/* Rohit css start */
+.RRIIMMGBG{
+  width: 100%;
+}
+.RRIMGG1 .RRIIMMGG1{
+    position: absolute;
+    width: 10.3rem;
+    left: 34px;
+    top: 209px;
+}
+.RRIMGG2 .RRIIMMGG2{
+position: absolute;
+    width: 8rem;
+    right: 0px;
+    bottom: 122px;
+}
+.RRIMGG3 .RRIIMMGG3{
+  position: absolute;
+  width: 8rem;
+  right: 56px;
+  bottom: 29px;
+}
+.RRIMGG4 .RRIIMMGG4{
+  position: absolute;
+  width: 10rem;
+  top: 58px;
+  left: 79px;
+}
+/* Rohit css end */
 
+
+/* Sayantika css start */
+.ssp1 {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  top: 272px;
+  left: 399px;
+  animation: spraybr 2s ease-out;
+}
+
+.ssp2 {
+  position: absolute;
+  width: 176px;
+  height: 41px;
+  top: 20px;
+  left: 90px;
+  animation: spraytl 2s ease-out;
+}
+
+.ssp3 {
+  position: absolute;
+  width: 234px;
+  height: 40px;
+  top: 238px;
+  left: -11px;
+  animation: spraybl 2s ease-out;
+}
+
+.ssp4 {
+  position: absolute;
+  width: 187px;
+  height: 40px;
+  top: 34px;
+  left: 419px;
+  animation: spraytr 2s ease-out;
+}
+@keyframes spraytr{
+  0%{
+    transform: scale(0.2) translate(-500px,500px);
+    opacity: 0;
+  }
+   50%{
+    transform: scale(0.4) translate(0px,0px);
+    opacity: 0.5;
+  }
+
+    100%{
+    transform: scale(1) translate(0px,0px);
+    opacity: 1;
+  }
+}
+@keyframes spraytl{
+  0%{
+    transform: scale(0.2) translate(500px,500px);
+    opacity: 0;
+  }
+   50%{
+    transform: scale(0.4) translate(0px,0px);
+    opacity: 0.5;
+  }
+
+    100%{
+    transform: scale(1) translate(0px,0px);
+    opacity: 1;
+  }
+}
+@keyframes spraybr{
+  0%{
+    transform: scale(0.2) translate(-500px,-500px);
+    opacity: 0;
+  }
+   50%{
+    transform: scale(0.4) translate(0px,0px);
+    opacity: 0.5;
+  }
+
+    100%{
+    transform: scale(1) translate(0px,0px);
+    opacity: 1;
+  }
+}
+@keyframes spraybl{
+  0%{
+    transform: scale(0.2) translate(500px,-500px);
+    opacity: 0;
+  }
+   50%{
+    transform: scale(0.4) translate(0px,0px);
+    opacity: 0.5;
+  }
+
+    100%{
+    transform: scale(1) translate(0px,0px);
+    opacity: 1;
+  }
+}
+/* Sayantika css end */
