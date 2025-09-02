@@ -41,6 +41,16 @@ export const Template10 = ({ serviceResponse, slug }) => {
                 alt=""
               />
             )}
+
+            {slug === 'professional-lead-generation-service' && (
+              <div className={styles.plgspics}>
+                <img src="/images/plgsmarket.png" className={styles.plgspic1} alt=""/>
+
+                <img src="/images/plgscrm.png" className={styles.plgspic2} alt=""/>
+
+                <img src="/images/plgsanalytics.png" className={styles.plgspic3} alt=""/>
+              </div>
+            )}
             
           </div>
         </div>

@@ -668,4 +668,67 @@ p a{
     }
 }
 
-
+/* Nisha css start */
+.plgspic1{
+    position: absolute;
+    width: 13rem !important;
+    top: 20%;
+    right: 3.5%;
+    animation: sweep 2.5s infinite;
+}
+.plgspic2{
+    position: absolute;
+    width: 15rem !important;
+    right: 34%;
+    bottom: 43%;
+    animation: popconnect 4s infinite;
+}
+.plgspic3{
+    position: absolute;
+    width: 15.5rem !important;
+    right: 0%;
+    bottom: 24%;
+    animation: zoompulse 3s infinite;
+}
+@keyframes sweep{
+    0%{
+        transform: rotate(0deg) translateX(0);
+    }
+    25%{
+        transform: rotate(10deg) translateX(5px);
+    }
+    50%{
+        transform: rotate(0deg) translateX(0);
+    }
+    75%{
+        transform: rotate(-10deg) translateX(-5px);
+    }
+    100%{
+        transform: rotate(0deg) translateX(0);
+    }
+}
+@keyframes popconnect{
+    0%{
+        transform: scale(0.8) rotate(15deg);
+        opacity: 0;
+    }
+    40%{
+       transform: scale(1.2) rotate(5deg); 
+       opacity: 1;
+    }
+    70%{
+       transform: scale(0.95) rotate(-3deg); 
+    }
+    100%{
+       transform: scale(1) rotate(0deg);  
+    }
+}
+@keyframes zoompulse{
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+       transform: scale(1.2); 
+    }
+}
+/* Nisha css end */
