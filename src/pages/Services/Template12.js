@@ -34,12 +34,29 @@ export const Template12 = ({ serviceResponse, slug }) => {
             </div>
           </div>
 
-          <div className={`${styles.dbfghsdf} col-lg-6`}>
+          <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
             {serviceResponse.data?.banner_image && (
               <img
                 src={`${serviceResponse.image_url}/Template_12/${serviceResponse.data.banner_image}`}
                 alt=""
               />
+            )}
+
+            {slug === 'pay-per-click-management-services' && (
+              <>
+                  <div className={styles.RIMMG1}>
+                    <img src="./images/PAY_RIIMG2.png" className={styles.RIIMMG1} alt="" />
+                  </div>
+                  <div className={styles.RIMMG2}>
+                    <img src="./images/PAY_RIIMG3.png" className={styles.RIIMMG2} alt="" />
+                  </div>
+                  <div className={styles.RIMMG3}>
+                    <img src="./images/PAY_RIIMG4.png" className={styles.RIIMMG3} alt="" />
+                  </div>
+                  <div className={styles.RIMMG4}>
+                    <img src="./images/PAY_RIIMG5.png" className={styles.RIIMMG4} alt="" />
+                  </div>
+              </>
             )}
           </div>
         </div>
@@ -85,13 +102,21 @@ export const Template12 = ({ serviceResponse, slug }) => {
                   </div>
                 </div>
                 <div className="col-lg-5">
-                  <div className={styles.dgndfgdfgdf}>
+                  <div className={` ${styles.dgndfgdfgdf} position-relative`}>
                     {serviceResponse.data?.third_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Template_12/${serviceResponse.data.third_section_image}`}
                         alt=""
                       />
                     )}
+
+                     {slug === 'pay-per-click-management-services' && (
+                        <div className={styles.click_page}>
+                          <img src="./images/click_img1.png" className={styles.picture1} alt=""/>
+
+                          <img src="./images/click_img2.png" className={styles.picture2} alt=""/>
+                        </div>
+                      )}
                   </div>
                 </div>
               </div>
@@ -227,12 +252,25 @@ export const Template12 = ({ serviceResponse, slug }) => {
             <div className={styles.vgbfdf}>
               <div className="row">
                 <div className="col-lg-5">
-                  <div className={styles.dgndfgdfgdf}>
+                  <div className={`${styles.dgndfgdfgdf} position-relative`}>
                     {serviceResponse.data?.section_six_image && (
                       <img
                         src={`${serviceResponse.image_url}/Template_12/${serviceResponse.data.section_six_image}`}
                         alt=""
                       />
+                    )}
+
+                    {slug === 'pay-per-click-management-services' && (
+                      <div className={styles.pay_page}>
+                        <img src="./images/pay_img1.png" className={styles.image1} alt=""/>
+
+                        <img src="./images/pay_img2.png" className={styles.image2} alt=""/>
+
+                        <img src="./images/pay_img3.png" className={styles.image3} alt=""/>
+
+                        <img src="./images/pay_img4.png" className={styles.image4} alt=""/>
+
+                      </div>
                     )}
                   </div>
                 </div>
