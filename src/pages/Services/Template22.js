@@ -161,10 +161,11 @@ export const Template22 = ({ serviceResponse, slug }) => {
 
                     {slug === 'graphics-t-shirt-designing-services' && (
                       <div className={styles.shirt}>
-                        <img src="./images/graphic_fourth_img1.png" className={styles.d1} data-aos="zoom-in-up" alt="" />
-                        <img src="./images/graphic_fourth_img2.png" className={styles.d2} data-aos="flip-right" alt="" />
-                        <img src="./images/graphic_fourth_img3.png" className={styles.d3} alt="" />
-                        <img src="./images/graphic_fourth_img4.png" className={styles.d4} alt="" />
+                        <img src="./images/graphic_fourth_img4.png" className={styles.d1} data-aos="zoom-in-up" alt="" />
+                        <img src="./images/graphic_fourth_img3.png" className={styles.d2} data-aos="flip-right" alt="" />
+                        <img src="./images/graphic_fourth_img2.png" className={styles.d3} alt="" />
+                        <img src="./images/graphic_fourth_img1.png" className={styles.d4} alt="" />
+                        <img src="./images/graphic_fourth_img5.png" className={styles.d5} alt="" />
                       </div>
                     )}
                   </div>
@@ -189,6 +190,8 @@ export const Template22 = ({ serviceResponse, slug }) => {
                         <img src="/images/gtdsdemand.png" className={styles.gtdspic3} data-aos="fade-down-left" alt=""/>
 
                         <img src="/images/gtdsrevision.png" className={styles.gtdspic4} data-aos="fade-up-left" alt=""/>
+
+                        <img src="/images/gtdstshirt.png" className={styles.gtdspic5} alt=""/>
                       </div>
                     )}
                   </div>

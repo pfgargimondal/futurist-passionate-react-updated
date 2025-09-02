@@ -781,22 +781,24 @@
 
 .d1 {
   position: absolute;
-  width: 9rem;
-  left: 10%;
-  top: 0;  
+  width: 11rem;
+  right: 23px;
+  bottom: 29px;
+
 }
 
 .d2 {
   position: absolute;
-  width: 9rem;
-  bottom: 12%;
-  left: -2%;
+  width: 10.5rem;
+  bottom: 62%;
+  left: 60%;
 }
+
 .d3 {
   position: absolute;
-  width: 8rem;
-  top: 4%;
-  right: -4%;
+  width: 13rem;
+  bottom: 12%;
+  right: 237px;
   animation:5s infinite mic;
 }
 @keyframes mic{
@@ -808,16 +810,31 @@
 
 .d4 {
   position: absolute;
-  width: 9rem;
-  bottom: 6%;
-  right: 5%;
-  animation:5s infinite money;
+  width: 11rem;
+  bottom: 62%;
+  left: 9%;
+  animation:5s infinite linear money;
   opacity:0;
 }
 @keyframes money{
   0%{transform:translate(-1rem);}
   100%{transform:translateY(0);opacity:1};
 }
+
+.d5 {
+  position: absolute;
+  width: 12.5rem;
+  bottom: 37%;
+  left: 22%;
+  animation: pulseGlow 2s infinite;
+}
+@keyframes pulseGlow{
+  0%,100% {
+    filter:drop-shadow(0 0 0px);}
+  50%{
+       filter:drop-shadow(0 0 10px);
+    }
+  }
 
 /* Prerana css end */
 
@@ -920,9 +937,24 @@
     }
     .gtdspic4{
       position: absolute;
-      width: 11rem !important;
-      bottom: 7.5%;
-      right: 7%;
+      width: 10rem !important;
+      bottom: 9.5%;
+      right: 10.5%;
     }
-    
+    .gtdspic5{
+      position: absolute;
+      width: 10.2rem !important;
+      top: 52.5%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      animation: pulseglow 4s infinite;
+    }
+    @keyframes pulseglow{
+      0%, 100%{
+        filter: drop-shadow(0 0 0px #1880e9);
+      }
+      50%{
+        filter: drop-shadow(0 0 20px #0c71d5);
+      }
+    }
 /* Nisha css end */
