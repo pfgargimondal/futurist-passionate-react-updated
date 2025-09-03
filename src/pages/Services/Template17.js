@@ -117,7 +117,7 @@ export const Template17 = ({ serviceResponse, slug }) => {
 
         <div className={`${styles.idnewuihijir} py-5`}>
           <div className="custom-container py-5">
-            <div className={`${styles.ijdnm_eoijrer} p-5 mb-5`}>
+            <div className={`${styles.ijdnm_eoijrer} position-relative p-5 mb-5`}>
               <div className="row">
                 <div className="col-lg-6">
                   <div className={styles.dopjemwlkjrower_inner}>
@@ -155,6 +155,17 @@ export const Template17 = ({ serviceResponse, slug }) => {
                   alt=""
                   className="img-fluid mt-4"
                 />
+              )}
+              {slug === 'twitter-marketing-services' && (
+                <div className={styles.tmspics}>
+                  <img src="/images/tmsgrowth.png" className={styles.tmspic1} alt=""/>
+
+                  <img src="/images/tmscontent.png" className={styles.tmspic2} alt=""/>
+
+                  <img src="/images/tmsanalytics.png" className={styles.tmspic3} alt=""/>
+
+                  <img src="/images/tmstarget.png" className={styles.tmspic4} alt=""/>
+                </div>
               )}
             </div>
 

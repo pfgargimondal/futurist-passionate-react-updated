@@ -80,12 +80,12 @@ export const Template10 = ({ serviceResponse, slug }) => {
           <div className="custom-container">
             <div className={`row ${styles.ndjiwenkndfuiwehrwer}`}>
               <div className="col-lg-4">
-                <div className={styles.dlkeomwlkmroewr_inner}>
+                <div className={styles.dlkeomwlkmroewr_inner} style={{marginTop: "26%"}}>
                   {serviceResponse.data?.third_section_image && (
                     <img
                       src={`${serviceResponse.image_url}/Templete_10/${serviceResponse.data.third_section_image}`}
                       alt=""
-                      className="img-fluid"
+                      className="img-fluid" style={{height: "25rem"}}
                     />
                   )}
                 </div>

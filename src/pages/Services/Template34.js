@@ -151,6 +151,16 @@ export const Template34 = ({ serviceResponse, slug }) => {
                                             alt="" className="img-fluid"
                                         />
                                     )}
+
+                                    {slug === 'motion-graphic-design-services' && (
+                                        <div className={styles.motion_page}>
+                                            <img src="./images/graphics_second_img1.png" className={styles.picture_1} alt=""/>
+
+                                            <img src="./images/graphics_second_img2.png" className={styles.picture_2} alt=""/>
+
+                                            <img src="./images/graphics_second_img3.png" className={styles.picture_3} alt=""/>
+                                        </div>
+                                    )}
                                 </div>
                             </div>
                         </div>

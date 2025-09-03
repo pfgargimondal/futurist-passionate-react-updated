@@ -865,3 +865,69 @@
 }
 
 /* Rohit dalal css end */
+
+/* Nisha css start */
+.tmspic1{
+  position: absolute;
+  width: 18rem !important;
+  top: 42%;
+  left: 9%;
+  animation: fadeinleft 3s infinite ease forwards;
+}
+.tmspic2{
+  position: absolute;
+  width: 14rem !important;
+  top: 43%;
+  right: 13%;
+  animation: ripple 4s infinite;
+}
+.tmspic3{
+  position: absolute;
+  width: 16rem !important;
+  bottom: 9%;
+  left: 12%;
+  animation: ripple 4s infinite;
+}
+.tmspic4{
+  position: absolute;
+  width: 17rem !important;
+  bottom: 8%;
+  right: 11%;
+  animation: fadeinright 3s infinite ease forwards;
+}
+
+@keyframes fadeinleft{
+  0%{
+    transform: translateX(-80px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeinright{
+  0%{
+    transform: translateX(80px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes ripple{
+  0%{
+    transform: scale(0.8);
+    opacity: 0.7;
+  }
+  50%{
+    transform: scale(1.1);
+    opacity: 0.4;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* Nisha css end */
