@@ -1,14 +1,24 @@
 import styles from "./Css/Template5.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceForm from "./FormComponent/ServiceForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Template5 = ({ serviceResponse, slug }) => {
     const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+        AOS.init({
+        duration: 1000,
+        once: false, // Animations only happen once
+        });
+    }, []);
+
     return (
         <div>
             <PageWrapper slug={slug} type="Template">
@@ -145,13 +155,30 @@ export const Template5 = ({ serviceResponse, slug }) => {
                                 </div>
 
                                 <div className="col-lg-5">
-                                    <div className={styles.dinweher_inner}>
+                                    <div className={` ${styles.dinweher_inner} position-relative `}>
                                         {serviceResponse.data?.fourth_section_image && (
                                             <img
                                                 src={`${serviceResponse.image_url}/Template_5/${serviceResponse.data.fourth_section_image}`}
                                                 className="img-fluid"
                                                 alt=""
                                             />
+                                        )}
+
+                                        {slug === "social-media-optimization-services" && (
+                                            <>
+                                            <div className={styles.RRimg1}>
+                                                <img src="./images/RRimg1.png" style={{ position: "absolute", width: "13rem", bottom: "48px", right: "14px" }} data-aos="fade-up-left" data-aos-delay="400" className=".RRimgg1" alt="" />
+                                            </div>
+                                            <div className={styles.RRimg2}>
+                                                <img src="./images/RRimg2.png" style={{ position: "absolute", width: "13.5rem", top: "54px", left: "15px" }} data-aos="fade-down-right" data-aos-delay="100" className=".RRimgg2" alt="" />
+                                            </div>
+                                            <div className={styles.RRimg3}>
+                                                <img src="./images/RRimg3.png"   style={{ position: "absolute", width: "13rem", top: "43px", right: "21px" }} data-aos="fade-down-left" data-aos-delay="250"  className=".RRimgg3" alt="" />
+                                            </div>
+                                            <div className={styles.RRimg4}>
+                                                <img src="./images/RRimg4.png"   style={{ position: "absolute", width: "14rem", bottom: "48px", left: "18px" }} data-aos="fade-up-right" data-aos-delay="550" className=".RRimgg4" alt="" />
+                                            </div>
+                                            </>
                                         )}
                                     </div>
                                 </div>
