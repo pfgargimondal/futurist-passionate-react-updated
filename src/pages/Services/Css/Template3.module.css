@@ -854,3 +854,102 @@ p a{
 }
 
 /* Sayantika css end */
+
+/* Sayantika css start */
+.spp01 {
+  position: absolute;
+  width: 238px;
+  top: 247px;
+  left: 396px;
+  animation:mymovebr 2s;
+}
+
+.spp02 {
+  position: absolute;
+  width: 284px;
+  top: 15px;
+  left: 349px;
+  animation: mymovetl 2s;
+}
+
+.spp03 {
+  position: absolute;
+  width: 191px;
+  top: 121px;
+  left: 225px;
+  animation: mymoveM 2s;
+  animation-delay: 1s;
+}
+
+.spp04 {
+  position: absolute;
+  width: 221px;
+  top: 108px;
+  left: 0px;
+  animation: mymovebl 2s;
+}
+
+@keyframes mymovebr{
+  0%{
+    transform: scale(0.2) translate(-500px,-500px);
+    opacity: 0;
+  }
+   50%{
+    transform: scale(0.4) translate(0px,0px);
+    opacity: 0.5;
+  }
+
+    100%{
+    transform: scale(1) translate(0px,0px);
+    opacity: 1;
+  }
+}
+@keyframes mymoveM {
+  0%{
+    transform: scale(0.2)(360deg);
+    opacity: 0;
+  }
+    50% {
+      transform: rotate(360deg);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: rotate(360deg);
+      opacity: 1;
+    }
+  }
+
+  @keyframes mymovetl {
+    0% {
+      transform: scale(0.2) translate(-500px,500px);
+      opacity: 0;
+    }
+
+    50% {
+      transform: scale(0.4) translate(0px, 0px);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: scale(1) translate(0px, 0px);
+      opacity: 1;
+    }
+  }
+
+@keyframes mymovebl{
+  0%{
+    transform: scale(0.2) translate(500px,500px);
+    opacity: 0;
+  }
+   50%{
+    transform: scale(0.4) translate(0px,0px);
+    opacity: 0.5;
+  }
+
+    100%{
+    transform: scale(1) translate(0px,0px);
+    opacity: 1;
+  }
+}
+/* Sayantika css end */

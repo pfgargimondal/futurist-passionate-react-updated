@@ -76,13 +76,32 @@ export const Template3 = ({ serviceResponse, slug }) => {
               </div>
             </div>
 
-            <div className={`${styles.dbfghsdf} col-lg-6`}>
+            <div className={`${styles.dbfghsdf} position-relative col-lg-6`}>
               {serviceResponse.data?.banner_image && (
                 <img
                   src={`${serviceResponse.image_url}/Templete_3/${serviceResponse.data.banner_image}`}
                   alt=""
                 />
               )}
+
+              {slug === 'local-listing-services' && (
+                <>
+                  <div className={styles.spp01}>
+                    <img src="./images/local_list_img_2.png" className={styles.sss1} alt=""/>
+                  </div>
+                  <div className={styles.spp02}>
+                    <img src="./images/local_list_img_1.png" className={styles.sss2} alt=""/>
+                  </div>
+                  <div className={styles.spp03}>
+                    <img src="./images/local_list_img_4.png" className={styles.sss3} alt=""/>
+                  </div>
+                  <div className={styles.spp04}>
+                    <img src="./images/local_list_img_3.png" className={styles.sss4} alt=""/>
+                  </div>
+                </>
+              )} 
+
+
             </div>
           </div>
         </div>
@@ -259,7 +278,7 @@ export const Template3 = ({ serviceResponse, slug }) => {
                         <img src="/images/local_listing_fifth_4.png" className={styles.ss04}data-aos="fade-down-right" alt=""/>
                       </div>
                     </>
-                  )}
+                  )} 
 
                 </div>
               </div>
