@@ -34,11 +34,11 @@
 
 .dgndfgdfgdf {
   width: 100%;
-  height: 350px;
+  /* height: 350px; */
 }
 .dgndfgdfgdf img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .fdnbvgdfgdfgdf {
@@ -732,3 +732,240 @@ p a{
     }
 }
 /* Nisha css end */
+
+/* Nisha css start */
+.plgsimg1{
+    position: absolute;
+    width: 6rem !important;
+    top: 2%;
+    left: 2%;
+    animation: zoomfocus 3.5s ease-in-out infinite;
+}
+@keyframes zoomfocus{
+    0%{
+        transform: scale(1) rotate(0deg);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1.2) rotate(10deg);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1) rotate(0deg);
+    } 
+}
+.plgsimg2{
+    position: absolute;
+    width: 5.5rem !important;
+    top: 0%;
+    left: 72.5%;
+    animation: shoottarget 3s infinite;
+}
+@keyframes shoottarget{
+    0%{
+        transform: translateY(-50px) scale(0.5);
+        opacity: 0;
+    }
+    56%{
+        transform: translateY(10px) scale(1.1);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(0) scale(1);
+    } 
+}
+.plgsimg3{
+    position: absolute;
+    width: 8.5rem !important;
+    bottom: 8%;
+    left: 0%;
+    animation: tickmark 2.5s infinite;
+}
+@keyframes tickmark{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+    } 
+}
+.plgsimg4{
+    position: absolute;
+    width: 11rem !important;
+    bottom: 2%;
+    left: 47.3%;
+    animation: handshake 2s infinite;
+}
+@keyframes handshake{
+    0%, 100%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(3deg);
+    }
+    50%{
+        transform: rotate(-3deg);
+    }
+    75%{
+        transform: rotate(2deg);
+    } 
+}
+/* Nisha css end */
+
+/* Rohit css start */
+.IIRMG1 .IIRRMG1{
+    position: absolute;
+    width: 4.2rem;
+    top: 14px;
+    left: 174px;
+}
+.IIRMG2 .IIRRMG2{
+    position: absolute;
+    width: 4.5rem;
+    left: 57px;
+    bottom: 161px;
+}
+.IIRMG3 .IIRRMG3{
+    position: absolute;
+    width: 4.8rem;
+    right: 23px;
+    bottom: 158px;
+}
+/* Rohit css end */
+
+/* Karina css start */
+
+.lead_img1{
+    position:absolute;
+    width:12rem !important;
+    height: auto !important;
+    left:5%;
+    top:5%;
+}
+.lead_img2{
+    position:absolute;
+    width:12rem !important;
+    height: auto !important;
+    right:5%;
+    top:15%;
+}
+.lead_img3{
+    position:absolute;
+    width:12rem !important;
+    height: auto !important;
+    left:5%;
+    top:34%;
+}
+.lead_img4{
+    position:absolute;
+    width:12rem !important;
+    height: auto !important;
+    right:5%;
+    bottom:24%;
+}
+.lead_img5{
+    position:absolute;
+    width:12rem !important;
+    height: auto !important;
+    left:5%;
+    bottom:5%;
+}
+
+/* Karina css end */
+
+
+/* Sayantika css start */
+
+.titli01 {
+    position: absolute;
+    width: 215px;
+    top: -9px;
+    left: 41px;
+    animation: slidetl 4s ease infinite;
+}
+
+.titli02 {
+    position: absolute;
+    width: 215px;
+    top: 100px;
+    left: 30px;
+    animation: slidebl 4s ease infinite;
+}
+
+.titli03 {
+    position: absolute;
+    width: 215px;
+    top: 53px;
+    left: 235px;
+    animation: slidetr 4s ease infinite;
+}
+
+.titli04 {
+    position: absolute;
+    width: 215px;
+    top: 161px;
+    left: 223px;
+    animation: slidebr 4s ease infinite;
+}
+
+.titli05 {
+    position: absolute;
+    width: 100px;
+    top: 121px;
+    left: 198px;
+}
+
+@keyframes slidetl {
+    0% {
+        transform: translate(-150px, -150px) scale(0.2);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slidetr {
+    0% {
+        transform: translate(150px, -150px) scale(0.2);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slidebr {
+    0% {
+        transform: translate(150px, 150px) scale(0.2);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slidebl {
+    0% {
+        transform: translate(-150px, 150px) scale(0.2);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+    }
+}
+/* Sayantika css end */
