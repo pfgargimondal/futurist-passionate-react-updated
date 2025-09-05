@@ -1,14 +1,24 @@
 import styles from "./Css/Template17.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceForm from "./FormComponent/ServiceForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template17 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+    useEffect(() => {
+      AOS.init({      
+        duration: 2000,
+        once: false,
+      });
+    }, []);
+  
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -189,7 +199,7 @@ export const Template17 = ({ serviceResponse, slug }) => {
                   {serviceResponse.data?.fifth_section_image && (
                     <img
                       src={`${serviceResponse.image_url}/Templete_17/${serviceResponse.data.fifth_section_image}`}
-                      alt=""
+                      alt="" data-aos="fade-up-right"
                       className="img-fluid mt-4"
                     />
                   )}
@@ -201,7 +211,7 @@ export const Template17 = ({ serviceResponse, slug }) => {
                   {serviceResponse.data?.sixth_section_iamge && (
                     <img
                       src={`${serviceResponse.image_url}/Templete_17/${serviceResponse.data.sixth_section_iamge}`}
-                      alt=""
+                      alt="" data-aos="fade-up-left"
                       className="img-fluid mt-4"
                     />
                   )}
