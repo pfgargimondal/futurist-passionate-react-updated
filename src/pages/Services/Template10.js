@@ -341,13 +341,21 @@ export const Template10 = ({ serviceResponse, slug }) => {
                     <button>Get started</button>
                   </div>
 
-                  <div className={styles.dgndfgdfgdf}>
+                  <div className={`${styles.dgndfgdfgdf} mt-3 position-relative overflow-hidden`}>
                     {serviceResponse.data?.seventh_section_image_one && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_10/${serviceResponse.data.seventh_section_image_one}`}
                         alt=""
                       />
                     )}
+
+                    {slug === 'professional-lead-generation-service' && (
+                      <div className={styles.professional}>
+                        <img src="./images/ps1.png" className={styles.pf1} alt="" />
+                        <img src="./images/ps2.png" className={styles.pf2} alt="" />
+                      </div>
+                    )}
+
                   </div>
                 </div>
               </div>
@@ -371,7 +379,7 @@ export const Template10 = ({ serviceResponse, slug }) => {
                     <button>Get started</button>
                   </div>
 
-                  <div className={styles.dgndfgdfgdf}>
+                  <div className={`${styles.dgndfgdfgdf} mt-3 position-relative overflow-hidden`}>
                     {serviceResponse.data?.seventh_section_image_two && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_10/${serviceResponse.data.seventh_section_image_two}`}
