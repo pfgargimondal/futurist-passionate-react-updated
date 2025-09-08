@@ -133,13 +133,29 @@ export const Template10 = ({ serviceResponse, slug }) => {
           </div>
         </div>
 
-        <div className={styles.xnjhxffgdf}>
+        <div className={` ${styles.xnjhxffgdf} position-relative`}>
           {serviceResponse.data?.mid_section_image && (
             <img
               src={`${serviceResponse.image_url}/Templete_10/${serviceResponse.data.mid_section_image}`}
               alt=""
             />
           )}
+          {slug === 'professional-lead-generation-service' && (
+            <div className={styles.lead_page}>
+              <img src="./images/lead_rocket.png" className={styles.lead_rocket_main} data-aos="fade-up" alt=""/>
+
+              <img src="./images/lead_pic_1.png" className={styles.lead_pic1} data-aos="fade-up-right" alt=""/>
+
+              <img src="./images/lead_pic_2.png" className={styles.lead_pic2} data-aos="fade-up-right" alt=""/>
+
+              <img src="./images/lead_pic_3.png" className={styles.lead_pic3}  data-aos="fade-up-left" alt=""/>
+
+              <img src="./images/lead_pic_4.png" className={styles.lead_pic4} data-aos="fade-up-left" alt=""/>
+
+              <img src="./images/lead_pic_5.png" className={styles.lead_pic5} data-aos="fade-up-left" alt=""/>
+           </div>
+          )}
+
         </div>
 
         <div className={`${styles.duiewmjroiweorrr} mb-5 pt-5`}>
@@ -385,6 +401,20 @@ export const Template10 = ({ serviceResponse, slug }) => {
                         src={`${serviceResponse.image_url}/Templete_10/${serviceResponse.data.seventh_section_image_two}`}
                         alt=""
                       />
+                    )}
+
+                    {slug === 'professional-lead-generation-service' && (
+                      <>
+                      <div className={styles.RRimmg1} >
+                        <img src="./images/RRimmg_seventhSection2.png" className= {styles.RRImmg1} data-aos="fade-up-left"  alt="" />
+                      </div>
+                      <div className={styles.RRimmg2} >
+                        <img src="./images/RRimmg_seventhSection3.png" className= {styles.RRImmg2} data-aos="fade-down-left" alt="" />
+                      </div>
+                      <div className={styles.RRimmg3} >
+                        <img src="./images/RRimmg_seventhSection4.png" className= {styles.RRImmg3} data-aos="zoom-in-right" alt="" />
+                      </div>
+                      </>
                     )}
                   </div>
                 </div>

@@ -998,3 +998,72 @@ p a{
     100%{transform:scale(1) translateY(0);}
 }
 /* Prerana css end */
+
+/* Karina css start */
+.lead_rocket_main{
+    position:absolute;
+    width:20rem !important;
+    height: auto !important;
+    left:34.9%;
+    top:2.2%;
+}
+.lead_pic1{
+    position:absolute;
+    width:12rem !important;
+    height: auto !important;
+    left:11%;
+    top:12%;
+}
+.lead_pic2{
+    position:absolute;
+    width:12rem !important;
+    height: auto !important;
+    left:15%;
+    bottom:24%;
+}
+.lead_pic3{
+    position:absolute;
+    width:14rem !important;
+    height: auto !important;
+    right:20%;
+    top:10%;
+}
+.lead_pic4{
+    position:absolute;
+    width:14rem !important;
+    height: auto !important;
+    right:20%;
+    bottom:43%;
+}
+.lead_pic5{
+    position:absolute;
+    width:14rem !important;
+    height: auto !important;
+    right:18%;
+    bottom:16%;
+}
+/* Karina css end */
+
+/* Rohit css start */
+.RRimmg1 .RRImmg1{
+    position: absolute;
+    width: 6.6rem;
+    height: auto;
+    right: 62px;
+    bottom: 24px;
+}
+.RRimmg2 .RRImmg2{
+    position: absolute;
+    width: 8.5rem;
+    height: auto;
+    right: 28px;
+    top: 27px;
+}
+.RRimmg3 .RRImmg3{
+    position: absolute;
+    width: 6.7rem;
+    height: auto;
+    left: 16px;
+    bottom: 187px;
+}
+/* Rohit css end */
