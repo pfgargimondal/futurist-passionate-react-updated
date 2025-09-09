@@ -840,3 +840,78 @@
 
 /* karina css end */
 
+/* Karina css start */
+
+.sales1{
+  position:absolute;
+  width: 9rem !important;
+  height: 5rem !important;
+  left: 0%;
+  top: 23%;
+  animation: two 3s infinite;
+}
+.sales2{
+  position:absolute;
+  width: 9rem !important;
+  height: 7rem !important;
+  right: 0%;
+  bottom: 56%;
+  animation: two 3s infinite;
+}
+ @keyframes two{
+      0%{
+    transform: translateY(0);
+  }
+     30%{
+    transform: translateY(-1rem);
+  }
+     100%{
+    transform: translateY(0);
+  }
+}
+.sales3{
+  position:absolute;
+  width: 5rem !important;
+  height: 4rem !important;
+  right: 5%;
+  top: 43%;
+  animation: three 3s infinite;
+  opacity:0;
+}
+@keyframes three {
+      0%{transform:scale(0.5);}
+      100%{transform:scale(1.5);
+      opacity:1;}
+      
+    }
+
+.sales4{
+  position:absolute;
+  width: 8rem !important;
+  height: 5rem !important;
+  right: 3%;
+  top: 74%;
+  animation: five 3s infinite;
+}
+
+.sales5{
+  position:absolute;
+  width: 8rem !important;
+  height: 7rem !important;
+  left: 3%;
+  top: 62%;
+  animation: five 3s infinite;
+}
+ @keyframes five{
+      0%{
+    transform: translateX(0);
+  }
+     30%{
+    transform: translateX(-1rem);
+  }
+     100%{
+    transform: translateX(0);
+  }
+}
+/* Karina css end */
+

@@ -181,7 +181,15 @@ export const Template32 = ({ serviceResponse, slug }) => {
                               alt=""
                             />
                           )}
-
+                          {slug === 'sales-copywriting-services' && (
+                              <div className={styles.sales_copy}>
+                                <img src="./images/sales_copy_writing_last_1.png" className={styles.sales1} data-aos="flip-left" alt=""/> 
+                                <img src="./images/sales_copy_writing_last_2.png" className={styles.sales2} alt=""/>
+                                <img src="./images/sales_copy_writing_last_3.png" className={styles.sales3} alt=""/>
+                                <img src="./images/sales_copy_writing_last_4.png" className={styles.sales4} data-aos="flip-right" alt=""/>
+                                <img src="./images/sales_copy_writing_last_5.png" className={styles.sales5} alt=""/>
+                              </div>
+                          )}
                         </div>
                       </div>
                     </div>
