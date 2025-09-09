@@ -912,3 +912,64 @@ p a{
 .RRimgbg{
   width: 100%;
 }
+
+/* prerana css start */
+.sc1 {
+  position: absolute;
+  height: 28vw !important;
+  width: 16vw !important;
+  top: 15vw;
+  right: 11.5vw;
+  animation:blink 1s infinite;
+
+}
+@keyframes blink{
+  0%,100% {
+    filter:drop-shadow(0 0 0px);}
+  50%{
+       filter:drop-shadow(0 0 10px);
+    }
+}
+.sc2 {
+  position: absolute;
+  height: 10.5vw !important;
+  width: 11.5vw !important;
+  top: 13vw;
+  right: 25vw;
+}
+.sc3 {
+  position: absolute;
+  height: 11vw !important;
+  width: 10vw !important;
+  top: 13vw;
+  right: 5.3vw;
+}
+
+.sc4 {
+  position: absolute;
+  height: 11vw !important;
+  width: 11.6vw !important;
+  top: 30.3vw;
+  right: 26.3vw;
+}
+.sc5 {
+  position: absolute;
+  height: 10.7vw !important;
+  width: 10vw !important;
+  top: 29.5vw;
+  right: 2.5vw;
+}
+.sc6 {
+  position: absolute;
+  height: 10.2vw !important;
+  width: 11vw !important;
+  top: 3.5vw;
+  right: 14.5vw;
+  animation:5s m infinite;
+  opacity:0;
+}
+@keyframes m{
+  0%{transform:translate(-1rem);}
+  100%{transform:translateX(0);opacity:1.2};
+}
+/* prerana css end */

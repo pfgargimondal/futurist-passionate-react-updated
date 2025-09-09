@@ -213,6 +213,17 @@ export const Template5 = ({ serviceResponse, slug }) => {
                                                 alt=""
                                             />
                                         )}
+
+                                        {slug === "social-media-optimization-services" && (
+                                            <div className={styles.sc}>
+                                                <img src="./images/social_fifth_img_main.png" className={styles.sc1} alt=""/>
+                                                <img src="./images/social_fifth_img_1.png" className={styles.sc2} data-aos="fade-down-right" alt=""/>
+                                                <img src="./images/social_fifth_img_2.png" className={styles.sc3} data-aos="fade-down-left" alt=""/>
+                                                <img src="./images/social_fifth_img_3.png" className={styles.sc4} data-aos="fade-up-right" alt=""/>
+                                                <img src="./images/social_fifth_img_4.png" className={styles.sc5} data-aos="fade-up-left"  alt=""/>
+                                                <img src="./images/social_fifth_img_5.png" className={styles.sc6} alt=""/>
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                             </div>

@@ -624,3 +624,127 @@
         padding:14px 10px;
     }
 }
+
+/* Nisha css start */
+.ldsimg1{
+  position: absolute;
+  width: 22rem !important;
+    bottom: 22%;
+    right: 11.3%;
+  animation: blueglow 3s infinite;
+}
+@keyframes blueglow{
+  0%, 100%{
+    filter: drop-shadow(0 0 0px rgb(234, 167, 44));
+  }
+  50%{
+    filter: drop-shadow(0 0 20px rgb(234, 167, 44));
+  }
+}
+.ldsimg2{
+  position: absolute;
+  width: 8.2rem !important;
+  top: 24%;
+  right: 20%;
+  animation: breathing 3.5s infinite;
+}
+@keyframes breathing{
+  0%, 100%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+}
+.ldsimg3{
+  position: absolute;
+  width: 11.4rem !important;
+  top: 40.7%;
+  right: 34%;
+  animation: fadeleft 4s infinite ease forwards;
+}
+@keyframes fadeleft{
+  0%{
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.ldsimg4{
+  position: absolute;
+  width: 11.3rem !important;
+  top: 43.6%;
+  right: 2%;
+  animation: faderight 4s infinite ease forwards;
+}
+@keyframes faderight{
+  0%{
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.ldsimg5{
+  position: absolute;
+  width: 11rem !important;
+  bottom: 22.1%;
+  right: 36.6%;
+  animation: penduluml 2.5s infinite;
+}
+@keyframes penduluml{
+  0%, 100%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(-7deg);
+  }
+}
+.ldsimg6{
+  position: absolute;
+  width: 9.8rem !important;
+  bottom: 22%;
+  right: 0.8%;
+  animation: pendulumr 2.5s infinite;
+}
+@keyframes pendulumr{
+  0%, 100%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(7deg);
+  }
+}
+/* Nisha css end */
+
+/* Nisha css start */
+.ldspic1{
+  position: absolute;
+  width: 9vw;
+  top: 7%;
+  left: 54%;
+}
+.ldspic2{
+  position: absolute;
+  width: 11vw;
+  top: 6%;
+  right: 5%;
+}
+.ldspic3{
+  position: absolute;
+  width: 11vw;
+  bottom: 24%;
+  left: 53.5%;
+}
+.ldspic4{
+  position: absolute;
+  width: 11vw;
+  bottom: 24%;
+  right: 4%;
+}
+/* Nisha css end */

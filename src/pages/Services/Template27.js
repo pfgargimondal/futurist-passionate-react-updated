@@ -7,11 +7,20 @@ import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import Stats from 'stats.js';
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template27 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
 
     const statsRef = useRef(null);
+
+    useEffect(() => {
+      AOS.init({      
+        duration: 2000,
+        once: false,
+      });
+    }, []);
 
   useEffect(() => {
     // Initialize particles.js
@@ -135,7 +144,7 @@ export const Template27 = ({ serviceResponse, slug }) => {
             </div>
           </div>
 
-          <div className={`${styles.dbfghsdf} col-lg-6`}>
+          <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
             {serviceResponse.data?.banner_image && (
               <img
                 src={`${serviceResponse.image_url}/Templete_27/${serviceResponse.data.banner_image}`}
@@ -231,6 +240,14 @@ export const Template27 = ({ serviceResponse, slug }) => {
                         alt=""
                         className="img-fluid"
                       />
+                    )}
+                    {slug === 'flyer-design-company' && (
+                      <div className={styles.fly}>
+                        <img src="./images/flyer_2ndImg_1.png" className={styles.s1} alt="" />
+                        <img src="./images/flyer_2ndImg_2.png" className={styles.s2} alt="" />
+                        <img src="./images/flyer_2ndImg_3.png" className={styles.s3} alt="" />
+                        <img src="./images/flyer_2ndImg_4.png" className={styles.s4} alt="" />
+                      </div>
                     )}
                   </div>
                 </div>
