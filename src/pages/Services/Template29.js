@@ -1,14 +1,24 @@
 import styles from "./Css/Template29.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Template29 = ({ serviceResponse, slug }) => {
     const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+    AOS.init({
+        duration: 2000,
+        once: false,
+    });
+    }, []);
+
     return (
         <div>
             <PageWrapper slug={slug} type="Template">
@@ -41,6 +51,16 @@ export const Template29 = ({ serviceResponse, slug }) => {
                                 src={`${serviceResponse.image_url}/Templete_29/${serviceResponse.data.banner_image}`}
                                 alt=""
                             />
+                        )}
+                        {slug === 'postcard-design-service' && (
+                            <div className={styles.cpdspics}>
+                                <img src="/images/cpdsone.png" className={styles.cpdspic1} data-aos="fade-right" alt=""/>
+                                <img src="/images/cpdstwo.png" className={styles.cpdspic2} alt=""/>
+                                <img src="/images/cpdsthree.png" className={styles.cpdspic3} data-aos="fade-right" alt=""/>
+                                <img src="/images/cpdsfour.png" className={styles.cpdspic4} alt=""/>
+                                <img src="/images/cpdsfive.png" className={styles.cpdspic5} data-aos="fade-left" alt=""/>
+                                <img src="/images/cpdssix.png" className={styles.cpdspic6} alt=""/>
+                            </div>
                         )}
                     </div>
                 </div>

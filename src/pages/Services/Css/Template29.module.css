@@ -479,3 +479,42 @@
         padding:14px 10px;
     }
 }
+
+/* Nisha css start */
+.cpdspic1{
+    position: absolute;
+    width: 13vw !important;
+    top: 27%;
+    right: 35%;
+}
+.cpdspic2{
+    position: absolute;
+    width: 13vw !important;
+    top: 45%;
+    right: 36%;
+}
+.cpdspic3{
+    position: absolute;
+    width: 13vw !important;
+    bottom: 23.5%;
+    right: 36%;
+}
+.cpdspic4{
+    position: absolute;
+    width: 14vw !important;
+    top: 28%;
+    right: 1.4%;
+}
+.cpdspic5{
+    position: absolute;
+    width: 14vw !important;
+    top: 43%;
+    right: 1.2%;
+}
+.cpdspic6{
+    position: absolute;
+    width: 14vw !important;
+    bottom: 26%;
+    right: 1%;
+}
+/* Nisha css end */
