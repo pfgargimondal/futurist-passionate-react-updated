@@ -40,12 +40,13 @@ export const Template23 = ({ serviceResponse, slug }) => {
       description: serviceResponse.data?.third_section_description_two,
       image: serviceResponse.data?.third_section_image_two,
       animations: [
-        // { src: "/images/ldsprice.png", className: "ldspic1", animation: "fade-right" },
-        // { src: "/images/ldstime.png", className: "ldspic2", animation: "fade-left" },
-        // { src: "/images/ldsformat.png", className: "ldspic3", animation: "zoom-in-up" },
-        // { src: "/images/ldsoriginal.png", className: "ldspic4", animation: "zoom-in-down" },
+        { src: "/images/ldssearch.png", className: "ldspicture1"},
+        { src: "/images/ldspaint.png", className: "ldspicture2"},
+        { src: "/images/ldsresolution.png", className: "ldspicture3"},
+        { src: "/images/ldsdelivery.png", className: "ldspicture4"},
       ],
     },
+
     {
       id: "tab-3",
       title: serviceResponse.data?.third_section_title_three,

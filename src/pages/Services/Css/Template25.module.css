@@ -477,3 +477,56 @@
         padding:14px 10px;
     }
 }
+
+
+/* Rohit css start */
+.RIIIMMGG1 img{
+    position: absolute;
+    width: 10.52rem;
+    height: auto;
+    left: 18px;
+    top: 22px;
+}
+
+.RIIIMMGG2 img{
+    position: absolute;
+    width: 11rem;
+    height: auto;
+    top: 0px;
+    right: 261px;
+
+}
+
+.RIIIMMGG3 img{
+    position: absolute;
+    width: 7.5rem;
+    height: auto;
+    top: 24px;
+    right: 48px;
+
+}
+
+.RIIIMMGG4 img{
+    position: absolute;
+    width: 11rem;
+    height: auto;
+    bottom: 54px;
+    right: 15px;
+}
+
+.RIIIMMGG5 img{
+    position: absolute;
+    width: 6.5rem;
+    height: auto;
+    bottom: 60px;
+    right: 284px;
+}
+
+.RIIIMMGG6 img{
+    position: absolute;
+    width: 8rem;
+    height: auto;
+    bottom: 62px;
+    left: 41px;
+}
+/* Rohit css end */

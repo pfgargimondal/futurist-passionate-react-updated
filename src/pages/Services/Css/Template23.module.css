@@ -748,3 +748,64 @@
   right: 4%;
 }
 /* Nisha css end */
+
+/* Nisha css start */
+.ldspicture1{
+  position: absolute;
+  width: 13.5vw;
+  top: 1%;
+  left: 53%;
+  animation: wavefloat 3.5s;
+}
+@keyframes wavefloat{
+  0%{
+    transform: translate(-50px,50px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0) scale(1);
+    opacity: 1;
+  }
+}
+.ldspicture2{
+  position: absolute;
+  width: 14vw;
+  top: 4%;
+  right: 4%;
+  animation: spinin 3s;
+}
+@keyframes spinin{
+  0%{
+    transform: rotate(-360deg) scale(0);
+    opacity: 0;
+  }
+  100%{
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}
+.ldspicture3{
+  position: absolute;
+  width: 13vw;
+  bottom: 23%;
+  left: 53%;
+  animation: spinin 3s;
+}
+.ldspicture4{
+  position: absolute;
+  width: 14vw;
+  bottom: 21.5%;
+  right: 4%;
+  animation: wavefloat 3.5s;
+}
+@keyframes wavefloat{
+  0%{
+    transform: translate(50px,-50px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0) scale(1);
+    opacity: 1;
+  }
+}
+/* Nisha css end */

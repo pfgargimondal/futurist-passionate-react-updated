@@ -911,3 +911,122 @@
 
 
 /* Prerana css end */
+
+/* Prerana css start */
+.l1{
+    position: absolute;
+    height: 7vw !important;
+    width: 9.5vw !important;
+    top: 46vw;
+    right: 65vw;
+    z-index: 9999;
+    animation:wiggle2 2s infinite linear;
+}
+@keyframes wiggle2 {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-0.3rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.l2{
+    position: relative;
+    height: 8vw !important;
+    width: 9vw !important;
+    top: 9vw;
+    right: -19vw;
+    margin-top: -59rem;
+    z-index: 9999;
+    animation:wiggle2 2s infinite linear;
+}
+@keyframes wiggle2 {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-0.3rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.l3{
+    position: absolute;
+    height: 8vw !important;
+    width: 8vw !important;
+    top: 58vw;
+    right: 43vw;
+    z-index: 9999;
+    animation:wiggle2 2s infinite linear;
+}
+@keyframes wiggle2 {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-0.3rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.l4{
+   position: absolute;
+    height: 9vw !important;
+    width: 10vw !important;
+    top: 75% !important;
+    right: 54vw;
+    z-index: 9999;
+    animation:wiggle2 2s infinite linear;
+}
+@keyframes wiggle2 {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-0.3rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.l5{
+    position: absolute;
+    height: 10vw !important;
+    width: 9vw !important;
+    top: 58vw;
+    right: 67vw;
+    z-index: 9999;
+    animation:wiggle2 2s infinite linear;
+}
+@keyframes wiggle2 {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-0.3rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.l6{
+    position: absolute;
+    height: 8vw !important;
+    width: 15vw !important;
+    top: 53.5vw;
+    right: 51.5vw;
+    animation:blink 1s infinite;
+}
+@keyframes blink{
+  0%,100% {
+    filter:drop-shadow(0 0 0px);}
+  50%{
+       filter:drop-shadow(0 0 10px);
+    }
+}
+/* Prerana css end */

@@ -1,13 +1,25 @@
 import styles from "./Css/Template25.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export const Template25 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      once: false,
+    });
+  }, []);
+
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -33,12 +45,34 @@ export const Template25 = ({ serviceResponse, slug }) => {
             </div>
           </div>
 
-          <div className={`${styles.dbfghsdf} col-lg-6`}>
+          <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
             {serviceResponse.data?.banner_image && (
               <img
                 src={`${serviceResponse.image_url}/Templete_25/${serviceResponse.data.banner_image}`}
                 alt=""
               />
+            )}
+            {slug === 'banner-design-services' && (
+                <>
+                  <div className={styles.RIIIMMGG1}>
+                    <img src="./images/RIIIMMGG2.png" className={styles.RIIIMMG1} data-aos="fade-down-right" alt="" />
+                  </div>
+                  <div className={styles.RIIIMMGG2}>
+                    <img src="./images/RIIIMMGG3.png" className={styles.RIIIMMG2} data-aos="zoom-in-down" alt="" />
+                  </div>
+                  <div className={styles.RIIIMMGG3}>
+                    <img src="./images/RIIIMMGG4.png" className={styles.RIIIMMG3} data-aos="fade-down-left" alt="" />
+                  </div>
+                  <div className={styles.RIIIMMGG4}>
+                    <img src="./images/RIIIMMGG5.png" className={styles.RIIIMMG4} data-aos="fade-up-left" alt="" />
+                  </div>
+                  <div className={styles.RIIIMMGG5}>
+                    <img src="./images/RIIIMMGG6.png" className={styles.RIIIMMG5} data-aos="zoom-in-up" alt="" />
+                  </div>
+                  <div className={styles.RIIIMMGG6}>
+                    <img src="./images/RIIIMMGG7.png" className={styles.RIIIMMG6} data-aos="fade-up-right" alt="" />
+                  </div>
+                </>
             )}
           </div>
         </div>

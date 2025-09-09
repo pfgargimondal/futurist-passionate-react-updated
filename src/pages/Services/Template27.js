@@ -253,7 +253,7 @@ export const Template27 = ({ serviceResponse, slug }) => {
                 </div>
 
                 <div className="col-lg-5 mb-5">
-                  <div className={`${styles.dcsbnhgrffsfee} sticky-top`}>
+                  <div className={`${styles.dcsbnhgrffsfee} position-relative sticky-top`}>
                     {serviceResponse.data?.fifth_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_27/${serviceResponse.data.fifth_section_image}`}
@@ -261,7 +261,18 @@ export const Template27 = ({ serviceResponse, slug }) => {
                         className="img-fluid"
                       />
                     )}
-                  </div>
+                    </div>
+                    {slug === 'flyer-design-company' && (
+                      <div className={styles.leptop}>
+                        <img src="./images/lep.png" className={styles.l6} alt="" />
+                        <img src="./images/fly1.png" className={styles.l1} alt="" />
+                        <img src="./images/fly2.png" className={styles.l2} alt="" />
+                        <img src="./images/fly3.png" className={styles.l3} alt="" />
+                        <img src="./images/fly4.png" className={styles.l4} alt="" />
+                        <img src="./images/fly5.png" className={styles.l5} alt="" />
+                      </div>
+                    )}
+                  
                 </div>
 
                 <div className="col-lg-7 mb-5">
