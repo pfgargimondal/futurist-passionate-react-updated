@@ -9,6 +9,9 @@ import { useNavigate } from 'react-router-dom';
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { gsap } from "gsap";    
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 export const Template24 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
@@ -20,6 +23,101 @@ export const Template24 = ({ serviceResponse, slug }) => {
       once: false,
     });
   }, []);
+
+  gsap.to(".RRIMMG11", {
+    duration: 2,
+    y: -150,
+    scale: 1,
+    opacity:1,
+    // repeat:-1,
+    // yoyo:true,
+    scrollTrigger: {
+        trigger: ".RRIMMG12",
+        // markers: true,
+        scrub: true,
+        end: "top 420px",
+        start: "top 700px"
+    }
+    });
+    gsap.to(".RRIMMG12", {
+    duration: 2,
+    y:-150,
+    x:150,
+    scale: 1,
+    opacity:1,
+    // repeat:-1,
+    // yoyo:true,
+    scrollTrigger: {
+        trigger: ".RRIMMG12",
+        // markers: true,
+        scrub: true,
+        end: "top 420px",
+        start: "top 700px"
+    }
+    });
+    gsap.to(".RRIMMG13", {
+    duration: 2,
+    y:150,
+    x:150,
+    scale: 1,
+    opacity:1,
+    // repeat:-1,
+    // yoyo:true,
+    scrollTrigger: {
+        trigger: ".RRIMMG12",
+        // markers: true,
+        scrub: true,
+        end: "top 420px",
+        start: "top 700px"
+    }
+    });
+    gsap.to(".RRIMMG14", {
+    duration: 2,
+    y: 150,
+    scale: 1,
+    opacity:1,
+    // repeat:-1,
+    // yoyo:true,
+    scrollTrigger: {
+        trigger: ".RRIMMG12",
+        // markers: true,
+        scrub: true,
+        end: "top 420px",
+        start: "top 700px"
+    }
+    });
+    gsap.to(".RRIMMG15", {
+    duration: 2,
+    y: 150,
+    x:-150,
+    scale: 1,
+    opacity:1,
+    // repeat:-1,
+    // yoyo:true,
+    scrollTrigger: {
+        trigger: ".RRIMMG12",
+        // markers: true,
+        scrub: true,
+        end: "top 420px",
+        start: "top 700px"
+    }
+    });
+    gsap.to(".RRIMMG16", {
+    duration: 2,
+    y:-150,
+    x:-150,
+    scale: 1,
+    opacity:1,
+    // repeat:-1,
+    // yoyo:true,
+    scrollTrigger: {
+        trigger: ".RRIMMG12",
+        // markers: true,
+        scrub: true,
+        end: "top 420px",
+        start: "top 700px"
+    }
+    });
 
   return (
     <div>
@@ -53,6 +151,18 @@ export const Template24 = ({ serviceResponse, slug }) => {
                 alt=""
               />
             )}
+
+            {slug === 'catalogue-design-services' && (
+              <div className={styles.cdsimgs}>
+                <img src="/images/cdscontent.png" className={styles.cdsimg1} data-aos="fade-down-right" alt=""/>
+
+                <img src="/images/cdslayouts.png" className={styles.cdsimg2} data-aos="fade-down-left" alt=""/>
+
+                <img src="/images/cdsprint.png" className={styles.cdsimg3} data-aos="fade-up-right" alt=""/>
+
+                <img src="/images/cdsbrand.png" className={styles.cdsimg4} data-aos="fade-up-left" alt=""/>
+              </div>
+            )}
           </div>
         </div>
 
@@ -80,12 +190,21 @@ export const Template24 = ({ serviceResponse, slug }) => {
             <div className={styles.bjvbffbgf}>
               <div className="row">
                 <div className="col-lg-6">
-                  <div className={styles.fdnvhjfdv}>
+                  <div className={`${styles.fdnvhjfdv} mt-5 position-relative`}>
                     {serviceResponse.data?.third_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_24/${serviceResponse.data.third_section_image}`}
                         alt=""
                       />
+                    )}
+                    {slug === 'catalogue-design-services' && (
+                      <div className={styles.one}>
+                        <img src="./images/catelog_pre2.png" className={styles.im1} data-aos="fade-down-left" alt=""/>
+                        <img src="./images/catelog_pre3.png" className={styles.im2} data-aos="zoom-in-right"alt="" />
+                        <img src="./images/catelog_pre4.png" className={styles.im3} data-aos="fade-up" data-aos-duration="3000" alt=""/>
+                        <img src="./images/catelog_pre5.png" className={styles.im4}  data-aos="fade-up-left" alt=""/>
+                        <img src="./images/catelog_pre6.png" className={styles.im5} data-aos="fade-up-right" alt=""/>
+                      </div>
                     )}
                   </div>
                 </div>
@@ -162,6 +281,30 @@ export const Template24 = ({ serviceResponse, slug }) => {
                         src={`${serviceResponse.image_url}/Templete_24/${serviceResponse.data.fifth_section_image}`}
                         alt=""
                       />
+                    )}
+
+                    {slug === 'catalogue-design-services' && (
+                      <>
+                        <div className={styles.RRIMMGG1} >
+                          <img src="./images/catelog_2ndImg_2.png" className="RRIMMG11" style={{position: 'absolute', width: '6rem', height: 'auto', left: '202px', top: '141px',transform: "scale(0.2)", opacity: 0.2}} alt="" />
+                        </div>
+                        <div className={styles.RRIMMGG2} >
+                          <img src="./images/catelog_2ndImg_3.png" className="RRIMMG12" style={{position: 'absolute', width: '7.5rem', height: 'auto', right: '188px', top: '176px', transform: "scale(0.2)", opacity: 0.2}} alt="" />
+                        </div>
+                        <div className={styles.RRIMMGG3} >
+                          <img src="./images/catelog_2ndImg_4.png" className="RRIMMG13" style={{position: 'absolute', width: '7.5em', height: 'auto', right: '149px', bottom: '252px', transform: "scale(0.2)", opacity: 0.2}} alt="" />
+                        </div>
+                        <div className={styles.RRIMMGG4} >
+                          <img src="./images/catelog_2ndImg_5.png" className="RRIMMG14" style={{position: 'absolute', width: '11rem', height: 'auto', left: '20px', bottom: '143px', transform: "scale(0.2)", opacity: 0.2}} alt="" />
+                        </div>
+                        <div className={styles.RRIMMGG5} >
+                          <img src="./images/catelog_2ndImg_6.png" className="RRIMMG15" style={{position: 'absolute', width: '9rem', height: 'auto', left: '158px', top: '69px', transform: "scale(0.2)", opacity: 0.2}} alt="" />
+                        </div>
+                        <div className={styles.RRIMMGG6} >
+                          <img src="./images/catelog_2ndImg_7.png" className="RRIMMG16" style={{position: 'absolute', width: '8rem', height: 'auto', left: '176px', top: '211px', transform: "scale(0.2)", opacity: 0.2}} alt="" />
+                        </div>
+             
+                      </>
                     )}
                   </div>
                 </div>
