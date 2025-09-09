@@ -1,5 +1,5 @@
 import styles from "./Css/Template24.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
@@ -7,10 +7,19 @@ import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from 'react-router-dom';
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template24 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    AOS.init({      
+      duration: 2000,
+      once: false,
+    });
+  }, []);
 
   return (
     <div>
@@ -181,12 +190,34 @@ export const Template24 = ({ serviceResponse, slug }) => {
           </div>
         </div>
 
-        <div className={styles.xnjhxffgdf}>
+        <div className={` ${styles.xnjhxffgdf} position-relative`}>
           {serviceResponse.data?.featured_image && (
             <img
               src={`${serviceResponse.image_url}/Templete_24/${serviceResponse.data.featured_image}`}
               alt=""
             />
+          )}
+
+          {slug === 'catalogue-design-services' && (
+            <div className={styles.lead_page}>
+                <img src="./images/catalogue_img_book.png" className={styles.book} alt=""/>
+
+                <img src="./images/catalogue_img_design.png" className={styles.design} data-aos="zoom-out-up" alt=""/>
+
+                <img src="./images/catalogue_img_graph.png" className={styles.graph} data-aos="zoom-out-down" alt=""/>
+
+                <img src="./images/catalogue_img1.png" className={styles.pic1} data-aos="fade-right" alt=""/>
+
+                <img src="./images/catalogue_img2.png" className={styles.pic2} data-aos="fade-down" alt=""/>
+
+                <img src="./images/catalogue_img3.png" className={styles.pic3} alt=""/>
+
+                <img src="./images/catalogue_img4.png" className={styles.pic4} data-aos="fade-left" alt=""/>
+
+                <img src="./images/catalogue_img5.png" className={styles.pic5} data-aos="fade-down" alt=""/>
+
+                <img src="./images/catalogue_img6.png" className={styles.pic6} alt=""/>
+           </div>
           )}
         </div>
         <LastSectionComponent />

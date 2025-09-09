@@ -205,7 +205,7 @@
 
 .dgndfgdfgdf img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 /*end  link building seo css*/
@@ -630,3 +630,88 @@
         padding:14px 10px;
     }
 }
+
+/* Nisha css start */
+.lbscimg1{
+  position: absolute;
+  width: 13rem !important;
+  top: 38%;
+  right: 32%;
+  animation: fadeleft 4s ease forwards;
+}
+.lbscimg2{
+  position: absolute;
+  width: 13rem !important;
+  top: 38.6%;
+  right: 2.7%;
+  animation: faderight 4s ease forwards;
+}
+.lbscimg3{
+  position: absolute;
+  width: 13rem !important;
+  bottom: 27.5%;
+  right: 28.7%;
+  animation: fadeleft 4s ease forwards;
+}
+.lbscimg4{
+  position: absolute;
+  width: 13rem !important;
+  bottom: 25.5%;
+  right: 5%;
+  animation: faderight 4s ease forwards;
+}
+@keyframes fadeleft{
+  0%{
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes faderight{
+  0%{
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* Nisha css end */
+
+/* Rohit css start */
+/* .dgndfgdfgdf {
+  width: 100%;
+  height: auto;
+  position: relative;
+} */
+
+.RIMGGG1 .RIMGG1{
+  position: absolute;
+  position: absolute;
+  width: 9.2rem;
+  right: 35px;
+  top: 20px;
+}
+.RIMGGG2 .RIMGG2{
+  position: absolute;
+  width: 10rem;
+  top: 102px;
+  right: 20px;
+}
+.RIMGGG3 .RIMGG3{
+  position: absolute;
+  width: 12rem;
+  bottom: 42px;
+  right: 0px;
+}
+.RIMGGG4 .RIMGG4{
+  position: absolute;
+  width: 7rem;
+  bottom: 112px;
+  right: 70px;
+}
+/* Rohit css end */

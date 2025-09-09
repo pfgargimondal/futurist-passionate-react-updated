@@ -452,3 +452,93 @@
         padding:14px 10px;
     }
 }
+
+
+/* Karina css start */
+.book{
+    position:absolute;
+    width:30rem !important;
+    height:auto !important;
+    left:35%;
+    bottom:25%;
+    animation: blueglow 3s infinite linear;
+}
+.design{
+    position:absolute;
+    width:15rem !important;
+    height:auto !important;
+    left:42%;
+    top:5%;
+}
+.graph{
+    position:absolute;
+    width:6rem !important;
+    height:auto !important;
+    left:47%;
+    bottom:8%;
+}
+.pic1{
+    position:absolute;
+    width:9rem !important;
+    height:auto !important;
+    left:6%;
+    top:3%;
+}
+.pic2{
+    position:absolute;
+    width:9rem !important;
+    height:auto !important;
+    left:6%;
+    top:30%;
+}
+.pic3{
+    position:absolute;
+    width:10rem !important;
+    height:auto !important;
+    left:15%;
+    bottom:20%;
+    animation:bounce 3s infinite linear;
+}
+.pic4{
+    position:absolute;
+    width:9rem !important;
+    height:auto !important;
+    right:6%;
+    top:3%;
+}
+.pic5{
+    position:absolute;
+    width:9rem !important;
+    height:auto !important;
+    right:6%;
+    top:33%;
+}
+.pic6{
+    position:absolute;
+    width:10rem !important;
+    height:auto !important;
+    right:15%;
+    bottom:20%;
+    animation:bounce 3s infinite linear;
+}
+@keyframes bounce{
+    0%,20%,50%,80%,100%{
+        transform:translateY(0);
+    }
+    40%{
+        transform:translateY(-30px);
+    }
+    60%{
+        transform:translateY(-15px);
+
+    }
+}
+@keyframes blueglow{
+    0%,100%{
+        filter:drop-shadow(0 0 0px #1DA1F2);
+    }
+    50%{
+        filter:drop-shadow(0 0 20px #1DA1F2);
+    }
+}
+/* Karina css end */

@@ -89,7 +89,7 @@ export const Template25 = ({ serviceResponse, slug }) => {
                     {serviceResponse.data?.third_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_25/${serviceResponse.data.third_section_image}`}
-                        alt=""
+                        alt="" className="img-fluid"
                       />
                     )}
                   </div>

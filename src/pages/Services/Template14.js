@@ -1,14 +1,24 @@
 import styles from "./Css/Template14.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template14 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    AOS.init({      
+      duration: 2000,
+      once: false,
+    });
+  }, []);
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -40,6 +50,18 @@ export const Template14 = ({ serviceResponse, slug }) => {
                 src={`${serviceResponse.image_url}/Template_14/${serviceResponse.data.banner_image}`}
                 alt=""
               />
+            )}
+
+            {slug === 'link-building-seo-services' && (
+              <div className={styles.lbscimgs}>
+                <img src="/images/lbscpen.png" className={styles.lbscimg1} alt=""/>
+
+                <img src="/images/lbscout.png" className={styles.lbscimg2} alt=""/>
+
+                <img src="/images/lbscnote.png" className={styles.lbscimg3} alt=""/>
+
+                <img src="/images/lbscbuild.png" className={styles.lbscimg4} alt=""/>
+              </div>
             )}
           </div>
         </div>
@@ -85,12 +107,29 @@ export const Template14 = ({ serviceResponse, slug }) => {
                   </div>
                 </div>
                 <div className="col-lg-5">
-                  <div className={styles.dgndfgdfgdf}>
+                  <div className={`${styles.dgndfgdfgdf} position-relative`}>
                     {serviceResponse.data?.third_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Template_14/${serviceResponse.data.third_section_image}`}
                         alt=""
                       />
+                    )}
+
+                    {slug === 'link-building-seo-services' && (
+                      <>
+                      <div className={styles.RIMGGG1} >
+                        <img src="./images/linkBuild_secondImg_3.png" className={styles.RIMGG1} data-aos="zoom-in-down" data-aos-delay="100" alt="" /> 
+                      </div>
+                      <div className={styles.RIMGGG2} >
+                        <img src="./images/linkBuild_secondImg_4.png" className={styles.RIMGG2} data-aos="zoom-out" data-aos-delay="200" alt="" /> 
+                      </div>
+                      <div className={styles.RIMGGG3} >
+                        <img src="./images/linkBuild_secondImg_5.png" className={styles.RIMGG3} data-aos="zoom-in-up" data-aos-delay="500" alt="" /> 
+                      </div>
+                      <div className={styles.RIMGGG4} >
+                        <img src="./images/linkBuild_secondImg_7.png" className={styles.RIMGG4} data-aos="zoom-out-left" data-aos-delay="300" alt="" /> 
+                      </div>
+                      </>
                     )}
                   </div>
                 </div>

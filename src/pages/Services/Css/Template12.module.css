@@ -719,7 +719,7 @@
         position: absolute;
         width: 13.5rem;
         left: 77px;
-        bottom: 132px;
+        bottom: 154px;
         animation: ro-in-le 2s;
       }
 
@@ -727,7 +727,7 @@
         position: absolute;
         width: 13rem;
         right: 107px;
-        bottom: 146px;
+        bottom: 164px;
         animation: ro-in-ri 2s;
       }
 
@@ -743,7 +743,8 @@
         position: absolute;
         width: 13rem;
         right: 245px;
-        bottom: 194px;
+        /* bottom: 194px; */
+        bottom: 218px;
         animation: pop-up 2s ease-in-out;
       }
 
