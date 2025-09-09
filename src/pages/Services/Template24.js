@@ -295,7 +295,7 @@ export const Template24 = ({ serviceResponse, slug }) => {
                           <img src="./images/catelog_2ndImg_4.png" className="RRIMMG13" style={{position: 'absolute', width: '7.5em', height: 'auto', right: '149px', bottom: '252px', transform: "scale(0.2)", opacity: 0.2}} alt="" />
                         </div>
                         <div className={styles.RRIMMGG4} >
-                          <img src="./images/catelog_2ndImg_5.png" className="RRIMMG14" style={{position: 'absolute', width: '11rem', height: 'auto', left: '20px', bottom: '143px', transform: "scale(0.2)", opacity: 0.2}} alt="" />
+                          <img src="./images/catelog_2ndImg_5.png" className="RRIMMG14" style={{position: 'absolute', width: '11rem', height: 'auto', left: '34%', bottom: '143px', transform: "scale(0.2)", opacity: 0.2}} alt="" />
                         </div>
                         <div className={styles.RRIMMGG5} >
                           <img src="./images/catelog_2ndImg_6.png" className="RRIMMG15" style={{position: 'absolute', width: '9rem', height: 'auto', left: '158px', top: '69px', transform: "scale(0.2)", opacity: 0.2}} alt="" />
