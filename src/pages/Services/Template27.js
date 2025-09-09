@@ -110,7 +110,7 @@ export const Template27 = ({ serviceResponse, slug }) => {
       <main>
         <div
           className={styles.dfgjhfgd}
-          style={{ backgroundImage: "url(./images/afros.png)" }}
+          // style={{ backgroundImage: "url(./images/afros.png)" }}
         >
           <div className={`${styles.sdfghdfgdf} col-lg-6`}>
             <h1 className="mt-0 mb-0">
@@ -141,6 +141,16 @@ export const Template27 = ({ serviceResponse, slug }) => {
                 src={`${serviceResponse.image_url}/Templete_27/${serviceResponse.data.banner_image}`}
                 alt=""
               />
+            )}
+
+            {slug === 'flyer-design-company' && (
+                <div className={styles.flyer_page}>
+                  <img src="./images/flyer_img5.png" className={styles.circle} alt=""/>
+                  <img src="./images/flyer_img1.png" className={styles.img1} data-aos="fade-down-right" alt=""/>
+                  <img src="./images/flyer_img2.png" className={styles.img2} data-aos="fade-down-right"alt=""/>
+                  <img src="./images/flyer_img3.png" className={styles.img3} data-aos="fade-up-left" alt=""/>
+                  <img src="./images/flyer_img4.png" className={styles.img4} data-aos="fade-up-left" alt=""/>
+                </div>
             )}
           </div>
         </div>

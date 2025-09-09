@@ -73,7 +73,7 @@
 .dfgjhfgd {
   display: flex;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   align-items: center;
   padding: 1rem 0 3rem 0;
 }
@@ -81,7 +81,7 @@
 .dfgjhfgd
 {
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   background-size: 100% 100%;
 }
 
@@ -498,3 +498,53 @@
         padding:14px 10px;
     }
 }
+
+
+/* Rohit css start */
+
+/* Rohit css end */
+
+/* Sayntika css start */
+
+.titlii02 {
+    position: absolute;
+    width: 205px !important;
+    top: 126px;
+    left: 43px;
+}
+
+.titlii03 {
+    position: absolute;
+    width: 165px !important;
+    top: 236px;
+    left: 72px;
+}
+
+.titlii04 {
+    position: absolute;
+    width: 171px !important;
+    top: 235px;
+    left: 448px;
+}
+
+.titlii05 {
+    position: absolute;
+    width: 152px !important;
+    top: 127px;
+    left: 464px;
+}
+
+.titlii06 {
+    position: absolute;
+    width: 178px !important;
+    top: 35px;
+    left: 416px;
+}
+
+.titlii07 {
+    position: absolute;
+    width: 210px !important;
+    top: 32px;
+    left: 59px;
+}
+/* Sayntika css end */
