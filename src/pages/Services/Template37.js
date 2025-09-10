@@ -125,6 +125,19 @@ export const Template37 = ({ serviceResponse, slug }) => {
                         alt="" className="img-fluid"
                       />
                     )}
+
+                    {slug === 'professional-seo-company' && (
+                    <>
+                      <div className={styles.on}>
+                        <img src="./images/professional_seo_2ndImg_1.png" className={styles.n1} data-aos="fade-down-right" alt="" />
+                        <img src="./images/professional_seo_2ndImg_2.png" className={styles.n2} alt="" />
+                        <img src="./images/professional_seo_2ndImg_3.png" className={styles.n3}  data-aos="fade-up-right" alt="" />
+                        <img src="./images/professional_seo_2ndImg_4.png" className={styles.n4} data-aos="fade-down-left"alt="" />
+                        <img src="./images/professional_seo_2ndImg_5.png" className={styles.n5} alt="" />
+                        <img src="./images/professional_seo_2ndImg_6.png" className={styles.n6} data-aos="fade-up-left" alt="" />
+                      </div>
+                    </>
+                  )}
                   </div>
                 </div>
               </div>

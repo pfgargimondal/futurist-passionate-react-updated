@@ -489,3 +489,66 @@
     right: 24px;
 }
 /* Rohit css end */
+
+/* Prerana css start */
+.dgndfgdfgdf{
+    position: relative;
+}
+.n1{
+   position: absolute;
+    height: 8.5vw !important;
+    width: 10.8vw !important;
+    top: 2vw;
+    right: 18.8vw;
+    
+}
+.n2{
+    position: absolute;
+    height: 8vw !important;
+    width: 9vw !important;
+    top: 11.6vw;
+    right: 20vw;
+    animation:zoom 2s ease-in-out infinite;
+}
+@keyframes zoom{
+    0%{transform:scale(1) translateY(0);}
+    50%{transform:scale(1.1) translateY(-8px);}
+    100%{transform:scale(1) translateY(0);}
+}
+.n3{
+    position: absolute;
+    height: 8vw !important;
+    width: 9vw !important;
+    top: 20.5vw;
+    right: 19vw;
+}
+.n4{
+    position: absolute;
+    height: 8vw !important;
+    width: 9vw !important;
+    top: 2vw;
+    right: 1vw;
+}
+.n5{
+    position: absolute;
+    height: 8vw !important;
+    width: 9vw !important;
+    top: 12vw;
+    right: 1vw;
+    animation:blink 1s infinite;
+}
+@keyframes blink{
+  0%,100% {
+    filter:drop-shadow(0 0 0px);}
+  50%{
+       filter:drop-shadow(0 0 10px);
+    }
+}
+.n6{
+    position: absolute;
+    height: 8vw !important;
+    width: 9vw !important;
+    top: 20.5vw;
+    right: 1vw;
+}
+/* Prerana css end */
