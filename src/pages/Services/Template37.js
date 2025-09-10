@@ -1,14 +1,24 @@
 import styles from "./Css/Template37.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template37 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    AOS.init({      
+      duration: 2000,
+      once: false,
+    });
+  }, []);
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -34,12 +44,35 @@ export const Template37 = ({ serviceResponse, slug }) => {
             </div>
           </div>
 
-          <div className={`${styles.dbfghsdf} col-lg-6`}>
+          <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
             {serviceResponse.data?.banner_image && (
               <img
                 src={`${serviceResponse.image_url}/Templete_37/${serviceResponse.data.banner_image}`}
                 alt=""
               />
+            )}
+
+            {slug === 'professional-seo-company' && (
+              <>
+                <div className={styles.RIMG11} >
+                  <img src="./images/profgessional_seo_vbanner_img_2.png" className={styles.RIMGG1} data-aos="fade-up-left"  alt="" />
+                </div>
+                <div className={styles.RIMG12} >
+                  <img src="./images/profgessional_seo_vbanner_img_3.png" className={styles.RIMGG2} data-aos="fade-up-right" data-aos-delay="50" alt="" />
+                </div>
+                <div className={styles.RIMG13} >
+                  <img src="./images/profgessional_seo_vbanner_img_4.png" className={styles.RIMGG3} data-aos="fade-left" data-aos-delay="150" alt="" />
+                </div>
+                <div className={styles.RIMG14} >
+                  <img src="./images/profgessional_seo_vbanner_img_5.png" className={styles.RIMGG4} data-aos="fade-right" data-aos-delay="250" alt="" />
+                </div>
+                <div className={styles.RIMG15} >
+                  <img src="./images/profgessional_seo_vbanner_img_6.png" className={styles.RIMGG5} data-aos="fade-down-left" data-aos-delay="350" alt="" />
+                </div>
+                <div className={styles.RIMG16} >
+                  <img src="./images/profgessional_seo_vbanner_img_7.png" className={styles.RIMGG6} data-aos="fade-down-right" data-aos-delay="450" alt="" />
+                </div>
+              </>
             )}
           </div>
         </div>
@@ -89,7 +122,7 @@ export const Template37 = ({ serviceResponse, slug }) => {
                     {serviceResponse.data?.third_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_37/${serviceResponse.data.third_section_image}`}
-                        alt=""
+                        alt="" className="img-fluid"
                       />
                     )}
                   </div>

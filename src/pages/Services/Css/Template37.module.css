@@ -443,3 +443,49 @@
         padding:14px 10px;
     }
 }
+
+/* Rohit css start */
+
+.RIMG11 .RIMGG1{
+    position: absolute;
+    width: 11rem;
+    height: auto;
+    left: 25px;
+    top: 25px;
+}
+.RIMG12 .RIMGG2{
+    position: absolute;
+    width: 11.5rem;
+    height: auto;
+    right: 26px;
+    top: 27px;
+}
+.RIMG13 .RIMGG3{
+    position: absolute;
+    width: 12.1rem;
+    height: auto;
+    left: 25px;
+    bottom: 223px;
+}
+.RIMG14 .RIMGG4{
+    position: absolute;
+    width: 11.5rem;
+    height: auto;
+    bottom: 228px;
+    right: 25px;
+}
+.RIMG15 .RIMGG5{
+    position: absolute;
+    width: 11.8rem;
+    height: auto;
+    bottom: 113px;
+    left: 11px;
+}
+.RIMG16 .RIMGG6{
+    position: absolute;
+    width: 12.5rem;
+    height: auto;
+    bottom: 113px;
+    right: 24px;
+}
+/* Rohit css end */

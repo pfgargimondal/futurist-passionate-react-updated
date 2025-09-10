@@ -98,12 +98,20 @@ export const Template29 = ({ serviceResponse, slug }) => {
                         <div className={styles.hbdhdcsdsds}>
                             <div className="row">
                                 <div className="col-lg-6">
-                                    <div className={styles.cjdjcdc}>
+                                    <div className={`${styles.cjdjcdc} position-relative`}>
                                         {serviceResponse.data?.third_section_image && (
                                             <img
                                                 src={`${serviceResponse.image_url}/Templete_29/${serviceResponse.data.third_section_image}`}
                                                 alt=""
                                             />
+                                        )}
+
+                                        {slug === 'postcard-design-service' && (
+                                            <div className={styles.im}>
+                                                <img src="./images/creative_postcard_2nd_1.png" className={styles.m1} alt="" />
+                                                <img src="./images/creative_postcard_2nd_2.png" className={styles.m2} alt="" />
+                                                <img src="./images/creative_postcard_2nd_3.png" className={styles.m3} alt="" />
+                                            </div>
                                         )}
                                     </div>
                                 </div>

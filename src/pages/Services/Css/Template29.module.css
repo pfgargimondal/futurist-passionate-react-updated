@@ -518,3 +518,53 @@
     right: 1%;
 }
 /* Nisha css end */
+
+/* Prerana css start */
+.m1{
+    position: absolute;
+    height: 9rem !important;
+    width: 9rem !important;
+    top: 65%;
+    right: 7%;
+    animation:blink 1s infinite;
+}
+@keyframes blink{
+  0%,100% {
+    filter:drop-shadow(0 0 0px);}
+  50%{
+       filter:drop-shadow(0 0 10px);
+    }
+}
+.m2{
+    position: absolute;
+    height: 11rem !important;
+    width: 9rem !important;
+    bottom: 64%;
+    right: 66.5%;
+      animation:zoom 2s ease-in-out infinite;
+}
+@keyframes zoom{
+    0%{transform:scale(1) translateY(0);}
+    50%{transform:scale(1.1) translateY(-8px);}
+    100%{transform:scale(1) translateY(0);}
+}
+.m3{
+    position: absolute;
+    height: 15.5rem !important;
+    width: 15rem !important;
+    top: -6.5%;
+    right: -16%;
+    animation:wiggle2 2s infinite linear;
+}
+@keyframes wiggle2 {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-0.3rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+/* Prerana css end */
