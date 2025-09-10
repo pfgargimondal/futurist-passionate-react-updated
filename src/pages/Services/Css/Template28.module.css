@@ -875,10 +875,10 @@
   position:relative;
 }
 .img1{
-       position: absolute;
-    width: 14vw !important;
+    position: absolute;
+    width: 11vw !important;
     height: auto !important;
-    top: 31%;
+    top: 40%;
     left: 0%;
     animation: wavefloat 4s infinite ;
   }
@@ -894,8 +894,8 @@
 }
 
 .img2{
-     position: absolute;
-    width: 15vw !important;
+    position: absolute;
+    width: 11vw !important;
     height: auto !important;
     top: 39%;
     left: 67%;
@@ -916,10 +916,10 @@
 }
 .img3{
     position: absolute;
-    width: 11vw !important;
+    width: 10vw !important;
     height: auto !important;
-    top: 55%;
-    left: 72%;
+    top: 58%;
+    left: 75%;
     animation:swingrotate 3.5s infinite ;
 }
 @keyframes swingrotate{
@@ -942,27 +942,27 @@
 
 .img4{
     position: absolute;
-    width: 14vw !important;
+    width: 10vw !important;
     height: auto !important;
-    top: 77%;
-    left: 69%;
+    top: 82%;
+    left: 76%;
     animation: wavefloat 4s infinite ;
 }
 .img5{
-        position: absolute;
-    width: 12vw !important;
+    position: absolute;
+    width: 9vw !important;
     height: auto !important;
-    top: 76%;
-    left: -4%;
+    top: 81%;
+    left: 0%;
     animation:popbounce 3s infinite;
 
 }
 .img6{
     position: absolute;
-    width: 14vw !important;
+    width: 11vw !important;
     height: auto !important;
-    top: 56%;
-    left: -2%;
+    top: 59%;
+    left: 0%;
     animation:swingrotate 3.5s infinite ;
 }
 
