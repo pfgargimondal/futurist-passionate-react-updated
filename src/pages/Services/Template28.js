@@ -105,6 +105,22 @@ export const Template28 = ({ serviceResponse, slug }) => {
                     />
                   )}
 
+                  {slug === 'brochure-design-company' && ( 
+                    <div className={styles.brochure_page}>
+                      <img src="./images/b_img1.png" className={styles.img1} alt=""/> 
+
+                      <img src="./images/b_img2.png" className={styles.img2} alt=""/> 
+
+                      <img src="./images/b_img3.png" className={styles.img3} alt=""/> 
+
+                      <img src="./images/b_img4.png" className={styles.img4} alt=""/> 
+
+                      <img src="./images/b_img5.png" className={styles.img5} alt=""/> 
+
+                      <img src="./images/b_img6.png" className={styles.img6} alt=""/> 
+                    </div>
+                  )}
+
                   <div className={`${styles.oioinmewrrr} position-absolute p-4 pt-0`}>
                     <div
                       className="mb-0"

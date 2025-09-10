@@ -1,14 +1,23 @@
 import styles from "./Css/Template21.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Template21 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false, // Animations only happen once
+    });
+  }, []);
 
   const [activeTab, setActiveTab] = useState("tab1");
 
@@ -195,13 +204,34 @@ export const Template21 = ({ serviceResponse, slug }) => {
           </div>
         </div>
 
-        <div className={styles.xnjhxffgdf}>
+        <div className={` ${styles.xnjhxffgdf} position-relative`}>
           {serviceResponse.data?.featured_image && (
             <img
               src={`${serviceResponse.image_url}/Templete_21/${serviceResponse.data.featured_image}`}
               alt=""
             />
           )}
+
+          {slug === 'professional-graphic-design-services' && (
+            <div className={styles.graphic_page}>
+              <img src="./images/graphic_img1.png" className={styles.img1} data-aos="fade-up-left" alt=""/>
+
+              <img src="./images/graphic_logos.png" className={styles.img2} data-aos="flip-left" alt=""/>
+
+              <img src="./images/graphic_img2.png" className={styles.img3}  data-aos="fade-up-left" alt=""/>
+
+              <img src="./images/graphic_print.png" className={styles.img4} data-aos="flip-right" alt=""/>
+
+              <img src="./images/graphic_img3.png" className={styles.img5} data-aos="fade-up-right" alt=""/>
+
+              <img src="./images/graphic_webdesign.png" className={styles.img6} data-aos="flip-up" alt=""/>
+
+              <img src="./images/graphic_img4.png" className={styles.img7} data-aos="fade-up-right" alt=""/>
+
+              <img src="./images/graphic_branding.png" className={styles.img8} data-aos="flip-down" alt=""/>
+            </div>
+          )}
+
         </div>
         <LastSectionComponent />
       </main>

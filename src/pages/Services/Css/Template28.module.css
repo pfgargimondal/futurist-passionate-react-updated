@@ -14,7 +14,7 @@
 .sdfghdfgdf p {
   color: var(--medium-text-color);
 }
-
+ 
 .dfgjhfgd {
   display: flex;
   padding: 1rem 0 3rem 0;
@@ -867,3 +867,103 @@
         padding:14px 10px;
     }
 }
+
+
+/*karina start*/
+
+.sdvdfgevtefr{
+  position:relative;
+}
+.img1{
+       position: absolute;
+    width: 14vw !important;
+    height: auto !important;
+    top: 31%;
+    left: 0%;
+    animation: wavefloat 4s infinite ;
+  }
+    @keyframes wavefloat{
+  0%{
+    transform: translate(-50px,50px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0) scale(1);
+    opacity: 1;
+  }
+}
+
+.img2{
+     position: absolute;
+    width: 15vw !important;
+    height: auto !important;
+    top: 39%;
+    left: 67%;
+    animation:popbounce 3s infinite;
+}
+@keyframes popbounce{
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    70%{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.img3{
+    position: absolute;
+    width: 11vw !important;
+    height: auto !important;
+    top: 55%;
+    left: 72%;
+    animation:swingrotate 3.5s infinite ;
+}
+@keyframes swingrotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    75%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.img4{
+    position: absolute;
+    width: 14vw !important;
+    height: auto !important;
+    top: 77%;
+    left: 69%;
+    animation: wavefloat 4s infinite ;
+}
+.img5{
+        position: absolute;
+    width: 12vw !important;
+    height: auto !important;
+    top: 76%;
+    left: -4%;
+    animation:popbounce 3s infinite;
+
+}
+.img6{
+    position: absolute;
+    width: 14vw !important;
+    height: auto !important;
+    top: 56%;
+    left: -2%;
+    animation:swingrotate 3.5s infinite ;
+}
+
+/*karina end*/
