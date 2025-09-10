@@ -53,14 +53,18 @@ export const Template23 = ({ serviceResponse, slug }) => {
       description: serviceResponse.data?.third_section_description_three,
       image: serviceResponse.data?.third_section_image_three,
       animations: [
-        // { src: "/images/ldsprice.png", className: "ldspic1", animation: "flip-up" },
-        // { src: "/images/ldstime.png", className: "ldspic2", animation: "flip-down" },
-        // { src: "/images/ldsformat.png", className: "ldspic3", animation: "zoom-in-left" },
-        // { src: "/images/ldsoriginal.png", className: "ldspic4", animation: "zoom-in-right" },
+        { src: "/images/leaflet_book.png", className: "img1", animation: "zoom-in" },
+        { src: "/images/leaflet_img1.png", className: "img2", animation: "fade-down-right" },
+        { src: "/images/leaflet_img2.png", className: "img3", animation: "" },
+        { src: "/images/leaflet_img3.png", className: "img4", animation: "fade-down-left" },
+        { src: "/images/leaflet_img4.png", className: "img5", animation: "" },
+        { src: "/images/leaflet_img5.png", className: "img6", animation: "fade-up-right" },
+        { src: "/images/leafllet_img6.png", className: "img7", animation: "" },
+        { src: "/images/leaflet_img7.png", className: "img8", animation: "fade-up-left" },
+        { src: "/images/leaflet_img8.png", className: "img9", animation: "" },
       ],
     },
   ];
-
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -162,7 +166,7 @@ export const Template23 = ({ serviceResponse, slug }) => {
                   </div>
 
                   {/* Right Content */}
-                  <div className={`${styles["tab-main-box"]} col-lg-6`}>
+                  <div className={`${styles["tab-main-box"]} col-lg-6 position-relative`}>
                     {tabs.map((tab) => (
                       <div
                         key={tab.id}

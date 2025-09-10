@@ -51,7 +51,7 @@ export const Template25 = ({ serviceResponse, slug }) => {
                 src={`${serviceResponse.image_url}/Templete_25/${serviceResponse.data.banner_image}`}
                 alt=""
               />
-            )}
+            )} 
             {slug === 'banner-design-services' && (
                 <>
                   <div className={styles.RIIIMMGG1}>
@@ -119,12 +119,23 @@ export const Template25 = ({ serviceResponse, slug }) => {
                   </div>
                 </div>
                 <div className="col-lg-5">
-                  <div className={styles.dgndfgdfgdf}>
+                  <div className={` ${styles.dgndfgdfgdf} position-relative`}>
                     {serviceResponse.data?.third_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_25/${serviceResponse.data.third_section_image}`}
                         alt="" className="img-fluid"
                       />
+                    )}
+
+                    {slug === 'banner-design-services' && (
+                      <div className={styles.one}>
+                        <img src="./images/se1.png" className={styles.g1} data-aos="flip-right" alt=""/>
+                        <img src="./images/se2.png" className={styles.g2} alt=""/>
+                        <img src="./images/se3.png" className={styles.g3} alt=""/>
+                        <img src="./images/se4.png" className={styles.g4} alt=""/>
+                        <img src="./images/se5.png" className={styles.g5} alt=""/>
+                        <img src="./images/se6.png" className={styles.g6} alt=""/>
+                      </div>
                     )}
                   </div>
                 </div>

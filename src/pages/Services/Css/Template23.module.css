@@ -725,25 +725,25 @@
 /* Nisha css start */
 .ldspic1{
   position: absolute;
-  width: 9vw;
+  width: 12vw;
   top: 7%;
-  left: 54%;
+  left: 4%;
 }
 .ldspic2{
   position: absolute;
-  width: 11vw;
+  width: 12vw;
   top: 6%;
   right: 5%;
 }
 .ldspic3{
   position: absolute;
-  width: 11vw;
+  width: 12vw;
   bottom: 24%;
-  left: 53.5%;
+  left: 4%;
 }
 .ldspic4{
   position: absolute;
-  width: 11vw;
+  width: 12vw;
   bottom: 24%;
   right: 4%;
 }
@@ -754,7 +754,7 @@
   position: absolute;
   width: 13.5vw;
   top: 1%;
-  left: 53%;
+  left: 4%;
   animation: wavefloat 3.5s;
 }
 @keyframes wavefloat{
@@ -788,7 +788,7 @@
   position: absolute;
   width: 13vw;
   bottom: 23%;
-  left: 53%;
+  left: 4%;
   animation: spinin 3s;
 }
 .ldspicture4{
@@ -809,3 +809,71 @@
   }
 }
 /* Nisha css end */
+
+/* Karina css start */
+.img1{
+  position: absolute;
+    width: 18vw !important;
+    height: auto !important;
+    right: 31%;
+    top: 37%;
+}
+.img2{
+      position: absolute;
+    width: 10vw !important;
+    height: auto !important;
+    left: 15%;
+    top: 12%;
+}
+.img3{
+    position: absolute;
+    width: 9vw !important;
+    height: auto !important;
+    right: 41%;
+    top: 3%;
+}
+.img4{
+    position: absolute;
+    width: 10vw !important;
+    height: auto !important;
+    right: 10%;
+    top: 11%
+}
+.img5{
+          position: absolute;
+    width: 12vw;
+    height: auto !important;
+    right: 6%;
+    top: 40%;
+}
+.img6{
+     position: absolute;
+    width: 12vw !important;
+    height: auto !important;
+    right: 6%;
+    top: 67%;
+}
+.img7{
+  position: absolute;
+    width: 8vw !important;
+    height: auto !important;
+    right: 42%;
+    top: 68%
+}
+.img8{
+      position: absolute;
+    width: 11vw !important;
+    height: auto !important;
+    right: 69%;
+    top: 67%;
+}
+.img9{
+     position: absolute;
+    width: 12vw !important;
+    height: auto !important;
+    left: 5%;
+    top: 40%;
+
+
+}
+/* Karina css end */

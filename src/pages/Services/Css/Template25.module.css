@@ -530,3 +530,93 @@
     left: 41px;
 }
 /* Rohit css end */
+
+/* Prerana css start */
+.g1{
+   position: absolute;
+    height: 4.5vw !important;
+    width: 5.5vw !important;
+    top: 0vw;
+    right: 14.8vw;
+    
+}
+.g2{
+    position: absolute;
+    height: 5vw !important;
+    width: 5vw !important;
+    top: 4.6vw;
+    right: 16vw;
+    animation:wiggle3 2s infinite linear;
+}
+@keyframes wiggle3 {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(-0.3rem);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+.g3{
+    position: absolute;
+    height: 4vw !important;
+    width: 6vw !important;
+    top: 12vw;
+    right: 20vw;
+     animation:blink 1s infinite;
+}
+@keyframes blink{
+  0%,100% {
+    filter:drop-shadow(0 0 0px);}
+  50%{
+       filter:drop-shadow(0 0 10px);
+    }
+}
+.g4{
+    position: absolute;
+    height: 5vw !important;
+    width: 7vw !important;
+    top: 3.8vw;
+    right: 1.5vw;
+     animation:5s infinite moon;
+    opacity:0;
+}
+@keyframes moon{
+  0%{transform:translate(-1rem);}
+  100%{transform:translateY(0);opacity:1.4};
+}
+.g5{
+    position: absolute;
+    height: 5vw !important;
+    width: 5.7vw !important;
+    top: 12vw;
+    right: 2.5vw;
+     animation:zoom 2s ease-in-out infinite;
+}
+@keyframes zoom{
+    0%{transform:scale(1) translateY(0);}
+    50%{transform:scale(1.1) translateY(-8px);}
+    100%{transform:scale(1) translateY(0);}
+}
+.g6{
+    position: absolute;
+    height: 5vw !important;
+    width: 5.5vw !important;
+    top: 22vw;
+    right: 10.5vw;
+    animation:wiggle2 2s infinite linear;
+}
+@keyframes wiggle2 {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-0.3rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+/* Prerana css end */
