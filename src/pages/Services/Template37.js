@@ -172,12 +172,26 @@ export const Template37 = ({ serviceResponse, slug }) => {
             <div className={styles.sdbhusdfdvfd}>
               <div className="row">
                 <div className="col-lg-6">
-                  <div className={styles.mvicfnvfbc}>
+                  <div className={` ${styles.mvicfnvfbc} position-relative`}>
                     {serviceResponse.data?.fifth_section_main_image && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_37/${serviceResponse.data.fifth_section_main_image}`}
                         alt=""
                       />
+                    )}
+
+                    {slug === 'professional-seo-company' && ( 
+                      <div className={styles.brochure_page}>
+                        <img src="./images/seo1.webp" className={styles.img1} alt=""/> 
+
+                        <img src="./images/seo2.webp" className={styles.img2} alt=""/> 
+
+                        <img src="./images/seo3.webp" className={styles.img3} alt=""/> 
+
+                        <img src="./images/seo4.webp" className={styles.img4} alt=""/> 
+
+                        <img src="./images/seo5.webp" className={styles.img5} alt=""/> 
+                      </div>
                     )}
                   </div>
                 </div>

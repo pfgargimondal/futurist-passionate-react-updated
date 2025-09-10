@@ -45,6 +45,20 @@ export const Template44 = ({ serviceResponse, slug }) => {
                     alt=""
                   />
                 )}
+
+                {slug === 'infographics-design-company' && ( 
+                  <div className={styles.infographic_page}>
+                    <img src="./images/info1.webp" className={styles.img1} alt=""/> 
+
+                    <img src="./images/info2.webp" className={styles.img2} alt=""/> 
+
+                    <img src="./images/info3.webp" className={styles.img3} alt=""/> 
+
+                    <img src="./images/info4.webp" className={styles.img4} alt=""/> 
+
+                    <img src="./images/info5.webp" className={styles.img5} alt=""/> 
+                  </div>
+                )}
               </div>
             </div>
           </div>

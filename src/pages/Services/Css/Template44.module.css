@@ -473,3 +473,81 @@
         padding:14px 10px;
     }
 }
+
+
+
+/*karina start*/
+
+.dbfghsdf{
+    position:relative;
+}
+.img1{
+   position: absolute;
+    width: 19vw !important;
+    height: auto !important;
+    top: 16%;
+    left: 6%;
+    animation: popIn 3s;
+}
+@keyframes popIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  80% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); }
+}
+.img2{
+    position: absolute;
+    width: 19vw !important;
+    height: auto !important;
+    top: 3.5%;
+    left: 46%;
+    animation: jello 3s;
+}
+@keyframes jello {
+  0%, 100% { transform: skew(0deg, 0deg); }
+  25% { transform: skew(10deg, 5deg); }
+  50% { transform: skew(-10deg, -5deg); }
+  75% { transform: skew(5deg, -10deg); }
+  
+}
+
+.img3{
+       position: absolute;
+    width: 19vw !important;
+    height: auto !important;
+    top: 29%;
+    left: 55.5%;
+    animation: spinScale 3s ;
+}
+@keyframes spinScale {
+  from { transform: rotate(0deg) scale(0.5); }
+  to { transform: rotate(360deg) scale(1); }
+}
+.img4{
+   position: absolute;
+    width: 17vw !important;
+    height: auto !important;
+    bottom: 23%;
+    right: 20%;
+    animation: wave 3s ;
+}
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+.img5{
+     position: absolute;
+    width: 18vw !important;
+    height: auto !important;
+    bottom: 29%;
+    left: 10%;
+    animation: loadingDots 3s linear;
+}
+@keyframes loadingDots {
+  0% { transform: scale(0); }
+  100% { transform: scale(1); }
+}
+
+/*karina end*/

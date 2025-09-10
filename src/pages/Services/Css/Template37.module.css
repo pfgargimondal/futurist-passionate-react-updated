@@ -552,3 +552,74 @@
     right: 1vw;
 }
 /* Prerana css end */
+
+/*karina start*/
+
+.img1{
+    position: absolute;
+    width: 7vw !important;
+    height: auto !important;
+    top: 32%;
+    left: 80%;
+    animation: zoomIn 3s infinite;
+}
+@keyframes zoomIn {
+  from { transform: scale(0.5); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+.img2{
+     position: absolute;
+    width: 13vw !important;
+    height: auto !important;
+    top: 69%;
+    left: 63%;
+    animation: zoomOut 3s infinite;
+}
+@keyframes zoomOut {
+  from { transform: scale(1); opacity: 0; }
+  to { transform: scale(0.5); opacity: 1; }
+}
+.img3{
+    position: absolute;
+    width: 10vw !important;
+    height: auto !important;
+    top: 72%;
+    left: 7%;
+    animation: swing 3s infinite;
+}
+@keyframes swing {
+  20% { transform: rotate(15deg); }
+  40% { transform: rotate(-10deg); }
+  60% { transform: rotate(5deg); }
+  80% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+.img4{
+     position: absolute;
+    width: 9vw !important;
+    height: auto !important;
+    top: 27%;
+    left: 7%;
+    animation:flip 3s linear infinite ;
+}
+@keyframes flip {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+
+
+.img5{
+position: absolute;
+    width: 11vw !important;
+    height: auto !important;
+    top: 2%;
+    left: 33%;
+    animation:floating 3s infinite;
+}
+@keyframes floating {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+/*karina end*/

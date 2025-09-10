@@ -41,6 +41,16 @@ export const Template42 = ({ serviceResponse, slug }) => {
                 alt=""
               />
             )}
+
+            {slug === 'whiteboard-animation-services' && ( 
+              <div className={styles.white_page}>
+                <img src="./images/white1.webp" className={styles.img1} alt=""/>
+
+                <img src="./images/white2.webp" className={styles.img2} alt=""/>
+
+                <img src="./images/white3.webp" className={styles.img3} alt=""/>
+              </div>
+            )}
           </div>
         </div>
 

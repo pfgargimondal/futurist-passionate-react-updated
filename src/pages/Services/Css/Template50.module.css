@@ -477,3 +477,120 @@
         padding:14px 10px;
     }
 }
+
+
+/*nisha start*/
+
+.prwsimg1{
+    position: absolute;
+    width: 18.5vw !important;
+    top: 24%;
+    right: 31%;
+    animation: spininlu 5s;
+}
+@keyframes spininlu{
+  0%{
+    transform: translate(-50px,-50px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0) scale(1);
+    opacity: 1;
+  }
+}
+.prwsimg2{
+    position: absolute;
+    width: 18vw !important;
+    bottom: 16%;
+    right: 31%;
+    animation: spininld 5s;
+}
+@keyframes spininld{
+  0%{
+    transform: translate(-50px,50px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0) scale(1);
+    opacity: 1;
+  }
+}
+.prwsimg3{
+    position: absolute;
+    width: 18.5vw !important;
+    top: 21.5%;
+    right: 1%;
+    animation: spininru 5s;
+}
+@keyframes spininru{
+  0%{
+    transform: translate(50px,-50px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0) scale(1);
+    opacity: 1;
+  }
+}
+.prwsimg4{
+    position: absolute;
+    width: 14.7vw !important;
+    bottom: 21%;
+    right: 1.5%;
+    animation: spininrd 5s;
+}
+@keyframes spininrd{
+  0%{
+    transform: translate(50px,50px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0) scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+.prwspic1{
+    position: absolute;
+    width: 10.5vw !important;
+    top: 2.5%;
+    right: 14%;
+    animation: rotatedrop 3s infinite;
+}
+@keyframes rotatedrop{
+    0%{
+        transform: translateY(-100px) rotate(-90deg);
+        opacity: 0;
+    }
+    60%{
+        transform: translateY(20px) rotate(10deg);
+        opacity: 1; 
+    }
+    100%{
+        transform: translateY(0) rotate(0deg);
+    }
+}
+.prwspic2{
+    position: absolute;
+    width: 9vw !important;
+    bottom: 15%;
+    right: 2%;
+    animation: heartbeat 4s infinite;
+}
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  25% { transform: scale(1.1); }
+  50% { transform: scale(0.9); }
+  75% { transform: scale(1.1); }
+}
+.prwspic3{
+    position: absolute;
+    width: 9vw !important;
+    bottom: 15%;
+    left: 1%;
+    animation: heartbeat 3s infinite;
+}
+
+/*nisha end*/

@@ -1051,6 +1051,93 @@
 }
 
 
+/*nisha start*/
+
+.ecspic1{
+  position: absolute;
+  width: 17vw !important;
+  height: 6.5vw !important;
+  top: 27%;
+  left: 2%;
+}
+.ecspic2{
+  position: absolute;
+  width: 9vw !important;
+  height: 10vw !important;
+  top: 34%;
+  right: 3.5%;
+}
+.ecspic3{
+  position: absolute;
+  width: 17vw !important;
+  height: 7vw !important;
+  bottom: 1%;
+  right: 9%;
+}
+
+.ecsimg1{
+  position: absolute;
+  width: 18.5vw !important;
+  bottom: 4.5%;
+  left: -1%;
+  animation: pulsepop 3s infinite;
+}
+@keyframes pulsepop{
+  0%{
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60%{
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.ecsimg2{
+  position: absolute;
+  width: 18.5vw !important;
+  top: 5%;
+  right: 2%;
+  animation: fullrotate 3.5s infinite;
+}
+@keyframes fullrotate{
+  0%{
+    transform: scale(0) rotate(-360deg);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+}
+.ecsimg3{
+  position: absolute;
+  width: 18.5vw !important;
+  bottom: 5%;
+  right: 2.5%;
+  animation: bounceup 4s infinite;
+}
+@keyframes bounceup{
+  0%{
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*nisha end*/
+
+
+
+
+
+
+
 
 
 

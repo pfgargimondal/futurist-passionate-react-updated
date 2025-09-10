@@ -40,6 +40,18 @@ export const Template50 = ({ serviceResponse, slug }) => {
                     alt=""
                   />
                 )}
+
+                {slug === 'press-release-writing-services' && ( 
+                  <div className={styles.prwsimgs}>
+                    <img src="/images/prwsstory.webp" className={styles.prwsimg1} alt=""/>
+
+                    <img src="/images/prwsclear.webp" className={styles.prwsimg2} alt=""/>
+
+                    <img src="/images/prwsseo.webp" className={styles.prwsimg3} alt=""/>
+
+                    <img src="/images/prwsquick.webp" className={styles.prwsimg4} alt=""/>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -163,12 +175,22 @@ export const Template50 = ({ serviceResponse, slug }) => {
                     </div>
                   </div>
                   <div className="col-lg-6">
-                    <div className={styles.fndfjhgdfg}>
+                    <div className={`${styles.fndfjhgdfg} position-relative`}>
                       {serviceResponse.data?.fourth_section_image && (
                         <img
                           src={`${serviceResponse.image_url}/Templete_50/${serviceResponse.data.fourth_section_image}`}
                           alt=""
                         />
+                      )}
+
+                      {slug === 'press-release-writing-services' && ( 
+                        <div className={styles.prwspics}>
+                          <img src="/images/prwstarget.webp" className={styles.prwspic1} alt=""/>
+
+                          <img src="/images/prwsfast.webp" className={styles.prwspic2} alt=""/>
+
+                          <img src="/images/prwsindustry.webp" className={styles.prwspic3} alt=""/>
+                        </div>
                       )}
                     </div>
                   </div>

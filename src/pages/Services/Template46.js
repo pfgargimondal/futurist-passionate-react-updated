@@ -197,6 +197,16 @@ export const Template46 = ({ serviceResponse, slug }) => {
                   </div>
                 </div>
               )}
+
+              {slug === 'email-copywriting-services' && ( 
+                <div className={styles.ecsimgs}>
+                  <img src="/images/ecstime.webp" className={styles.ecsimg1} alt=""/>
+
+                  <img src="/images/ecsline.webp" className={styles.ecsimg2} alt=""/>
+
+                  <img src="/images/ecsbulb.webp" className={styles.ecsimg3} alt=""/>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -248,6 +258,17 @@ export const Template46 = ({ serviceResponse, slug }) => {
                         src={`${serviceResponse.image_url}/Templete_46/${serviceResponse.data.third_section_image}`}
                         alt=""
                       />
+                    )}
+
+
+                    {slug === 'email-copywriting-services' && ( 
+                      <div className={styles.ecspics}>
+                        <img src="/images/ecsquick.webp" className={styles.ecspic1} data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" alt=""/>
+
+                        <img src="/images/ecsengage.webp" className={styles.ecspic2} data-aos="fade-left" alt=""/>
+
+                        <img src="/images/ecsscale.webp" className={styles.ecspic3} data-aos="fade-left" alt=""/>
+                      </div>
                     )}
 
                     {slug === 'professional-website-development-services' && (

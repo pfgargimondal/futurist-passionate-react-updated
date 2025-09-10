@@ -158,12 +158,26 @@ export const Template31 = ({ serviceResponse, slug }) => {
                     </div>
                 </div>
 
-                <div className={styles.sdmsdjhsds}>
+                <div className={`${styles.sdmsdjhsds} position-relative`}>
                     {serviceResponse.data?.last_image && (
                         <img
                             src={`${serviceResponse.image_url}/Templete_31/${serviceResponse.data.last_image}`}
                             alt=""
                         />
+                    )}
+
+                    {slug === 'envelope-designing-services' && ( 
+                        <div className={styles.envelope_page}>
+                            <img src="./images/e1.webp" className={styles.img1} alt=""/> 
+
+                            <img src="./images/e2.webp" className={styles.img2} alt=""/>
+
+                            <img src="./images/e3.webp" className={styles.img3} alt=""/>
+
+                            <img src="./images/e4.webp" className={styles.img4} alt=""/>
+
+                            <img src="./images/e5.webp" className={styles.img5} alt=""/>                
+                        </div>
                     )}
                 </div>
                 <LastSectionComponent />
