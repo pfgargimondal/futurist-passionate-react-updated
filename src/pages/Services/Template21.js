@@ -111,12 +111,21 @@ export const Template21 = ({ serviceResponse, slug }) => {
                 </div>
 
                 <div className="col-lg-5">
-                  <div className={styles.dgndfgdfgdf}>
+                  <div className={`${styles.dgndfgdfgdf} position-relative`}>
                     {serviceResponse.data?.third_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_21/${serviceResponse.data.third_section_image}`}
                         alt=""
                       />
+                    )}
+
+                    {slug === 'professional-graphic-design-services' && (
+                      <div className={styles.prof}>
+                        <img src="./images/pro_graphics_img_1.png" className={styles.li1} alt="" />
+                        <img src="./images/pro_graphics_img_2.png" className={styles.li2} alt="" />
+                        <img src="./images/pro_graphics_img_3.png" className={styles.li3} alt="" />
+                        <img src="./images/pro_graphics_img_4.png" className={styles.li4} alt="" />
+                      </div>
                     )}
                   </div>
                 </div>
