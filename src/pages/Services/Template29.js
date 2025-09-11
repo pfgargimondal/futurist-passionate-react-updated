@@ -164,7 +164,7 @@ export const Template29 = ({ serviceResponse, slug }) => {
                                             {serviceResponse.data?.fifth_section_image && (
                                                 <img
                                                     src={`${serviceResponse.image_url}/Templete_29/${serviceResponse.data.fifth_section_image}`}
-                                                    alt=""
+                                                    alt="" data-aos="fade-right"
                                                 />
                                             )}
                                         </div>
@@ -188,7 +188,7 @@ export const Template29 = ({ serviceResponse, slug }) => {
                                             {serviceResponse.data?.sixth_section_image && (
                                                 <img
                                                     src={`${serviceResponse.image_url}/Templete_29/${serviceResponse.data.sixth_section_image}`}
-                                                    alt=""
+                                                    alt="" data-aos="fade-left"
                                                 />
                                             )}
                                         </div>
