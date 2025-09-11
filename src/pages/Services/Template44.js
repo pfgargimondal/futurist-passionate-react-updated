@@ -1,5 +1,5 @@
 import styles from "./Css/Template44.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceForm from "./FormComponent/ServiceForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
@@ -7,10 +7,20 @@ import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template44 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    AOS.init({      
+      duration: 2000,
+      once: false,
+    });
+  }, []);
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -89,7 +99,7 @@ export const Template44 = ({ serviceResponse, slug }) => {
                         {serviceResponse.data?.third_section_image_one && (
                           <img
                             src={`${serviceResponse.image_url}/Templete_44/${serviceResponse.data.third_section_image_one}`}
-                            alt=""
+                            alt=""  data-aos="flip-left"
                           />
                         )}
                       </div>
@@ -112,7 +122,7 @@ export const Template44 = ({ serviceResponse, slug }) => {
                         {serviceResponse.data?.third_section_image_two && (
                           <img
                             src={`${serviceResponse.image_url}/Templete_44/${serviceResponse.data.third_section_image_two}`}
-                            alt=""
+                            alt=""  data-aos="flip-right"
                           />
                         )}
                       </div>
@@ -166,12 +176,26 @@ export const Template44 = ({ serviceResponse, slug }) => {
                     </div>
                   </div>
                   <div className="col-lg-6">
-                    <div className={styles.cfbgjhcfdf}>
+                    <div className={` ${styles.cfbgjhcfdf} position-relative`}>
                       {serviceResponse.data?.fifth_section_image && (
                         <img
                           src={`${serviceResponse.image_url}/Templete_44/${serviceResponse.data.fifth_section_image}`}
                           alt=""
                         />
+                      )}
+
+                      {slug === 'infographics-design-company' && ( 
+                        <div className={styles.info2_page}>
+                          <img src="./images/infog1.webp" className={styles.pic1} data-aos="zoom-in-up"  alt=""/> 
+
+                          <img src="./images/infog2.webp" className={styles.pic2} data-aos="fade-up-left" alt=""/>
+
+                          <img src="./images/infog3.webp" className={styles.pic3}  data-aos="fade-up-right"   alt=""/>
+
+                          <img src="./images/infog4.webp" className={styles.pic4} data-aos="fade-left" alt=""/>
+
+                          <img src="./images/infog5.webp" className={styles.pic5} data-aos="fade-right" alt=""/>
+                        </div>
                       )}
                     </div>
                   </div>

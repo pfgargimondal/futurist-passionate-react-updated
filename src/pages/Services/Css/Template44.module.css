@@ -551,3 +551,44 @@
 }
 
 /*karina end*/
+
+
+/*karina startt*/
+
+.pic1{
+   position: absolute;
+    width: 7vw !important;
+    height: auto !important;
+    left: 40%;
+    top: 3%;
+}
+.pic2{
+  position: absolute;
+    width: 7vw !important;
+    height: auto !important;
+    left: 17%;
+    top: 21%;
+}
+.pic3{
+   position: absolute;
+    width: 7vw !important;
+    height: auto !important;
+    left: 64%;
+    top: 24%;
+}
+.pic4{
+        position: absolute;
+    width: 7vw !important;
+    height: auto !important;
+    left: 6%;
+    top: 42%;
+}
+.pic5{
+   position: absolute;
+    width: 7vw !important;
+    height: auto !important;
+    left: 74%;
+    top: 46%;
+}
+
+/*karina endd*/
