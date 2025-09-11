@@ -33,7 +33,9 @@ export const Template33 = ({ serviceResponse, slug }) => {
       { threshold: 0.3 }
     );
 
-    if (bookRef.current) {
+    // eslint-disable-next-line
+
+    if (bookRef.current) { 
       observer.observe(bookRef.current);
     }
 
