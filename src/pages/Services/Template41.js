@@ -49,6 +49,22 @@ export const Template41 = ({ serviceResponse, slug }) => {
                   alt=""
                 />
               )}
+
+              {slug === 'photo-sharing-services' && ( 
+                <div className={styles.psspics}>
+                  <img src="/images/pssmobile.webp" className={styles.psspic1} alt=""/>
+
+                  <img src="/images/pssping.webp" className={styles.psspic2} alt=""/>
+
+                  <img src="/images/pssman.webp" className={styles.psspic3} alt=""/>
+
+                  <img src="/images/psssearch.webp" className={styles.psspic4} alt=""/>
+
+                  <img src="/images/psslock.webp" className={styles.psspic5} alt=""/>
+
+                  <img src="/images/pssprint.webp" className={styles.psspic6} alt=""/>
+                </div>
+              )}
             </div>
           </div>
         </div>

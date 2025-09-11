@@ -59,6 +59,16 @@ export const Template9 = ({ serviceResponse, slug }) => {
                 <img src="./images/social_bookmarking_banner_4.png" className={styles.m4} alt="" />
               </div>
             )}
+
+            {slug === 'best-research-paper-writing-services' && ( 
+              <div className={styles.brpwsimgs}>
+                <img src="/images/brpwshat.webp" className={styles.brpwsimg1} alt=""/>
+
+                <img src="/images/brpwscoin.webp" className={styles.brpwsimg2} alt=""/>
+
+                <img src="/images/brpwscircle.webp" className={styles.brpwsimg3} alt=""/>
+              </div>
+            )}
           </div>
         </div>
 

@@ -506,3 +506,94 @@
         padding:14px 10px;
     }
 }
+
+/*nisha startt*/
+
+.dbfghsdf{
+    position: relative;
+}
+.psspic1{
+    position: absolute;
+    width: 9vw !important;
+    top: 4%;
+    left: 18%;
+    animation: fadedown 4s;
+}
+.psspic2{
+    position: absolute;
+    width: 9vw !important;
+    top: 29%;
+    left: 1.9%;
+    animation: faderight 4s;
+}
+@keyframes faderight{
+  0%{
+    transform: translateX(-80px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.psspic3{
+    position: absolute;
+    width: 9vw !important;
+    bottom: 15%;
+    left: 20%;
+    animation: fadeup 4s;
+}
+.psspic4{
+    position: absolute;
+    width: 9vw !important;
+    top: 3%;
+    right: 17.5%;
+    animation: fadedown 4s;
+}
+.psspic5{
+    position: absolute;
+    width: 9vw !important;
+    top: 29%;
+    right: 1.9%;
+    animation: fadeleft 4s;
+}
+@keyframes fadeleft{
+  0%{
+    transform: translateX(80px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+.psspic6{
+    position: absolute;
+    width: 9vw !important;
+    bottom: 15%;
+    right: 18.5%;
+    animation: fadeup 4s;
+}
+@keyframes fadeup{
+  0%{
+    transform: translateY(100px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes fadedown{
+  0%{
+    transform: translateY(-100px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+/*nisha endd*/

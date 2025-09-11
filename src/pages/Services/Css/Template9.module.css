@@ -723,3 +723,62 @@
     }
 }
 /* Sayantika css end */
+
+/*nisha startt*/
+
+.dbfghsdf{
+    position: relative;
+}
+.brpwsimg1{
+    position: absolute;
+    width: 22vw !important;
+    top: 6%;
+    left: 2.5%;
+    animation: spininup 5s;
+}
+@keyframes spininup{
+  0%{
+    transform: translate(-50px,-50px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0) scale(1);
+    opacity: 1;
+  }
+}
+.brpwsimg2{
+    position: absolute;
+    width: 22vw !important;
+    bottom: 26%;
+    left: 3%;
+    animation: spinindown 5s;
+}
+@keyframes spinindown{
+  0%{
+    transform: translate(-50px,50px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0) scale(1);
+    opacity: 1;
+  }
+}
+.brpwsimg3{
+    position: absolute;
+    width: 21vw !important;
+    top: 30%;
+    right: -0.4%;
+    animation: spininleft 5s;
+}
+@keyframes spininleft{
+  0%{
+    transform: translateX(100px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+/*nisha endd*/
