@@ -74,6 +74,18 @@ export const Template21 = ({ serviceResponse, slug }) => {
                 alt=""
               />
             )}
+
+            {slug === 'professional-graphic-design-services' && (
+                <div className={styles.son}>
+                  <img src="./images/graphics_designer_banner_1.webp" className={styles.on1} alt="" />
+                  <img src="./images/graphics_designer_banner_2.webp" className={styles.on2} alt="" />
+                  <img src="./images/graphics_designer_banner_3.webp" className={styles.on3} alt="" />
+                  <img src="./images/graphics_designer_banner_4.webp" className={styles.on4} alt="" />
+                  <img src="./images/graphics_designer_banner_5.webp" className={styles.on5} alt="" />
+                  <img src="./images/graphics_designer_banner_6.webp" className={styles.on6} alt="" />
+                </div>
+            )}
+
           </div>
         </div>
 
