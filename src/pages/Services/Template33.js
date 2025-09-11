@@ -40,7 +40,8 @@ export const Template33 = ({ serviceResponse, slug }) => {
     }
 
     return () => {
-      if (bookRef.current) observer.unobserve(bookRef.current);
+      // eslint-disable-next-line
+      if (bookRef.current) observer.unobserve(bookRef.current); 
     };
   }, []);
 
