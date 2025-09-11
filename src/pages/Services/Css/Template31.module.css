@@ -30,7 +30,7 @@
 .dfgjhfgd {
   display: flex;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   align-items: center;
   padding: 1rem 0 3rem 0;
 }
@@ -38,7 +38,7 @@
 .dfgjhfgd
 {
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   background-size: 100% 100%;
 }
 
@@ -814,3 +814,94 @@ position: absolute;
 }
 
 /*karina end*/
+
+/* Prerana css start */
+.dbfghsdf{
+  position: relative;
+}
+.oo1{
+    position: absolute;
+    height: 11vw !important;
+    width: 19vw !important;
+    top: 1.7vw;
+    right: 29vw;
+    animation: tg 3s infinite;
+}
+@keyframes tg {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(-0.3rem);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+.oo2{
+    position: absolute;
+    height: 12vw !important;
+    width: 13vw !important;
+    top: 0vw;
+    right: 2vw;
+    animation:5s infinite down;
+    opacity:0;
+}
+@keyframes down{
+  0%{transform:translate(-1rem);}
+  100%{transform:translateY(0);opacity:1.4};
+}
+.oo3{
+    position: absolute;
+    height: 12vw !important;
+    width: 12vw !important;
+    top: 14vw;
+    right: -1vw;
+     animation: blink 3.5s infinite;
+}
+@keyframes blink{
+  0%,100% {
+    filter:drop-shadow(0 0 0px);}
+  50%{
+       filter:drop-shadow(0 0 10px);
+    }
+}
+.oo4{
+    position: absolute;
+    height: 11vw !important;
+    width: 14vw !important;
+    top: 14.7vw;
+    right: 34vw;
+    animation: wave 4s infinite;
+}
+ @keyframes wave{
+  0%{
+    transform: translate(-10px,20px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0) scale(1);
+    opacity: 1;
+  }
+}
+.oo5{
+    position: absolute;
+    height: 9vw !important;
+    width: 12vw !important;
+    top: 18.7vw;
+    right: 18vw;
+    animation:up 2s infinite linear;
+}
+@keyframes up {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-0.3rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+/* Prerana css end */

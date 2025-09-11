@@ -43,11 +43,21 @@ export const Template31 = ({ serviceResponse, slug }) => {
                                     alt=""
                                 />
                             )}
+
+                            {slug === 'envelope-designing-services' && ( 
+                                <div className={styles.cat}>
+                                    <img src="./images/envelope_designing_banner_1.png" className={styles.oo1} alt="" />
+                                    <img src="./images/envelope_designing_banner_2.png" className={styles.oo2} alt="" />
+                                    <img src="./images/envelope_designing_banner_3.png" className={styles.oo3} alt="" />
+                                    <img src="./images/envelope_designing_banner_4.png" className={styles.oo4} alt="" />
+                                    <img src="./images/envelope_designing_banner_5.png" className={styles.oo5} alt="" />
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
 
-
+ 
 
 
                 <div className={styles.fjhfdfgdfg}>
