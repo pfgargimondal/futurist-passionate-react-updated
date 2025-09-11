@@ -773,3 +773,144 @@
         padding:14px 10px;
     }
 }
+
+/*karina startt*/
+
+.dbfghsdf{
+  position:relative;
+}
+.img1{
+      position: absolute;
+    width: 7vw !important;
+    height: auto !important;
+    left: 20%;
+    top: 9%;
+    animation: blink 3s linear;
+}
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+.img2{
+    position: absolute;
+    width: 7vw !important;
+    height: auto !important;
+    left: 67%;
+    top: 7%;
+    animation: flipIn 3s linear ;
+}
+@keyframes flipIn {
+  from { transform: rotateX(90deg); opacity: 0; }
+  to { transform: rotateX(0deg); opacity: 1; }
+}
+.img3{
+      position: absolute;
+    width: 7vw !important;
+    height: auto !important;
+    left: 68%;
+    top: 35%;
+    animation: spinScale 3s linear;
+}
+@keyframes spinScale {
+  from { transform: rotate(0deg) scale(0.5); }
+  to { transform: rotate(360deg) scale(1); }
+}
+
+
+.img4{
+     position: absolute;
+    width: 7vw !important;
+    height: auto !important;
+    left: 68%;
+    top: 65%;
+    animation:fadeInBlur 3s linear;
+}
+@keyframes fadeInBlur {
+  from { opacity: 0; filter: blur(10px); }
+  to { opacity: 1; filter: blur(0); }
+}
+
+.img5{
+   position: absolute;
+    width: 6.5vw !important;
+    height: auto !important;
+    left: 44%;
+    top: 63%;
+    animation: shakeVertical 3s linear;
+}
+@keyframes shakeVertical {
+  0%, 100% { transform: translateY(0); }
+  25% { transform: translateY(-5px); }
+  50% { transform: translateY(5px); }
+  75% { transform: translateY(-5px); }
+}
+.img6{
+     position: absolute;
+    width: 7vw !important;
+    height: auto !important;
+    left: 19%;
+    top: 65%;
+    animation: jello 3s linear;
+}
+@keyframes jello {
+  0%, 100% { transform: skew(0deg, 0deg); }
+  25% { transform: skew(10deg, 5deg); }
+  50% { transform: skew(-10deg, -5deg); }
+  75% { transform: skew(5deg, -10deg); }
+}
+.img7{
+        position: absolute;
+    width: 7vw !important;
+    height: auto !important;
+    left: 16%;
+    top: 34%;
+    animation: slideInUp 3s linear;
+}
+@keyframes slideInUp {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/*karina endd*/
+
+
+
+/*prerana start*/
+
+.sdmsdjhsds img {
+  width: 100%;
+  height: auto;
+}
+.sdmsdjhsds{
+  position: relative;
+}
+.m1{
+  position: absolute;
+    height: 11vw !important;
+    width: 15vw !important;
+    top: 5.8vw;
+    right: 77.8vw;
+}
+.m2{
+ position: absolute;
+    height: 10vw !important;
+    width: 12vw !important;
+    top: 21vw;
+    right: 80.8vw;
+}
+.m3{
+  position: absolute;
+    height: 9vw !important;
+    width: 14vw !important;
+    top: 8.6vw;
+    right: 6.8vw;
+}
+.m4{
+  position: absolute;
+    height: 9vw !important;
+    width: 15vw !important;
+    top: 21vw;
+    right: 5.4vw;
+}
+
+/*prerana end*/

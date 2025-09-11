@@ -693,3 +693,45 @@
 }
 
 /*karina end*/
+
+
+/*nisha startt*/
+
+.wasimg1{
+  position: absolute;
+  width: 8.5vw !important;
+  height: 8.5vw !important;
+  top: 18%;
+  left: 4.5%;
+}
+.wasimg2{
+  position: absolute;
+  width: 8.7vw !important;
+  height: 8.7vw !important;
+  bottom: 8%;
+  left: 4.8%;
+}
+.wasimg3{
+  position: absolute;
+  width: 9.5vw !important;
+  height: 7.2vw !important;
+  top: 19%;
+  right: 4%;
+}
+.wasimg4{
+  position: absolute;
+  width: 8.5vw !important;
+  height: 9vw !important;
+  bottom: 8%;
+  right: 5%;
+  z-index: 9;
+}
+.wasimg5{
+  position: absolute;
+  width: 17vw !important;
+  height: 12vw !important;
+  top: 24%;
+  left: 23%;
+}
+
+/*nisha endd*/

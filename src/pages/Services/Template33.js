@@ -1,14 +1,23 @@
 import styles from "./Css/Template33.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceForm from "./FormComponent/ServiceForm"; 
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Template33 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false, // Animations only happen once
+    });
+  }, []);
 
   const [activeIndex, setActiveIndex] = useState(0); // default: first section open
   const toggleAccordion = (index) => {
@@ -62,12 +71,24 @@ export const Template33 = ({ serviceResponse, slug }) => {
               </div>
             </div>
 
-            <div class={`${styles.dbfghsdf} col-lg-6`}>
+            <div class={`${styles.dbfghsdf} col-lg-6 position-relative`}>
               {serviceResponse.data?.banner_image && (
                 <img
                   src={`${serviceResponse.image_url}/Templete_33/${serviceResponse.data.banner_image}`}
                   alt=""
                 />
+              )}
+
+              {slug === 'book-cover-design-services' && ( 
+                <div className={styles.book_page}>
+                  <img src="./images/book_img1.webp" className={styles.img1} alt=""/> 
+                  <img src="./images/book_img2.webp" className={styles.img2} alt=""/> 
+                  <img src="./images/book_img3.webp" className={styles.img3} alt=""/> 
+                  <img src="./images/book_img4.webp" className={styles.img4} alt=""/> 
+                  <img src="./images/book_img5.webp" className={styles.img5} alt=""/> 
+                  <img src="./images/book_img6.webp" className={styles.img6} alt=""/> 
+                  <img src="./images/book_img7.webp" className={styles.img7} alt=""/> 
+                </div>
               )}
             </div>
           </div>
@@ -174,6 +195,18 @@ export const Template33 = ({ serviceResponse, slug }) => {
               alt=""
               class="img-fluid me-2"
             />
+          )}
+
+          {slug === 'book-cover-design-services' && ( 
+            <div className={styles.moon}>
+              <img src="./images/star1.png" className={styles.m1} data-aos="fade-down-right" alt=""/>
+
+              <img src="./images/star2.png" className={styles.m2} data-aos="fade-up-right"alt=""/>
+
+              <img src="./images/star3.png" className={styles.m3} data-aos="fade-down-left"alt=""/>
+              
+              <img src="./images/star4.png" className={styles.m4} data-aos="fade-up-left"alt=""/>
+            </div>
           )}
         </div>
         <LastSectionComponent />

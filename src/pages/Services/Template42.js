@@ -1,14 +1,24 @@
 import styles from "./Css/Template42.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceEnquiryForm from "./FormComponent/ServiceEnquiryForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Template42 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false, // Animations only happen once
+    });
+  }, []);
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -97,12 +107,26 @@ export const Template42 = ({ serviceResponse, slug }) => {
                   </div>
                 </div>
                 <div className="col-lg-5">
-                  <div className={styles.dgndfgdfgdf}>
+                  <div className={` ${styles.dgndfgdfgdf} position-relative`}>
                     {serviceResponse.data?.third_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_42/${serviceResponse.data.third_section_image}`}
                         alt=""
                       />
+                    )}
+
+                    {slug === 'whiteboard-animation-services' && ( 
+                      <div className={styles.wasimgs}>
+                        <img src="/images/wasconcept.webp" className={styles.wasimg1} data-aos="fade-down-right" alt=""/>
+
+                        <img src="/images/wasvoice.webp" className={styles.wasimg2} data-aos="fade-up-right" alt=""/>
+
+                        <img src="/images/wasillus.webp" className={styles.wasimg3} data-aos="fade-down-left" alt=""/>
+
+                        <img src="/images/wasfinal.webp" className={styles.wasimg4} data-aos="fade-up-left" alt=""/>
+
+                        <img src="/images/wasboard.webp" className={styles.wasimg5}  data-aos="zoom-in" alt=""/>
+                      </div>
                     )}
                   </div>
                 </div>
@@ -129,8 +153,7 @@ export const Template42 = ({ serviceResponse, slug }) => {
                     {serviceResponse.data?.fourth_section_image_one && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_42/${serviceResponse.data.fourth_section_image_one}`}
-                        alt=""
-                        className="img-fluid mb-3"
+                        alt="" className="img-fluid mb-3" data-aos="fade-up-right"
                       />
                     )}
 
@@ -168,8 +191,7 @@ export const Template42 = ({ serviceResponse, slug }) => {
                     {serviceResponse.data?.fourth_section_image_two && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_42/${serviceResponse.data.fourth_section_image_two}`}
-                        alt=""
-                        className="img-fluid mb-3"
+                        alt="" className="img-fluid mb-3" data-aos="zoom-out-right"
                       />
                     )}
                   </div>
@@ -181,8 +203,7 @@ export const Template42 = ({ serviceResponse, slug }) => {
                       {serviceResponse.data?.fourth_section_image_three && (
                         <img
                           src={`${serviceResponse.image_url}/Templete_42/${serviceResponse.data.fourth_section_image_three}`}
-                          alt=""
-                          className="img-fluid mb-3"
+                          alt="" className="img-fluid mb-3" data-aos="fade-up-left"
                         />
                       )}
                       <h4>
@@ -219,8 +240,7 @@ export const Template42 = ({ serviceResponse, slug }) => {
                       {serviceResponse.data?.fourth_section_image_four && (
                         <img
                           src={`${serviceResponse.image_url}/Templete_42/${serviceResponse.data.fourth_section_image_four}`}
-                          alt=""
-                          className="img-fluid mb-3"
+                          alt="" className="img-fluid mb-3" data-aos="zoom-out-left"
                         />
                       )}
                     </div>
