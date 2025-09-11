@@ -85,7 +85,7 @@
     .dfgjhfgd {
       display: flex;
       width: 100%;
-      height: 80vh;
+      height: 70vh;
       align-items: center;
       padding: 1rem 0 3rem 0;
     }
@@ -93,7 +93,7 @@
     .dfgjhfgd
     {
       width: 100%;
-      height: 80vh;
+      height: 70vh;
       background-size: 100% 100%;
     }
     
@@ -967,3 +967,94 @@
 }
 
 /*karina end*/
+
+/* Prerana css start */
+.dbfghsdf{
+    position:relative;
+  }
+  .le1{
+   position: absolute;
+    height: 7.2vw !important;
+    width: 10.8vw !important;
+    top: 5.3vw;
+    right: 34.8vw;
+     animation: wavefloat 4s infinite;
+    
+}
+@keyframes wavefloat{
+  0%{
+    transform: translate(-10px,20px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0) scale(1);
+    opacity: 1;
+  }
+}
+.le2{
+   position: absolute;
+    height: 7vw !important;
+    width: 9vw !important;
+    top: -0.4vw;
+    right: 20vw;
+    animation: blink 3s infinite;
+}
+@keyframes blink{
+  0%,100% {
+    filter:drop-shadow(0 0 0px);}
+  50%{
+       filter:drop-shadow(0 0 10px);
+    }
+}
+.le3{
+    position: absolute;
+    height: 9vw !important;
+    width: 9vw !important;
+    top: 3.6vw;
+    right: 4vw;
+    animation: sc 3s infinite;
+}
+@keyframes sc{
+    0%{
+        transform: scale(0) rotate(-360deg);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+.le4{
+    position: absolute;
+    height: 7vw !important;
+    width: 11vw !important;
+    top: 18vw;
+    right: 7vw;
+    animation: wave 4s infinite;
+  }
+  @keyframes wave{
+  0%{
+    transform: translate(-10px,20px) scale(0.5);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0) scale(1);
+    opacity: 1;
+  }
+}
+  .le5{
+    position: absolute;
+    height: 8vw !important;
+    width: 9vw !important;
+    top: 19.7vw;
+    right: 33vw;
+    animation: blink 3.5s infinite;
+}
+@keyframes blink{
+  0%,100% {
+    filter:drop-shadow(0 0 0px);}
+  50%{
+       filter:drop-shadow(0 0 10px);
+    }
+}
+/* Prerana css end */

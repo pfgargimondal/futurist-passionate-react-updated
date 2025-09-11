@@ -44,6 +44,15 @@ export const Template28 = ({ serviceResponse, slug }) => {
                 alt=""
               />
             )}
+            {slug === 'brochure-design-company' && ( 
+              <div className={styles.circle}>
+                <img src="./images/search1.png" className={styles.le1} alt="" />
+                <img src="./images/search2.png" className={styles.le2} alt="" />
+                <img src="./images/search3.png" className={styles.le3} alt="" />
+                <img src="./images/search4.png" className={styles.le4} alt="" />
+                <img src="./images/search5.png" className={styles.le5} alt="" />
+              </div>
+            )}
           </div>
         </div>
 
