@@ -1,5 +1,5 @@
 import styles from "./Css/Template33.module.css";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ServiceForm from "./FormComponent/ServiceForm"; 
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
@@ -11,12 +11,35 @@ import "aos/dist/aos.css";
 
 export const Template33 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+  const bookRef = useRef(null);
+  const [inView, setInView] = useState(false);
 
   useEffect(() => {
     AOS.init({
       duration: 1000,
       once: false, // Animations only happen once
     });
+  }, []);
+
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const [entry] = entries;
+        if (entry.isIntersecting) {
+          setInView(true);
+        }
+      },
+      { threshold: 0.3 }
+    );
+
+    if (bookRef.current) {
+      observer.observe(bookRef.current);
+    }
+
+    return () => {
+      if (bookRef.current) observer.unobserve(bookRef.current);
+    };
   }, []);
 
   const [activeIndex, setActiveIndex] = useState(0); // default: first section open
@@ -217,6 +240,46 @@ export const Template33 = ({ serviceResponse, slug }) => {
               <img src="./images/star3.png" className={styles.m3} data-aos="fade-down-left"alt=""/>
               
               <img src="./images/star4.png" className={styles.m4} data-aos="fade-up-left"alt=""/>
+
+              <div ref={bookRef} className={`${styles.book_cover} ${inView ? styles.openBook : ""}`}
+            >
+              {/* LEFT COVER */}
+              <div className={`${styles.left_cover} ${styles.ibnjenjkwherr}`}>
+                <img
+                  src="./images/bookcover-book2.png"
+                  alt="left cover"
+                  className="wdoikmjoejerr"
+                />
+              </div>
+
+              {/* RIGHT COVER */}
+              <div className={`${styles.right_cover} ${styles.ibnjenjkwherr}`}>
+                <img
+                  src="./images/bookcoverbook.png"
+                  alt="right cover"
+                  className="dffrrerrtttt"
+                />
+              </div>
+
+              {/* FLAMES */}
+              <div className={styles.oijmdiewrer}>
+                <img
+                  src="./images/bookcover3onlybookgh.png"
+                  className={styles.dfsfgerrt}
+                  alt="flame1"
+                />
+                <img
+                  src="./images/bookcover3onlybook.png"
+                  className={styles.sadasddsw}
+                  alt="flame2"
+                />
+                <img
+                  src="./images/bookcover3onlybookfgg.png"
+                  className={styles.egttertt}
+                  alt="flame3"
+                />
+              </div>
+            </div>
             </div>
           )}
         </div>
