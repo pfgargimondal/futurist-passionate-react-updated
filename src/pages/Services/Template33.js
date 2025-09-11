@@ -143,6 +143,17 @@ export const Template33 = ({ serviceResponse, slug }) => {
                       class="img-fluid"
                     />
                   )}
+
+                  {slug === 'book-cover-design-services' && ( 
+                    <div className={styles.sou}>
+                      <img src="./images/book_cover_2nd_img.png" className={styles.ol1} alt=""/>
+                      <img src="./images/book_cover_2nd_img_1.png" className={styles.ol2} alt=""/>
+                      <img src="./images/book_cover_2nd_img_2.png" className={styles.ol3} alt=""/>
+                      <img src="./images/book_cover_2nd_img_3.png" className={styles.ol4} alt=""/>
+                      <img src="./images/book_cover_2nd_img_4.png" className={styles.ol5} alt=""/>
+                      <img src="./images/book_cover_2nd_img_5.png" className={styles.ol6} alt=""/>
+                    </div>
+                  )}
                 </div>
               </div>
 
