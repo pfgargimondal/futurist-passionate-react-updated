@@ -159,9 +159,16 @@ export const Template9 = ({ serviceResponse, slug }) => {
                       <div className={styles.sp4}>
                         <img src="./images/social_book4.png" className={styles.sp04} alt=""/>
                       </div>
-
-
                     </>
+                  )}
+
+                  {slug === 'best-research-paper-writing-services' && ( 
+                    <div className={styles.ones}>
+                      <img src="./images/best_research_2nd_img_1.png" className={styles.s1} alt=""/>
+                      <img src="./images/best_research_2nd_img_2.png" className={styles.s2} alt=""/>
+                      <img src="./images/best_research_2nd_img_3.png" className={styles.s3} alt=""/>
+                      <img src="./images/best_research_2nd_img_4.png" className={styles.s4} alt=""/>
+                    </div>
                   )}
                 </div>
               </div>

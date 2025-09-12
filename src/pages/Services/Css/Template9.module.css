@@ -782,3 +782,62 @@
 }
 
 /*nisha endd*/
+
+/* Prerana css start */
+.dscsdfsrrrr{
+  position: relative;
+}
+.s1{
+    position: absolute;
+    height: 11.5vw !important;
+    width: 14vw !important;
+    top: -.5vw;
+    right: 24vw;
+    animation: zoom 3s infinite;
+}
+@keyframes zoom {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+.s2{
+    position: absolute;
+    height: 12vw !important;
+    width: 14.8vw !important;
+    top: -.5vw;
+    right: 1vw;
+    animation: swing 6s ease-in-out infinite;
+}
+@keyframes swing {
+  0%,100% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  75% { transform: rotate(-5deg); }
+}
+.s3{
+    position: absolute;
+    height: 10vw !important;
+    width: 12vw !important;
+    top: 11vw;
+    right: 11vw;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.s4{
+    position: absolute;
+    height: 25vw !important;
+    width: 32vw !important;
+    top: 12.6vw;
+    right: -1vw;
+    animation: blink 2s ease-in-out infinite;
+}
+@keyframes blink{
+  0%,100% {
+    filter:drop-shadow(0 0 0px);}
+  50%{
+       filter:drop-shadow(0 0 10px);
+    }
+  }
+/* Prerana css end */
