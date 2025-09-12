@@ -76,6 +76,22 @@ export const Template4 = ({ serviceResponse, slug }) => {
                   </div>
                 </>
               )}
+
+              {slug === 'sport-advertisement-service' && (
+                <div className={styles.sports_page}>
+                  <img src="./images/s_img1.webp" className={styles.img1} data-aos="fade-up" alt=""/> 
+
+                  <img src="./images/s_img2.webp" className={styles.img2} data-aos="fade-down" alt=""/> 
+
+                  <img src="./images/s_img3.webp" className={styles.img3} data-aos="fade-down" alt=""/> 
+                  
+                  <img src="./images/s_img4.webp" className={styles.img4} data-aos="fade-up" alt=""/> 
+
+                  <img src="./images/s_img5.webp" className={styles.img5}  data-aos="fade-left" alt=""/> 
+
+                  <img src="./images/s_img6.webp" className={styles.img6} data-aos="fade-right" alt=""/> 
+                </div>
+              )}
             </div>
           </div>
         </div>

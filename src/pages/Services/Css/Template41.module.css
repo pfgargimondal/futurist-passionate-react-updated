@@ -597,3 +597,52 @@
 }
 
 /*nisha endd*/
+
+
+
+/*karina startt*/
+
+.pic1{
+        position: absolute;
+    width: 9.5vw !important;
+    height: auto !important;
+    left: 15.8%;
+    top: 11%;
+}
+.pic2{
+       position: absolute;
+    width: 9vw !important;
+    height: auto !important;
+    left: 58%;
+    top: 11%;
+}
+.pic3{
+   position: absolute;
+    width: 12vw !important;
+    height: auto !important;
+    left: 63.5%;
+    top: 36%;
+}
+.pic4{
+       position: absolute;
+    width: 9vw !important;
+    height: auto !important;
+    left: 56.5%;
+    top: 54%;
+}
+.pic5{
+       position: absolute;
+    width: 9vw !important;
+    height: auto !important;
+    left: 19%;
+    top: 54%;
+}
+.pic6{
+       position: absolute;
+    width: 13vw !important;
+    height: auto !important;
+    left: 4%;
+    top: 35%;
+}   
+
+/*karina endd*/

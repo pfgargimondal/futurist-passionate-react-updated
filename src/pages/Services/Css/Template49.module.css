@@ -55,14 +55,14 @@
 .dfgjhfgd {
     display: flex;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     align-items: center;
     padding: 1rem 0 3rem 0;
 }
 
 .dfgjhfgd {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background-size: 100% 100%;
 }
 
@@ -917,3 +917,70 @@
         padding:14px 10px;
     }
 }
+
+
+
+/*nisha startt*/
+
+.pdspic1{
+    position: absolute;
+    width: 8vw !important;
+    top: 2.5%;
+    left:13%;
+    animation: rotatep 4s;
+}
+.pdspic2{
+    position: absolute;
+    width: 8vw !important;
+    top: 34%;
+    left: 3%; 
+    animation: zoomin 4s;             ;
+}
+.pdspic3{
+    position: absolute;
+    width: 8vw !important;
+    bottom: 2%;
+    left: 13%;
+    animation: rotatep 4s;
+}
+.pdspic4{
+    position: absolute;
+    width: 8vw !important;
+    top: 2.5%;
+    right:12%;
+    animation: rotaten 4s;
+}
+.pdspic5{
+    position: absolute;
+    width: 8vw !important;
+    top: 34%;
+    right: 2.5%;
+    animation: zoomin 4s;
+}
+.pdspic6{
+    position: absolute;
+    width: 8vw !important;
+    bottom: 2%;
+    right: 12%;
+    animation: rotaten 4s;
+}
+@keyframes rotatep {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes rotaten {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+@keyframes zoomin{
+    0%{
+        transform: scale(0.3);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/*nisha endd*/

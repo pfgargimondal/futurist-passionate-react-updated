@@ -1,5 +1,5 @@
 import styles from "./Css/Template41.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceForm from "./FormComponent/ServiceForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
@@ -7,10 +7,19 @@ import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template41 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+  useEffect(() => {
+    AOS.init({      
+      duration: 2000,
+      once: false,
+    });
+  }, []);
+
   return (
     <div>
         <PageWrapper slug={slug} type="Template">
@@ -90,13 +99,30 @@ export const Template41 = ({ serviceResponse, slug }) => {
             <div className={styles.dfghdfgdf}>
               <div className="row">
                 <div className="col-lg-6">
-                  <div className={styles.cfbgjhcfdf}>
+                  <div className={`${styles.cfbgjhcfdf} position-relative`}>
                     {serviceResponse.data?.third_section_image && (
                       <img
                         src={`${serviceResponse.image_url}/Templete_41/${serviceResponse.data.third_section_image}`}
                         alt=""
                       />
                     )}
+
+                    {slug === 'photo-sharing-services' && ( 
+                      <div className={styles.photo_page}>
+                        <img src="./images/photo1.webp" className={styles.pic1} data-aos="fade-up-left"alt=""/>
+
+                        <img src="./images/photo2.webp" className={styles.pic2} data-aos="fade-up-right"alt=""/>
+
+                        <img src="./images/photo3.webp" className={styles.pic3} data-aos="zoom-in" alt=""/>
+
+                        <img src="./images/photo4.webp" className={styles.pic4} data-aos="fade-up-right" alt=""/>
+
+                        <img src="./images/photo5.webp" className={styles.pic5} data-aos="fade-up-left" alt=""/>
+
+                        <img src="./images/photo6.webp" className={styles.pic6} data-aos="zoom-in" alt=""/>
+                      </div>
+                    )}
+
                   </div>
                 </div>
                 <div className="col-lg-6">

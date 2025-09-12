@@ -861,3 +861,77 @@
         padding:14px 10px;
     }
 }
+
+
+
+/*nisha startt*/
+
+.sdmsdjhsds{
+  position: relative;
+}
+.fasimg1{
+  position: absolute;
+  width:28vw !important;
+  top: 6%;
+  left: 7%;
+  animation: heartbeat 3s infinite;
+}
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  25% { transform: scale(1.1); }
+  50% { transform: scale(0.9); }
+  75% { transform: scale(1.1); }
+}
+.fasimg2{
+  position: absolute;
+  width:28vw !important;
+  bottom: 24%;
+  left: 4%;
+  animation: sidel 3.5s infinite;
+}
+@keyframes sidel {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(2rem);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+.fasimg3{
+  position: absolute;
+  width:27vw !important;
+  top: 14%;
+  right: 5.5%;
+  animation: sider 3.5s infinite;
+}
+@keyframes sider {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(-2rem);
+  }
+  100%{
+    transform: translateX(0);
+  }  
+}
+.fasimg4{
+  position: absolute;
+  width:24vw !important;
+  bottom: 11%;
+  right: 4%;
+  animation: pulseglow 4s infinite;
+}
+@keyframes pulseglow{
+  0%, 100%{
+    filter: drop-shadow(0 0 0px rgb(220, 173, 18));
+  }
+  50%{
+    filter: drop-shadow(0 0 30px rgb(220, 173, 18));
+  }
+}
+
+/*nisha endd*/

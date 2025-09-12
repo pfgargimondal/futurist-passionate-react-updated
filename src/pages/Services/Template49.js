@@ -15,7 +15,7 @@ export const Template49 = ({ serviceResponse, slug }) => {
       {loading && <Loader />}
       <main>
         <div className={styles.gdfbdfdfgdf554}>
-          <div className={styles.dfgjhfgd} style={{ backgroundImage: "url('./images/afros.png')" }}>
+          <div className={styles.dfgjhfgd}>
             <div className={`${styles.sdfghdfgdf} col-lg-6`}>
               <h1 className="mt-0 mb-0">
                 {serviceResponse.data?.banner_title && serviceResponse.data.banner_title}
@@ -34,12 +34,28 @@ export const Template49 = ({ serviceResponse, slug }) => {
               </div>
             </div>
 
-            <div className={`${styles.dbfghsdf} col-lg-6`}>
+            <div className={`${styles.dbfghsdf} col-lg-6 position-relative`}>
               {serviceResponse.data?.banner_image && (
                 <img
                   src={`${serviceResponse.image_url}/Templete_49/${serviceResponse.data.banner_image}`}
                   alt=""
                 />
+              )}
+
+              {slug === 'professional-poster-design' && ( 
+                <div className={styles.pdspics}>
+                  <img src="/images/pdsclean.webp" className={styles.pdspic1} alt=""/>
+
+                  <img src="/images/pdstech.webp" className={styles.pdspic2} alt=""/>
+
+                  <img src="/images/pdsvisual.webp" className={styles.pdspic3} alt=""/>
+
+                  <img src="/images/pdssmart.webp" className={styles.pdspic4} alt=""/>
+
+                  <img src="/images/pdsmedia.webp" className={styles.pdspic5} alt=""/>
+
+                  <img src="/images/pdsphoto.webp" className={styles.pdspic6} alt=""/>
+                </div>
               )}
             </div>
           </div>

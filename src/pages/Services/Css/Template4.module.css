@@ -982,3 +982,54 @@ p a{
     left: 203px;
 }
 /* Rohit css end */
+
+
+/*karina startt*/
+
+.dbfghsdf{
+  position:relative;
+}
+.img1{
+        position: absolute;
+    width: 10vw !important;
+    height: auto !important;
+    left: 19%;
+    top: 2%;
+}
+.img2{
+     position: absolute;
+    width: 10vw !important;
+    height: auto !important;
+    left: 20%;
+    top: 63%;
+}
+.img3{
+    position: absolute;
+    width: 10vw !important;
+    height: auto !important;
+    left: 60%;
+    top: 61%;
+}
+.img4{
+ position: absolute;
+    width: 10vw !important;
+    height: auto !important;
+    left: 60%;
+    top: 2%;
+}
+.img5{
+ position: absolute;
+    width: 10vw !important;
+    height: auto !important;
+    left: 76%;
+    top: 32%;
+}
+.img6{
+ position: absolute;
+    width: 10vw !important;
+    height: auto !important;
+    left: 4%;
+    top: 32%;
+}
+
+/*karina endd*/

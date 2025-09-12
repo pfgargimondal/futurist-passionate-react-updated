@@ -42,6 +42,21 @@ export const Template45 = ({ serviceResponse, slug }) => {
                   alt=""
                 />
               )}
+              {slug === 'ebook-design-services' && (
+                <div className={styles.ebook1_page}>
+                  <img src="./images/ebook1.webp" className={styles.pic1} alt=""/>
+
+                  <img src="./images/ebook2.webp" className={styles.pic2} alt=""/>
+
+                  <img src="./images/ebook3.webp" className={styles.pic3} alt=""/>
+
+                  <img src="./images/ebook4.webp" className={styles.pic4} alt=""/>
+
+                  <img src="./images/ebook5.webp" className={styles.pic5} alt=""/>
+
+                  <img src="./images/ebook6.webp" className={styles.pic6} alt=""/>
+                </div>
+              )}
             </div>
           </div>
         </div>

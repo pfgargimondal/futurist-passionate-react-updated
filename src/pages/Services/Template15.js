@@ -207,6 +207,18 @@ export const Template15 = ({ serviceResponse, slug }) => {
               alt=""
             />
           )}
+
+          {slug === 'facebook-advertising-services' && ( 
+            <div className={styles.fasimgs}>
+              <img src="/images/fastarget.webp" className={styles.fasimg1} alt=""/>
+
+              <img src="/images/fasmoney.webp" className={styles.fasimg2} alt=""/>
+
+              <img src="/images/fasgraph.webp" className={styles.fasimg3} alt=""/>
+
+              <img src="/images/fasbulb.webp" className={styles.fasimg4} alt=""/>
+            </div>
+          )}
         </div>
 
         <LastSectionComponent />
