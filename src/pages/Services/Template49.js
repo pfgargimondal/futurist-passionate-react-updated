@@ -1,14 +1,24 @@
 import styles from "./Css/Template49.module.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ServiceForm from "./FormComponent/ServiceForm";
 import { Link } from "react-router-dom";
 import LastSectionComponent from "./SectionComponent/LastSectionComponent";
 import Loader from "../../component/Loader/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Template49 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    AOS.init({      
+      duration: 2000,
+      once: false,
+    });
+  }, []);
+
   return (
     <div>
       <PageWrapper slug={slug} type="Template">
@@ -126,13 +136,27 @@ export const Template49 = ({ serviceResponse, slug }) => {
 
               <div className="col-lg-6 mb-4">
                 <div className={`${styles.doiewnirnewr_inner} ${styles.sddfgjoidfgkujoj} p-5`}>
-                  {serviceResponse.data?.fifth_section_image && (
-                    <img
-                      src={`${serviceResponse.image_url}/Templete_49/${serviceResponse.data.fifth_section_image}`}
-                      alt=""
-                      className="img-fluid mb-3"
-                    />
-                  )}
+                  <div className={`${styles.oijmojowerewr} position-relative`}>
+                    {serviceResponse.data?.fifth_section_image && (
+                      <img
+                        src={`${serviceResponse.image_url}/Templete_49/${serviceResponse.data.fifth_section_image}`}
+                        alt=""
+                        className="img-fluid mb-3"
+                      />
+                    )}
+
+                    {slug === 'professional-poster-design' && ( 
+                      <div className={styles.poster}>
+                        <img src="./images/idea1.png" className={styles.a1} data-aos="fade-down-right"alt=""/>
+                        <img src="./images/idea2.png" className={styles.a2} data-aos="fade-down" alt=""/>
+                        <img src="./images/idea3.png" className={styles.a3} data-aos="fade-down-left" alt=""/>
+                        <img src="./images/idea4.png" className={styles.a4} data-aos="fade-up-left" alt=""/>
+                        <img src="./images/idea5.png" className={styles.a5} data-aos="fade-up" alt=""/>
+                        <img src="./images/idea6.png" className={styles.a6} data-aos="fade-up-right"alt=""/>
+                      </div>
+                    )}  
+                  </div>
+
                   <h4 className="mb-4">
                     {serviceResponse.data?.fifth_section_title && serviceResponse.data.fifth_section_title}
                   </h4>
