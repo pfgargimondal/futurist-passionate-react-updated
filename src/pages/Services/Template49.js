@@ -191,7 +191,26 @@ export const Template49 = ({ serviceResponse, slug }) => {
                         className="img-fluid mb-3"
                       />
                     )}
-                    <div className={`${styles.star} ${styles.star1}`}></div>
+
+                    {slug === 'professional-poster-design' && ( 
+                      <div className={styles.ppspics}>
+                        <img src="/images/ppsdesign.webp" className={styles.ppspic1} data-aos="fade-down" alt=""/>
+
+                        <img src="/images/ppsbulb.webp" className={styles.ppspic2} data-aos="fade-down-right" alt=""/>
+
+                        <img src="/images/ppsbar.webp" className={styles.ppspic3} data-aos="fade-right" alt=""/>
+
+                        <img src="/images/ppsinfo.webp" className={styles.ppspic4} data-aos="fade-up-right" alt=""/>
+
+                        <img src="/images/ppseye.webp" className={styles.ppspic5} data-aos="fade-down-left" alt=""/>
+
+                        <img src="/images/ppstick.webp" className={styles.ppspic6} data-aos="fade-left" alt=""/>
+
+                        <img src="/images/ppsprint.webp" className={styles.ppspic7} data-aos="fade-up-left" alt=""/>
+                      </div>
+                    )}
+
+                    {/* <div className={`${styles.star} ${styles.star1}`}></div>
                     <div className={`${styles.star} ${styles.star2}`}></div>
                     <div className={`${styles.star} ${styles.star3}`}></div>
                     <div className={`${styles.star} ${styles.star4}`}></div>
@@ -200,7 +219,7 @@ export const Template49 = ({ serviceResponse, slug }) => {
                     <div className={`${styles.star} ${styles.star7}`}></div>
                     <div className={`${styles.star} ${styles.star8}`}></div>
                     <div className={`${styles.star} ${styles.star9}`}></div>
-                    <div className={`${styles.star} ${styles.star10}`}></div>
+                    <div className={`${styles.star} ${styles.star10}`}></div> */}
                   </div>
                 </div>
               </div>

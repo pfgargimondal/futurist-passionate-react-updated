@@ -1034,3 +1034,51 @@
 }
 
 /* Prerana css end */
+
+/*  Nisha css start  */
+
+.ppspic1{
+    position: absolute;
+    width: 9rem !important;
+    top: 1.2%;
+    left: 34.5%;
+}
+.ppspic2{
+    position: absolute;
+    width: 6rem !important;
+    top: 15%;
+    left: 8%;
+}
+.ppspic3{
+    position: absolute;
+    width: 5.5rem !important;
+    top: 39%;
+    left: 1.5%;
+}
+.ppspic4{
+    position: absolute;
+    width: 6rem !important;
+    bottom: 22%;
+    left: 3.5%;
+}
+.ppspic5{
+    position: absolute;
+    width: 5.5rem !important;
+    top: 14.5%;
+    right: 10%;
+}
+.ppspic6{
+    position: absolute;
+    width: 6rem !important;
+    top: 39%;
+    right: 2%;
+}
+.ppspic7{
+    position: absolute;
+    width: 5.5rem !important;
+    bottom: 18%;
+    right: 6.5%;
+}
+
+
+/* Nisha css end */ 

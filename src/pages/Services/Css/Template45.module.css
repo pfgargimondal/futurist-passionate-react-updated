@@ -605,3 +605,214 @@
 }
 
 /*karina endd*/
+
+
+
+/*Prerana start*/
+
+.dfbghdfd{
+    position: relative;
+}
+.u1{
+    position: absolute;
+    height: 6.8vw !important;
+    width: 6.5vw !important;
+    top: -.2vw;
+    right: 14.4vw; 
+    animation: wave 4s ease-in-out infinite;  
+}
+@keyframes wave {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-10px) rotate(-5deg); }
+  50% { transform: translateY(0) rotate(5deg); }
+  75% { transform: translateY(10px) rotate(-3deg); }
+}
+.u2{
+   position: absolute;
+    height: 6.5vw !important;
+    width: 7.5vw !important;
+    top: -.4vw;
+    right: 6.5vw; 
+    animation: zoom 3s infinite; 
+}
+@keyframes zoom {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+.u3{
+    position: absolute;
+    height: 5.7vw !important;
+    width: 8vw !important;
+    top: 5vw;
+    right: .9vw; 
+    animation: bounce 4s infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-20px); }
+}
+.u4{
+    position: absolute;
+    height: 6.5vw !important;
+    width: 11vw !important;
+    top: 10.3vw;
+    right: -1.3vw;
+    animation: swing 5s ease-in-out infinite; 
+}
+@keyframes swing {
+  0%,100% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  75% { transform: rotate(-10deg); }
+}
+.u5{
+    position: absolute;
+    height: 8.5vw !important;
+    width: 11.2vw !important;
+    top: 14.8vw;
+    right: 1.8vw;  
+     animation: sparkle 3s infinite;
+}
+@keyframes sparkle {
+  0%,100% { filter: drop-shadow(0 0 5px #bff804); }
+  50% { filter: drop-shadow(0 0 20px rgb(55, 0, 255)); }
+}
+.u6{
+    position: absolute;
+    height: 6vw !important;
+    width: 10.5vw !important;
+    top: 15.8vw;
+    right: 23vw; 
+    animation: sparkle 5s ease-in-out infinite; 
+}
+@keyframes sparkle {
+  0%,100% { filter: drop-shadow(0 0 5px #e3a105); }
+  50% { filter: drop-shadow(0 0 20px rgb(31, 4, 131)); }
+}
+.u7{
+    position: absolute;
+    height: 7.8vw !important;
+    width: 13.2vw !important;
+    top: 9.7vw;
+    right: 24.8vw;
+    animation: swing 5s ease-in-out infinite;
+}
+@keyframes swing {
+  0%,100% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  75% { transform: rotate(-10deg); }
+}
+.u8{
+   position: absolute;
+    height: 6.5vw !important;
+    width: 8.2vw !important;
+    top: 4.5vw;
+    right: 27.8vw;
+    animation: bounce 4s infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-20px); }
+}
+.u9{
+   position: absolute;
+    height: 6.2vw !important;
+    width: 8vw !important;
+    top: -.2vw;
+    right: 20.8vw;
+    animation: zoom 3s infinite;
+}
+@keyframes zoom {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+/*Prerana end*/
+
+
+ /* Prerana start */
+
+ .dfbghdfd{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    height: 4.5vw !important;
+    width: 6vw !important;
+    top: 3vw;
+    right: 16vw;
+    animation: bounce 4s infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+.img2{
+    position: absolute;
+    height: 7.2vw !important;
+    width: 7vw !important;
+    top: 2.5vw;
+    right: 4.3vw;
+    animation: zoom 5s infinite;
+}
+@keyframes zoom {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(.7); }
+}
+.img3{
+   position: absolute;
+    height: 5vw !important;
+    width: 6.5vw !important;
+    top: 4vw;
+    right: 26.5vw;
+    animation: magnet 5s infinite;
+}
+@keyframes magnet {
+  0%,100% { transform: translateX(0) scale(1); }
+  30% { transform: translateX(-10px) scale(1.1); }
+  60% { transform: translateX(10px) scale(1.1); }
+}
+.img4{
+    position: absolute;
+    height: 6vw !important;
+    width: 6vw !important;
+    top: 13vw;
+    right: 4.4vw;
+    animation: swing 3s infinite;
+}
+@keyframes swing {
+  0%,100% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  75% { transform: rotate(-5deg); }
+}
+.img5{
+    position: absolute;
+    height: 4.7vw !important;
+    width: 6.2vw !important;
+    top: 18.9vw;
+    right: 15.8vw;
+    animation: splash 3s ease-in-out infinite;
+  clip-path: circle(0% at 50% 50%);
+    
+}
+@keyframes splash {
+  0% { clip-path: circle(0% at 50% 50%); opacity: 0; }
+  50% { clip-path: circle(75% at 50% 50%); opacity: 1; }
+  100% { clip-path: circle(0% at 50% 50%); opacity: 0; }
+}
+
+.img6{
+    position: absolute;
+    height: 4.7vw !important;
+    width: 6vw !important;
+    top: 13.3vw;
+    right: 27.8vw;
+    animation: glow 4s infinite;
+}
+@keyframes glow {
+  0%, 100% { filter: drop-shadow(0 0 5px #00f); }
+  50% { filter: drop-shadow(0 0 20px #0ff); }
+}
+
+
+
+  /* Prerana end */

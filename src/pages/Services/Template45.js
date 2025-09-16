@@ -110,6 +110,20 @@ export const Template45 = ({ serviceResponse, slug }) => {
                         alt=""
                       />
                     )}
+
+                      {slug === 'ebook-design-services' && (
+                        <div className={styles.ebook}>
+                          <img src="./images/time1.png" className={styles.u1} alt="" />
+                          <img src="./images/time2.png" className={styles.u2} alt="" />
+                          <img src="./images/time3.png" className={styles.u3} alt="" />
+                          <img src="./images/time4.png" className={styles.u4} alt="" />
+                          <img src="./images/time5.png" className={styles.u5} alt="" />
+                          <img src="./images/time6.png" className={styles.u6} alt="" />
+                          <img src="./images/time7.png" className={styles.u7} alt="" />
+                          <img src="./images/time8.png" className={styles.u8} alt="" />
+                          <img src="./images/time9.png" className={styles.u9} alt="" />
+                        </div>
+                      )}
                   </div>
                 </div>
               </div>
@@ -218,6 +232,17 @@ export const Template45 = ({ serviceResponse, slug }) => {
                         src={`${serviceResponse.image_url}/Templete_45/${serviceResponse.data.fifth_section_image}`}
                         alt=""
                       />
+                    )}
+
+                    {slug === 'ebook-design-services' && (
+                    <div className={styles.ebook}>
+                        <img src="./images/house1.png" className={styles.img1} alt="" />
+                        <img src="./images/house2.png" className={styles.img2} alt="" />
+                        <img src="./images/house3.png" className={styles.img3} alt="" />
+                        <img src="./images/house4.png" className={styles.img4} alt="" />
+                        <img src="./images/house5.png" className={styles.img5} alt="" />
+                        <img src="./images/house6.png" className={styles.img6} alt="" />
+                      </div>
                     )}
                   </div>
                 </div>
