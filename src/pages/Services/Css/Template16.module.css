@@ -892,3 +892,59 @@
         padding:14px 10px;
     }
 }
+
+/*nisha starttttt*/
+
+.baaimg1{
+  position: absolute;
+  width: 9vw !important;
+  bottom: 7%;
+  left: 4%;
+  animation: shatter 5s;
+}
+@keyframes shatter {
+  0% {
+    transform: scale(0.2) rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) rotate(720deg);
+    opacity: 1;
+  }
+}
+.baaimg2{
+  position: absolute;
+  width: 10vw !important;
+  top: 0.5%;
+  left: 30%;
+  animation: cubeSpin 5s;
+}
+@keyframes cubeSpin {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateY(360deg) rotateX(360deg);
+    opacity: 1;
+  }
+}
+.baaimg3{
+  position: absolute;
+  width: 12vw !important;
+  top: 15%;
+  right: 4.5%;
+  animation: flipInX 5s;
+}
+@keyframes flipInX {
+  0% {
+    transform: perspective(400px) rotateX(90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: perspective(400px) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+/*nisha enddddd*/

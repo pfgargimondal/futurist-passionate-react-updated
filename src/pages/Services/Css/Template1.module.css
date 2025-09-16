@@ -616,5 +616,115 @@
 
 /* Prerana css end */
 
+/*rohit starttttt*/
+
+.Riimgg1 .Riimmgg1{
+    position: absolute;
+    width: 9rem;
+    left: 265px;
+    top: 14px;
+}
+.Riimgg2 .Riimmgg2{
+    position: absolute;
+    width: 8.5rem;
+    bottom: 130px;
+    left: 52px;
+}
+
+.Riimgg3 .Riimmgg3{
+    position: absolute;
+    width: 9.5rem;
+    bottom: 130px;
+    right: 52px;
+}
+
+/*rohit enddddd*/
+
+
+
+/*nisha starttttt*/
+
+.edvaspic1{
+    position: absolute;
+    width: 28vw !important;
+    bottom: 28%;
+    left: 4%;
+    animation: wiggle 4s ease-in-out infinite;
+}
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(-5deg); }
+  75% { transform: rotate(5deg); }
+  100% { transform: rotate(0deg); }
+}
+.edvaspic2{
+    position: absolute;
+    width: 30vw !important;
+    top: 8%;
+    right: 5%;
+    animation: rubberBand 5s infinite;
+}
+@keyframes rubberBand {
+  0% { transform: scale(1); }
+  30% { transform: scaleX(1.25) scaleY(0.75); }
+  40% { transform: scaleX(0.75) scaleY(1.25); }
+  60% { transform: scaleX(1.15) scaleY(0.85); }
+  100% { transform: scale(1); }
+}
+
+/*nisha enddddd*/
+
+
+
+/*prerana starttttt*/
+
+.dgndfgdfgdf{
+    position: relative;
+}
+.v1{
+    position: absolute;
+    height: 9vw !important;
+    width: 9.5vw !important;
+    top: .7vw;
+    right: 2.8vw;
+    animation: bounce 4s infinite;
+
+    
+}
+@keyframes bounce {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-20px); }
+}
+.v2{
+    position: absolute;
+    height: 9vw !important;
+    width: 8vw !important;
+    top: 19.8vw;
+    right: 11.2vw;  
+    animation: zoom 4s infinite;
+}
+@keyframes zoom {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(.7); }
+}
+.v3{
+   position: absolute;
+    height: 8vw !important;
+    width: 8.5vw !important;
+    top: 10.5vw;
+    right: 22vw;
+    animation: blink 4s ease-in-out infinite;
+}
+@keyframes blink{
+  0%,100% {
+    filter:drop-shadow(0 0 0px);}
+  50%{
+       filter:drop-shadow(0 0 10px);
+    }
+}
+
+/*prerana enddddd*/
+
 
 

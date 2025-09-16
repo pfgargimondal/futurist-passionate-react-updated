@@ -1132,6 +1132,76 @@
 
 /*nisha end*/
 
+/*karina starttttt*/
+
+.pic1{
+ position: absolute;
+    width: 9vw !important;
+    height: auto !important;
+    left: 4%;
+    top: 35%;
+    animation:swingInLeft 3s linear ;
+}
+
+.pic3{
+  position: absolute;
+    width: 9.5vw !important;
+    height: auto !important;
+    left: 56%;
+    top: 68%;
+    animation: zoomRotate 3s linear ;
+}
+
+.pic2{
+     position: absolute;
+    width: 9.5vw !important;
+    height: auto !important;
+    left: 53%;
+    top: 3%;
+    animation: rubberBand 3s linear ;
+}
+
+.dbfghsdf{
+  position:relative;
+ }
+ .img1{
+  position: absolute;
+    width: 11vw !important;
+    height: auto !important;
+    left: 8%;
+    top: 0;
+ }
+  .img2{
+position: absolute;
+    width: 11vw !important;
+    height: auto !important;
+    left: 70%;
+    top: 0;
+ }
+  .img3{
+    position: absolute;
+    width: 11vw !important;
+    height: auto !important;
+    left: 7%;
+    bottom: 35%;
+ }
+  .img4{
+      position: absolute;
+    width: 11vw !important;
+    height: auto !important;
+    left: 40%;
+    bottom: 30%;
+ }
+  .img5{
+  position: absolute;
+    width: 11vw !important;
+    height: auto !important;
+    left: 70%;
+    bottom: 35%;
+ }
+
+/*karina enddddd*/
+
 
 
 

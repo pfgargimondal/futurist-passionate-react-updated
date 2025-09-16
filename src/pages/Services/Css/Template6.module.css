@@ -1113,6 +1113,173 @@
   top: 120px;
 }
 
+/*rohit starttttt*/
+
+.xnjhxffgdf{
+  position: relative;
+}
+
+.RRpic1 .RRpicc1{
+  position: absolute;
+    width: 32rem;
+    bottom: 41px;
+    right: 15px;
+}
+.RRpic2 .RRpicc2{
+  position: absolute;
+    width: 29rem;
+    top: 91px;
+    left: 23px;
+}
+.RRpic3 .RRpicc3{
+  position: absolute;
+    width: 33.5rem;
+    bottom: 39px;
+    left: 28px;
+}
+.RRpic4 .RRpicc4{
+  position: absolute;
+    width: 27rem;
+    right: 68px;
+    top: 73px;
+}
+
+/*rohit enddddd*/
+
+
+
+
+/*nisha starttttt*/
+
+.dgndfgdfgdf{
+  position: relative;
+}
+.emfesimg1{
+  position: absolute;
+  width: 10.5vw !important;
+  top: 1%;
+  left: 1.5%;
+  animation: spinIn3D 4s infinite;
+}
+@keyframes spinIn3D {
+  from { transform: rotateX(-180deg); opacity: 0; }
+  to { transform: rotateX(0deg); opacity: 1; }
+}
+.emfesimg2{
+  position: absolute;
+  width: 8vw !important;
+  bottom: 4.7%;
+  right: 3.5%;
+  animation: vibrate 3.5s infinite;
+}
+@keyframes vibrate {
+  0% { transform: translate(0); }
+  20% { transform: translate(-4px, 4px); }
+  40% { transform: translate(-4px, -4px); }
+  60% { transform: translate(4px, 4px); }
+  80% { transform: translate(4px, -4px); }
+  100% { transform: translate(0); }
+}
+.emfesimg3{
+  position: absolute;
+  width: 9vw !important;
+  bottom: 8.7%;
+  left: 0.7%;
+  animation: curtainDown 3s infinite;
+}
+@keyframes curtainDown {
+  from { clip-path: inset(0 0 100% 0); }
+  to { clip-path: inset(0 0 0 0); }
+}
+
+/*nisha enddddd*/
+
+
+
+
+/*prerana starttttt*/
+
+.dgndfgdfgdf {
+  position: relative
+}
+
+.et1 {
+  position: absolute;
+  height: 9vw !important;
+  width: 11.5vw !important;
+  top: 1.7vw;
+  right: 16.8vw;
+  animation: zoom 4s ease-in-out infinite;
+}
+@keyframes zoom {
+  0%,100%{transform:scale(1);}
+  50%{transform:scale(1.3);}
+}
+.et2 {
+  position: absolute;
+  height: 10vw !important;
+  width: 9.5vw !important;
+  top: 12.7vw;
+  right: 0.8vw;
+  animation: bounce 4s ease-in-out infinite;
+}
+@keyframes bounce {
+  0%,100%{transform:translateY(0);}
+  50%{transform:translateY(-50px);}
+}
+.et3 {
+  position: absolute;
+  height: 10.2vw !important;
+  width: 13.5vw !important;
+  top: 24.7vw;
+  right: 15.8vw;
+  animation: orbit 4s linear infinite;
+}
+@keyframes orbit {to{transform:rotate(360deg) translateX(30px) rotate(-360deg);}}
+
+/*prerana enddddd*/
+
+
+
+/*sayantika starttttt*/
+
+.dbfghsdf {
+  position: relative
+}
+
+.event001 {
+  position: absolute;
+  width: 203px !important;
+  top: 28px;
+  left: 450px;
+
+}
+
+.event003 {
+  position: absolute;
+  width: 190px !important;
+  top: 230px;
+  left: 450px;
+}
+
+.event004 {
+  position: absolute;
+  width: 219px !important;
+  top: 235px;
+  left: 55px;
+}
+
+.event005 {
+  position: absolute;
+  width: 228px !important;
+  top: 24px;
+  left: 26px;
+}
+
+/*sayantika enddddd*/
+
+
+
 
 
 

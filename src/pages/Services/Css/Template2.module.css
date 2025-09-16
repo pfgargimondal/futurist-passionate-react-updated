@@ -663,3 +663,156 @@
 }
 
 /* rohit design end */
+
+/*prerana starttttt*/
+
+.dgndfgdfgdf{
+  position: relative;
+}
+.bu1{
+    position: absolute;
+    height: 7rem !important;
+    width: 7.5rem !important;
+    bottom: 27%;
+    right: 70.5%;
+    animation: blink 4s ease-in-out infinite;
+}
+
+@keyframes blink{
+  0%,100% {
+    filter:drop-shadow(0 0 0px);}
+  50%{
+       filter:drop-shadow(0 0 10px);
+    }
+}
+.bu2{
+    position: absolute;
+    height: 7rem !important;
+    width: 7.5rem !important;
+    bottom: 3.5%;
+    right: 36.5%;
+    animation: wave 5s ease-in-out infinite;
+}
+@keyframes wave {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-10px) rotate(-5deg); }
+  50% { transform: translateY(0) rotate(5deg); }
+  75% { transform: translateY(10px) rotate(-3deg); }
+}
+.bu3{
+    position: absolute;
+    height: 7rem !important;
+    width: 6.3rem !important;
+    bottom: 61.5%;
+    right: 15.5%;
+     animation: bounce 4s ease-in-out infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-20px); }
+}
+
+/*prerana enddddd*/
+
+
+
+
+/*sayantika starttttt*/
+
+.dgndfgdfgdf {
+  position: relative;
+}
+
+.transit01 {
+  position: absolute;
+  width: 174px !important;
+  top: 4px;
+  left: 228px;
+}
+
+.transit02 {
+  position: absolute;
+  width: 121px !important;
+  top: 112px;
+  right: -8px;
+}
+
+.transit05 {
+  position: absolute;
+  width: 121px !important;
+  top: 112px;
+  left: 2px;
+
+}
+
+.leading1 img,
+.leading2 img,
+.leading5 img{
+  height: auto !important;
+}
+
+/*sayantika enddddd*/
+
+
+
+
+/*karina starttttt*/
+
+.dbfghsdf{
+  position:relative;
+}
+.image1{
+  position: absolute;
+    width: 15vw !important;
+    height: auto !important;
+    left: 68%;
+    top: 4%;
+    animation: bounceIn 3s;
+}
+@keyframes bounceIn {
+  0% { transform: scale(0.3); opacity: 0; }
+  50% { transform: scale(1.05); opacity: 1; }
+  70% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+.image2{
+     position: absolute;
+    width: 16vw !important;
+    height: auto !important;
+    left: 64%;
+    top: 57%;
+    animation: flipOut 3s;
+}
+@keyframes flipOut {
+  from { transform: rotateY(0deg); opacity: 1; }
+  to { transform: rotateY(90deg); opacity: 0; }
+}
+.image3{
+ position: absolute;
+    width: 18vw !important;
+    height: auto !important;
+    left: 2%;
+    bottom: 30%;
+    animation: skewWiggle 3s;
+}
+@keyframes skewWiggle {
+  0%, 100% { transform: skew(0deg, 0deg); }
+  25% { transform: skew(10deg, -5deg); }
+  50% { transform: skew(-10deg, 5deg); }
+  75% { transform: skew(5deg, -10deg); }
+}
+
+.image4{
+ position: absolute;
+    width: 18vw !important;
+    height: auto !important;
+    right: 2%;
+    bottom: 30%;
+    animation: skewWiggle 3s;
+}
+@keyframes skewWiggle {
+  0% { transform: scale(0); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/*karina enddddd*/

@@ -125,6 +125,27 @@ export const Template6 = ({ serviceResponse, slug }) => {
                                 <img src="./images/fsrgtw3.png" className="position-absolute" alt="" />
                             </div>
                         )}
+
+                        {slug === 'event-management-and-fairs-exhibitions-advertisement-service' && (
+                            <>
+                                <div className={styles.event01}>
+                                    <img src="./images/event1.webp" className={styles.event001} data-aos="fade-left"data-aos-delay="500" alt=""/>
+                                </div>
+
+                                <div className={styles.event03}>
+                                    <img src="./images/event3.webp" className={styles.event003} data-aos="fade-left" alt=""/>
+                                </div>
+
+                                <div className={styles.event04}>
+                                    <img src="./images/event4.webp" className={styles.event004} data-aos="fade-right" data-aos-delay="500" alt=""/>
+                                </div>
+                                
+                                <div className={styles.event05}>
+                                    <img src="./images/event5.webp" className={styles.event005} data-aos="fade-right" alt=""/>
+                                </div>
+                            </>
+                        )}
+
                     </div>
                 </div>
 
@@ -223,6 +244,16 @@ export const Template6 = ({ serviceResponse, slug }) => {
                                             </>
                                             )}
 
+                                            {slug === 'event-management-and-fairs-exhibitions-advertisement-service' && ( 
+                                                <div className={styles.emfesimgs}>
+                                                    <img src="/images/emfeabulb.webp" className={styles.emfesimg1} alt=""/>
+
+                                                    <img src="/images/emfeagraph.webp" className={styles.emfesimg2} alt=""/>
+
+                                                    <img src="/images/emfeabar.webp" className={styles.emfesimg3} alt=""/>
+                                                </div>
+                                            )}
+
                                         </div>
                                     </div>
                                 </div>
@@ -240,15 +271,20 @@ export const Template6 = ({ serviceResponse, slug }) => {
                                         {serviceResponse.data?.fourth_section_image && (
                                             <img
                                                 src={`${serviceResponse.image_url}/Templete_6/${serviceResponse.data.fourth_section_image}`}
-                                                alt="" data-aos="zoom-in-right"
+                                                alt="" data-aos="zoom-in"
                                             />
                                         )}
 
-                                        {slug === 'e-commerce-services' && (
-                                            <>
+                                        {slug === 'event-management-and-fairs-exhibitions-advertisement-service' && (
+                                            <div className={styles.ebook}>
+                                                <img src="./images/meet1.png" className={styles.et1} alt="" />
 
-                                            </>
+                                                <img src="./images/meet2.png" className={styles.et2} alt="" />
+
+                                                <img src="./images/meet3.png" className={styles.et3} alt="" />
+                                            </div>
                                         )}
+
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -371,6 +407,26 @@ export const Template6 = ({ serviceResponse, slug }) => {
                             <img src="./images/Digital Marketing Agency FAQs (5) (4).png" className={`${styles.asdasdaswwe} position-absolute`} data-aos="fade-up-right" alt="" />
 
                             <img src="./images/Digital Marketing Agency FAQs (5) (5).png" className={`${styles.dsfdgtsrr} position-absolute`} data-aos="fade-left" alt="" />
+                        </div>
+                    )}
+
+                    {slug === 'event-management-and-fairs-exhibitions-advertisement-service' && (
+                        <div>
+                            <div className={styles.RRpic1}>
+                                <img src="./images/RRpic3.webp" className={styles.RRpicc1} data-aos="fade-down-right" alt="" />
+                            </div>
+
+                            <div className={styles.RRpic2}>
+                                <img src="./images/RRpic4.webp" className={styles.RRpicc2} data-aos="fade-up-left" data-aos-delay="150" alt="" />
+                            </div>
+
+                            <div className={styles.RRpic3}>
+                                <img src="./images/RRpic5.webp" className={styles.RRpicc3} data-aos="fade-down-left" data-aos-delay="300" alt="" />
+                            </div>
+                            
+                            <div className={styles.RRpic4}>
+                                <img src="./images/RRpic6.webp" className={styles.RRpicc4} data-aos="fade-up-right" data-aos-delay="450" alt="" />
+                            </div>
                         </div>
                     )}
                 </div>

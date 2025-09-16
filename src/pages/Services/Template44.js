@@ -9,6 +9,9 @@ import { useNavigate } from "react-router-dom";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { gsap } from "gsap";    
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 export const Template44 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
@@ -20,6 +23,39 @@ export const Template44 = ({ serviceResponse, slug }) => {
       once: false,
     });
   }, []);
+
+  gsap.to(".titli1", {
+  y: 80,
+  scrollTrigger: {
+      trigger: ".titli1",
+      markers: false,
+      scrub: true,
+      end: "top 250px",
+      start: "top 500px"
+  }
+});
+
+ gsap.to(".titli2", {
+  x: 120,
+  scrollTrigger: {
+      trigger: ".titli2",
+      markers: false,
+      scrub: true,
+      end: "top 350px",
+      start: "top 650px"
+  }
+});
+
+ gsap.to(".titli4", {
+  x: -120,
+  scrollTrigger: {
+      trigger: ".titli4",
+      markers: false,
+      scrub: true,
+      end: "top 250px",
+      start: "top 500px"
+  }
+});
 
   return (
     <div>
@@ -67,6 +103,30 @@ export const Template44 = ({ serviceResponse, slug }) => {
                     <img src="./images/info4.webp" className={styles.img4} alt=""/> 
 
                     <img src="./images/info5.webp" className={styles.img5} alt=""/> 
+                  </div>
+                )}
+
+                {slug === 'website-maintenance-company' && ( 
+                  <div className={styles.maintainance_page}>
+                    <img src="./images/web1.webp" className={styles.image1} alt=""/> 
+                    
+                    <img src="./images/web2.webp" className={styles.image2} alt=""/> 
+
+                    <img src="./images/web3.webp" className={styles.image3} alt=""/>
+
+                    <img src="./images/web4.webp" className={styles.image4}  alt=""/>
+
+                    <img src="./images/web5.webp" className={styles.image5}  alt=""/> 
+
+                    <img src="./images/web6.webp" className={styles.image6}  alt=""/> 
+
+                    <img src="./images/web7.webp" className={styles.image7}  alt=""/> 
+
+                    <img src="./images/web8.webp" className={styles.image8}  alt=""/> 
+
+                    <img src="./images/web9.webp" className={styles.image9}  alt=""/> 
+
+                    <img src="./images/web10.webp" className={styles.image10}  alt=""/>                    
                   </div>
                 )}
               </div>
@@ -196,6 +256,22 @@ export const Template44 = ({ serviceResponse, slug }) => {
 
                           <img src="./images/infog5.webp" className={styles.pic5} data-aos="fade-right" alt=""/>
                         </div>
+                      )}
+
+                      {slug === 'website-maintenance-company' && ( 
+                        <>
+                          <div className={styles.website1}>
+                            <img src="./images/website01.webp" className="titli1" style={{ position: "absolute", width: "175px", height: "auto", top: "-60px", left: "58px" }} alt=""/>
+                          </div>
+                          
+                          <div className={styles.website2}>
+                            <img src="./images/website02.webp" className="titli2" style={{ position: "absolute", width: "129px", height: "auto", top: "425px", left: "-60px" }}  alt=""/>
+                          </div>
+
+                          <div className={styles.website4}>
+                            <img src="./images/website04.webp" className="titli4" style={{ position: "absolute", width: "157px", height: "auto", top: "235px", right: "-120px" }} alt=""/>
+                          </div>
+                        </>
                       )}
                     </div>
                   </div>

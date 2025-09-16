@@ -8,6 +8,9 @@ import "react-toastify/dist/ReactToastify.css";
 import { PageWrapper } from "../../SEOComponent/PageWrapper";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { gsap } from "gsap";    
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 export const Template4 = ({ serviceResponse, slug }) => {
   const [loading, setLoading] = useState(false);
@@ -18,6 +21,49 @@ export const Template4 = ({ serviceResponse, slug }) => {
         once: false,
       });
     }, []);
+
+    gsap.to(".Rpicc1", {
+  duration: 3,
+  y: -100,
+  x:100,
+  // repeat:-1,
+  // yoyo:true,
+  scrollTrigger: {
+      trigger: ".Rpicc3",
+      // markers: true,
+      scrub: true,
+      end: "top 200px",
+      start: "top 500px"
+  }
+});
+
+ gsap.to(".Rpicc2", {
+  duration: 3,
+  y: -100,
+  x:-100,
+  // repeat:-1,
+  // yoyo:true,
+  scrollTrigger: {
+      trigger: ".Rpicc3",
+      // markers: true,
+      scrub: true,
+      end: "top 160px",
+      start: "top 440px"
+  }
+});
+  gsap.to(".Rpicc3", {
+    duration: 3,
+    y: 100,
+    // repeat:-1,
+    // yoyo:true,
+    scrollTrigger: {
+        trigger: ".Rpicc3",
+        // markers: true,
+        scrub: true,
+        end: "top 160px",
+        start: "top 440px"
+    }
+  });
 
 
   return (
@@ -194,6 +240,22 @@ export const Template4 = ({ serviceResponse, slug }) => {
                           </div>
                         </>
                       )}
+
+                      {slug === 'sport-advertisement-service' && (
+                        <div>
+                          <div className={styles.Rpic1}>
+                            <img src="./images/Rpic1.webp" className="Rpicc1" style={{ position: "absolute", width: "11rem", bottom: "-73px", left: "-91px" }} alt="" />
+                          </div>
+
+                          <div className={styles.Rpic2}>
+                            <img src="./images/Rpic2.webp" className="Rpicc2" style={{ position: "absolute", width: "10.5rem", bottom: "-70px", right: "-81px" }} alt="" />
+                          </div>
+
+                          <div className={styles.Rpic3}>
+                            <img src="./images/Rpic3.webp" className="Rpicc3" style={{ position: "absolute", width: "10rem", top: "-95px", left: "166px" }} alt="" />
+                          </div>
+                        </div>
+                      )} 
       
                     </div>
                   </div>
@@ -233,6 +295,18 @@ export const Template4 = ({ serviceResponse, slug }) => {
                     <img src="./images/artical_sub_last_img4.png" className={styles.g3} alt="" />
 
                     <img src="./images/artical_sub_last_img3.png" className={styles.g4} alt="" />
+                </div>
+              )}
+
+              {slug === 'sport-advertisement-service' && ( 
+                <div className={styles.sasimgs}>
+                  <img src="/images/saskey.webp" className={styles.sasimg1} alt=""/>
+
+                  <img src="/images/sascomp.webp" className={styles.sasimg2} alt=""/>
+
+                  <img src="/images/sasboard.webp" className={styles.sasimg3} alt=""/>
+
+                  <img src="/images/sasshirt.webp" className={styles.sasimg4} alt=""/>
                 </div>
               )}
             </div>

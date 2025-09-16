@@ -1033,3 +1033,88 @@ p a{
 }
 
 /*karina endd*/
+
+/*rohit starttttt*/
+
+.Rpicbg{
+  width: 100%;
+}
+
+/*rohit enddddd*/
+
+
+
+/*nisha starttttt*/
+
+.sasimg1{
+  position: absolute;
+  width: 30vw !important;
+  bottom: 27.5%;
+  left: 11.5%;
+  animation: fadeleft 4s infinite;
+}
+@keyframes fadeleft{
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.sasimg2{
+  position: absolute;
+  width: 30vw !important;
+  bottom: 4.2%;
+  left: 7.5%;
+  animation: dropUp 4s ease-out forwards infinite;
+}
+@keyframes dropUp {
+  0% {
+    transform: translateY(60px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.sasimg3{
+  position: absolute;
+  width: 29vw !important;
+  bottom: 27.5%;
+  right: 11.5%;
+  animation: dropIn 4s ease-out forwards infinite;
+}
+@keyframes dropIn {
+  0% {
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.sasimg4{
+  position: absolute;
+  width: 30vw !important;
+  bottom: 4.7%;
+  right: 8%;
+  animation: faderight 4s infinite;
+}
+@keyframes faderight{
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/*nisha enddddd*/
+
+

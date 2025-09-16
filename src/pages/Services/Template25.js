@@ -74,6 +74,26 @@ export const Template25 = ({ serviceResponse, slug }) => {
                   </div>
                 </>
             )}
+
+            {slug === 'buying-advertisement-agency' && (
+                <div>
+                  <div className={styles.Rppic1} >
+                    <img src="./images/Rppic2.webp" className={styles.Rppicc1} data-aos="fade-up-left"  alt="" />
+                  </div>
+
+                  <div className={styles.Rppic2} >
+                    <img src="./images/Rppic3.webp" className={styles.Rppicc2} data-aos="fade-down-left" data-aos-delay="150" alt="" />
+                  </div>
+
+                  <div className={styles.Rppic3} >
+                    <img src="./images/Rppic4.webp" className={styles.Rppicc3} data-aos="fade-up-right" data-aos-delay="300"  alt="" />
+                  </div>
+
+                  <div className={styles.Rppic4} >
+                    <img src="./images/Rppic5.webp" className={styles.Rppicc4} data-aos="fade-down-right" data-aos-delay="450" alt="" />
+                  </div>
+              </div>
+            )}
           </div>
         </div>
 

@@ -207,6 +207,20 @@ export const Template46 = ({ serviceResponse, slug }) => {
                   <img src="/images/ecsbulb.webp" className={styles.ecsimg3} alt=""/>
                 </div>
               )}
+
+              {slug === 'online-business-promotion' && (             
+                <div className={styles.promo2_page}>
+                  <img src="./images/business1.webp" className={styles.img1} data-aos="fade-up-right" alt=""/>
+
+                  <img src="./images/business2.webp" className={styles.img2} data-aos="fade-up-left" alt=""/>
+
+                  <img src="./images/business3.webp" className={styles.img3} data-aos="fade-up-left" alt=""/>
+
+                  <img src="./images/business4.webp" className={styles.img4} data-aos="fade-down" alt=""/>
+
+                  <img src="./images/business5.webp" className={styles.img5} data-aos="fade-up-right" alt=""/>                     
+                </div>    
+              )}
             </div>
           </div>
         </div>
@@ -323,6 +337,16 @@ export const Template46 = ({ serviceResponse, slug }) => {
                       </li>
                     </ul>
                     </>
+                    )}
+
+                    {slug === 'online-business-promotion' && ( 
+                      <div className={styles.info2_page}>
+                          <img src="./images/promo_img1.webp" className={styles.pic1} data-aos="fade-right" alt=""/> 
+
+                          <img src="./images/promo_img2.webp" className={styles.pic2} data-aos="fade-down" alt=""/> 
+                          
+                          <img src="./images/promo_img3.webp" className={styles.pic3} data-aos="fade-up-left" alt=""/>                    
+                      </div>
                     )}
                   </div>
                 </div>

@@ -65,8 +65,16 @@ export const Template2 = ({ serviceResponse, slug }) => {
               </>
               )}
 
-
-
+              {slug === 'transit-advertising-and-wraps' && (
+              <> 
+                <div className={styles.maintainance_page}>
+                  <img src="./images/trans1.webp" className={styles.image1} alt=""/> 
+                  <img src="./images/trans2.webp" className={styles.image2} alt=""/>
+                  <img src="./images/trans3.webp" className={styles.image3} alt=""/>  
+                  <img src="./images/trans4.webp" className={styles.image4} alt=""/>  
+               </div>
+              </>
+            )}
 
           </div>
         </div>
@@ -121,20 +129,32 @@ export const Template2 = ({ serviceResponse, slug }) => {
 
                     {slug === 'search-engine-marketing-services' && (
                   
+                      <div className={styles.gfgfgfgfgfg}>
+                          <img src="./images/i1.png" className={styles.t1} data-aos="flip-up" alt="" />
 
+                          <img src="./images/i2.png" className={styles.t2} data-aos="fade-right" alt="" />
 
-                  <div className={styles.gfgfgfgfgfg}>
-                      <img src="./images/i1.png" className={styles.t1} data-aos="flip-up" alt="" />
+                          <img src="./images/i3.png" className={styles.t3} data-aos="fade-right" alt="" />
 
-                      <img src="./images/i2.png" className={styles.t2} data-aos="fade-right" alt="" />
+                          <img src="./images/i4.png" className={styles.t4} data-aos="fade-left" alt="" />
 
-                      <img src="./images/i3.png" className={styles.t3} data-aos="fade-right" alt="" />
-
-                      <img src="./images/i4.png" className={styles.t4} data-aos="fade-left" alt="" />
-
-                      <img src="./images/i5.png" className={styles.t5} data-aos="fade-left" alt="" />
-                  </div>
+                          <img src="./images/i5.png" className={styles.t5} data-aos="fade-left" alt="" />
+                      </div>
                                    
+                    )}
+
+                    {slug === 'transit-advertising-and-wraps' && (
+                      <>
+                        <div className={styles.leading1}>
+                          <img src="./images/leading01.webp" className={styles.transit01} data-aos="zoom-out-down" alt=""/>
+                        </div>
+                        <div className={styles.leading2}>
+                          <img src="./images/leading02.webp" className={styles.transit02} data-aos="zoom-out-left" alt=""/>
+                        </div>
+                        <div className={styles.leading5}>
+                          <img src="./images/leading05.webp" className={styles.transit05} data-aos="zoom-out-right" alt=""/>
+                        </div> 
+                      </>                               
                     )}
                   </div>
                 </div>
@@ -170,6 +190,16 @@ export const Template2 = ({ serviceResponse, slug }) => {
                         src={`${serviceResponse.image_url}/Template_2/${serviceResponse.data.fifth_section_image}`}
                         alt=""
                         />
+                    )}
+
+                    {slug === 'transit-advertising-and-wraps' && (
+                      <div className={styles.img}>
+                        <img src="./images/bulb1.webp" className={styles.bu1} alt="" />
+
+                        <img src="./images/bulb2.webp" className={styles.bu2}  alt="" />
+
+                        <img src="./images/bulb3.webp" className={styles.bu3}  alt="" />
+                      </div>
                     )}
                   </div>
                 </div>

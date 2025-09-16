@@ -57,6 +57,24 @@ export const Template1 =({serviceResponse, slug}) =>{
                   <img src="./images/onPageBanner_4.png"  className={styles.pic4}  data-aos="fade-right" alt=""/>
                 </div>
               )}
+
+              {slug === 'exclusive-display-vans-advertising-service' && (
+                <div>
+                  <div className={styles.Riimgg1}>
+                    <img src="./images/Riimgg1.webp" className={styles.Riimmgg1} data-aos="zoom-in-down" alt="" />
+                  </div>
+                  
+                  <div className={styles.Riimgg2}>
+                    <img src="./images/Riimgg2.webp" className={styles.Riimmgg2} data-aos="fade-up-right" data-aos-delay="150" alt="" />
+                  </div>
+
+                  <div className={styles.Riimgg3}>
+                    <img src="./images/Riimgg3.webp" className={styles.Riimmgg3} data-aos="fade-up-left" data-aos-delay="300" alt="" />
+                  </div>
+                </div>
+              )}
+
+              
           </div>
         </div>
 
@@ -224,6 +242,16 @@ export const Template1 =({serviceResponse, slug}) =>{
                     </div>
                     </>
                     )}
+
+                    {slug === 'exclusive-display-vans-advertising-service' && (
+                    <div className={styles.no}>
+                      <img src="./images/van1.png" className={styles.v1} alt="" />
+                      
+                      <img src="./images/van2.png" className={styles.v2} alt="" />
+                      
+                      <img src="./images/van3.png" className={styles.v3} alt="" />
+                    </div>
+                    )}
                   </div>
                 </div>
                 <div className="col-lg-7">
@@ -284,6 +312,14 @@ export const Template1 =({serviceResponse, slug}) =>{
                               
               </div>
             )}
+
+            {slug === 'exclusive-display-vans-advertising-service' && ( 
+                <div className={styles.edvaspics}>
+                  <img src="/images/edvascustomer.webp" className={styles.edvaspic1} alt=""/>
+
+                  <img src="/images/edvasdiamond.webp" className={styles.edvaspic2} alt=""/>
+                </div>
+              )}
         </div>
         <LastSectionComponent />
       </main>

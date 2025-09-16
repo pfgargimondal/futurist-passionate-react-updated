@@ -41,7 +41,7 @@ export const Template16 = ({ serviceResponse, slug }) => {
               </div>
             </div>
 
-            <div className={` ${styles.dbfghsdf} col-lg-6`}>
+            <div className={` ${styles.dbfghsdf} col-lg-6 position-relative`}>
               {serviceResponse.data?.banner_image && (
                 <img
                   src={`${serviceResponse.image_url}/Templete_16/${serviceResponse.data.banner_image}`}
@@ -55,7 +55,17 @@ export const Template16 = ({ serviceResponse, slug }) => {
 
                   <img src="/images/insta-img3.png" className={styles.insta3} alt=""/>
                 </div>
-              )}              
+              )}   
+              
+              {slug === 'brand-activation' && ( 
+                <div className={styles.baaimgs}>
+                  <img src="/images/baahand.webp" className={styles.baaimg1} alt=""/>
+
+                  <img src="/images/baaarrow.webp" className={styles.baaimg2} alt=""/>
+
+                  <img src="/images/baamike.webp" className={styles.baaimg3} alt=""/>
+                </div>
+              )}             
             </div>
           </div>
         </div> 
