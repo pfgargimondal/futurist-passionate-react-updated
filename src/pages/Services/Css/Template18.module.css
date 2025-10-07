@@ -124,6 +124,155 @@
 
 
 
+@media only screen and (max-device-width:2551px) {
+    .titlii07 {
+        left: 66px !important;
+        top: 60px !important;
+        width: 396px !important;
+    }
+
+    .titlii05 {
+        left: 943px !important;
+        top: 276px !important;
+        width: 284px !important;
+    }
+
+    .titlii06 {
+        left: 870px !important;
+        top: 58px !important;
+        width: 316px !important;
+    }
+
+    .titlii02 {
+        left: 69px;
+        top: 249px !important;
+        width: 367px !important;
+    }
+
+    .titlii04 {
+       left: 879px;
+        top: 467px !important;
+        width: 315px !important;
+    }
+
+    .titlii03 {
+        left: 77px !important;
+        top: 461px !important;
+        width: 316px !important;
+    }
+}
+
+@media only screen and (max-device-width:1921px) {
+    .titlii07 {
+        position: absolute;
+        width: 352px !important;
+        top: 33px !important;
+        left: 43px !important;
+    }
+
+    .titlii02 {
+        position: absolute;
+        width: 279px !important;
+        top: 178px !important;
+        left: 43px !important;
+    }
+
+    .titlii03 {
+        position: absolute;
+        width: 232px !important;
+        top: 353px !important;
+        left: 72px !important;
+    }
+
+    .titlii06 {
+        position: absolute;
+        width: 255px !important;
+        top: 36px !important;
+        left: 639px !important;
+    }
+
+    .titlii05 {
+        position: absolute;
+        width: 219px !important;
+        top: 198px !important;
+        left: 653px !important;
+    }
+
+    .titlii04 {
+        position: absolute;
+        width: 232px !important;
+        top: 342px !important;
+        left: 642px !important;
+    }
+}
+@media only screen and (max-device-width:1601px) {
+
+     .titlii04 {
+       width: 192px !important;
+        top: 305px !important;
+        left: 591px !important;
+    }
+    .titlii02 {
+      width: 236px !important;
+        top: 180px !important;
+        left: 68px !important;
+    }
+    .titlii03 {
+       width: 192px !important;
+        top: 305px !important;
+        left: 73px !important;
+    }
+    .titlii05 {
+        width: 191px !important;
+        top: 183px !important;
+        left: 577px !important;
+    }
+    .titlii06 {
+       width: 235px !important;
+        top: 28px !important;
+        left: 558px !important;
+    }
+    .titlii07 {
+        width: 312px !important;
+        top: 34px !important;
+        left: 9px !important;
+}
+}
+@media only screen and (max-device-width:1366px) {
+    .titlii06{
+        position: absolute;
+        width: 178px !important;
+        top: 32px !important;
+        left: 460px !important;
+    }
+    .titlii05 {
+        position: absolute;
+        width: 152px !important;
+        top: 160px !important;
+        left: 472px !important;
+    }
+    .titlii04 {
+        position: absolute;
+        width: 171px !important;
+        top: 285px !important;
+        left: 470px !important;
+    }
+        .titlii03 {
+        position: absolute;
+        width: 165px !important;
+        top: 277px !important;
+        left: 70px !important;
+    }
+    .titlii02 {
+        position: absolute;
+        width: 190px !important;
+        top: 160px !important;
+        left: 67px !important;
+    }
+}
+
+
+
 
 @media only screen and (max-width:991px)
 {

@@ -319,6 +319,181 @@
 
 
 
+@media only screen and (max-width:2550px)
+{
+  
+  .titli1 .sayan01{
+    position: absolute;
+    width: 10rem !important;
+    top: -1rem !important;
+    right: 15% !important;
+  }
+  .titli2 .sayan02{
+    position: absolute;
+    width: 10rem !important;
+    top: 14rem !important;
+    left: 65rem !important;
+  }
+  .titli3 .sayan03{
+    position: absolute;
+      top: 29rem !important;
+      left: 8rem !important;
+      width: 10rem !important;
+  }
+  .titli4 .sayan04{
+    position: absolute;
+    width: 11rem !important;
+    top: 15rem !important;
+    left: 2rem !important;
+  }
+  .titli5 .sayan05{
+      position: absolute;
+      width: 10rem !important;
+      top: 0 !important;
+      left: 7rem !important;
+  }
+  .titli6 .sayan06{
+    position: absolute;
+    width: 10rem  !important;
+    top: 29rem !important;
+    left: 59rem  !important;
+  }
+
+
+}
+
+
+@media only screen and (max-width:1920px)
+{
+    .titli1 .sayan01{
+    position: absolute;
+    width: 8rem !important;
+    top: -1rem !important;
+    right: 15% !important;
+  }
+  .titli2 .sayan02{
+    position: absolute;
+    width: 8rem !important;
+    top: 12rem !important;
+    left: 45rem !important;
+  }
+  .titli3 .sayan03{
+    position: absolute;
+      top: 24rem !important;
+      left: 8rem !important;
+      width: 8rem !important;
+  }
+  .titli4 .sayan04{
+    position: absolute;
+    width: 9rem !important;
+    top: 12rem !important;
+    left: 2rem !important;
+  }
+  .titli5 .sayan05{
+      position: absolute;
+      width: 8rem !important;
+      top: 0 !important;
+      left: 7rem !important;
+  }
+  .titli6 .sayan06{
+    position: absolute;
+    width: 9rem  !important;
+    top: 24rem !important;
+    left: 43rem  !important;
+  }
+
+}
+
+
+
+@media only screen and (max-width:1600px)
+{
+
+    .titli1 .sayan01{
+    position: absolute;
+    width: 8rem !important;
+    top: -1rem !important;
+    right: 15% !important;
+  }
+  .titli2 .sayan02{
+    position: absolute;
+    width: 8rem !important;
+    top: 9rem !important;
+    left: 41rem !important;
+  }
+  .titli3 .sayan03{
+    position: absolute;
+      top: 19rem !important;
+      left: 8rem !important;
+      width: 8rem !important;
+  }
+  .titli4 .sayan04{
+    position: absolute;
+    width: 9rem !important;
+    top: 9rem !important;
+    left: 2rem !important;
+  }
+  .titli5 .sayan05{
+      position: absolute;
+      width: 8rem !important;
+      top: 0 !important;
+      left: 7rem !important;
+  }
+  .titli6 .sayan06{
+    position: absolute;
+    width: 9rem  !important;
+    top: 19rem !important;
+    left: 36rem  !important;
+  }
+  
+}
+
+
+
+@media only screen and (max-width:1366px)
+{
+  
+  .titli1 .sayan01{
+    position: absolute;
+    width: 9rem !important;
+    top: -1rem !important;
+    right: 15% !important;
+  }
+  .titli2 .sayan02{
+    position: absolute;
+    width: 8rem !important;
+    top: 10rem !important;
+    left: 28rem !important;
+  }
+  .titli3 .sayan03{
+    position: absolute;
+      top: 16rem !important;
+      left: 8rem !important;
+      width: 8rem !important;
+  }
+  .titli4 .sayan04{
+    position: absolute;
+    width: 10rem !important;
+    top: 8rem !important;
+    left: 4rem !important;
+  }
+  .titli5 .sayan05{
+      position: absolute;
+      width: 8rem !important;
+      top: 0 !important;
+      left: 7rem !important;
+  }
+  .titli6 .sayan06{
+    position: absolute;
+    width: 8rem  !important;
+    top: 17rem !important;
+    left: 24rem  !important;
+  }
+
+
+  
+}
+
 
 
 

@@ -385,6 +385,257 @@
 
 
 
+@media only screen and (max-width:2551px)
+{
+  .RR1 .RRimg1 {
+    left: 10% !important;
+    top: 5%  !important;
+    width: 18rem !important;
+}
+.RR2 .RRimg2{
+    bottom: 32% !important ;
+    left: 2%  !important;
+    width: 14rem !important;
+
+}
+.RR3 .RRimg3 {
+    bottom: -5px  !important;
+    left: 13% !important;
+    width: 16rem !important;
+}
+.RR4 .RRimg4 {
+    right: 10%  !important;
+    top: 6%  !important;
+    width: 17rem !important;
+}
+.RR5 .RRimg5 {
+    bottom: 28%  !important;
+    right: 4% !important ;
+    width: 14rem !important;
+}
+.RR6 .RRimg6 {
+   bottom: 1%  !important;
+   right: 10%  !important;
+    width: 16rem !important;
+}
+.tmspic1 {
+   left: 18%  !important;
+   top: 24%  !important;
+    width: 30rem !important;
+}
+.tmspic2 {
+    right: 7%  !important;
+    top: 27%  !important;
+    width: 27rem !important;
+  
+}
+.tmspic3 {
+    bottom: 8% !important;
+    left: 11%  !important;
+    width: 33rem !important;
+   
+}
+.tmspic4 {
+    bottom: 7%  !important;
+   
+    right: 15%  !important;
+    width: 31rem !important;
+}
+
+.ijdnm_eoijrer img  {
+    margin-top: 1.5rem !important;
+    width:100%;
+    
+}
+}
+@media only screen and (max-width:1921px){
+.RR1 .RRimg1 {
+    left: 8% !important;
+   
+    top: 1% !important;
+    width: 15rem !important;
+}
+.RR2 .RRimg2 {
+    bottom: 34% !important;
+    left: 2% !important;
+    
+    width: 12rem !important;
+}
+.RR3 .RRimg3 {
+    bottom: 4px  !important;
+    left: 11%  !important ;
+    
+    width: 13rem !important;
+}
+.RR4 .RRimg4 {
+   
+    right: 10%  !important ;
+    top: 3%  !important;
+    width: 14rem;
+}
+.RR5 .RRimg5 {
+    bottom: 31%  !important;
+    
+    right: 4%;
+    width: 12rem;
+}
+.RR6 .RRimg6 {
+    bottom: 2% !important ;
+   
+    right: 9%  !important;
+    width: 13rem !important;
+}
+.tmspic1 {
+    left: 17% !important;
+
+    top: 31%  !important;
+    width: 25rem;
+}
+.tmspic3 {
+    bottom: 6%  !important;
+    left: 7% !important; 
+    width: 26rem !important;
+
+}
+.tmspic2 {
+    right: 14% !important ;
+    top: 34%   !important;
+    width: 22rem !important;
+
+}
+.tmspic4{
+    bottom: 7% !important ;
+  
+    right: 11% !important;
+    width: 25rem !important;
+}
+}
+@media only screen and (max-width:1601px){
+  .RR1 .RRimg{
+    left: 8% !important;
+   
+    top: 1%!important ;
+    width: 13rem !important;
+}
+.RR2 .RRimg2 {
+    bottom: 33% !important;
+    left: 2%!important;
+   
+    width: 10rem !important;
+}
+.RR3 .RRimg3 {
+    bottom: -1px !important;
+    left: 11%  !important;
+  
+    width: 11rem !important ;
+}
+.RR4 .RRimg4{
+   
+    right: 8%!important ;
+    top: 2% !important;
+    width: 12rem !important;
+}
+.RR5 .RRimg5 {
+   bottom: 29% !important;
+   
+    right: 1% !important;
+    width: 10rem !important;
+}
+.RR6 .RRimg6 {
+    bottom: 2% !important;
+  
+    right: 9% !important;
+    width: 11rem !important;
+}
+.tmspic1 {
+    left: 17%!important ;
+  
+    top: 40% !important;
+    width: 20rem !important;
+}
+.tmspic2{
+    right: 14% !important;
+    top: 42%!important;
+    width: 18rem !important;
+}
+.tmspic3{
+    bottom: 6% !important;
+    left: 11%!important ;
+    width: 21rem !important;
+}
+.tmspic4 {
+    bottom: 7% !important;
+   
+    right: 11%!important ;
+    width: 21rem !important;
+}
+}
+@media only screen and (max-width:1367px){
+  .RR1 .RRimg1 {
+      
+      width: 11rem!important ;
+      left: 9% !important;
+      top: 3% !important;
+  }
+  .RR2 .RRimg2 {
+      bottom: 31% !important;
+      left: 2%!important ;
+    
+      width: 9rem !important;
+  }
+  .RR3 .RRimg3{
+      bottom: -9px !important;
+      left: 11%!important ;
+    
+      width: 10rem !important;
+  }
+  .RR4 .RRimg4 {
+    width: 10rem !important;
+      right: 11% !important;
+      top: 3% !important;
+    }
+  .RR5 .RRimg5 {
+      bottom: 28%!important ;
+      
+      right: 2%!important ;
+      width: 9rem !important;
+  }
+  .RR6 .RRimg6 {
+      bottom: -1% !important;
+    
+      right: 9% !important;
+      width: 10rem !important;
+  }
+  .tmspic1 {
+      left: 14%!important ;
+    
+      top: 45% !important;
+      width: 16rem !important;
+  }
+  .tmspic2{
+      right: 14%!important ;
+      top: 48% !important;
+      width: 14rem !important;
+  }
+  .tmspic3{
+            right: 14% !important;
+          top: 75% !important;
+          width: 16rem !important;
+  }
+  .tmspic2 {
+      right: 14% !important;
+      top: 48% !important;
+      width: 16rem !important;
+  }
+  .tmspic4 {
+      bottom: 7% !important;
+    
+      right: 11% !important;
+      width: 18rem !important;
+  }
+}
+
+
 
 
 
