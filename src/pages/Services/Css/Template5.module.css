@@ -380,6 +380,235 @@ p a{
 
 
 
+@media only screen and (max-width:2550px)
+{
+    .opti1{
+  position: absolute;
+  width: 15rem !important;
+  top: 12% !important;
+  left: 11% !important;
+  animation: optimize2 2s infinite linear;
+  }
+  .opti2{
+    position: absolute;
+    width: 17rem !important;
+    top: 9% !important;
+    right: 8% !important;
+    animation: optimize2 2s infinite linear;
+  }
+  .opti3{
+    position: absolute;
+    width: 16rem !important;
+    bottom: 17% !important;
+    right: 9% !important;
+    animation: optimize1 2s infinite linear;
+  }
+  .opti4{
+    position: absolute;
+    width: 10rem !important;
+    bottom: 3% !important;
+    left: 11% !important;
+    animation: optimize1 2s infinite linear;
+  }
+
+  .social .s1{
+    position: absolute;
+    width:8rem !important;
+    bottom: 43% !important;
+    left:87% !important;
+    animation:w2 2s infinite linear;
+    }
+    .social .s2{
+      position: absolute;
+      width:8rem !important;
+      bottom: 63% !important;
+      left:84.5% !important;
+      animation:w2 2s infinite linear;
+    }
+    .social .s3{
+      position: absolute;
+        width:7rem !important;
+        bottom: 73% !important;
+        left:70% !important; 
+        animation:w2 2s infinite linear;   
+    }
+
+}
+
+
+@media only screen and (max-width:1920px)
+{
+
+    .opti1{
+  position: absolute;
+  width: 15rem !important;
+  top: 11% !important;
+  left: 7% !important;
+  animation: optimize2 2s infinite linear;
+  }
+  .opti2{
+    position: absolute;
+    width: 17rem !important;
+    top: 6% !important;
+    right: 3% !important;
+    animation: optimize2 2s infinite linear;
+  }
+  .opti3{
+    position: absolute;
+    width: 16rem !important;
+    bottom: 15% !important;
+    right: 4% !important;
+    animation: optimize1 2s infinite linear;
+  }
+  .opti4{
+    position: absolute;
+    width: 10rem !important;
+    bottom: -1% !important;
+    left: 9% !important;
+    animation: optimize1 2s infinite linear;
+  }
+
+  .social .s1{
+    position: absolute;
+    width:8rem !important;
+    bottom: 43% !important;
+    left:87% !important;
+    animation:w2 2s infinite linear;
+    }
+    .social .s2{
+      position: absolute;
+      width:8rem !important;
+      bottom: 63% !important;
+      left:84.5% !important;
+      animation:w2 2s infinite linear;
+    }
+    .social .s3{
+      position: absolute;
+        width:7rem !important;
+        bottom: 73% !important;
+        left:70% !important; 
+        animation:w2 2s infinite linear;   
+    }
+  
+}
+
+
+@media only screen and (max-width:1600px)
+{
+
+  
+    .opti1{
+  position: absolute;
+  width: 12rem !important;
+  top: 11% !important;
+  left: 7% !important;
+  animation: optimize2 2s infinite linear;
+  }
+  .opti2{
+    position: absolute;
+    width: 14rem !important;
+    top: 6% !important;
+    right: 3% !important;
+    animation: optimize2 2s infinite linear;
+  }
+  .opti3{
+    position: absolute;
+    width: 13rem !important;
+    bottom: 15% !important;
+    right: 4% !important;
+    animation: optimize1 2s infinite linear;
+  }
+  .opti4{
+    position: absolute;
+    width: 8rem !important;
+    bottom: -1% !important;
+    left: 9% !important;
+    animation: optimize1 2s infinite linear;
+  }
+
+  .social .s1{
+    position: absolute;
+    width:8rem !important;
+    bottom: 43% !important;
+    left:87% !important;
+    animation:w2 2s infinite linear;
+    }
+    .social .s2{
+      position: absolute;
+      width:8rem !important;
+      bottom: 63% !important;
+      left:84.5% !important;
+      animation:w2 2s infinite linear;
+    }
+    .social .s3{
+      position: absolute;
+        width:7rem !important;
+        bottom: 70% !important;
+        left:70% !important; 
+        animation:w2 2s infinite linear;   
+    }
+  
+}
+
+
+@media only screen and (max-width:1366px)
+{
+
+  .opti1{
+  position: absolute;
+  width:12rem !important;
+  top: 7% !important;
+  left: 6% !important;
+  animation: optimize2 2s infinite linear;
+}
+.opti2{
+  position: absolute;
+  width:14rem !important;
+  top: 3% !important;
+  right: 0% !important;
+  animation: optimize2 2s infinite linear;
+}
+.opti3{
+  position: absolute;
+  width:13rem !important;
+  bottom: 30% !important;
+  right: 2% !important;
+  animation: optimize1 2s infinite linear;
+}
+.opti4{
+  position: absolute;
+  width:8rem !important;
+  bottom: 16% !important;
+  left: 9% !important;
+  animation: optimize1 2s infinite linear;
+}
+
+
+.social .s1{
+    position: absolute;
+    width:8rem !important;
+    bottom: 33% !important;
+    left:85% !important;
+    animation:w2 2s infinite linear;
+}
+.social .s2{
+  position: absolute;
+  width:8rem !important;
+  bottom: 59% !important;
+  left:83.5% !important;
+  animation:w2 2s infinite linear;
+}
+.social .s3{
+  position: absolute;
+    width:7rem !important;
+    bottom: 68% !important;
+    left:70% !important; 
+    animation:w2 2s infinite linear;   
+}
+  
+}
+
+
 
 
 

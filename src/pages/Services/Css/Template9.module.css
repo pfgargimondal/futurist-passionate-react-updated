@@ -223,6 +223,191 @@
 
 
 
+@media only screen and (max-width:2550px)
+{
+    .bookm .m1{
+        position: absolute;
+        width: 10rem !important;
+        bottom: 61% !important;
+        left: 141px !important;
+        animation:w2 2s infinite linear;
+    }
+    .bookm .m2{
+        position: absolute;
+        width: 15rem !important;
+        bottom: 7% !important;
+        right: 158px !important;
+        animation:w2 2s infinite linear;
+    }
+    .bookm .m3{
+        position: absolute;
+        width: 11rem !important;
+        bottom: 57% !important;
+        right: 104px !important;
+        animation:w2 2s infinite linear;
+    }
+    .bookm .m4{
+        position: absolute;
+        width: 14rem !important;
+        bottom: 7% !important;
+        right: 67% !important;
+        animation:w2 3s infinite linear;
+    }
+
+}
+
+@media only screen and (max-width:1920px)
+{
+    
+    .bookm .m1{
+        position: absolute;
+        width: 10rem !important;
+        bottom: 58% !important;
+        left: 75px !important;
+        animation:w2 2s infinite linear;
+    }
+    .bookm .m2{
+        position: absolute;
+        width: 15rem !important;
+        bottom: 3% !important;
+        right: 66px !important;
+        animation:w2 2s infinite linear;
+    }
+    .bookm .m3{
+        position: absolute;
+        width: 11rem !important;
+        bottom: 54% !important;
+        right: 53px !important;
+
+        animation:w2 2s infinite linear;
+    }
+    .bookm .m4{
+        position: absolute;
+        width: 14rem !important;
+        bottom: 4% !important;
+        right: 66% !important;
+        animation:w2 3s infinite linear;
+    }
+    
+}
+
+@media only screen and (max-width:1600px)
+{
+     
+    .bookm .m1{
+        position: absolute;
+        width: 10rem !important;
+        bottom: 55% !important;
+        left: 38px !important;
+        animation:w2 2s infinite linear;
+    }
+    .bookm .m2{
+        position: absolute;
+        width: 15rem !important;
+        bottom: 1% !important;
+        right: 15px !important;
+        animation:w2 2s infinite linear;
+    }
+    .bookm .m3{
+        position: absolute;
+        width: 11rem !important;
+        bottom: 51% !important;
+        right: 18px !important;
+
+        animation:w2 2s infinite linear;
+    }
+    .bookm .m4{
+        position: absolute;
+        width: 14rem !important;
+        bottom: 1% !important;
+        right: 66% !important;
+        animation:w2 3s infinite linear;
+    }
+    
+}
+
+@media only screen and (max-width:1366px)
+{
+
+    .bookm .m1{
+    position: absolute;
+    width: 9rem !important;
+    bottom: 60% !important;
+    left: 23px !important;
+    animation:w2 2s infinite linear;
+    }
+    .bookm .m2{
+        position: absolute;
+        width:15rem !important;
+        bottom: 10% !important;
+        right: -16px !important;
+        animation:w2 2s infinite linear;
+    }
+    .bookm .m3{
+        position: absolute;
+        width:11rem !important;
+        bottom: 54% !important;
+        right:-2px !important; 
+        animation:w2 2s infinite linear;
+    }
+    .bookm .m4{
+        position: absolute;
+        width:13rem !important;
+        bottom: 12% !important;
+        right: 64% !important;
+        animation:w2 3s infinite linear;
+    }
+    
+}
+
+@media only screen and (max-width:2551px){
+  .brpwsimg1{
+   width: 22vw !important;
+    top: 7% !important;
+    left: 3.5% !important;
+}
+.brpwsimg2{
+
+    width: 22vw !important;
+    bottom: 9% !important;
+    left: 3% !important;}
+
+.brpwsimg3 {
+    
+    width: 21vw !important;
+    top: 37% !important;
+    right: -0.1%;}
+}
+@media only screen and(max-width:1921px){
+  .brpwsimg3 {
+    width: 21vw !important;
+    top: 30% !important;
+    right: -0.15% !important;
+}
+}
+@media only screen and(max-width:1601px){
+  .brpwsimg3{
+    width: 21vw;
+    top: 30%;
+    right: 0 !important;
+}}
+@media only screen and(max-width:1367px){
+  .brpwsimg3{
+    width: 21vw;
+    top: 30%;
+    right: 0 !important;
+}
+.brpwsimg1 {
+    position: absolute;
+    width: 22vw !important;
+    top: 6% !important;
+    left: 3.5% !important;
+}
+}
+
+
+
+
 @media only screen and (max-width:991px)
 {
     .dfgjhfgd

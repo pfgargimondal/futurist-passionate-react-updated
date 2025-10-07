@@ -220,6 +220,321 @@
 
 
 
+@media only screen and (max-width:2550px) 
+{
+
+   .rohitp01 .rohitimg01{
+    position: absolute;
+        width: 25rem !important;
+        bottom: 228px !important;
+        left: 205px !important;
+    /* animation: wiggle 2s infinite linear; */
+    }
+  
+  .rohitp02 .rohitimg02{
+      width: 30rem !important;
+    bottom: 420px !important;
+    left: 170px !important;
+      /* animation: wiggle2 2s infinite linear; */
+  }
+
+  .rohitp03 .rohitimg03{
+    position: absolute;
+    width: 22rem !important;
+    bottom: 165px !important;
+    left: 45rem !important;
+      /* animation: wiggle 2s infinite linear; */
+  }
+
+  .rohitp04 .rohitimg04{
+    position: absolute !important;
+        width: 25rem !important;
+      bottom: 420px !important;
+      left: 46rem !important;
+      /* animation: wiggle2 2s infinite linear; */
+      
+  }
+  .dgndfgdfgdf
+  {
+    height: 44rem;
+  }
+
+  
+    .gfgfgfgfgfg .t1{
+    position:absolute;
+    height: 10rem !important;
+    width: 9rem !important;
+    top: 39%;
+    right: 40%;
+    }
+    .gfgfgfgfgfg .t2{
+        position: absolute;
+        height: 7rem !important;
+        width: 7rem !important;
+        bottom: 71%;
+        right: 72.5%;
+    }
+    .gfgfgfgfgfg .t3{
+        position:absolute;
+        height:5.5rem !important;
+        width:5.5rem !important;
+        top:75.5%;
+        right:70%;
+    }
+    .gfgfgfgfgfg .t5{
+        position:absolute;
+        height: 5rem !important;
+        width: 5rem !important;
+        top: 74%;
+        left: 71%;
+    }
+    .gfgfgfgfgfg .t4{
+        position:absolute;
+        height:5.5rem !important;
+        width:5.5rem !important;
+        bottom:70.5%;
+        left:74.5%;
+    }
+
+}
+
+
+@media only screen and (max-width:1920px) 
+{
+
+  
+   .rohitp01 .rohitimg01{
+           width: 21rem !important;
+        bottom: 166px !important;
+        left: 120px !important;
+    /* animation: wiggle 2s infinite linear; */
+    }
+  
+  .rohitp02 .rohitimg02{
+        width: 20rem !important;
+        bottom: 325px !important;
+        left: 157px !important;
+      /* animation: wiggle2 2s infinite linear; */
+  }
+
+  .rohitp03 .rohitimg03{
+    position: absolute;
+    width: 18rem !important;
+    bottom: 122px !important;
+    left: 34rem !important;
+      /* animation: wiggle 2s infinite linear; */
+  }
+
+  .rohitp04 .rohitimg04{
+    position: absolute !important;
+       width: 19rem !important;
+        bottom: 313px !important;
+        left: 34rem !important;
+      /* animation: wiggle2 2s infinite linear; */
+      
+  }
+  .dgndfgdfgdf
+  {
+    height: 34rem;
+  }
+
+  
+    .gfgfgfgfgfg .t1{
+    position:absolute;
+    height: 8rem !important;
+    width: 7rem !important;
+    top: 39%;
+    right: 40%;
+    }
+    .gfgfgfgfgfg .t2{
+        position: absolute;
+        height: 6rem !important;
+        width: 6rem !important;
+        bottom: 70%;
+        right: 71.5%;
+    }
+    
+    .gfgfgfgfgfg .t3{
+        position:absolute;
+        height:4.5rem !important;
+        width:4.5rem !important;
+        top:75.5%;
+        right:70%;
+    }
+    .gfgfgfgfgfg .t5{
+        position:absolute;
+        height: 4rem !important;
+        width: 4rem !important;
+        top: 74%;
+        left: 70%;
+    }
+    .gfgfgfgfgfg .t4{
+        position:absolute;
+        height:4.5rem !important;
+        width:4.5rem !important;
+        bottom:70.5%;
+        left:74.5%;
+    }
+  
+}
+
+@media only screen and (max-width:1600px) 
+{
+
+   .rohitp01 .rohitimg01{
+        width: 19rem !important;
+        bottom: 179px !important;
+        left: 87px !important;
+    /* animation: wiggle 2s infinite linear; */
+    }
+  
+  .rohitp02 .rohitimg02{
+        width: 18rem !important;
+        bottom: 325px !important;
+        left: 95px !important;
+      /* animation: wiggle2 2s infinite linear; */
+  }
+
+  .rohitp03 .rohitimg03{
+    position: absolute;
+    width: 16rem !important;
+    bottom: 145px !important;
+    left: 28rem !important;
+      /* animation: wiggle 2s infinite linear; */
+  }
+
+  .rohitp04 .rohitimg04{
+    position: absolute !important;
+    width: 17rem !important;
+    bottom: 313px !important;
+    left: 29rem !important;
+      /* animation: wiggle2 2s infinite linear; */
+      
+  }
+  .dgndfgdfgdf
+  {
+    height: 28rem;
+  }
+
+  
+    .gfgfgfgfgfg .t1{
+      position:absolute;
+      height: 7rem !important;
+      width: 6rem !important;
+    top: 39%;
+    right: 40%;
+    }
+    .gfgfgfgfgfg .t2{
+        position: absolute;
+        height: 5rem !important;
+        width: 5rem !important;
+        bottom: 70%;
+        right: 71.5%;
+    }
+    
+    .gfgfgfgfgfg .t3{
+        position:absolute;
+        height:3.5rem !important;
+        width:3.5rem !important;
+        top:75.5%;
+        right:70%;
+    }
+    .gfgfgfgfgfg .t5{
+        position:absolute;
+        height: 3.5rem !important;
+        width: 3rem !important;
+        top: 74%;
+        left: 70%;
+    }
+    .gfgfgfgfgfg .t4{
+        position:absolute;
+        height:3.5rem !important;
+        width:3.5rem !important;
+        bottom:70.5%;
+        left:74.5%;
+    }
+  
+}
+
+@media only screen and (max-width:1366px) 
+{
+  
+  .rohitp02 .rohitimg02{
+    position: absolute;
+    width: 17rem !important;
+      bottom: 372px  !important;
+      left: 53px !important;
+      /* animation: wiggle2 2s infinite linear; */
+  }
+
+  .rohitp03 .rohitimg03{
+    position: absolute;
+        width: 16rem !important;
+      bottom: 193px !important;
+      left: 376px !important;
+      /* animation: wiggle 2s infinite linear; */
+  }
+
+  .rohitp04 .rohitimg04{
+    position: absolute;
+        width: 16rem !important;
+      bottom: 359px !important;
+      left: 25rem !important;
+      /* animation: wiggle2 2s infinite linear; */
+      
+  }
+
+  .rohitp01 .rohitimg01{
+    position: absolute;
+    width: 15rem !important;
+    bottom: 255px !important;
+    left: 86px !important;
+    /* animation: wiggle 2s infinite linear; */
+    }
+.gfgfgfgfgfg .t1{
+    position:absolute;
+    height:6rem !important;
+    width:6rem !important;
+    top:35%;
+    right:36%;
+}
+.gfgfgfgfgfg .t2{
+    position:absolute;
+    height:4rem !important;
+    width:4rem !important;
+    bottom:68%;
+    right:70.5%;
+}
+.gfgfgfgfgfg .t3{
+    position:absolute;
+    height:3rem !important;
+    width:3rem !important;
+    top:73.5%;
+    right:70%;
+}
+.gfgfgfgfgfg .t5{
+    position:absolute;
+    height:3rem !important;
+    width:3rem !important;
+    top:74%;
+    left:69%;
+}
+.gfgfgfgfgfg .t4{
+    position:absolute;
+    height:3rem !important;
+    width:3rem !important;
+    bottom:70.5%;
+    left:74.5%;
+}
+
+  .dgndfgdfgdf
+  {
+    height: auto;
+  }
+  
+}
+
+
 
 
 @media only screen and (max-width:991px)

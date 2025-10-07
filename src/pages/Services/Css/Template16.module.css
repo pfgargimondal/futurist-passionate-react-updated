@@ -518,6 +518,78 @@
 
 
 
+@media only screen and (max-width:2550) {
+  .insta1 {
+    left: 21%;
+    top: 9%;
+    width: 6.5rem !important;
+    animation: insta-img 2s infinite linear;
+  }
+
+  .insta3 {
+    bottom: 19%;
+    position: absolute;
+    right: 9.8%;
+    width: 8rem !important;
+    animation: insta-tran 2s infinite linear;
+
+  }
+}
+@media only screen and (max-width:1921) {
+  .insta1 {
+    left: 21%;
+    top: 9%;
+    width: 6.5rem !important;
+    animation: insta-img 2s infinite linear;
+  }
+
+  .insta3 {
+    bottom: 19%;
+    position: absolute;
+    right: 9.8%;
+    width: 8rem !important;
+    animation: insta-tran 2s infinite linear;
+
+  }
+}
+@media only screen and (max-width:1600) {
+.insta1 {
+    left: 21%;
+    top: 9%;
+    width: 6.5rem !important;
+    animation: insta-img 2s infinite linear;
+  }
+
+  .insta3 {
+    bottom: 19%;
+    position: absolute;
+    right: 9.8%;
+    width: 8rem !important;
+    animation: insta-tran 2s infinite linear;
+
+  }
+}
+
+
+@media only screen and (max-width:1366) {
+  .insta1 {
+    left: 21%;
+    top: 9%;
+    width: 6.5rem !important;
+    animation: insta-img 2s infinite linear;
+  }
+
+  .insta3 {
+    bottom: 19%;
+    position: absolute;
+    right: 9.8%;
+    width: 8rem !important;
+    animation: insta-tran 2s infinite linear;
+
+  }
+}
+
+
 
 @media only screen and (max-width:991px)
 {

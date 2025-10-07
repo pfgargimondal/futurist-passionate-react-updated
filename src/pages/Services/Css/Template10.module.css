@@ -292,6 +292,954 @@ p a{
 
 
 
+@media only screen and (max-width:2550px) 
+{
+
+     .plgspic1{
+        position: absolute;
+        width: 17rem !important;
+        top: 28% !important;
+        right: 7.5% !important;
+        animation: sweep 2.5s infinite;
+    }
+    .plgspic2{
+        position: absolute;
+        width: 19rem !important;
+        right: 35% !important;
+        bottom: 24% !important;
+        animation: popconnect 4s infinite;
+    }
+    .plgspic3{
+        position: absolute;
+        width: 20.5rem !important;
+        right: 5% !important;
+        bottom: -8% !important;
+        animation: zoompulse 3s infinite;
+    }
+
+    .plgsimg1{
+    position: absolute;
+    width: 6rem !important;
+    top: 2%;
+    left: 2%;
+    animation: zoomfocus 3.5s ease-in-out infinite;
+    }
+
+    .plgsimg2{
+        position: absolute;
+        width: 5.5rem !important;
+        top: 0%;
+        left: 72.5%;
+        animation: shoottarget 3s infinite;
+    }
+
+    .plgsimg3{
+        position: absolute;
+        width: 8.5rem !important;
+        bottom: 8%;
+        left: 0%;
+        animation: tickmark 2.5s infinite;
+    }
+
+    .plgsimg4{
+        position: absolute;
+        width: 11rem !important;
+        bottom: 2%;
+        left: 47.3%;
+        animation: handshake 2s infinite;
+    }
+
+    .undefined img
+    {
+        height: 38rem !important;
+    }
+
+    .lead_rocket_main{
+        position:absolute;
+        width: 29rem !important;
+        height: auto !important;
+        left: 35.9% !important;
+        top:2.2% !important;
+    }
+
+
+
+    .lead_pic1{
+        position:absolute;
+        width:16rem !important;
+        height: auto !important;
+        left:14% !important;
+        top:15% !important;
+    }
+    .lead_pic2{
+        position:absolute;
+        width:16rem !important;
+        height: auto !important;
+        left:16% !important;
+        bottom:25% !important;
+    }
+    .lead_pic3{
+        position:absolute;
+        width:18rem !important;
+        height: auto !important;
+        right:20% !important;
+        top:13%  !important;
+    }
+    .lead_pic4{
+        position:absolute;
+        width:18rem !important;
+        height: auto !important;
+        right:21% !important;
+        bottom:44% !important;
+    }
+    .lead_pic5{
+        position:absolute;
+        width:18rem !important;
+        height: auto !important;
+        right:20% !important;
+        bottom:18% !important;
+    }
+
+    .titli01 {
+    position: absolute;
+    width: 255px !important;
+    top: 210px !important;
+    left: 205px !important;
+    animation: slidetl 4s ease infinite;
+    }
+
+    .titli02 {
+        position: absolute;
+        width: 257px !important;
+        top: 342px !important;
+        left: 196px !important;
+        animation: slidebl 4s ease infinite;
+    }
+
+    .titli03 {
+        position: absolute;
+        width: 280px !important;
+        top: 285px !important;
+        left: 440px !important;
+        animation: slidetr 4s ease infinite;
+    }
+
+    .titli04 {
+        position: absolute;
+        width: 260px !important;
+        top: 426px !important;
+        left: 402px !important;
+        animation: slidebr 4s ease infinite;
+    }
+
+    .titli05 {
+        position: absolute;
+        width: 150px !important;
+        top: 352px !important;
+        left: 345px !important;
+        animation: slidebr 4s ease infinite;
+    }
+
+        .lead_img1{
+        position:absolute;
+        width:12rem;
+        height: auto;
+        left:5%;
+        top:5%;
+    }
+    .lead_img2{
+        position:absolute;
+        width:12rem;
+        height: auto;
+        right:5%;
+        top:15%;
+    }
+    .lead_img3{
+        position:absolute;
+        width:12rem;
+        height: auto ;
+        left:5%;
+        top:34%;
+    }
+    .lead_img4{
+        position:absolute;
+        width:12rem;
+        height: auto;
+        right:5%;
+        bottom:24%;
+    }
+    .lead_img5{
+        position:absolute;
+        width:12rem;
+        height: auto;
+        left:5%;
+        bottom:5%;
+    }
+
+      .lead_img1{
+        position:absolute;
+        width:26rem  !important;
+        height: auto !important;
+        left:5% !important;
+        top:5% !important;
+    }
+    .lead_img2{
+        position:absolute;
+        width:26rem !important;
+        height: auto !important;
+        right:5% !important;
+        top:15% !important;
+    }
+    .lead_img3{
+        position:absolute;
+        width:26rem !important;
+        height: auto  !important;
+        left:5% !important;
+        top:32%  !important;
+    }
+    .lead_img4{
+        position:absolute;
+        width:26rem !important;
+        height: auto !important;
+        right:5% !important;
+        bottom:29% !important;
+    }
+    .lead_img5{
+        position:absolute;
+        width:26rem !important;
+        height: auto !important;
+        left:5% !important;
+        bottom:13% !important;
+    }
+
+    .pf1 {
+    position: absolute;
+    width: 25.2rem !important;
+    height: 14.2rem !important;
+    bottom: 11% !important;
+    left: 51.5% !important;
+    animation:5s infinite money;
+    opacity:0;
+    }
+
+    .pf2 {
+        position: absolute;
+        width: 24.2rem !important;
+        height: 12.2rem !important;
+        bottom: 37% !important;
+        left: 5.7% !important;
+        animation:searching 2s ease-in-out infinite;
+    }
+
+    .RRimmg1 .RRImmg1{
+        width: 10.6rem !important;
+        height: auto !important;
+        right: 200px !important;
+        bottom: 59px !important;
+    }
+    .RRimmg2 .RRImmg2{
+        width: 10.5rem !important;
+        height: auto !important;
+        right: 37px !important;
+        top: 60px !important;
+    }
+    .RRimmg3 .RRImmg3{
+        position: absolute !important;
+        width: 10.7rem !important;
+        height: auto !important;
+        left: -2px !important;
+        bottom: 377px !important;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:1920px) 
+{
+
+    .plgspic1{
+        position: absolute;
+        width: 16rem !important;
+        top: 19% !important;
+        right: 4.5% !important;
+        animation: sweep 2.5s infinite;
+    }
+    .plgspic2{
+        position: absolute;
+        width: 18rem !important;
+        right: 35% !important;
+        bottom: 38% !important;
+        animation: popconnect 4s infinite;
+    }
+    .plgspic3{
+        position: absolute;
+        width: 20.5rem !important;
+        right: 5% !important;
+        bottom: -8% !important;
+        animation: zoompulse 3s infinite;
+    }
+
+    .plgsimg1{
+    position: absolute;
+    width: 6rem !important;
+    top: 2%;
+    left: 2%;
+    animation: zoomfocus 3.5s ease-in-out infinite;
+    }
+
+    .plgsimg2{
+        position: absolute;
+        width: 5.5rem !important;
+        top: 0%;
+        left: 72.5%;
+        animation: shoottarget 3s infinite;
+    }
+
+    .plgsimg3{
+        position: absolute;
+        width: 8.5rem !important;
+        bottom: 8%;
+        left: 0%;
+        animation: tickmark 2.5s infinite;
+    }
+
+    .plgsimg4{
+        position: absolute;
+        width: 11rem !important;
+        bottom: 2%;
+        left: 47.3%;
+        animation: handshake 2s infinite;
+    }
+
+    .undefined img
+    {
+        height: 38rem !important;
+    }
+
+    .lead_rocket_main{
+        position:absolute;
+        width: 23rem !important;
+        height: auto !important;
+        left: 35.9% !important;
+        top:2.2% !important;
+    }
+
+
+
+    .lead_pic1{
+        position:absolute;
+        width:16rem !important;
+        height: auto !important;
+        left:14% !important;
+        top:10% !important;
+    }
+    .lead_pic2{
+        position:absolute;
+        width:16rem !important;
+        height: auto !important;
+        left:16% !important;
+        bottom:24% !important;
+    }
+    .lead_pic3{
+        position:absolute;
+        width:18rem !important;
+        height: auto !important;
+        right:20% !important;
+        top:10%  !important;
+    }
+    .lead_pic4{
+        position:absolute;
+        width:18rem !important;
+        height: auto !important;
+        right:21% !important;
+        bottom:43% !important;
+    }
+    .lead_pic5{
+        position:absolute;
+        width:18rem !important;
+        height: auto !important;
+        right:20% !important;
+        bottom:16% !important;
+    }
+
+    .titli01 {
+    position: absolute;
+    width: 255px !important;
+    top: 160px !important;
+    left: 95px !important;
+    animation: slidetl 4s ease infinite;
+    }
+
+    .titli02 {
+        position: absolute;
+        width: 257px !important;
+        top: 285px !important;
+        left: 76px !important;
+        animation: slidebl 4s ease infinite;
+    }
+
+    .titli03 {
+        position: absolute;
+        width: 280px !important;
+        top: 225px !important;
+        left: 320px !important;
+        animation: slidetr 4s ease infinite;
+    }
+
+    .titli04 {
+        position: absolute;
+        width: 260px !important;
+        top: 366px !important;
+        left: 282px !important;
+        animation: slidebr 4s ease infinite;
+    }
+
+    .titli05 {
+        position: absolute;
+        width: 150px !important;
+        top: 292px !important;
+        left: 215px !important;
+        animation: slidebr 4s ease infinite;
+    }
+
+        .lead_img1{
+        position:absolute;
+        width:12rem;
+        height: auto;
+        left:5%;
+        top:5%;
+    }
+    .lead_img2{
+        position:absolute;
+        width:12rem;
+        height: auto;
+        right:5%;
+        top:15%;
+    }
+    .lead_img3{
+        position:absolute;
+        width:12rem;
+        height: auto ;
+        left:5%;
+        top:34%;
+    }
+    .lead_img4{
+        position:absolute;
+        width:12rem;
+        height: auto;
+        right:5%;
+        bottom:24%;
+    }
+    .lead_img5{
+        position:absolute;
+        width:12rem;
+        height: auto;
+        left:5%;
+        bottom:5%;
+    }
+
+      .lead_img1{
+        position:absolute;
+        width:20rem  !important;
+        height: auto !important;
+        left:5% !important;
+        top:5% !important;
+    }
+    .lead_img2{
+        position:absolute;
+        width:20rem !important;
+        height: auto !important;
+        right:5% !important;
+        top:15% !important;
+    }
+    .lead_img3{
+        position:absolute;
+        width:20rem !important;
+        height: auto  !important;
+        left:5% !important;
+        top:32%  !important;
+    }
+    .lead_img4{
+        position:absolute;
+        width:20rem !important;
+        height: auto !important;
+        right:5% !important;
+        bottom:29% !important;
+    }
+    .lead_img5{
+        position:absolute;
+        width:20rem !important;
+        height: auto !important;
+        left:5% !important;
+        bottom:13% !important;
+    }
+
+    .pf1 {
+    position: absolute;
+    width: 18.2rem !important;
+    height: 11.2rem !important;
+    bottom: 11% !important;
+    left: 51.5% !important;
+    animation:5s infinite money;
+    opacity:0;
+    }
+
+    .pf2 {
+        position: absolute;
+        width: 18.2rem !important;
+        height: 9.2rem !important;
+        bottom: 37% !important;
+        left: 5.7% !important;
+        animation:searching 2s ease-in-out infinite;
+    }
+
+    .RRimmg1 .RRImmg1{
+        width: 8.6rem !important;
+        height: auto !important;
+        right: 134px !important;
+        bottom: 59px !important;
+    }
+    .RRimmg2 .RRImmg2{
+        width: 8.5rem !important;
+        height: auto !important;
+        right: 37px !important;
+        top: 60px !important;
+    }
+    .RRimmg3 .RRImmg3{
+        position: absolute !important;
+        width: 8.7rem !important;
+        height: auto !important;
+        left: -2px !important;
+        bottom: 281px !important;
+    }
+    
+}
+
+
+@media only screen and (max-width:1600px) 
+{
+
+    .plgspic1{
+        position: absolute;
+        width: 14rem !important;
+        top: 19% !important;
+        right: 4.5% !important;
+        animation: sweep 2.5s infinite;
+    }
+    .plgspic2{
+        position: absolute;
+        width: 16rem !important;
+        right: 34% !important;
+        bottom: 43% !important;
+        animation: popconnect 4s infinite;
+    }
+    .plgspic3{
+        position: absolute;
+        width: 14.5rem !important;
+        right: 3% !important;
+        bottom: 25% !important;
+        animation: zoompulse 3s infinite;
+    }
+
+    .plgsimg1{
+    position: absolute;
+    width: 6rem !important;
+    top: 2%;
+    left: 2%;
+    animation: zoomfocus 3.5s ease-in-out infinite;
+    }
+
+    .plgsimg2{
+        position: absolute;
+        width: 5.5rem !important;
+        top: 0%;
+        left: 72.5%;
+        animation: shoottarget 3s infinite;
+    }
+
+    .plgsimg3{
+        position: absolute;
+        width: 8.5rem !important;
+        bottom: 8%;
+        left: 0%;
+        animation: tickmark 2.5s infinite;
+    }
+
+    .plgsimg4{
+        position: absolute;
+        width: 11rem !important;
+        bottom: 2%;
+        left: 47.3%;
+        animation: handshake 2s infinite;
+    }
+
+    .undefined img
+    {
+        height: 38rem !important;
+    }
+
+    .lead_rocket_main{
+        position:absolute;
+        width: 20rem !important;
+        height: auto !important;
+        left: 35.9% !important;
+        top:2.2% !important;
+    }
+
+
+
+    .lead_pic1{
+        position:absolute;
+        width:16rem !important;
+        height: auto !important;
+        left:14% !important;
+        top:6% !important;
+    }
+    .lead_pic2{
+        position:absolute;
+        width:16rem !important;
+        height: auto !important;
+        left:16% !important;
+        bottom:22% !important;
+    }
+    .lead_pic3{
+        position:absolute;
+        width: 17rem !important;
+        height: auto !important;
+        right: 20% !important;
+        top: 8% !important;
+    }
+    .lead_pic4{
+        position:absolute;
+        width:17rem !important;
+        height: auto !important;
+        right:21% !important;
+        bottom:43% !important;
+    }
+    .lead_pic5{
+        position:absolute;
+        width:17rem !important;
+        height: auto !important;
+        right:20% !important;
+        bottom:16% !important;
+    }
+
+    .titli01 {
+        position: absolute;
+        width: 255px !important;
+        top: 54px !important;
+        left: 50px !important;
+        animation: slidetl 4s ease infinite;
+    }
+
+    .titli02 {
+        position: absolute;
+        width: 237px !important;
+        top: 201px !important;
+        left: 58px !important;
+        animation: slidebl 4s ease infinite;
+    }
+
+    .titli03 {
+        position: absolute;
+        width: 256px !important;
+        top: 150px !important;
+        left: 270px !important;
+        animation: slidetr 4s ease infinite;
+    }
+
+    .titli04 {
+        position: absolute;
+        width: 225px !important;
+        top: 289px !important;
+        left: 260px !important;
+        animation: slidebr 4s ease infinite;
+    }
+
+    .titli05 {
+        position: absolute;
+        width: 150px !important;
+        top: 198px !important;
+        left: 192px !important;
+        animation: slidebr 4s ease infinite;
+    }
+
+
+      .lead_img1{
+        position:absolute;
+        width:16rem  !important;
+        height: auto !important;
+        left:5% !important;
+        top:5% !important;
+    }
+    .lead_img2{
+        position:absolute;
+        width:16rem !important;
+        height: auto !important;
+        right:5% !important;
+        top:15% !important;
+    }
+    .lead_img3{
+        position:absolute;
+        width:16rem !important;
+        height: auto  !important;
+        left:5% !important;
+        top:32%  !important;
+    }
+    .lead_img4{
+        position:absolute;
+        width:16rem !important;
+        height: auto !important;
+        right:5% !important;
+        bottom:29% !important;
+    }
+    .lead_img5{
+        position:absolute;
+        width:16rem !important;
+        height: auto !important;
+        left:5% !important;
+        bottom:13% !important;
+    }
+
+    .pf1 {
+        position: absolute;  
+        width: 15.2rem !important;
+        height: 8.2rem !important;
+        bottom: 11% !important;
+        left: 51.5% !important;
+    animation:5s infinite money;
+    opacity:0;
+    }
+
+    .pf2 {
+        position: absolute;
+        width: 14.2rem !important;
+        height: 7.2rem !important;
+        bottom: 37% !important;
+        left: 5.7% !important;
+        animation:searching 2s ease-in-out infinite;
+    }
+
+    .RRimmg1 .RRImmg1{
+        width: 6.6rem !important;
+        height: auto !important;
+        right: 134px !important;
+        bottom: 35px !important;
+    }
+    .RRimmg2 .RRImmg2{
+        width: 6.5rem !important;
+        height: auto !important;
+        right: 37px !important;
+        top: 42px !important;
+    }
+    .RRimmg3 .RRImmg3{
+        position: absolute !important;
+        width: 7.7rem !important;
+        height: auto !important;
+        left: -2px !important;
+        bottom: 215px !important;
+    }
+}
+
+
+@media only screen and (max-width:1366px) 
+{
+
+    .plgspic1{
+    position: absolute;
+    width: 13rem !important;
+    top: 20% !important;
+    right: 3.5% !important;
+    animation: sweep 2.5s infinite;
+    }
+    .plgspic2{
+        position: absolute;
+        width: 15rem !important;
+        right: 34% !important;
+        bottom: 43% !important;
+        animation: popconnect 4s infinite;
+    }
+    .plgspic3{
+        position: absolute;
+        width: 15.5rem !important;
+        right: 0% !important;
+        bottom: 24% !important;
+        animation: zoompulse 3s infinite;
+    }
+
+
+    .undefined .img-fluid 
+    {
+        height: 26rem !important;
+    }
+
+    .lead_rocket_main{
+        position:absolute;
+        width:20rem !important;
+        height: auto !important;
+        left:34.9% !important;
+        top:2.2% !important;
+    }
+
+    .lead_pic1{
+        position:absolute;
+        width:12rem !important;
+        height: auto !important;
+        left:11% !important;
+        top:12% !important;
+    }
+    .lead_pic2{
+        position:absolute;
+        width:12rem !important;
+        height: auto !important;
+        left:15% !important;
+        bottom:24% !important;
+    }
+    .lead_pic3{
+        position:absolute;
+        width:14rem !important;
+        height: auto !important;
+        right:20% !important;
+        top:10%  !important;
+    }
+    .lead_pic4{
+        position:absolute;
+        width:14rem !important;
+        height: auto !important;
+        right:20%;
+        bottom:43%;
+    }
+    .lead_pic5{
+        position:absolute;
+        width:14rem !important;
+        height: auto !important;
+        right:18%;
+        bottom:16%;
+    }
+
+    .titli01 {
+    position: absolute;
+    width: 215px !important;
+    top: -9px !important;
+    left: 41px !important;
+    animation: slidetl 4s ease infinite;
+    }
+
+    .titli02 {
+        position: absolute;
+        width: 215px !important;
+        top: 100px !important;
+        left: 30px !important;
+        animation: slidebl 4s ease infinite;
+    }
+
+    .titli03 {
+        position: absolute;
+        width: 215px !important;
+        top: 53px !important;
+        left: 235px !important;
+        animation: slidetr 4s ease infinite;
+    }
+
+    .titli04 {
+        position: absolute;
+        width: 215px !important;
+        top: 161px !important;
+        left: 223px !important;
+        animation: slidebr 4s ease infinite;
+    }
+
+    .titli05 {
+        position: absolute;
+        width: 100px !important;
+        top: 121px !important;
+        left: 198px !important;
+        animation: slidebr 4s ease infinite;
+    }
+
+    
+    .lead_img1{
+        position:absolute;
+        width:12rem  !important;
+        height: auto !important;
+        left:5% !important;
+        top:5% !important;
+    }
+    .lead_img2{
+        position:absolute;
+        width:12rem !important;
+        height: auto !important;
+        right:5% !important;
+        top:15% !important;
+    }
+    .lead_img3{
+        position:absolute;
+        width:12rem !important;
+        height: auto  !important;
+        left:5% !important;
+        top:34%  !important;
+    }
+    .lead_img4{
+        position:absolute;
+        width:12rem !important;
+        height: auto !important;
+        right:5% !important;
+        bottom:24% !important;
+    }
+    .lead_img5{
+        position:absolute;
+        width:12rem !important;
+        height: auto !important;
+        left:5% !important;
+        bottom:5% !important;
+    }
+
+    .pf1 {
+    position: absolute;
+    width: 12.4rem !important;
+    height: 7.2rem !important;
+    bottom: 11% !important;
+    left: 51.5% !important;
+    animation:5s infinite money;
+    opacity:0;
+    }
+
+    .pf2 {
+        position: absolute;
+        width: 24.2rem !important;
+        height: 12.2rem !important;
+        bottom: 37% !important;
+        left: 5.7% !important;
+        animation:searching 2s ease-in-out infinite;
+    }
+
+    .RRimmg1 .RRImmg1{
+        position: absolute !important;
+        width: 6.6rem !important;
+        height: auto !important;
+        right: 62px !important;
+        bottom: 24px !important;
+    }
+    .RRimmg2 .RRImmg2{
+        position: absolute !important;
+        width: 8.5rem !important;
+        height: auto !important;
+        right: 28px !important;
+        top: 27px !important;
+    }
+    .RRimmg3 .RRImmg3{
+        position: absolute !important;
+        width: 6.7rem !important;
+        height: auto !important;
+        left: 16px !important;
+        bottom: 187px !important;
+    }
+}
+
+
+
 
 
 @media only screen and (max-width:991px)

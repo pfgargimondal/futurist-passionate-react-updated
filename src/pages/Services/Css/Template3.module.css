@@ -362,6 +362,494 @@ p a{
 }
 
 
+@media only screen and (max-width:2550px)
+{
+   .spp01 {
+    position: absolute;
+    width: 493px !important;
+    top: 437px !important;
+    left: 620px !important;
+    animation:mymovebr 2s;
+  }
+
+  .spp02 {
+    position: absolute;
+     width: 507px !important;
+    top: 41px !important;
+    left: 632px !important;
+    animation: mymovetl 2s;
+  }
+
+  .spp03 {
+    position: absolute;
+    width: 290px !important;
+    top: 270px !important;
+    left: 436px !important;
+    animation: mymoveM 2s;
+    animation-delay: 1s;
+  }
+
+  .spp04 {
+    position: absolute;
+    width: 400px !important;
+    top: 177px !important;
+    left: 0px !important;
+    animation: mymovebl 2s;
+  }
+
+   .llspic2{
+  position: absolute;
+  width: 15.2rem !important;
+  top: 35% !important;
+  right: 29% !important;
+  animation: pulse 2s infinite ease-in-out; 
+  transform-origin: bottom center; 
+   }
+
+
+  .listing .l1{
+  position:absolute;
+  width:13rem !important;
+  left: 2% !important;
+  bottom:12% !important;
+  animation:m 2s infinite linear;   
+  }
+
+  .listing .l2{
+  position: absolute;
+  width:13rem !important;
+  bottom: 64% !important;
+  right:6% !important;
+   
+  }
+
+  
+  .ss01 {
+    position: absolute;
+    width: 210px !important;
+    top: 119px !important;
+    left: 343px !important;
+  }
+
+
+  .ss02 {
+    position: absolute;
+    width: 210px !important;
+    top: 390px !important;
+    left: 74px !important;
+
+  }
+
+  .ss03 {
+    position: absolute;
+    width: 210px !important;
+    top: 395px !important;
+    left: 343px !important;
+  }
+
+  .ss04 {
+    position: absolute;
+    width: 210px !important;
+    top: 113px !important;
+    left: 69px !important;
+  }
+
+
+  
+  .llspic1{
+  position: absolute;
+  width: 10.5rem !important;
+  top: -8% !important;
+  right: -13% !important;
+ }
+
+
+
+  .llspic3{
+    position: absolute;
+    width: 18rem !important;
+    left: -15% !important;
+    bottom: 5.5% !important; 
+  }
+
+   .dfgjhfgd {
+  display: flex;
+  width: 100%;
+  height: 109vh !important;
+  align-items: center; 
+  padding: 1rem 0 3rem 0;
+   }
+
+
+
+
+
+}
+
+@media only screen and (max-width:1920px)
+{
+  .spp01 {
+    position: absolute;
+    width: 325px !important;
+    top: 347px !important;
+    left: 515px !important;
+
+    animation:mymovebr 2s;
+  }
+
+  .spp02 {
+    position: absolute;
+    width: 400px !important;
+    top: 10px !important;
+    left: 487px !important;
+    animation: mymovetl 2s;
+  }
+
+  .spp03 {
+    position: absolute;
+    width: 210px !important;
+    top: 213px !important;
+    left: 362px !important;
+
+    animation: mymoveM 2s;
+    animation-delay: 1s;
+  }
+
+  .spp04 {
+    position: absolute;
+    width: 325px !important;
+    top: 133px !important;
+    left: -23px !important;   
+    animation: mymovebl 2s;
+  }
+
+   .llspic2{
+  position: absolute;
+  width: 11.2rem !important;
+  top: 35% !important;
+  right: 29% !important;
+  animation: pulse 2s infinite ease-in-out; 
+  transform-origin: bottom center; 
+   }
+
+
+  .listing .l1{
+  position:absolute;
+  width:9rem !important;
+  left: 2% !important;
+  bottom:12% !important;
+  animation:m 2s infinite linear;   
+  }
+
+  .listing .l2{
+  position: absolute;
+  width:9rem !important;
+  bottom: 64% !important;
+  right:6% !important;
+   
+  }
+
+  
+  .ss01 {
+    position: absolute;
+    width: 165px !important;
+    top: 73px !important;
+    left: 248px !important;
+  }
+
+
+  .ss02 {
+    position: absolute;
+    width: 165px !important;
+    top: 293px !important;
+    left: 51px !important;
+
+  }
+
+  .ss03 {
+    position: absolute; 
+    width: 165px !important;
+    top: 288px !important;
+    left: 262px !important;
+  }
+
+  .ss04 {
+    position: absolute;
+    width: 165px !important;
+    top: 72px !important;
+    left: 53px !important;
+  }
+
+
+  
+  .llspic1{
+  position: absolute;
+  width: 7.5rem !important;
+  top: 3% !important;
+  right: -13% !important;
+ }
+
+
+
+  .llspic3{
+    position: absolute;
+    width: 13rem;
+    left: -12%;
+    bottom: 5.5% !important; 
+  }
+
+  .dfgjhfgd {
+  display: flex;
+  width: 100%;
+  height: 104vh !important;
+  align-items: center; 
+  padding: 1rem 0 3rem 0;
+   }
+
+  
+}
+
+@media only screen and (max-width:1600px)
+{
+
+   .spp01 {
+    position: absolute;
+          width: 258px !important;
+        top: 296px !important;
+        left: 392px !important;
+
+    animation:mymovebr 2s;
+  }
+
+  .spp02 {
+    position: absolute;
+    width: 335px !important;
+    top: 7px !important;
+    left: 400px !important;
+    animation: mymovetl 2s;
+  }
+
+  .spp03 {
+    position: absolute;
+    width: 163px !important;
+    top: 179px !important;
+    left: 308px !important;
+
+    animation: mymoveM 2s;
+    animation-delay: 1s;
+  }
+
+  .spp04 {
+    position: absolute;
+    width: 270px !important;
+    top: 115px !important;
+    left: -22px !important;  
+    animation: mymovebl 2s;
+  }
+
+   .llspic2{
+  position: absolute;
+  width: 9.2rem !important;
+  top: 35% !important;
+  right: 29% !important;
+  animation: pulse 2s infinite ease-in-out; 
+  transform-origin: bottom center; 
+   }
+
+
+  .listing .l1{
+  position:absolute;
+    width: 6.5rem;
+    top: 51%;
+    right: -16%;
+  animation:m 2s infinite linear;   
+  }
+
+  .listing .l2{
+  position: absolute;
+  width:8rem !important;
+  bottom: 64% !important;
+  right:6% !important;
+   
+  }
+
+  
+  .ss01 {
+    position: absolute;
+    width: 125px !important;
+    top: 73px !important;
+    left: 205px !important;
+  }
+
+
+  .ss02 {
+    position: absolute;
+    width: 125px !important;
+    top: 242px !important;
+    left: 51px !important;
+
+  }
+
+  .ss03 {
+    position: absolute; 
+    width: 125px !important;
+    top: 243px !important;
+    left: 215px !important;
+
+  }
+
+  .ss04 {
+    position: absolute;
+    width: 125px !important;
+    top: 72px !important;
+    left: 53px !important;
+  }
+
+
+  
+  .llspic1{
+  position: absolute;
+  width: 7.5rem !important;
+  top: 3% !important;
+  right: -13% !important;
+ }
+
+
+
+  .llspic3{
+    position: absolute;
+    width: 10rem;
+    left: -13%;
+    bottom: 5.5% !important; 
+  }
+
+  .dfgjhfgd {
+  display: flex;
+  width: 100%;
+  height: 109vh !important;
+  align-items: center; 
+  padding: 1rem 0 3rem 0;
+   }
+
+  
+}
+
+@media only screen and (max-width:1366px)
+{
+    .spp01 {
+    position: absolute;
+    width: 238px !important;
+    top: 247px !important;
+    left: 396px !important;
+    animation:mymovebr 2s;
+  }
+
+  .spp02 {
+    position: absolute;
+    width: 284px !important;
+    top: 15px !important;
+    left: 349px !important;
+    animation: mymovetl 2s;
+  }
+
+  .spp03 {
+    position: absolute;
+    width: 191px !important;
+    top: 121px !important;
+    left: 225px !important;
+    animation: mymoveM 2s;
+    animation-delay: 1s;
+  }
+
+  .spp04 {
+    position: absolute;
+    width: 221px !important;
+    top: 108px !important;
+    left: 0px !important;
+    animation: mymovebl 2s;
+  }
+  .llspic2{
+  position: absolute;
+  width: 9.2rem !important;
+  top: 35% !important;
+  right: 29% !important;
+  animation: pulse 2s infinite ease-in-out; 
+  transform-origin: bottom center; 
+   }
+
+  .listing .l1{
+  position:absolute;
+  width:9rem !important;
+  left: 2% !important;
+  bottom:4% !important;
+  animation:m 2s infinite linear;   
+  }
+
+  .listing .l2{
+  position: absolute;
+  width:8rem !important;
+  bottom: 64% !important;
+  right:6% !important;
+  }
+
+  
+  .ss01 {
+    position: absolute;
+    width: 127px !important;
+    top: 35px !important;
+    left: 164px !important;
+  }
+
+
+  .ss02 {
+    position: absolute;
+    width: 143px !important;
+    top: 200px !important;
+    left: 16px !important;
+
+  }
+
+  .ss03 {
+    position: absolute;
+    width: 130px !important;
+    top: 204px !important;
+    left: 169px !important;
+  }
+
+  .ss04 {
+    position: absolute;
+    width: 126px !important;
+    top: 40px !important;
+    left: 25px !important;
+  }
+
+  .llspic1{
+  position: absolute;
+  width: 7.5rem !important;
+  top: 3% !important;
+  right: 7% !important;
+ }
+
+
+
+  .llspic3{
+    position: absolute;
+    width: 12rem !important;
+    left: -15% !important;
+    bottom: 5.5% !important; 
+  }
+
+  .dfgjhfgd {
+  display: flex;
+  width: 100%;
+  height: 62vh !important;
+  align-items: center; 
+  padding: 1rem 0 3rem 0;
+   }
+
+
+
+}
 
 
 

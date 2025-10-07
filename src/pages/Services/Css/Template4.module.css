@@ -350,6 +350,323 @@ p a{
 
 
 
+
+@media only screen and (max-width:2550px)
+{
+   .RRDD1 .RRDG1{
+    position: absolute;
+    width: 12rem !important;
+    margin-left: 304px !important;
+    top: 280px !important;
+    animation: fade-right-wiggle 1.5s ease-out ;
+  }
+
+  
+  .RRDD2 .RRDG2{
+    position: absolute;
+    width: 112px !important;
+    left: 581px !important;
+    bottom: 82px !important;
+    animation: fade-down-wiggle 1.5s ease-out ;
+  }
+
+
+  .RRDD3 .RRDG3{
+      position: absolute;
+      width: 113px !important;
+      left: 527px !important;
+      top: 12px !important;
+      animation: fade-up-wiggle 1.5s ease-out ;
+  }
+
+  .RRDD4 .RRDG4{
+    position: absolute;
+    width: 11rem !important;
+    right: 358px !important;
+    top: 230px !important;
+    animation: fade-left-wiggle 1.5s ease-out ;
+  }
+
+  .RRDD5 .RRDG5{
+    position: absolute;
+     width: 23.5rem !important;
+    right: 29rem !important;
+    top: 170px !important;
+    animation: zoom-in 0.7s ease-out;
+  }
+
+  
+ .g1{
+  position:absolute;
+  width:24rem !important;
+  top:45%;
+  left: 13%;
+  animation: arti1 2s infinite linear;
+
+  }
+  .g2{
+    position:absolute;
+    width:24rem !important;
+    top:42%;
+    right:10%;
+    animation: arti2 2s infinite linear;
+  }
+  .g3{
+    position:absolute;
+    width:24rem !important;
+    bottom:12%;
+    right:11%;
+    animation: arti1 2s infinite linear;
+  }
+  .g4{
+    position:absolute;
+    width:24rem !important;
+    bottom:14%;
+    left:11%;
+    animation: arti2 2s infinite linear;
+  }
+  
+
+}
+
+@media only screen and (max-width:1920px)
+{
+    .RRDD1 .RRDG1{
+    position: absolute;
+    width: 9rem !important;
+    margin-left: 217px !important;
+    top: 219px !important;
+    animation: fade-right-wiggle 1.5s ease-out ;
+  }
+
+  
+  .RRDD2 .RRDG2{
+    position: absolute;
+    width: 77px !important;
+    left: 466px !important;
+    bottom: 64px !important;
+    animation: fade-down-wiggle 1.5s ease-out ;
+  }
+
+
+  .RRDD3 .RRDG3{
+      position: absolute;
+      width: 90px !important;
+      left: 394px !important;
+      top: 1px !important;
+      animation: fade-up-wiggle 1.5s ease-out ;
+  }
+
+  .RRDD4 .RRDG4{
+    position: absolute;
+    width: 8rem !important;
+    right: 248px !important;
+    top: 206px !important;
+    animation: fade-left-wiggle 1.5s ease-out ;
+  }
+
+  .RRDD5 .RRDG5{
+    position: absolute;
+    width: 19.5rem !important;
+    right: 21rem !important;
+    top: 118px !important;
+    animation: zoom-in 0.7s ease-out;
+  }
+
+  
+ .g1{
+  position:absolute;
+  width:24rem !important;
+  top:45%;
+  left: 13%;
+  animation: arti1 2s infinite linear;
+
+  }
+  .g2{
+    position:absolute;
+    width:24rem !important;
+    top:42%;
+    right:10%;
+    animation: arti2 2s infinite linear;
+  }
+  .g3{
+    position:absolute;
+    width:24rem !important;
+    bottom:12%;
+    right:11%;
+    animation: arti1 2s infinite linear;
+  }
+  .g4{
+    position:absolute;
+    width:24rem !important;
+    bottom:14%;
+    left:11%;
+    animation: arti2 2s infinite linear;
+  }
+  
+  
+}
+
+
+@media only screen and (max-width:1600px)
+{
+
+    .RRDD1 .RRDG1{
+    position: absolute;
+    width: 7rem !important;
+    margin-left: 195px !important;
+     top: 185px !important;
+    animation: fade-right-wiggle 1.5s ease-out ;
+  }
+
+  
+  .RRDD2 .RRDG2{
+    position: absolute;
+    width: 70px !important;
+    left: 387px !important;
+    bottom: 64px !important;;
+    animation: fade-down-wiggle 1.5s ease-out ;
+  }
+
+
+  .RRDD3 .RRDG3{
+      position: absolute;
+      width: 70px !important;
+      left: 329px !important;
+      top: 11px !important;
+      animation: fade-up-wiggle 1.5s ease-out ;
+  }
+
+  .RRDD4 .RRDG4{
+    position: absolute;
+    width: 6rem !important;
+    right: 206px !important;
+    top: 169px !important;
+    animation: fade-left-wiggle 1.5s ease-out ;
+  }
+
+  .RRDD5 .RRDG5{
+    position: absolute;
+    width: 15.5rem !important;
+     right: 18rem !important;
+    top: 107px !important;
+    animation: zoom-in 0.7s ease-out;
+  }
+
+    
+  .g1{
+    position:absolute;
+    width:24rem !important;
+    top:45%;
+    left: 13%;
+    animation: arti1 2s infinite linear;
+
+    }
+    .g2{
+      position:absolute;
+      width:24rem !important;
+      top:42%;
+      right:10%;
+      animation: arti2 2s infinite linear;
+    }
+    .g3{
+      position:absolute;
+      width:24rem !important;
+      bottom:12%;
+      right:11%;
+      animation: arti1 2s infinite linear;
+    }
+    .g4{
+      position:absolute;
+      width:24rem !important;
+      bottom:14%;
+      left:11%;
+      animation: arti2 2s infinite linear;
+    }
+  
+}
+
+
+@media only screen and (max-width:1366px)
+{
+
+  .RRDD1 .RRDG1{
+    position: absolute;
+    width: 6rem  !important;
+    margin-left: 157px !important;
+    top: 157px !important;
+    animation: fade-right-wiggle 1.5s ease-out ;
+  }
+
+  
+  .RRDD2 .RRDG2{
+    position: absolute;
+    width: 56px !important;
+    left: 297px !important;
+    bottom: 13px !important;
+    animation: fade-down-wiggle 1.5s ease-out ;
+  }
+
+
+  .RRDD3 .RRDG3{
+      position: absolute;
+      width: 59px !important;
+      left: 284px !important;
+      top: 12px !important;
+      animation: fade-up-wiggle 1.5s ease-out ;
+  }
+
+  .RRDD4 .RRDG4{
+    position: absolute;
+      width: 5rem !important;
+      right: 173px !important;
+      top: 131px !important;
+      animation: fade-left-wiggle 1.5s ease-out ;
+  }
+
+  .RRDD5 .RRDG5{
+    position: absolute;
+      width: 13.5rem !important;
+      right: 235px !important;
+      top: 80px !important;  
+      animation: zoom-in 0.7s ease-out;
+  }
+
+ .g1{
+  position:absolute;
+  width:20rem !important;
+  top:45%;
+  left: 13%;
+  animation: arti1 2s infinite linear;
+
+  }
+  .g2{
+    position:absolute;
+    width:20rem !important;
+    top:42%;
+    right:10%;
+    animation: arti2 2s infinite linear;
+  }
+  .g3{
+    position:absolute;
+    width:20rem !important;
+    bottom:12%;
+    right:11%;
+    animation: arti1 2s infinite linear;
+  }
+  .g4{
+    position:absolute;
+    width:22rem !important;
+    bottom:14%;
+    left:11%;
+    animation: arti2 2s infinite linear;
+  }
+  
+}
+
+
+
+
 @media only screen and (max-width:991px)
 {
     .dfgjhfgd

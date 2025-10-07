@@ -352,6 +352,391 @@ p a{
 
 
 
+@media only screen and (max-width:2550px)
+{
+  .ro1 .roimg1{
+      position: absolute;
+      top: 194px !important;
+      width: 20rem !important;
+      left: 386px !important;
+      transform: rotateZ(-1deg);
+      animation: zoom-in-down 1000ms ease-in-out ;
+  }
+
+
+  .ro2 .roimg2{
+    position: absolute;
+    top: 546px !important;
+    width: 7rem !important;
+    left: 542px !important;
+  }
+
+  .ro3 .roimg3{
+    position: absolute;
+    top: 342px !important;
+    width: 17rem !important;
+    left: 421px !important;
+  }
+  .ro4 .roimg4{
+    position: absolute;
+    top: 440px !important;
+    width: 7rem !important;
+    left: 163px !important;
+  }
+  .ro5 .roimg5{
+    position: absolute;
+    top: 213px !important;
+    width: 7rem !important;
+    left: 754px !important;
+  }
+  .ro6 .roimg6{
+    position: absolute;
+    top: 500px !important;
+    width: 10% !important;
+    left: 860px !important;
+  }
+  .ro7 .roimg7{
+    position: absolute;
+    top: 251px !important;
+    width: 6.5rem !important;
+    left: 100px !important;
+  }
+
+  .ro8 .roimg8{
+      position: absolute;
+        top: 320px !important;
+        width: 7.7rem !important;
+        left: 974px !important;
+  }
+
+    
+ .RR1 .RRi1{
+  position: absolute;
+  width: 7rem !important;
+  left: 95rem !important;
+  top: 473px !important;
+
+  }
+  .RR2 .RRi2{
+  position: absolute;
+   width: 6.5rem !important;
+    right: 365px !important;
+    top: 476px !important;
+
+  }
+  .RR3 .RRi3{
+      width: 7.5rem !important;
+    top: 165px !important;
+    left: 98rem !important;
+
+  }
+
+  .RRIMGGR7
+  {
+    right: 78rem;
+  }
+
+  .RRIMGGR5
+  {
+    top: 39rem;
+  }
+
+  .RRIMGGR8
+  {
+    right: 81rem;
+    top: 30rem;
+  }
+ 
+
+}
+
+
+@media only screen and (max-width:1920px)
+{
+
+  .ro1 .roimg1{
+      position: absolute;
+      top: 135px !important;
+      width: 20rem !important;
+      left: 275px !important;
+      transform: rotateZ(-1deg);
+      animation: zoom-in-down 1000ms ease-in-out ;
+  }
+
+
+  .ro2 .roimg2{
+    position: absolute;
+    top: 420px !important;
+    width: 6rem !important;
+    left: 414px !important;
+  }
+
+  .ro3 .roimg3{
+    position: absolute;
+    top: 218px !important;
+    width: 17rem !important;
+    left: 303px !important;
+  }
+  .ro4 .roimg4{
+    position: absolute;
+    top: 330px !important;
+    width: 6rem !important;
+    left: 126px !important;
+  }
+  .ro5 .roimg5{
+    position: absolute;
+    top: 175px !important;
+    width: 6rem !important;
+    left: 660px !important;
+  }
+  .ro6 .roimg6{
+    position: absolute;
+    top: 388px !important;
+    width: 10% !important;
+    left: 678px !important;
+  }
+  .ro7 .roimg7{
+    position: absolute;
+    top: 185px !important;
+    width: 5.5rem !important;
+    left: 100px !important;
+  }
+
+  .ro8 .roimg8{
+      position: absolute;
+      top: 283px !important;
+      width: 5.7rem !important;
+      left: 748px !important;
+  }
+
+    
+ .RR1 .RRi1{
+  position: absolute;
+  width: 6rem !important;
+  left: 71rem !important;
+  top: 350px !important;
+
+  }
+  .RR2 .RRi2{
+  position: absolute;
+  width: 5.5rem !important;
+  right: 261px !important;
+  top: 353px !important;
+
+  }
+  .RR3 .RRi3{
+    width: 6.5rem !important;
+      top: 138px !important;
+      left: 73rem !important;
+
+  }
+
+  .RRIMGGR7
+  {
+    right: 39rem;
+  }
+
+  .RRIMGGR5
+  {
+    top: 23rem;
+  }
+
+  .RRIMGGR8
+  {
+    right: 41rem;
+    top: 30rem;
+  }
+ 
+
+}
+
+
+@media only screen and (max-width:1600px)
+{
+
+  
+  .ro1 .roimg1{
+      position: absolute;
+        top: 73px !important;
+        width: 18rem !important;
+        left: 252px !important;
+      transform: rotateZ(-1deg);
+      animation: zoom-in-down 1000ms ease-in-out ;
+  }
+
+
+  .ro2 .roimg2{
+    position: absolute;
+    top: 345px !important;
+    width: 5rem !important;
+    left: 342px !important;
+  }
+
+  .ro3 .roimg3{
+    position: absolute;
+    top: 148px !important;
+    width: 16rem !important;
+    left: 260px !important;
+  }
+  .ro4 .roimg4{
+    position: absolute;
+    top: 268px !important;
+    width: 5rem !important;
+    left: 105px !important;
+  }
+  .ro5 .roimg5{
+    position: absolute;
+    top: 130px !important;
+    width: 5rem !important;
+    left: 599px !important;
+  }
+  .ro6 .roimg6{
+    position: absolute;
+    top: 319px !important;
+    width: 10% !important;
+    left: 558px !important;
+  }
+  .ro7 .roimg7{
+    position: absolute;
+    top: 136px !important;
+    width: 5.5rem !important;
+    left: 40px !important;
+  }
+
+  .ro8 .roimg8{
+      position: absolute;
+       top: 229px !important;
+        width: 4.7rem !important;
+        left: 655px !important;
+  }
+
+    
+ .RR1 .RRi1{
+  position: absolute;
+  width: 5rem !important;
+  left: 59rem !important;
+  top: 302px !important;
+
+  }
+  .RR2 .RRi2{
+  position: absolute;
+  width: 4.5rem !important;
+  right: 223px !important;
+  top: 307px !important;
+
+  }
+  .RR3 .RRi3{
+   width: 5.5rem !important;
+    top: 120px !important;
+    left: 61rem !important;
+
+  }
+
+  .RRIMGGR7
+  {
+    right: 17rem;
+  }
+
+  .RRIMGGR5
+  {
+    top: 15rem;
+  }
+
+  .RRIMGGR8
+  {
+    right: 6rem;
+    top: 30rem;
+  }
+ 
+
+}
+
+
+@media only screen and (max-width:1366px)
+{
+  
+  .ro1 .roimg1{
+      position: absolute !important;
+      top: 20px !important;
+      width: 11rem !important;
+      left: 248px !important;
+      transform: rotateZ(-1deg);
+      animation: zoom-in-down 1000ms ease-in-out ;
+  }
+
+
+  .ro2 .roimg2{
+    position: absolute;
+    top: 289px !important;
+    width: 6rem !important;
+    left: 309px !important;
+  }
+
+  .ro3 .roimg3{
+    position: absolute;
+    top: 75px !important;
+    width: 17rem !important;
+    left: 205px !important;
+  }
+  .ro4 .roimg4{
+    position: absolute;
+      top: 188px !important;
+      width: 6rem !important;
+      left: 71px !important;
+  }
+  .ro5 .roimg5{
+    position: absolute;
+    top: 36px !important;
+    width: 7rem !important;
+    left: 457px !important;
+  }
+  .ro6 .roimg6{
+    position: absolute;
+      top: 255px !important;
+      width: 12% !important;
+      left: 470px !important;
+  }
+  .ro7 .roimg7{
+    position: absolute;
+      top: 42px !important;
+      width: 5.5rem !important;
+      left: 29px !important;
+  }
+
+  .ro8 .roimg8{
+      position: absolute;
+      top: 142px !important;
+      width: 5.7rem !important;
+      left: 534px !important;
+  }
+
+
+  
+  .RR1 .RRi1{
+  position: absolute;
+    width: 6rem !important;
+    left: 780px !important;
+    top: 243px !important;
+
+  }
+  .RR2 .RRi2{
+  position: absolute;
+    width: 4.5rem !important;
+    right: 179px !important;
+    top: 255px !important;
+
+  }
+  .RR3 .RRi3{
+    position: absolute;
+    width: 5.5rem !important;
+    top: 124px !important;
+    left: 815px !important;
+
+  }
+
+
+}
+
 
 @media only screen and (max-width:991px)
 {
